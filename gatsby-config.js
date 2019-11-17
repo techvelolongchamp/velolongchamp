@@ -1,9 +1,10 @@
 module.exports = {
   siteMetadata: {
-    title: 'Built with Gatsby',
+    title: 'Association Vélo Longchamp',
     author: 'Benoit Goupilleau',
   },
   plugins: [
+    'gatsby-plugin-sass',
     'gatsby-plugin-react-helmet',
     {
       resolve: 'gatsby-plugin-styled-components',

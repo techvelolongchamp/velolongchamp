@@ -3,12 +3,42 @@ import { Link, graphql, useStaticQuery } from 'gatsby'
 import styled from 'styled-components'
 
 const Wrapper = styled.header`
-  padding: 1rem 0 3rem;
+  padding: ${({ theme }) => theme.spacing.s};
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  z-index: 5;
+  background: ${({ theme }) => theme.colors.offWhite};
+  color: ${({ theme }) => theme.colors.defaultColor};
+  border-bottom: 1px solid ${({ theme }) => theme.colors.white};
 `
 
-const Title = styled.h1`
-  color: #000000;
-  font-size: 3rem;
+const LeftContainer = styled.div`
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+`
+
+const RightContainer = styled.div`
+  display: flex;
+  align-items: center;
+`
+
+const TitleLink = styled(Link)`
+  display: flex;
+  align-items: center;
+
+  img {
+    width: inherit;
+  }
+`
+
+const Title = styled.h2`
+  color: ${({ theme }) => theme.colors.defaultColor};
+  font-size: ${({ theme }) => theme.fonts.xlarge};
+  margin-left: ${({ theme }) => theme.spacing.xs};
   text-decoration: none;
 `
 
@@ -18,45 +48,66 @@ const NavList = styled.ul`
   margin: 0;
 `
 
+const ScrollItem = styled.li`
+  font-size: ${({ theme }) => theme.fonts.medium};
+  margin-left: ${({ theme }) => theme.spacing.s};
+  cursor: pointer;
+`
+
 const NavItem = styled(Link)`
-  color: #999999;
-  font-size: 0.9rem;
-  margin-right: 1.3rem;
+  color: ${({ theme }) => theme.colors.lightGrey};
+  font-size: ${({ theme }) => theme.fonts.large};
+  padding-left: ${({ theme }) => theme.spacing.l};
+  border-left: 1px solid ${({ theme }) => theme.colors.brandSecondary};
+  margin: 0 ${({ theme }) => theme.spacing.l};
   text-decoration: none;
 
   &:hover {
-    color: #666666;
+    color: ${({ theme }) => theme.colors.grey};
   }
 `
+const ButtonLink = styled.a`
+  padding: ${({ theme }) => theme.spacing.xs};
+  font-size: ${({ theme }) => theme.fonts.large};
+  color: ${({ theme }) => theme.colors.white};
+  background: ${({ theme }) => theme.colors.brandSecondary};
+  border-radius: 5px;
+`
 
-const Header = () => {
-  const data = useStaticQuery(graphql`
-    query {
-      site {
-        siteMetadata {
-          title
-        }
-      }
-    }
-  `)
+const Header = ({ noScroll, handleFirstLink, handleSecondLink }) => {
+  const scrollTop = () => {
+    window.scrollTo(0, 0)
+  }
 
   return (
     <Wrapper>
-      <Title>{data.site.siteMetadata.title}</Title>
-      <nav>
-        <NavList>
-          <li>
-            <NavItem activeStyle={{ color: '#333333' }} to="/">
-              Home
-            </NavItem>
-          </li>
-          <li>
-            <NavItem activeStyle={{ color: '#333333' }} partiallyActive={true} to="/blog">
-              Blog
-            </NavItem>
-          </li>
-        </NavList>
-      </nav>
+      <LeftContainer>
+        <TitleLink onClick={scrollTop} activeStyle={{ color: '#333333' }} to="/">
+          <img src="/favicon.ico" alt="logo" />
+          <Title>Vélo Longchamp</Title>
+        </TitleLink>
+
+        {!noScroll && (
+          <NavList>
+            <ScrollItem onClick={handleFirstLink}>Nos partenaires</ScrollItem>
+            <ScrollItem onClick={handleSecondLink}>Nous contacter</ScrollItem>
+          </NavList>
+        )}
+      </LeftContainer>
+      <RightContainer>
+        <nav>
+          <NavList>
+            <li>
+              <NavItem activeStyle={{ color: '#333333' }} partiallyActive={true} to="/blog">
+                Blog
+              </NavItem>
+            </li>
+          </NavList>
+        </nav>
+        <ButtonLink href="https://www.helloasso.com/associations/velo-longchamp" target="_blank">
+          Rejoindre l'association
+        </ButtonLink>
+      </RightContainer>
     </Wrapper>
   )
 }

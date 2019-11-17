@@ -3,7 +3,9 @@ import { Link, graphql, useStaticQuery } from 'gatsby'
 import styled from 'styled-components'
 
 import Layout from '../components/Layout'
+import Header from '../components/Header'
 import Head from '../components/Head'
+import Content from '../components/Content'
 
 const Posts = styled.ol`
   list-style-type: none;
@@ -11,13 +13,13 @@ const Posts = styled.ol`
 `
 
 const Post = styled.li`
-  margin: 1rem 0;
+  margin: 20px 0;
 
   a {
     background: #f4f4f4;
     color: #000000;
     display: block;
-    padding: 1rem;
+    padding: 20px;
     text-decoration: none;
   }
 
@@ -31,7 +33,7 @@ const Post = styled.li`
 
   p {
     color: #777777;
-    font-size: 0.8rem;
+    font-size: 12px;
     font-style: italic;
   }
 `
@@ -44,7 +46,7 @@ const BlogPage = () => {
           node {
             title
             slug
-            publishedDate(formatString: "MMMM Do, YYYY")
+            publishedDate(formatString: "DD/MM/YYYY")
           }
         }
       }
@@ -53,19 +55,22 @@ const BlogPage = () => {
 
   return (
     <Layout>
+      <Header noScroll />
       <Head title="Blog" />
-      <h1>Blog</h1>
-      <p>Post from Contentful</p>
-      <Posts>
-        {data.allContentfulBlogPost.edges.map(post => (
-          <Post key={post.node.slug}>
-            <Link to={`/blog/${post.node.slug}`}>
-              <h2>{post.node.title}</h2>
-              <p>{post.node.publishedDate}</p>
-            </Link>
-          </Post>
-        ))}
-      </Posts>
+      <Content>
+        <h1>Blog</h1>
+        <p>List des articles publiés :</p>
+        <Posts>
+          {data.allContentfulBlogPost.edges.map(post => (
+            <Post key={post.node.slug}>
+              <Link to={`/blog/${post.node.slug}`}>
+                <h2>{post.node.title}</h2>
+                <p>{post.node.publishedDate}</p>
+              </Link>
+            </Post>
+          ))}
+        </Posts>
+      </Content>
     </Layout>
   )
 }

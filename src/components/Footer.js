@@ -3,7 +3,8 @@ import { graphql, useStaticQuery } from 'gatsby'
 import styled from 'styled-components'
 
 const Wrapper = styled.footer`
-  margin-top: 3rem;
+  margin-top: ${({ theme }) => theme.spacing.xl};
+  background: ${({ theme }) => theme.colors.offWhite};
 `
 
 const Footer = () => {
@@ -18,7 +19,7 @@ const Footer = () => {
   `)
   return (
     <Wrapper>
-      <p>Created by {data.site.siteMetadata.author}, © 2019</p>
+      <p>Footer</p>
     </Wrapper>
   )
 }

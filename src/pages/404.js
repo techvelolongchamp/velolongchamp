@@ -8,9 +8,9 @@ const NotFound = () => {
   return (
     <Layout>
       <Head title="404" />
-      <h1>Page not found</h1>
+      <h1>Page Introuvable</h1>
       <p>
-        <Link to="/">Head home</Link>
+        <Link to="/">Retour à l'accueil</Link>
       </p>
     </Layout>
   )

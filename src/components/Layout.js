@@ -1,16 +1,11 @@
 import React from 'react'
-import styled from 'styled-components'
+import styled, { ThemeProvider } from 'styled-components'
 
-import Footer from '../components/Footer'
-import Header from '../components/Header'
+import Footer from './Footer'
 
-import GlobalStyle from '../theme'
+import GlobalStyle, { theme } from '../theme'
 
 const Container = styled.div`
-  margin: 0 auto;
-  max-width: 750px;
-  padding: 1rem;
-
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -18,16 +13,18 @@ const Container = styled.div`
 
 const Content = styled.main`
   flex-grow: 1;
+  margin-top: ${({ theme }) => theme.navbarHeight};
 `
 
 const Layout = ({ children }) => {
   return (
-    <Container>
-      <GlobalStyle />
-      <Header />
-      <Content>{children}</Content>
-      <Footer />
-    </Container>
+    <ThemeProvider theme={theme}>
+      <Container>
+        <GlobalStyle />
+        <Content>{children}</Content>
+        <Footer />
+      </Container>
+    </ThemeProvider>
   )
 }
 
