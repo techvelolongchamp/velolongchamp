@@ -13,7 +13,6 @@ const GlobalStyle = createGlobalStyle`
   }
   body {
     font-family: Symbol, sans-serif;
-    line-height: 1.6;
     margin: 0;
   }
   .swiper-container {
@@ -45,7 +44,6 @@ const GlobalStyle = createGlobalStyle`
    */
 
   html {
-    line-height: 1.15; /* 1 */
     -webkit-text-size-adjust: 100%; /* 2 */
   }
 

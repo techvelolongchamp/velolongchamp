@@ -67,14 +67,14 @@ const NavItem = styled(Link)`
   }
 `
 const ButtonLink = styled.a`
-  padding: ${({ theme }) => theme.spacing.xs};
+  padding: ${({ theme }) => theme.spacing.s};
   font-size: ${({ theme }) => theme.fonts.large};
   color: ${({ theme }) => theme.colors.white};
   background: ${({ theme }) => theme.colors.brandSecondary};
   border-radius: 5px;
 `
 
-const Header = ({ noScroll, handleFirstLink, handleSecondLink }) => {
+const Header = ({ noScroll, handleLink }) => {
   const scrollTop = () => {
     window.scrollTo(0, 0)
   }
@@ -82,15 +82,22 @@ const Header = ({ noScroll, handleFirstLink, handleSecondLink }) => {
   return (
     <Wrapper>
       <LeftContainer>
-        <TitleLink onClick={scrollTop} activeStyle={{ color: '#333333' }} to="/">
+        <TitleLink
+          onClick={scrollTop}
+          activeStyle={{ color: '#333333' }}
+          to="/"
+        >
           <img src="/favicon.ico" alt="logo" />
           <Title>Vélo Longchamp</Title>
         </TitleLink>
 
         {!noScroll && (
           <NavList>
-            <ScrollItem onClick={handleFirstLink}>Nos partenaires</ScrollItem>
-            <ScrollItem onClick={handleSecondLink}>Nous contacter</ScrollItem>
+            <ScrollItem onClick={handleLink[0]}>Le projet</ScrollItem>
+            <ScrollItem onClick={handleLink[1]}>Nos demandes</ScrollItem>
+            <ScrollItem onClick={handleLink[2]}>Nos actions</ScrollItem>
+            <ScrollItem onClick={handleLink[3]}>Nos adhérents</ScrollItem>
+            <ScrollItem onClick={handleLink[4]}>Nous contacter</ScrollItem>
           </NavList>
         )}
       </LeftContainer>
@@ -98,13 +105,20 @@ const Header = ({ noScroll, handleFirstLink, handleSecondLink }) => {
         <nav>
           <NavList>
             <li>
-              <NavItem activeStyle={{ color: '#333333' }} partiallyActive={true} to="/blog">
+              <NavItem
+                activeStyle={{ color: '#333333' }}
+                partiallyActive={true}
+                to="/blog"
+              >
                 Blog
               </NavItem>
             </li>
           </NavList>
         </nav>
-        <ButtonLink href="https://www.helloasso.com/associations/velo-longchamp" target="_blank">
+        <ButtonLink
+          href="https://www.helloasso.com/associations/velo-longchamp"
+          target="_blank"
+        >
           Rejoindre l'association
         </ButtonLink>
       </RightContainer>

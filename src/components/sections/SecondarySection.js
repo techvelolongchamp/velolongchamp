@@ -1,10 +1,11 @@
 import React, { forwardRef } from 'react'
 import styled from 'styled-components'
 
-import Content from './Content'
+import Content from '../Content'
 
 const SectionContainer = styled.section`
   height: ${({ theme }) => theme.sectionHeight};
+  background: ${({ theme }) => theme.colors.offWhite};
 `
 
 const Title = styled.h2`
@@ -13,12 +14,13 @@ const Title = styled.h2`
   margin: ${({ theme }) => theme.spacing.l};
 `
 
-const ContactSection = forwardRef((props, ref) => (
+const SecondarySection = forwardRef(({ title, children }, ref) => (
   <SectionContainer ref={ref}>
     <Content>
-      <Title>Nous Contacter</Title>
+      <Title>{title}</Title>
+      {children}
     </Content>
   </SectionContainer>
 ))
 
-export default ContactSection
+export default SecondarySection

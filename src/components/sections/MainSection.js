@@ -1,9 +1,10 @@
 import React from 'react'
 import styled from 'styled-components'
 
-import Carousel from './Carousel'
+import Carousel from '../Carousel'
 
 const SectionContainer = styled.section`
+  min-height: 600px;
   height: calc(100vh - ${({ theme }) => theme.navbarHeight});
   position: relative;
 `
@@ -38,12 +39,14 @@ const MainSection = () => {
         <Content>
           <Title>Bienvenue sur le site de l'Association Vélo Longchamp</Title>
           <SubTitle>
-            L'association Vélo Longchamp regroupe l'ensemble des cyclistes utilisateurs de la piste cyclable autour de l'hippodrome de
+            L'association Vélo Longchamp regroupe l'ensemble des cyclistes
+            utilisateurs de la piste cyclable autour de l'hippodrome de
             Longchamp
           </SubTitle>
           <SubTitle>
-            Elle a pour objectif entre autres de défendre les intérêts des usagers, promouvoir la pratique du vélo en Ile de France et un
-            point d'information pour l'ensemble des usagers de la piste.
+            Elle a pour objectif entre autres de défendre les intérêts des
+            usagers, promouvoir la pratique du vélo en Ile de France et un point
+            d'information pour l'ensemble des usagers de la piste.
           </SubTitle>
         </Content>
       </MainContainer>
