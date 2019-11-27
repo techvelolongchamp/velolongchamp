@@ -3,7 +3,8 @@ import styled, { ThemeProvider } from 'styled-components'
 
 import Footer from './Footer'
 
-import GlobalStyle, { theme } from '../theme'
+import GlobalStyle from '../globalStyles'
+import theme from '../theme'
 
 const Container = styled.div`
   display: flex;

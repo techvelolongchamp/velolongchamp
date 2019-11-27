@@ -4,7 +4,7 @@ import styled from 'styled-components'
 import Content from '../Content'
 
 const SectionContainer = styled.section`
-  height: ${({ theme }) => theme.sectionHeight};
+  height: ${({ theme, height }) => (height ? height : theme.sectionHeight)};
   background: ${({ theme }) => theme.colors.offWhite};
 `
 
@@ -14,8 +14,8 @@ const Title = styled.h2`
   margin: ${({ theme }) => theme.spacing.l};
 `
 
-const SecondarySection = forwardRef(({ title, children }, ref) => (
-  <SectionContainer ref={ref}>
+const SecondarySection = forwardRef(({ title, children, height }, ref) => (
+  <SectionContainer height={height} ref={ref}>
     <Content>
       <Title>{title}</Title>
       {children}

@@ -2,8 +2,10 @@ import React from 'react'
 import { Link, graphql, useStaticQuery } from 'gatsby'
 import styled from 'styled-components'
 
+import theme from '../theme'
+
 const Wrapper = styled.header`
-  padding: ${({ theme }) => theme.spacing.s};
+  padding: ${({ theme }) => theme.spacing.xs} ${({ theme }) => theme.spacing.s};
   position: fixed;
   top: 0;
   left: 0;
@@ -29,17 +31,6 @@ const RightContainer = styled.div`
 const TitleLink = styled(Link)`
   display: flex;
   align-items: center;
-
-  img {
-    width: inherit;
-  }
-`
-
-const Title = styled.h2`
-  color: ${({ theme }) => theme.colors.defaultColor};
-  font-size: ${({ theme }) => theme.fonts.xlarge};
-  margin-left: ${({ theme }) => theme.spacing.xs};
-  text-decoration: none;
 `
 
 const NavList = styled.ul`
@@ -61,6 +52,9 @@ const NavItem = styled(Link)`
   border-left: 1px solid ${({ theme }) => theme.colors.brandSecondary};
   margin: 0 ${({ theme }) => theme.spacing.l};
   text-decoration: none;
+  height: 30px;
+  align-items: center;
+  display: flex;
 
   &:hover {
     color: ${({ theme }) => theme.colors.grey};
@@ -74,6 +68,10 @@ const ButtonLink = styled.a`
   border-radius: 5px;
 `
 
+const Logo = styled.img`
+  width: 70px;
+`
+
 const Header = ({ noScroll, handleLink }) => {
   const scrollTop = () => {
     window.scrollTo(0, 0)
@@ -84,11 +82,10 @@ const Header = ({ noScroll, handleLink }) => {
       <LeftContainer>
         <TitleLink
           onClick={scrollTop}
-          activeStyle={{ color: '#333333' }}
+          activeStyle={{ color: theme.defaultColor }}
           to="/"
         >
-          <img src="/favicon.ico" alt="logo" />
-          <Title>Vélo Longchamp</Title>
+          <Logo src="/logo.png" alt="logo" />
         </TitleLink>
 
         {!noScroll && (
@@ -106,7 +103,7 @@ const Header = ({ noScroll, handleLink }) => {
           <NavList>
             <li>
               <NavItem
-                activeStyle={{ color: '#333333' }}
+                activeStyle={{ color: theme.defaultColor }}
                 partiallyActive={true}
                 to="/blog"
               >

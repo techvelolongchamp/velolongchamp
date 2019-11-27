@@ -8,11 +8,17 @@ import MainSection from '../components/sections/MainSection'
 import SecondarySection from '../components/sections/SecondarySection'
 import ThirdarySection from '../components/sections/ThirdarySection'
 
-const ImgWrapper = styled.div`
+const ContactWrapper = styled.div`
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+
   img {
-    width: inherit;
+    width: 200px;
+  }
+
+  p {
+    font-size: ${({ theme }) => theme.fonts.medium};
   }
 `
 
@@ -53,17 +59,13 @@ const IndexPage = () => {
       <SecondarySection ref={projectRef} title="Le projet"></SecondarySection>
       <ThirdarySection ref={requestsRef} title="Nos demandes"></ThirdarySection>
       <SecondarySection ref={actionsRef} title="Nos actions"></SecondarySection>
-      <ThirdarySection ref={membersRef} title="Nos adhérents">
-        <ImgWrapper>
-          <img src="/favicon.ico" alt="" />
-          <img src="/favicon.ico" alt="" />
-          <img src="/favicon.ico" alt="" />
-        </ImgWrapper>
-      </ThirdarySection>
-      <SecondarySection
-        ref={contactRef}
-        title="Nous contacter"
-      ></SecondarySection>
+      <ThirdarySection ref={membersRef} title="Nos adhérents"></ThirdarySection>
+      <SecondarySection ref={contactRef} title="Nous contacter" height="400px">
+        <ContactWrapper>
+          <img src="/logo.png" alt="logo" />
+          <p>velo.longchamp@gmail.com</p>
+        </ContactWrapper>
+      </SecondarySection>
     </Layout>
   )
 }
