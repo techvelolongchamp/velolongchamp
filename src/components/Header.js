@@ -39,12 +39,6 @@ const NavList = styled.ul`
   margin: 0;
 `
 
-const ScrollItem = styled.li`
-  font-size: ${({ theme }) => theme.fonts.medium};
-  margin-left: ${({ theme }) => theme.spacing.s};
-  cursor: pointer;
-`
-
 const NavItem = styled(Link)`
   color: ${({ theme }) => theme.colors.lightGrey};
   font-size: ${({ theme }) => theme.fonts.large};
@@ -60,6 +54,14 @@ const NavItem = styled(Link)`
     color: ${({ theme }) => theme.colors.grey};
   }
 `
+
+const ScrollItem = styled(NavItem)`
+  font-size: ${({ theme }) => theme.fonts.medium};
+  border: none;
+  padding: 0;
+  margin: 0 ${({ theme }) => theme.spacing.m};
+`
+
 const ButtonLink = styled.a`
   padding: ${({ theme }) => theme.spacing.s};
   font-size: ${({ theme }) => theme.fonts.large};
@@ -73,28 +75,60 @@ const Logo = styled.img`
 `
 
 const Header = ({ noScroll, handleLink }) => {
-  const scrollTop = () => {
-    window.scrollTo(0, 0)
-  }
-
   return (
-    <Wrapper>
+    <Wrapper id="header">
       <LeftContainer>
-        <TitleLink
-          onClick={scrollTop}
-          activeStyle={{ color: theme.defaultColor }}
-          to="/"
-        >
+        <TitleLink activeStyle={{ color: theme.defaultColor }} to="#">
           <Logo src="/logo.png" alt="logo" />
         </TitleLink>
 
         {!noScroll && (
           <NavList>
-            <ScrollItem onClick={handleLink[0]}>Le projet</ScrollItem>
-            <ScrollItem onClick={handleLink[1]}>Nos demandes</ScrollItem>
-            <ScrollItem onClick={handleLink[2]}>Nos actions</ScrollItem>
-            <ScrollItem onClick={handleLink[3]}>Nos adhérents</ScrollItem>
-            <ScrollItem onClick={handleLink[4]}>Nous contacter</ScrollItem>
+            <li>
+              <ScrollItem
+                activeStyle={{ color: theme.defaultColor }}
+                partiallyActive={true}
+                to={`/#${handleLink[0]}`}
+              >
+                Le projet
+              </ScrollItem>
+            </li>
+            <li>
+              <ScrollItem
+                activeStyle={{ color: theme.defaultColor }}
+                partiallyActive={true}
+                to={`/#${handleLink[1]}`}
+              >
+                Nos demandes
+              </ScrollItem>
+            </li>
+            <li>
+              <ScrollItem
+                activeStyle={{ color: theme.defaultColor }}
+                partiallyActive={true}
+                to={`/#${handleLink[2]}`}
+              >
+                Nos actions
+              </ScrollItem>
+            </li>
+            <li>
+              <ScrollItem
+                activeStyle={{ color: theme.defaultColor }}
+                partiallyActive={true}
+                to={`/#${handleLink[3]}`}
+              >
+                Nos adhérents
+              </ScrollItem>
+            </li>
+            <li>
+              <ScrollItem
+                activeStyle={{ color: theme.defaultColor }}
+                partiallyActive={true}
+                to={`/#${handleLink[4]}`}
+              >
+                Nous contacter
+              </ScrollItem>
+            </li>
           </NavList>
         )}
       </LeftContainer>

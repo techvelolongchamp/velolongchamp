@@ -31,9 +31,9 @@ const SubTitle = styled.p`
   font-size: 20px;
 `
 
-const MainSection = () => {
+const MainSection = ({ id }) => {
   return (
-    <SectionContainer>
+    <SectionContainer id={id}>
       <Carousel />
       <MainContainer>
         <Content>

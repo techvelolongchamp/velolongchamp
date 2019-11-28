@@ -1,10 +1,10 @@
-import React, { forwardRef } from 'react'
+import React from 'react'
 import styled from 'styled-components'
 
 import Content from '../Content'
 
 const SectionContainer = styled.section`
-  height: ${({ theme }) => theme.sectionHeight};
+  height: ${({ theme, height }) => (height ? height : theme.sectionHeight)};
 `
 
 const Title = styled.h2`
@@ -13,13 +13,13 @@ const Title = styled.h2`
   margin: ${({ theme }) => theme.spacing.l};
 `
 
-const ThirdarySection = forwardRef(({ title, children }, ref) => (
-  <SectionContainer ref={ref}>
+const ThirdarySection = ({ id, title, children, height }) => (
+  <SectionContainer id={id} height={height}>
     <Content>
       <Title>{title}</Title>
       {children}
     </Content>
   </SectionContainer>
-))
+)
 
 export default ThirdarySection

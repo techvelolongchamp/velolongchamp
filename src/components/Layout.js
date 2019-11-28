@@ -1,5 +1,6 @@
 import React from 'react'
 import styled, { ThemeProvider } from 'styled-components'
+import smoothScroll from 'smooth-scroll'
 
 import Footer from './Footer'
 
@@ -18,6 +19,14 @@ const Content = styled.main`
 `
 
 const Layout = ({ children }) => {
+  if (typeof window !== 'undefined') {
+    new smoothScroll('a[href*="#"]', {
+      header: 'header',
+      speed: 300,
+      speedAsDuration: true,
+      easing: 'easeOutQuad',
+    })
+  }
   return (
     <ThemeProvider theme={theme}>
       <Container>
