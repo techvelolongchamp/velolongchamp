@@ -45,8 +45,8 @@ const MainSection = ({ id }) => {
           </SubTitle>
           <SubTitle>
             Elle a pour objectif entre autres de défendre les intérêts des
-            usagers, promouvoir la pratique du vélo en Ile de France et un point
-            d'information pour l'ensemble des usagers de la piste.
+            usagers, promouvoir la pratique du vélo en Ile de France et être un
+            point d'information pour l'ensemble des usagers de la piste.
           </SubTitle>
         </Content>
       </MainContainer>

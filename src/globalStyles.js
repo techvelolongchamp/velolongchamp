@@ -8,7 +8,6 @@ const GlobalStyle = createGlobalStyle`
   }
   html{
     font-size: 62.5%;
-    scroll-behavior: smooth;
     font-weight: 300;
   }
   body {

@@ -9,7 +9,7 @@ const SectionContainer = styled.section`
 `
 
 const Title = styled.h2`
-  color: ${({ theme }) => theme.colors.defaultColor};
+  color: ${({ theme }) => theme.colors.brandPrimary};
   font-size: ${({ theme }) => theme.fonts.xlarge};
   margin: ${({ theme }) => theme.spacing.l};
 `
