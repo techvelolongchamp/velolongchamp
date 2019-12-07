@@ -90,7 +90,7 @@ const Header = ({ noScroll, handleLink }) => {
                 partiallyActive={true}
                 to={`/#${handleLink[0]}`}
               >
-                Le projet
+                Presentation
               </ScrollItem>
             </li>
             <li>
@@ -99,7 +99,7 @@ const Header = ({ noScroll, handleLink }) => {
                 partiallyActive={true}
                 to={`/#${handleLink[1]}`}
               >
-                Nos demandes
+                Nous rejoindre
               </ScrollItem>
             </li>
             <li>
@@ -108,7 +108,7 @@ const Header = ({ noScroll, handleLink }) => {
                 partiallyActive={true}
                 to={`/#${handleLink[2]}`}
               >
-                Nos actions
+                Nous rencontrer
               </ScrollItem>
             </li>
             <li>
@@ -117,15 +117,6 @@ const Header = ({ noScroll, handleLink }) => {
                 partiallyActive={true}
                 to={`/#${handleLink[3]}`}
               >
-                Nos adhérents
-              </ScrollItem>
-            </li>
-            <li>
-              <ScrollItem
-                activeStyle={{ color: theme.defaultColor }}
-                partiallyActive={true}
-                to={`/#${handleLink[4]}`}
-              >
                 Nous contacter
               </ScrollItem>
             </li>
@@ -133,7 +124,7 @@ const Header = ({ noScroll, handleLink }) => {
         )}
       </LeftContainer>
       <RightContainer>
-        <nav>
+        {/* <nav>
           <NavList>
             <li>
               <NavItem
@@ -145,7 +136,7 @@ const Header = ({ noScroll, handleLink }) => {
               </NavItem>
             </li>
           </NavList>
-        </nav>
+        </nav> */}
         <ButtonLink
           href="https://www.helloasso.com/associations/velo-longchamp"
           target="_blank"

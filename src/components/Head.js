@@ -19,6 +19,10 @@ const Head = ({ title }) => {
           ? `${title} | ${data.site.siteMetadata.title}`
           : data.site.siteMetadata.title}
       </title>
+      <script
+        src="https://kit.fontawesome.com/9a1b48cc39.js"
+        crossorigin="anonymous"
+      ></script>
       <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png" />
       <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png" />
       <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png" />

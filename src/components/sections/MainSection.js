@@ -19,6 +19,9 @@ const MainContainer = styled.div`
 const Content = styled.div`
   max-width: 750px;
   margin: 0 auto;
+  padding: ${({ theme }) => theme.spacing.m};
+  background-color: ${({ theme }) => theme.colors.brandSecondary}66;
+  border-radius: 10px;
   color: ${({ theme }) => theme.colors.white};
 `
 
@@ -39,14 +42,13 @@ const MainSection = ({ id }) => {
         <Content>
           <Title>Bienvenue sur le site de l'Association Vélo Longchamp</Title>
           <SubTitle>
-            L'association Vélo Longchamp regroupe l'ensemble des cyclistes
-            utilisateurs de la piste cyclable autour de l'hippodrome de
-            Longchamp
+            Vélo Longchamp regroupe l'ensemble des cyclistes utilisateurs de la
+            piste cyclable autour de l'hippodrome de Longchamp
           </SubTitle>
           <SubTitle>
-            Elle a pour objectif entre autres de défendre les intérêts des
-            usagers, promouvoir la pratique du vélo en Ile de France et être un
-            point d'information pour l'ensemble des usagers de la piste.
+            Elle a pour objectif de défendre et promouvoir l’anneau de Longchamp
+            pour que toutes et tous, nous puissions faire du vélo dans les
+            meilleures conditions.
           </SubTitle>
         </Content>
       </MainContainer>
