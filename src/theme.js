@@ -1,5 +1,6 @@
 const theme = {
   navbarHeight: '81px',
+  mobielNavbarHeight: '111px',
   sectionHeight: '600px',
   contentMaxWidth: '750px',
   colors: {
@@ -14,6 +15,7 @@ const theme = {
     offWhite: '#f7f7F7',
   },
   fonts: {
+    xxlarge: '60px',
     xlarge: '30px',
     large: '16px',
     medium: '14px',

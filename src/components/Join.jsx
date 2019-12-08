@@ -102,6 +102,7 @@ const Join = () => (
         <ButtonLink
           href="https://www.helloasso.com/associations/velo-longchamp"
           target="_blank"
+          rel="noopener noreferrer"
         >
           Rejoindre l'association
         </ButtonLink>

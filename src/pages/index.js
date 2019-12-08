@@ -24,6 +24,9 @@ const ContactWrapper = styled.div`
   p {
     font-size: ${({ theme }) => theme.fonts.medium};
   }
+  a {
+    color: inherit;
+  }
 `
 
 const AgendaContainer = styled.article`
@@ -80,7 +83,11 @@ const IndexPage = () => {
           <p>
             Lieu : à la fontaine de la ligne de départ, en haut du faux plat
             montant à gauche{' '}
-            <a href="https://goo.gl/maps/2sdy3M1yRUho9k8G9" target="_blank">
+            <a
+              href="https://goo.gl/maps/2sdy3M1yRUho9k8G9"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <i class="fas fa-map-marked-alt"></i>
             </a>
           </p>
@@ -100,7 +107,11 @@ const IndexPage = () => {
       <ThirdarySection id={handleLink[3]} title="Nous contacter" height="350px">
         <ContactWrapper>
           <img src="/logo.png" alt="logo" />
-          <p>contact-velolongchamp@gmail.com</p>
+          <p>
+            <a href="mailto:contact-velolongchamp@gmail.com?subject=Contact">
+              contact-velolongchamp@gmail.com
+            </a>
+          </p>
         </ContactWrapper>
       </ThirdarySection>
     </Layout>

@@ -1,20 +1,25 @@
 import React from 'react'
-import { Link, graphql, useStaticQuery } from 'gatsby'
+import { Link } from 'gatsby'
 import styled from 'styled-components'
+
+import { useMatches } from '../customHooks/useMatches'
 
 import theme from '../theme'
 
-const Wrapper = styled.header`
-  padding: ${({ theme }) => theme.spacing.xs} ${({ theme }) => theme.spacing.s};
+const HeaderWrapper = styled.header`
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  display: flex;
   z-index: 5;
   background: ${({ theme }) => theme.colors.offWhite};
-  color: ${({ theme }) => theme.colors.defaultColor};
+  padding: ${({ theme }) => theme.spacing.xs} ${({ theme }) => theme.spacing.s};
   border-bottom: 1px solid ${({ theme }) => theme.colors.white};
+  color: ${({ theme }) => theme.colors.defaultColor};
+`
+
+const Wrapper = styled.div`
+  display: flex;
 `
 
 const LeftContainer = styled.div`
@@ -37,6 +42,11 @@ const NavList = styled.ul`
   display: flex;
   list-style-type: none;
   margin: 0;
+`
+
+const MobileNavList = styled(NavList)`
+  width: 100%;
+  justify-content: space-between;
 `
 
 const NavItem = styled(Link)`
@@ -62,6 +72,12 @@ const ScrollItem = styled(NavItem)`
   margin: 0 ${({ theme }) => theme.spacing.m};
 `
 
+const MobileScrollItem = styled(ScrollItem)`
+  font-size: ${({ theme }) => theme.fonts.medium};
+  margin: 0;
+  padding: 0 ${({ theme }) => theme.spacing.xs};
+`
+
 const ButtonLink = styled.a`
   padding: ${({ theme }) => theme.spacing.s};
   font-size: ${({ theme }) => theme.fonts.large};
@@ -75,56 +91,59 @@ const Logo = styled.img`
 `
 
 const Header = ({ noScroll, handleLink }) => {
-  return (
-    <Wrapper id="header">
-      <LeftContainer>
-        <TitleLink activeStyle={{ color: theme.defaultColor }} to="#">
-          <Logo src="/logo.png" alt="logo" />
-        </TitleLink>
+  const isMobile = useMatches('(max-width: 640px)')
 
-        {!noScroll && (
-          <NavList>
-            <li>
-              <ScrollItem
-                activeStyle={{ color: theme.defaultColor }}
-                partiallyActive={true}
-                to={`/#${handleLink[0]}`}
-              >
-                Presentation
-              </ScrollItem>
-            </li>
-            <li>
-              <ScrollItem
-                activeStyle={{ color: theme.defaultColor }}
-                partiallyActive={true}
-                to={`/#${handleLink[1]}`}
-              >
-                Nous rejoindre
-              </ScrollItem>
-            </li>
-            <li>
-              <ScrollItem
-                activeStyle={{ color: theme.defaultColor }}
-                partiallyActive={true}
-                to={`/#${handleLink[2]}`}
-              >
-                Nous rencontrer
-              </ScrollItem>
-            </li>
-            <li>
-              <ScrollItem
-                activeStyle={{ color: theme.defaultColor }}
-                partiallyActive={true}
-                to={`/#${handleLink[3]}`}
-              >
-                Nous contacter
-              </ScrollItem>
-            </li>
-          </NavList>
-        )}
-      </LeftContainer>
-      <RightContainer>
-        {/* <nav>
+  return (
+    <HeaderWrapper id="header">
+      <Wrapper>
+        <LeftContainer>
+          <TitleLink activeStyle={{ color: theme.defaultColor }} to="#">
+            <Logo src="/logo.png" alt="logo" />
+          </TitleLink>
+
+          {!isMobile && !noScroll && (
+            <NavList>
+              <li>
+                <ScrollItem
+                  activeStyle={{ color: theme.defaultColor }}
+                  partiallyActive={true}
+                  to={`/#${handleLink[0]}`}
+                >
+                  Presentation
+                </ScrollItem>
+              </li>
+              <li>
+                <ScrollItem
+                  activeStyle={{ color: theme.defaultColor }}
+                  partiallyActive={true}
+                  to={`/#${handleLink[1]}`}
+                >
+                  Nous rejoindre
+                </ScrollItem>
+              </li>
+              <li>
+                <ScrollItem
+                  activeStyle={{ color: theme.defaultColor }}
+                  partiallyActive={true}
+                  to={`/#${handleLink[2]}`}
+                >
+                  Nous rencontrer
+                </ScrollItem>
+              </li>
+              <li>
+                <ScrollItem
+                  activeStyle={{ color: theme.defaultColor }}
+                  partiallyActive={true}
+                  to={`/#${handleLink[3]}`}
+                >
+                  Nous contacter
+                </ScrollItem>
+              </li>
+            </NavList>
+          )}
+        </LeftContainer>
+        <RightContainer>
+          {/* <nav>
           <NavList>
             <li>
               <NavItem
@@ -137,14 +156,54 @@ const Header = ({ noScroll, handleLink }) => {
             </li>
           </NavList>
         </nav> */}
-        <ButtonLink
-          href="https://www.helloasso.com/associations/velo-longchamp"
-          target="_blank"
-        >
-          Rejoindre l'association
-        </ButtonLink>
-      </RightContainer>
-    </Wrapper>
+          <ButtonLink
+            href="https://www.helloasso.com/associations/velo-longchamp"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Rejoindre l'association
+          </ButtonLink>
+        </RightContainer>
+      </Wrapper>
+      <MobileNavList>
+        <li>
+          <MobileScrollItem
+            activeStyle={{ color: theme.defaultColor }}
+            partiallyActive={true}
+            to={`/#${handleLink[0]}`}
+          >
+            Presentation
+          </MobileScrollItem>
+        </li>
+        <li>
+          <MobileScrollItem
+            activeStyle={{ color: theme.defaultColor }}
+            partiallyActive={true}
+            to={`/#${handleLink[1]}`}
+          >
+            Nous rejoindre
+          </MobileScrollItem>
+        </li>
+        <li>
+          <MobileScrollItem
+            activeStyle={{ color: theme.defaultColor }}
+            partiallyActive={true}
+            to={`/#${handleLink[2]}`}
+          >
+            Nous rencontrer
+          </MobileScrollItem>
+        </li>
+        <li>
+          <MobileScrollItem
+            activeStyle={{ color: theme.defaultColor }}
+            partiallyActive={true}
+            to={`/#${handleLink[3]}`}
+          >
+            Nous contacter
+          </MobileScrollItem>
+        </li>
+      </MobileNavList>
+    </HeaderWrapper>
   )
 }
 

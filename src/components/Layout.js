@@ -15,6 +15,9 @@ const Container = styled.div`
 const Content = styled.main`
   flex-grow: 1;
   margin-top: ${({ theme }) => theme.navbarHeight};
+  @media (max-width: 640px) {
+    margin-top: ${({ theme }) => theme.mobielNavbarHeight};
+  }
 `
 
 const Layout = ({ children }) => {

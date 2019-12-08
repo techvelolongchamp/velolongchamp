@@ -40,6 +40,9 @@ const PresentationContainer = styled.article`
       font-weight: 500;
       padding-right: ${({ theme }) => theme.spacing.s};
     }
+    @media (max-width: 640px) {
+      width: 100%;
+    }
   }
 
   ol li::before {
@@ -72,6 +75,9 @@ const PresentationContainer = styled.article`
       font-size: ${({ theme }) => theme.fonts.large};
       font-weight: 500;
       padding-right: ${({ theme }) => theme.spacing.s};
+    }
+    @media (max-width: 640px) {
+      width: 100%;
     }
   }
 `
