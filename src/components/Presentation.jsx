@@ -84,6 +84,21 @@ const PresentationContainer = styled.article`
 
 const VideoWrapper = styled.div`
   text-align: center;
+
+  iframe {
+    width: 560px;
+    height: 315px;
+
+    @media (max-width: 640px) {
+      width: 100%;
+      max-width: 560px;
+      max-height: 315px;
+      height: 100%;
+      height: -moz-available;
+      height: -webkit-fill-available;
+      height: fill-available;
+    }
+  }
 `
 
 const Presentation = () => (
@@ -243,8 +258,6 @@ const Presentation = () => (
     </h3>
     <VideoWrapper>
       <iframe
-        width="560"
-        height="315"
         src="https://www.youtube.com/embed/a6AOYfE7AeM"
         frameborder="0"
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"

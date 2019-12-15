@@ -5,9 +5,9 @@ const Wrapper = styled.footer`
   background: ${({ theme }) => theme.colors.offWhite};
   border-top: 1px solid ${({ theme }) => theme.colors.offWhite};
   color: ${({ theme }) => theme.colors.lightGrey};
-  tex-align: center;
   padding: ${({ theme }) => theme.spacing.s} 0
     ${({ theme }) => theme.spacing.xs};
+  text-align: center;
 `
 
 const Footer = () => {
