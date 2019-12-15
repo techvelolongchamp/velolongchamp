@@ -49,15 +49,22 @@ const MainSection = ({ id }) => {
       <Carousel />
       <MainContainer>
         <Content>
-          <Title>Bienvenue sur le site de l'Association Vélo Longchamp</Title>
+          <Title>Bienvenue sur le site de Vélo Longchamp</Title>
           <SubTitle>
-            Vélo Longchamp regroupe l'ensemble des cyclistes utilisateurs de la
-            piste cyclable autour de l'hippodrome de Longchamp
+            L'association Vélo Longchamp regroupe l'ensemble des cyclistes
+            utilisateurs de l'anneau cyclable autour de l'hippodrome de
+            Longchamp
           </SubTitle>
           <SubTitle>
             Elle a pour objectif de défendre et promouvoir l’anneau de Longchamp
             pour que toutes et tous, nous puissions faire du vélo dans les
             meilleures conditions.
+          </SubTitle>
+          <SubTitle>
+            L'anneau de Longchamp est le segment vélo le plus utilisé en France
+            avec <strong>3 332 258</strong> tours de 3,58 km soit presque{' '}
+            <strong>12 millions de kilomètres parcourus</strong> à vélo (source
+            Strava au 11 décembre 2019)
           </SubTitle>
         </Content>
       </MainContainer>

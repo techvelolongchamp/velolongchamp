@@ -82,6 +82,10 @@ const PresentationContainer = styled.article`
   }
 `
 
+const VideoWrapper = styled.div`
+  text-align: center;
+`
+
 const Presentation = () => (
   <PresentationContainer>
     <h3>Qui sommes-nous ?</h3>
@@ -232,6 +236,21 @@ const Presentation = () => (
         </h4>
       </li>
     </ul>
+
+    <h3>
+      Decouvrez l'anneau de Longchamp avec la vidéo de Jeune Cycliste Dynamique
+      :
+    </h3>
+    <VideoWrapper>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/a6AOYfE7AeM"
+        frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </VideoWrapper>
   </PresentationContainer>
 )
 

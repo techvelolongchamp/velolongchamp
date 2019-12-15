@@ -108,8 +108,8 @@ const IndexPage = () => {
         <ContactWrapper>
           <img src="/logo.png" alt="logo" />
           <p>
-            <a href="mailto:contact-velolongchamp@gmail.com?subject=Contact">
-              contact-velolongchamp@gmail.com
+            <a href="mailto:velo.longchamp@gmail.com?subject=Contact">
+              velo.longchamp@gmail.com
             </a>
           </p>
         </ContactWrapper>
