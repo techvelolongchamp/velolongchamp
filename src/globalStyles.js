@@ -11,7 +11,7 @@ const GlobalStyle = createGlobalStyle`
     font-weight: 300;
   }
   body {
-    font-family: Symbol, sans-serif;
+    font-family: Helvetica, sans-serif;
     margin: 0;
   }
   .swiper-container {

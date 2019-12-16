@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Association Vélo Longchamp',
+    title: 'Vélo Longchamp',
     author: 'Benoit Goupilleau',
   },
   plugins: [

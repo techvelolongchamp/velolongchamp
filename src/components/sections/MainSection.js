@@ -18,6 +18,9 @@ const MainContainer = styled.div`
   left: 0;
   right: 0;
   z-index: 2;
+  @media (max-width: 640px) {
+    top: 50px;
+  }
 `
 
 const Content = styled.div`
