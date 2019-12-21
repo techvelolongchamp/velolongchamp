@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import styled from 'styled-components'
+import { OutboundLink } from 'gatsby-plugin-google-analytics'
 
 import { useMatches } from '../customHooks/useMatches'
 
@@ -78,7 +79,7 @@ const MobileScrollItem = styled(ScrollItem)`
   padding: 0 ${({ theme }) => theme.spacing.xs};
 `
 
-const ButtonLink = styled.a`
+const ButtonLink = styled(OutboundLink)`
   padding: ${({ theme }) => theme.spacing.s};
   font-size: ${({ theme }) => theme.fonts.large};
   color: ${({ theme }) => theme.colors.white};
@@ -92,7 +93,7 @@ const Logo = styled.img`
 
 const Header = ({ noScroll, handleLink }) => {
   const isMobile = useMatches('(max-width: 640px)')
-
+  console.log({ isMobile, noScroll })
   return (
     <HeaderWrapper id="header">
       <Wrapper>
@@ -165,7 +166,7 @@ const Header = ({ noScroll, handleLink }) => {
           </ButtonLink>
         </RightContainer>
       </Wrapper>
-      {isMobile && (
+      {isMobile && !noScroll && (
         <MobileNavList>
           <li>
             <MobileScrollItem

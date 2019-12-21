@@ -260,6 +260,7 @@ const Presentation = () => (
       <iframe
         src="https://www.youtube.com/embed/a6AOYfE7AeM"
         frameborder="0"
+        title="Découvrez Longchamp"
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen
       ></iframe>

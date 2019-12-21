@@ -2,6 +2,7 @@ import React from 'react'
 import styled, { ThemeProvider } from 'styled-components'
 
 import Footer from './Footer'
+import CookieManager from './CookieManager'
 
 import GlobalStyle from '../globalStyles'
 import theme from '../theme'
@@ -32,6 +33,7 @@ const Layout = ({ children }) => {
         <GlobalStyle />
         <Content>{children}</Content>
         <Footer />
+        <CookieManager />
       </Container>
     </ThemeProvider>
   )

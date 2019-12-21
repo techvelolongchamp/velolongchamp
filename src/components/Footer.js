@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'gatsby'
 import styled from 'styled-components'
 
 const Wrapper = styled.footer`
@@ -8,6 +9,12 @@ const Wrapper = styled.footer`
   padding: ${({ theme }) => theme.spacing.s} 0
     ${({ theme }) => theme.spacing.xs};
   text-align: center;
+  a {
+    color: ${({ theme }) => theme.colors.lightGrey};
+    &:hover {
+      text-decoration: underline;
+    }
+  }
 `
 
 const Footer = () => {
@@ -21,9 +28,7 @@ const Footer = () => {
       </p>
       <p>-</p>
       <p>
-        Vélo Longchamp est une association de loi 1901 dont le siège social est
-        situé au <br /> 21 rue Jasmin, 75016 Paris
-        <br /> Président de l'association : Stéphane Jander
+        <Link to="/legal">Mentions légales</Link>
       </p>
     </Wrapper>
   )

@@ -1,1 +1,9 @@
-{}
+{
+  "build": {
+    "env": {
+      "GA_TRACKING_ID": "@ga-tracking-id",
+      "HOTJAR_ID": "@hotjar-id",
+      "HOTJAR_SNIPPET_VERSION": "@hotjar-sv"
+    }
+  }
+}

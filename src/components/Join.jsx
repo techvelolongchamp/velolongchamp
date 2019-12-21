@@ -1,12 +1,13 @@
 import React from 'react'
 import styled from 'styled-components'
+import { OutboundLink } from 'gatsby-plugin-google-analytics'
 
 const ButtonContainer = styled.div`
   text-align: center;
   margin: ${({ theme }) => theme.spacing.l};
 `
 
-const ButtonLink = styled.a`
+const ButtonLink = styled(OutboundLink)`
   margin: ${({ theme }) => theme.spacing.l} ${({ theme }) => theme.spacing.s};
   padding: ${({ theme }) => theme.spacing.s};
   font-size: ${({ theme }) => theme.fonts.large};
