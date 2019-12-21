@@ -13,6 +13,7 @@ const CookieContainer = styled.div`
   position: fixed;
   text-align: center;
   width: 100vw;
+  z-index: 1000;
 
   div {
     margin-top: ${({ theme }) => theme.spacing.s};
