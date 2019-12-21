@@ -93,7 +93,7 @@ const Logo = styled.img`
 
 const Header = ({ noScroll, handleLink }) => {
   const isMobile = useMatches('(max-width: 640px)')
-  console.log({ isMobile, noScroll })
+
   return (
     <HeaderWrapper id="header">
       <Wrapper>

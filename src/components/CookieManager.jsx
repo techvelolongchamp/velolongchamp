@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import Cookies from 'js-cookie'
 import styled from 'styled-components'
 import { Link } from 'gatsby'
@@ -37,14 +37,18 @@ const CookieContainer = styled.div`
 `
 
 const CookieManager = () => {
-  const [cookieApproval, setCookieApproval] = useState(
-    Boolean(Cookies.get('cookie-approval'))
-  )
+  const [cookieApproval, setCookieApproval] = useState(true)
+  useEffect(() => {
+    const cookieValue = Boolean(Cookies.get('cookie-approval'))
+    if (cookieValue !== cookieApproval) setCookieApproval(cookieValue)
+  }, [])
+
   const handleClick = e => {
     e.preventDefault()
     Cookies.set('cookie-approval', true)
     setCookieApproval(true)
   }
+
   return (
     <CookieContainer showCookie={!cookieApproval}>
       <p>
