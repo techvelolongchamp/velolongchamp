@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import styled from 'styled-components'
+import { useTranslation } from 'react-i18next'
 
 import Layout from '../components/Layout'
 import Head from '../components/Head'
@@ -20,12 +21,16 @@ const Message = styled.h3`
 `
 
 const NotFound = () => {
+  const { t, ready } = useTranslation('404')
+  if (!ready) {
+    return <div>Loading</div>
+  }
   return (
     <Layout>
-      <Head title="404" />
-      <ThirdarySection title="Page Introuvable">
+      <Head title={t('404:pageHeadTitle')} />
+      <ThirdarySection title={t('404:pageTitle')}>
         <Message>
-          <Link to="/">Retour à l'accueil</Link>
+          <Link to="/">{t('404:goBack')}</Link>
         </Message>
       </ThirdarySection>
     </Layout>

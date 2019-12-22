@@ -6,6 +6,7 @@ import CookieManager from './CookieManager'
 
 import GlobalStyle from '../globalStyles'
 import theme from '../theme'
+import '../i18n'
 
 const Container = styled.div`
   display: flex;
@@ -27,6 +28,7 @@ const Layout = ({ children }) => {
       header: 'header',
     })
   }
+
   return (
     <ThemeProvider theme={theme}>
       <Container>

@@ -1,97 +1,27 @@
 import React from 'react'
-import { Link } from 'gatsby'
-import styled from 'styled-components'
-import { OutboundLink } from 'gatsby-plugin-google-analytics'
+import { useTranslation } from 'react-i18next'
 
 import { useMatches } from '../customHooks/useMatches'
+import LanguageSelect from './LanguageSelect'
 
 import theme from '../theme'
 
-const HeaderWrapper = styled.header`
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 5;
-  background: ${({ theme }) => theme.colors.offWhite};
-  padding: ${({ theme }) => theme.spacing.xs} ${({ theme }) => theme.spacing.s};
-  border-bottom: 1px solid ${({ theme }) => theme.colors.white};
-  color: ${({ theme }) => theme.colors.defaultColor};
-`
-
-const Wrapper = styled.div`
-  display: flex;
-`
-
-const LeftContainer = styled.div`
-  display: flex;
-  align-items: center;
-  flex-grow: 1;
-`
-
-const RightContainer = styled.div`
-  display: flex;
-  align-items: center;
-`
-
-const TitleLink = styled(Link)`
-  display: flex;
-  align-items: center;
-`
-
-const NavList = styled.ul`
-  display: flex;
-  list-style-type: none;
-  margin: 0;
-`
-
-const MobileNavList = styled(NavList)`
-  width: 100%;
-  justify-content: space-between;
-`
-
-const NavItem = styled(Link)`
-  color: ${({ theme }) => theme.colors.lightGrey};
-  font-size: ${({ theme }) => theme.fonts.large};
-  padding-left: ${({ theme }) => theme.spacing.l};
-  border-left: 1px solid ${({ theme }) => theme.colors.brandSecondary};
-  margin: 0 ${({ theme }) => theme.spacing.l};
-  text-decoration: none;
-  height: 30px;
-  align-items: center;
-  display: flex;
-
-  &:hover {
-    color: ${({ theme }) => theme.colors.grey};
-  }
-`
-
-const ScrollItem = styled(NavItem)`
-  font-size: ${({ theme }) => theme.fonts.medium};
-  border: none;
-  padding: 0;
-  margin: 0 ${({ theme }) => theme.spacing.m};
-`
-
-const MobileScrollItem = styled(ScrollItem)`
-  font-size: ${({ theme }) => theme.fonts.medium};
-  margin: 0;
-  padding: 0 ${({ theme }) => theme.spacing.xs};
-`
-
-const ButtonLink = styled(OutboundLink)`
-  padding: ${({ theme }) => theme.spacing.s};
-  font-size: ${({ theme }) => theme.fonts.large};
-  color: ${({ theme }) => theme.colors.white};
-  background: ${({ theme }) => theme.colors.brandSecondary};
-  border-radius: 5px;
-`
-
-const Logo = styled.img`
-  width: 70px;
-`
+import {
+  HeaderWrapper,
+  LeftContainer,
+  TitleLink,
+  Logo,
+  NavList,
+  ScrollItem,
+  RightContainer,
+  ButtonLink,
+  Wrapper,
+  MobileNavList,
+  MobileScrollItem,
+} from './Header.styled'
 
 const Header = ({ noScroll, handleLink }) => {
+  const { t } = useTranslation()
   const isMobile = useMatches('(max-width: 640px)')
 
   return (
@@ -110,7 +40,7 @@ const Header = ({ noScroll, handleLink }) => {
                   partiallyActive={true}
                   to={`/#${handleLink[0]}`}
                 >
-                  Presentation
+                  {t('common:header.presentation')}
                 </ScrollItem>
               </li>
               <li>
@@ -119,7 +49,7 @@ const Header = ({ noScroll, handleLink }) => {
                   partiallyActive={true}
                   to={`/#${handleLink[1]}`}
                 >
-                  Nous rejoindre
+                  {t('common:header.joinUs')}
                 </ScrollItem>
               </li>
               <li>
@@ -128,7 +58,7 @@ const Header = ({ noScroll, handleLink }) => {
                   partiallyActive={true}
                   to={`/#${handleLink[2]}`}
                 >
-                  Nous rencontrer
+                  {t('common:header.meetUs')}
                 </ScrollItem>
               </li>
               <li>
@@ -137,7 +67,7 @@ const Header = ({ noScroll, handleLink }) => {
                   partiallyActive={true}
                   to={`/#${handleLink[3]}`}
                 >
-                  Nous contacter
+                  {t('common:header.contactUs')}
                 </ScrollItem>
               </li>
             </NavList>
@@ -162,8 +92,9 @@ const Header = ({ noScroll, handleLink }) => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Rejoindre l'association
+            {t('common:header.clickJoin')}
           </ButtonLink>
+          <LanguageSelect />
         </RightContainer>
       </Wrapper>
       {isMobile && !noScroll && (
@@ -174,7 +105,7 @@ const Header = ({ noScroll, handleLink }) => {
               partiallyActive={true}
               to={`/#${handleLink[0]}`}
             >
-              Presentation
+              {t('common:header.presentation')}
             </MobileScrollItem>
           </li>
           <li>
@@ -183,7 +114,7 @@ const Header = ({ noScroll, handleLink }) => {
               partiallyActive={true}
               to={`/#${handleLink[1]}`}
             >
-              Nous rejoindre
+              {t('common:header.joinUs')}
             </MobileScrollItem>
           </li>
           <li>
@@ -192,7 +123,7 @@ const Header = ({ noScroll, handleLink }) => {
               partiallyActive={true}
               to={`/#${handleLink[2]}`}
             >
-              Nous rencontrer
+              {t('common:header.meetUs')}
             </MobileScrollItem>
           </li>
           <li>
@@ -201,7 +132,7 @@ const Header = ({ noScroll, handleLink }) => {
               partiallyActive={true}
               to={`/#${handleLink[3]}`}
             >
-              Nous contacter
+              {t('common:header.contactUs')}
             </MobileScrollItem>
           </li>
         </MobileNavList>

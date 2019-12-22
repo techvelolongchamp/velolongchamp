@@ -1,8 +1,10 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
 import { useStaticQuery, graphql } from 'gatsby'
+import { useTranslation } from 'react-i18next'
 
 const Head = ({ title }) => {
+  const { t } = useTranslation()
   const data = useStaticQuery(graphql`
     query {
       site {
@@ -17,8 +19,8 @@ const Head = ({ title }) => {
     <Helmet>
       <title>
         {title
-          ? `${title} | ${data.site.siteMetadata.title}`
-          : data.site.siteMetadata.title}
+          ? `${title} | ${t(data.site.siteMetadata.title)}`
+          : t(data.site.siteMetadata.title)}
       </title>
       <script
         src="https://kit.fontawesome.com/9a1b48cc39.js"
@@ -28,6 +30,12 @@ const Head = ({ title }) => {
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <meta name="author" content={data.site.siteMetadata.author} />
       <meta name="copyright" content="© Vélo Longchamp" />
+      <meat name="type" content="website" />
+      <link rel="canonical" href="http://velo-longchamp.fr" />
+      <meta
+        name="keywords"
+        content="velo longchamp, bike longchamp, bike paris, velo paris, hippodrome longchamp, association longchamp"
+      />
       <meta
         name="description"
         content="Site internet de l'association Vélo Longchamp"

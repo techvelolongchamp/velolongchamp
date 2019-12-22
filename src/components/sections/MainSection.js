@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import { Trans, useTranslation } from 'react-i18next'
 
 import Carousel from '../Carousel'
 
@@ -48,27 +49,19 @@ const SubTitle = styled.p`
 `
 
 const MainSection = ({ id }) => {
+  const { t } = useTranslation('index')
   return (
     <SectionContainer id={id}>
       <Carousel />
       <MainContainer>
         <Content>
-          <Title>Bienvenue sur le site de Vélo Longchamp</Title>
+          <Title>{t('index:mainSection.title')}</Title>
+          <SubTitle>{t('index:mainSection.part1')}</SubTitle>
+          <SubTitle>{t('index:mainSection.part2')}</SubTitle>
           <SubTitle>
-            L'association Vélo Longchamp regroupe l'ensemble des cyclistes
-            utilisateurs de l'anneau cyclable autour de l'hippodrome de
-            Longchamp
-          </SubTitle>
-          <SubTitle>
-            Elle a pour objectif de défendre et promouvoir l’anneau de Longchamp
-            pour que toutes et tous, nous puissions faire du vélo dans les
-            meilleures conditions.
-          </SubTitle>
-          <SubTitle>
-            L'anneau de Longchamp est le segment vélo le plus utilisé en France
-            avec <strong>3 332 258</strong> tours de 3,58 km soit presque{' '}
-            <strong>12 millions de kilomètres parcourus</strong> à vélo (source
-            Strava au 11 décembre 2019)
+            <Trans i18nKey="index:mainSection.part3">
+              text<b>text</b>text
+            </Trans>
           </SubTitle>
         </Content>
       </MainContainer>
