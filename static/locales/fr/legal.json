@@ -7,7 +7,7 @@
   },
   "host": {
     "title": "Hébergeur",
-    "message": "Les sites www.velo-longchamp.fr et www.velo-longchamp.com sont hébergés par la société ZEIT, Inc, située au 1046 Kearny Street, San Francisco, CA 94133"
+    "message": "Les sites www.velo-longchamp.fr et www.velo-longchamp.com sont hébergés par la société ZEIT, Inc, située au 1046 Kearny Street, San Francisco, CA 94133 USA"
   },
   "cookies": {
     "title": "Cookies",
@@ -22,7 +22,7 @@
     "message": "Les présentes conditions s’appliquent pendant toute la durée de mise en ligne des services offerts par Vélo Longchamp sur le site www.velo-longchamp.com et www.velo-longchamp.fr."
   },
   "law": {
-    "title": "Loi applicable et compétence",
+    "title": "Loi applicable",
     "message": "Les présentes conditions sont soumises à la loi française. L’attribution de compétence en cas de litige, et à défaut d’accord amiable entre les parties, est donnée aux tribunaux français compétents."
   }
 }
