@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import Cookies from 'js-cookie'
 import styled from 'styled-components'
 import { Link } from 'gatsby'
+import { useTranslation } from 'react-i18next'
 
 const CookieContainer = styled.div`
   background: ${({ theme }) => theme.colors.defaultColor};
@@ -38,6 +39,7 @@ const CookieContainer = styled.div`
 
 const CookieManager = () => {
   const [cookieApproval, setCookieApproval] = useState(true)
+  const { t } = useTranslation()
   useEffect(() => {
     const cookieValue = Boolean(Cookies.get('cookie-approval'))
     if (cookieValue !== cookieApproval) setCookieApproval(cookieValue)
@@ -51,14 +53,10 @@ const CookieManager = () => {
 
   return (
     <CookieContainer showCookie={!cookieApproval}>
-      <p>
-        En poursuivant votre navigation sur notre site, vous acceptez
-        l'utilisation de cookies afin de nous permettre d'améliorer votre
-        expérience utilisateur.
-      </p>
+      <p>{t('common:cookie.message')}</p>
       <div>
-        <button onClick={handleClick}>Ok</button>
-        <Link to="/legal">En savoir plus</Link>
+        <button onClick={handleClick}>{t('common:cookie.ok')}</button>
+        <Link to="/legal">{t('common:cookie.learnMore')}</Link>
       </div>
     </CookieContainer>
   )

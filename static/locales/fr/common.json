@@ -10,5 +10,10 @@
   "footer": {
     "allRights": "Tous droits réservés",
     "legal": "Mentions légales"
+  },
+  "cookie": {
+    "message": "En poursuivant votre navigation sur notre site, vous acceptez l'utilisation de cookies afin de nous permettre d'améliorer votre expérience utilisateur.",
+    "ok": "OK",
+    "learnMore": "En savoir plus"
   }
 }

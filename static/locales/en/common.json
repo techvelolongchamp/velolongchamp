@@ -10,5 +10,10 @@
   "footer": {
     "allRights": "All rights reserved",
     "legal": "Legal Notice"
+  },
+  "cookie": {
+    "message": "By continuing your visit on our site, you accept the use of cookies to help us improve your user experience.",
+    "ok": "OK",
+    "learnMore": "Learn more"
   }
 }
