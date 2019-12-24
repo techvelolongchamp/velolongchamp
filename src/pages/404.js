@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'gatsby'
+import { Link, useStaticQuery, graphql } from 'gatsby'
 import styled from 'styled-components'
 import { useTranslation } from 'react-i18next'
 
@@ -21,12 +21,28 @@ const Message = styled.h3`
 `
 
 const NotFound = () => {
-  const { t, ready } = useTranslation('404')
+  const { t, ready, i18n } = useTranslation('404')
+  const {
+    site: {
+      siteMetadata: { defaultLng, allowedLng },
+    },
+  } = useStaticQuery(graphql`
+    query {
+      site {
+        siteMetadata {
+          defaultLng
+          allowedLng
+        }
+      }
+    }
+  `)
+
   if (!ready) {
     return <div>Loading</div>
   }
+  const lng = allowedLng.includes(i18n.language) ? i18n.language : defaultLng
   return (
-    <Layout>
+    <Layout lng={lng}>
       <Head title={t('404:pageHeadTitle')} />
       <ThirdarySection title={t('404:pageTitle')}>
         <Message>

@@ -130,10 +130,10 @@ const Presentation = () => {
       <VideoWrapper>
         <iframe
           src="https://www.youtube.com/embed/a6AOYfE7AeM"
-          frameborder="0"
+          frameBorder="0"
           title={t('index:presentation.video.iframeTitle')}
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
+          allowFullScreen
         ></iframe>
       </VideoWrapper>
     </PresentationContainer>

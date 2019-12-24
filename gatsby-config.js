@@ -8,6 +8,16 @@ const plugins = [
     },
   },
   'gatsby-plugin-sharp',
+  'gatsby-plugin-styled-components',
+  {
+    resolve: 'gatsby-plugin-i18n',
+    options: {
+      langKeyForNull: 'fr',
+      langKeyDefault: 'fr',
+      useLangKeyLayout: false,
+      prefixDefault: true,
+    },
+  },
 ]
 
 if (process.env.CONTEXT === 'production') {
@@ -33,6 +43,8 @@ module.exports = {
   siteMetadata: {
     title: 'headTitle',
     author: 'Benoit Goupilleau',
+    defaultLng: 'fr',
+    allowedLng: ['fr', 'en'],
   },
   plugins,
 }

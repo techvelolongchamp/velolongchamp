@@ -28,7 +28,10 @@ const Header = ({ noScroll, handleLink }) => {
     <HeaderWrapper id="header">
       <Wrapper>
         <LeftContainer>
-          <TitleLink activeStyle={{ color: theme.defaultColor }} to="#">
+          <TitleLink
+            activeStyle={{ color: theme.defaultColor }}
+            to={handleLink && handleLink.length > 0 ? '#' : '/'}
+          >
             <Logo src="/logo.png" alt="logo" />
           </TitleLink>
 

@@ -13,25 +13,25 @@ import Join from '../Join'
 
 import { ContactWrapper, AgendaContainer } from './IndexPage.styled'
 
-const IndexPage = () => {
+const IndexPage = ({ lng }) => {
   const { t } = useTranslation('index')
   const handleLink = ['presentation', 'join', 'meeting', 'contact']
   return (
-    <Layout>
-      <Header handleLink={handleLink} />
-      <Head />
-      <MainSection />
+    <Layout lng={lng}>
+      <Header handleLink={handleLink} lng={lng} />
+      <Head lng={lng} />
+      <MainSection lng={lng} />
       <SecondarySection
         id={handleLink[0]}
         title={t('index:presentation.sectionTitle')}
       >
-        <Presentation />
+        <Presentation lng={lng} />
       </SecondarySection>
       <ThirdarySection
         id={handleLink[1]}
         title={t('index:joinUs.sectionTitle')}
       >
-        <Join />
+        <Join lng={lng} />
       </ThirdarySection>
       <SecondarySection
         id={handleLink[2]}
