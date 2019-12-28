@@ -1,10 +1,8 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
 import { useStaticQuery, graphql } from 'gatsby'
-import { useTranslation } from 'react-i18next'
 
 const Head = ({ title }) => {
-  const { t } = useTranslation()
   const data = useStaticQuery(graphql`
     query {
       site {
@@ -19,8 +17,8 @@ const Head = ({ title }) => {
     <Helmet>
       <title>
         {title
-          ? `${title} | ${t(data.site.siteMetadata.title)}`
-          : t(data.site.siteMetadata.title)}
+          ? `${title} | ${data.site.siteMetadata.title}`
+          : data.site.siteMetadata.title}
       </title>
       <script
         src="https://kit.fontawesome.com/9a1b48cc39.js"
@@ -34,7 +32,7 @@ const Head = ({ title }) => {
       <link rel="canonical" href="http://velo-longchamp.fr" />
       <meta
         name="keywords"
-        content="velo longchamp, bike longchamp, bike paris, velo paris, hippodrome longchamp, association longchamp"
+        content="velo longchamp, vélo longchamp, bike longchamp, bike paris, velo paris, hippodrome longchamp, association longchamp, vélo paris"
       />
       <meta
         name="description"

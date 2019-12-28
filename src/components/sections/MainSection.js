@@ -1,6 +1,5 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Trans, useTranslation } from 'react-i18next'
 
 import Carousel from '../Carousel'
 
@@ -48,21 +47,16 @@ const SubTitle = styled.p`
   padding: ${({ theme }) => theme.spacing.xs} 0;
 `
 
-const MainSection = ({ id }) => {
-  const { t } = useTranslation('index')
+const MainSection = ({ id, trad }) => {
   return (
     <SectionContainer id={id}>
       <Carousel />
       <MainContainer>
         <Content>
-          <Title>{t('index:mainSection.title')}</Title>
-          <SubTitle>{t('index:mainSection.part1')}</SubTitle>
-          <SubTitle>{t('index:mainSection.part2')}</SubTitle>
-          <SubTitle>
-            <Trans i18nKey="index:mainSection.part3">
-              text<b>text</b>text
-            </Trans>
-          </SubTitle>
+          <Title>{trad.mainSection.title}</Title>
+          <SubTitle>{trad.mainSection.part1}</SubTitle>
+          <SubTitle>{trad.mainSection.part2}</SubTitle>
+          <SubTitle>{trad.mainSection.part3}</SubTitle>
         </Content>
       </MainContainer>
     </SectionContainer>

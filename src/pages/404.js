@@ -19,9 +19,21 @@ const Message = styled.h3`
     }
   }
 `
+const NotFoundi18n = {
+  fr: {
+    pageHeadTitle: '404',
+    pageTitle: 'Page introuvable',
+    goBack: "Retour à l'accueil",
+  },
+  en: {
+    pageHeadTitle: '404',
+    pageTitle: 'Page not found',
+    goBack: 'Go back',
+  },
+}
 
 const NotFound = () => {
-  const { t, ready, i18n } = useTranslation('404')
+  const { i18n } = useTranslation()
   const {
     site: {
       siteMetadata: { defaultLng, allowedLng },
@@ -36,17 +48,14 @@ const NotFound = () => {
       }
     }
   `)
-
-  if (!ready) {
-    return <div>Loading</div>
-  }
   const lng = allowedLng.includes(i18n.language) ? i18n.language : defaultLng
+  const trad = NotFoundi18n[lng]
   return (
     <Layout lng={lng}>
-      <Head title={t('404:pageHeadTitle')} />
-      <ThirdarySection title={t('404:pageTitle')}>
+      <Head title={trad.pageHeadTitle} />
+      <ThirdarySection title={trad.pageTitle}>
         <Message>
-          <Link to="/">{t('404:goBack')}</Link>
+          <Link to="/">{trad.goBack}</Link>
         </Message>
       </ThirdarySection>
     </Layout>

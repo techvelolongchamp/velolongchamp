@@ -1,137 +1,75 @@
 import React from 'react'
-import { useTranslation, Trans } from 'react-i18next'
 
 import { PresentationContainer, VideoWrapper } from './Presentation.styled'
 
-const Presentation = () => {
-  const { t } = useTranslation('index')
+const Presentation = ({ trad }) => {
   return (
     <PresentationContainer>
-      <h3>{t('index:presentation.whoAreWe.title')}</h3>
-      <p>{t('index:presentation.whoAreWe.part1')}</p>
-      <p>{t('index:presentation.whoAreWe.part2')}</p>
-      <p>
-        <Trans i18nKey="index:presentation.whoAreWe.part3">
-          text<strong>text</strong>
-        </Trans>
-      </p>
-      <p>{t('index:presentation.whoAreWe.part4')}</p>
-      <p>{t('index:presentation.whoAreWe.part5')}</p>
-      <h3>{t('index:presentation.why.title')}</h3>
-      <p>{t('index:presentation.why.part1')}</p>
-      <p>{t('index:presentation.why.part2')}</p>
-      <p>{t('index:presentation.why.part3')}</p>
-      <h3>{t('index:presentation.commitments.title')}</h3>
+      <h3>{trad.presentation.whoAreWe.title}</h3>
+      <p>{trad.presentation.whoAreWe.part1}</p>
+      <p>{trad.presentation.whoAreWe.part2}</p>
+      <p>{trad.presentation.whoAreWe.part3}</p>
+      <p>{trad.presentation.whoAreWe.part4}</p>
+      <p>{trad.presentation.whoAreWe.part5}</p>
+      <h3>{trad.presentation.why.title}</h3>
+      <p>{trad.presentation.why.part1}</p>
+      <p>{trad.presentation.why.part2}</p>
+      <p>{trad.presentation.why.part3}</p>
+      <h3>{trad.presentation.commitments.title}</h3>
       <ol>
         <li>
-          <h4>
-            <Trans i18nKey="index:presentation.commitments.first">
-              text<strong>text</strong>text
-            </Trans>
-          </h4>
+          <h4>{trad.presentation.commitments.first}</h4>
         </li>
         <li>
-          <h4>
-            <Trans i18nKey="index:presentation.commitments.second">
-              text<strong>text</strong>text
-            </Trans>
-          </h4>
+          <h4>{trad.presentation.commitments.second}</h4>
         </li>
         <li>
-          <h4>
-            <Trans i18nKey="index:presentation.commitments.third">
-              text<strong>text</strong>text
-            </Trans>
-          </h4>
+          <h4>{trad.presentation.commitments.third}</h4>
         </li>
         <li>
-          <h4>
-            <Trans i18nKey="index:presentation.commitments.fourth">
-              text<strong>text</strong>text
-            </Trans>
-          </h4>
+          <h4>{trad.presentation.commitments.fourth}</h4>
         </li>
         <li>
-          <h4>
-            <Trans i18nKey="index:presentation.commitments.fifth">
-              text<strong>text</strong>text
-            </Trans>
-          </h4>
+          <h4>{trad.presentation.commitments.fifth}</h4>
         </li>
         <li>
-          <h4>
-            <Trans i18nKey="index:presentation.commitments.sixth">
-              text<strong>text</strong>text
-            </Trans>
-          </h4>
+          <h4>{trad.presentation.commitments.sixth}</h4>
         </li>
         <li>
-          <h4>
-            <Trans i18nKey="index:presentation.commitments.seventh">
-              text<strong>text</strong>text
-            </Trans>
-          </h4>
+          <h4>{trad.presentation.commitments.seventh}</h4>
         </li>
       </ol>
-      <h3>{t('index:presentation.missions.title')}</h3>
+      <h3>{trad.presentation.missions.title}</h3>
       <ul>
         <li>
-          <h4>
-            <Trans i18nKey="index:presentation.missions.first">
-              text<b>text</b>text
-            </Trans>
-          </h4>
+          <h4>{trad.presentation.missions.first}</h4>
         </li>
         <li>
-          <h4>
-            <Trans i18nKey="index:presentation.missions.second">
-              text<b>text</b>text
-            </Trans>
-          </h4>
+          <h4>{trad.presentation.missions.second}</h4>
         </li>
         <li>
-          <h4>
-            <Trans i18nKey="index:presentation.missions.third">
-              text<b>text</b>text
-            </Trans>
-          </h4>
+          <h4>{trad.presentation.missions.third}</h4>
         </li>
         <li>
-          <h4>
-            <Trans i18nKey="index:presentation.missions.fourth">
-              text<b>text</b>text
-            </Trans>
-          </h4>
+          <h4>{trad.presentation.missions.fourth}</h4>
         </li>
         <li>
-          <h4>
-            <Trans i18nKey="index:presentation.missions.fifth">
-              text<b>text</b>text
-            </Trans>
-          </h4>
+          <h4>{trad.presentation.missions.fifth}</h4>
         </li>
         <li>
-          <h4>
-            <Trans i18nKey="index:presentation.missions.sixth">
-              text<b>text</b>text
-            </Trans>
-          </h4>
+          <h4>{trad.presentation.missions.sixth}</h4>
         </li>
         <li>
-          <h4>
-            <Trans i18nKey="index:presentation.missions.seventh">
-              text<b>text</b>text
-            </Trans>
-          </h4>
+          <h4>{trad.presentation.missions.seventh}</h4>
         </li>
       </ul>
 
-      <h3>{t('index:presentation.video.title')}</h3>
+      <h3>{trad.presentation.video.title}</h3>
       <VideoWrapper>
         <iframe
           src="https://www.youtube.com/embed/a6AOYfE7AeM"
           frameBorder="0"
-          title={t('index:presentation.video.iframeTitle')}
+          title={trad.presentation.video.iframeTitle}
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
         ></iframe>
