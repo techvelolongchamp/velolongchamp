@@ -25,8 +25,15 @@ const Indexi18n = {
           'VELO LONGCHAMP est une association de cyclistes pour les cyclistes',
         part2:
           'A l’origine, nous avons porté un projet de rénovation de l’anneau de Longchamp dans le cadre du budget participatif Paris 2020. Grand succès puisque notre projet a été retenu et des fonds alloués (500 K€ provisionnés) ! Notre mission première est de suivre ce projet pour que la rénovation de l’anneau soit rapide et réponde aux besoins des cyclistes.',
-        part3:
-          'Mais notre vision est plus large et pourrait se résumer ainsi : <1>Défendre et promouvoir l’anneau de Longchamp pour que toutes et tous, nous puissions faire du vélo dans les meilleures conditions.</1>',
+        part3: (
+          <>
+            Mais notre vision est plus large et pourrait se résumer ainsi : 
+            <strong>
+              Défendre et promouvoir l’anneau de Longchamp pour que toutes et
+              tous, nous puissions faire du vélo dans les meilleures conditions.
+            </strong>
+          </>
+        ),
         part4:
           'Ainsi, nous nous impliquons activement dans différents projets comme le développement de la pratique du vélo par les jeunes et le soutien de la pratique handisport. Rappelons qu’en étant protégé de la circulation des voitures, l’anneau de Lonchamp est particulièrement adapté à l’entrainement des sportifs handisports.',
         part5:
