@@ -258,21 +258,28 @@ const Indexi18n = {
         part1: 'VELO LONGCHAMP is an association of cyclists for cyclists',
         part2:
           'Initially, we have put forward the project of refurbishing the cycling ring of Longchamp as part of the participative budget of Paris for 2020. Big success as it got selected and fundings have been allocated (500 K€ pre-funded)! Our first mission is to follow this project so that the refurbishing is fast and meets the needs of cyclists.',
-        part3:
-          'But our vision is widder and could be described as follow: <1>Protect and promote the cycling ring of Longchamp so that each of us can cycle in the best conditions.</1>',
+        part3: (
+          <>
+            But our vision is wider and could be described as follows: 
+            <strong>
+              Protect and promote the cycling ring of Longchamp so that each of
+              us can cycle in the best conditions.
+            </strong>
+          </>
+        ),
         part4:
-          'Thus, we are actively involved in various projects like the development of cycling for young people or the support of the pratice of disabled sports. As it is protected from cars, the cycling ring is particularly suitable for the trainings of athletes with disabilities.',
+          'Thus, we are actively involved in various projects like the development of cycling for young people or the support of the practice of disabled sports. As it is protected from road traffic, the cycling ring is particularly suitable for the training of athletes with disabilities.',
         part5:
-          'Thanks to the membership of hundreds of cyclists and the membership of various local sport clubs, we are proud to have among us all profiles of cyclist and all types of cycling activity, without distinction of age, gender, level or even type of bike! We have for example practitioners of tamdem (some visually impaired or blind) or of recumbent bikes.',
+          'Thanks to the membership of hundreds of cyclists and the membership of various local sport clubs, we are proud to have among us all profiles of cyclists and all types of cycling activity, without distinction of age, gender, level or even type of bike! We have for example practitioners of tandem (some visually impaired or blind) or of recumbent bikes.',
       },
       why: {
         title: 'Why an association Vélo Longchamp?',
         part1:
-          'The cycling ring of Longchamp is one of the rare and precious place where you can ride at your pace, safe and protected from cars. In fact, it is the used bike segment in France, by far according to Strava. It is thus an essential sport site!',
+          'The cycling ring of Longchamp is one of the rare and precious places where you can ride at your own pace, safe and protected from cars. In fact, it is by far the most used bike segment in France, according to Strava. It is thus an essential sport site!',
         part2:
-          'Like the ring in Vincennes (Polygon), the cycling ring of Longchamp has become a real institution for sporty cyclists in Paris and nearby cities. Hundreds of amateurs cyclists (or even professionals) train there daily as well as many hikers and runners who run in the opposite direction of cyclists on the inside pavement.',
+          'Like the ring in Vincennes (Polygon), the cycling ring of Longchamp has become a real institution for sporty cyclists in Paris and nearby cities. Hundreds of amateur cyclists (or even professionals) train there daily as well as many hikers and runners who run in the opposite direction of cyclists on the inside pavement.',
         part3:
-          'But years pass by and the conditions are worsening: damaged surface, road marking erased, failling or missing road signs, frequent conflicts of use with cars parked or leaving and accessing the hippodrome, lack of consultation with other users. It is time to redevelop the cycling ring so that we and the next generations can ride in perfectly safe and confortable conditions.',
+          'But years pass by and the conditions are worsening: damaged surface, road marking erased, failling or missing road signs, frequent conflicts of use with cars parked or leaving and accessing the hippodrome, lack of consultation with other users. It is time to redevelop the cycling ring so that we and the next generations can ride in perfectly safe and comfortable conditions.',
       },
       commitments: {
         title: 'Our commitments:',
@@ -309,7 +316,7 @@ const Indexi18n = {
         ),
         seventh: (
           <>
-            <strong>Sustain</strong> the ring
+            <strong>Preserve</strong> the ring
           </>
         ),
       },
@@ -384,7 +391,7 @@ const Indexi18n = {
         title: 'Here are 5 unbeatable reasons to convice you to join:',
         first: (
           <>
-            You will sooner ride on a <strong>safe and confortable ring</strong>
+            You will sooner ride on a <strong>safe and comfortable ring</strong>
             ! Because the more we are, the more importance we have and the
             faster the necessary works will be done
           </>
@@ -454,7 +461,7 @@ const Indexi18n = {
       message2:
         'Location: at the fountain of the starting lane, at the top of the hill, on the left. See on the map: ',
       message3:
-        'Organistation: We will share drinks and snacks! We will try to limit waste et maybe we will poor the drinks... in your bottles! It will be the opportunity to introduce us.',
+        'Organistation: We will share drinks and snacks! We will try to limit waste et maybe we will pour the drinks... in your bottles! It will be the opportunity to introduce ourselves.',
       message4: 'Next dates:',
       meeting1: '#1 : Saturday the 11th of January at 11:15am',
       meeting2: '#2 : Saturday the 7th of March at 11:15am',
