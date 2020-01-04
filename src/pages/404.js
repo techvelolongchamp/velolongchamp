@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import { Link, useStaticQuery, graphql } from 'gatsby'
 import styled from 'styled-components'
 import { useTranslation } from 'react-i18next'
@@ -48,7 +48,15 @@ const NotFound = () => {
       }
     }
   `)
-  const lng = allowedLng.includes(i18n.language) ? i18n.language : defaultLng
+  const initLng = allowedLng.includes(i18n.language)
+    ? i18n.language
+    : defaultLng
+  const [lng, setLng] = useState(initLng)
+
+  useEffect(() => {
+    const lng = i18n.language.slice(0, 2) || 'fr'
+    setLng(lng)
+  }, [i18n.language])
   const trad = NotFoundi18n[lng]
   return (
     <Layout lng={lng}>

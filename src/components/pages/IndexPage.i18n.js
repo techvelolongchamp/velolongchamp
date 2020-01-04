@@ -246,14 +246,15 @@ const Indexi18n = {
     mainSection: {
       title: 'Welcome to Vélo Longchamp',
       part1:
-        'The association Vélo Longchamp gathers all cyclists using the cycling ring around the hippodrome of Longchamp in Paris, France',
+        'The Vélo Longchamp association gathers all cyclists who cycle around the Longchamp hippodrome situated in Paris, France',
       part2:
-        'It aims to protect and promote the cycling ring so that each of us can cycle in the best conditions',
+        'It aims to protect and promote the cycling ring so that each of us can cycle in the best possible conditions',
       part3: (
         <>
           The cycling ring is the most used bike segment in France with more
-          than <strong>3 332 258</strong> rounds of 3,58 km accounting for
-          almost <strong>12 millions of kilometers ridden</strong> on bike
+          than <strong>3 332 258</strong> laps completed. Each lap is 3,58 km
+          which accounts for{' '}
+          <strong>12 millions of kilometers being ridden</strong> on bike
           (source Strava on the 11th of december 2019)
         </>
       ),
@@ -264,29 +265,29 @@ const Indexi18n = {
         title: 'Who are we?',
         part1: 'VELO LONGCHAMP is an association of cyclists for cyclists',
         part2:
-          'Initially, we have put forward the project of refurbishing the cycling ring of Longchamp as part of the participative budget of Paris for 2020. Big success as it got selected and fundings have been allocated (500 K€ pre-funded)! Our first mission is to follow this project so that the refurbishing is fast and meets the needs of cyclists.',
+          'Initially, we have put forward the project of refurbishing the cycling ring of Longchamp as part of Parisian participative budget for 2020. This act was successful as it was selected and has resulted in funding being allocated (500 K€ pre-funded)! Our first mission is to follow this project so that up keeping is quickly acted upon and meets the needs of cyclists.',
         part3: (
           <>
-            But our vision is wider and could be described as follows: 
+            Our vision is wider and could be described as follows: 
             <strong>
-              Protect and promote the cycling ring of Longchamp so that each of
-              us can cycle in the best conditions.
+              Protect and promote the Longchamp cycling ring so that each of us
+              can cycle in the best conditions.
             </strong>
           </>
         ),
         part4:
-          'Thus, we are actively involved in various projects like the development of cycling for young people or the support of the practice of disabled sports. As it is protected from road traffic, the cycling ring is particularly suitable for the training of athletes with disabilities.',
+          'Thus, we are actively involved in various projects such as the development of cycling for young people or the support of disabled sport activities. As the area is protected from road traffic, the ring is particularly suitable for the training of athletes with disabilities.',
         part5:
-          'Thanks to the membership of hundreds of cyclists and the membership of various local sport clubs, we are proud to have among us all profiles of cyclists and all types of cycling activity, without distinction of age, gender, level or even type of bike! We have for example practitioners of tandem (some visually impaired or blind) or of recumbent bikes.',
+          'Thanks to the membership of hundreds of cyclists and various local sport clubs, we are proud to have amongst us all cyclist profiles and cycling activity without distinction of age, gender, level or even the type of bike! For example, we have practitioners who use tandem (some visually impaired or blind) or of recumbent bikes.',
       },
       why: {
         title: 'Why an association Vélo Longchamp?',
         part1:
-          'The cycling ring of Longchamp is one of the rare and precious places where you can ride at your own pace, safe and protected from cars. In fact, it is by far the most used bike segment in France, according to Strava. It is thus an essential sport site!',
+          'The Longchamp cycling ring is one of those rare and precious places where you can ride at your own pace, being safe and protected from cars. In fact, according to Strava, it is by far the most used bike segment in France. It is thus an essential sport site!',
         part2:
-          'Like the ring in Vincennes (Polygon), the cycling ring of Longchamp has become a real institution for sporty cyclists in Paris and nearby cities. Hundreds of amateur cyclists (or even professionals) train there daily as well as many hikers and runners who run in the opposite direction of cyclists on the inside pavement.',
+          'Like the Vincennes ring (Polygon), Longchamp cycling ring has become a real institution for sporty cyclists in Paris and nearby cities. Hundreds of amateur cyclists (or even professionals) train there daily as well as many hikers and runners who run in the opposite direction of those biking on the inside pavement.',
         part3:
-          'But years pass by and the conditions are worsening: damaged surface, road marking erased, failling or missing road signs, frequent conflicts of use with cars parked or leaving and accessing the hippodrome, lack of consultation with other users. It is time to redevelop the cycling ring so that we and the next generations can ride in perfectly safe and comfortable conditions.',
+          'But as years pass, the conditions are worsening: damaged surfaces, road markings erased, falling or missing road signs, frequent conflicts of use with cars parked or leaving and accessing the hippodrome, lack of consultation with other users. It is time to redevelop the cycling ring so that we and the next generations can ride in perfectly safe and comfortable conditions.',
       },
       commitments: {
         title: 'Our commitments:',
@@ -312,13 +313,14 @@ const Indexi18n = {
         ),
         fifth: (
           <>
-            Define and remind the <strong>best practices</strong> on safety for
-            cyclists
+            Define and remind the <strong>best practices</strong> on cycnling
+            safety
           </>
         ),
         sixth: (
           <>
-            <strong>Make the largest number of people come</strong> to the ring
+            <strong>Drive the largest number of people to come</strong> to the
+            ring
           </>
         ),
         seventh: (
@@ -332,10 +334,9 @@ const Indexi18n = {
         first: (
           <>
             Actively follow up on{' '}
-            <strong>the project of refurbishment of the ring</strong> initiated
-            by the participative budget for 2020 of the city of Paris, to give
-            it priority and make sure the cyclists' demands are taken into
-            account
+            <strong>the refurbishment project of the ring</strong> initiated by
+            the participative budget for 2020 of the city of Paris, to give it
+            priority and make sure the cyclists' demands are taken into account
           </>
         ),
         second: (
@@ -385,7 +386,7 @@ const Indexi18n = {
       },
       video: {
         title:
-          'Discover the cycling ring of Longchamp with the video of "Jeune Cycliste Dynamique" (in french):',
+          'Discover the Longchamp cycling with the "Jeune Cycliste Dynamique" video (in french):',
         iframeTitle: 'Discover Longchamp',
       },
     },
@@ -395,7 +396,7 @@ const Indexi18n = {
       joinMessage:
         'Becoming a member of VELO LONGCHAMP is free and only takes a few minutes:',
       reasonToJoin: {
-        title: 'Here are 5 unbeatable reasons to convice you to join:',
+        title: 'Here are 5 unbeatable reasons to convince you to join:',
         first: (
           <>
             You will sooner ride on a <strong>safe and comfortable ring</strong>
@@ -407,9 +408,9 @@ const Indexi18n = {
           <>
             Your <strong>opinion is as important</strong> as any other! By
             becoming a member, you will be able to directly express your
-            requests and priorities. You could start an initiative that you care
-            about. You could vote during General Assemblies. You will be kept
-            abreast of the project progress
+            requests and priorities. You will potentially be able to start an
+            initiative that you care about. You could vote during General
+            Assemblies. You will be kept abreast of the project progress
           </>
         ),
         third: (
@@ -431,9 +432,9 @@ const Indexi18n = {
         fifth: (
           <>
             You know that without the cycling ring of Longchamp, life would be
-            less beautiful! We tend to forget because we have always known it,
-            but having Longchamp is an extraordinary chance. We need to be able{' '}
-            <strong>to protect and make the ring durable</strong>
+            less beautiful! We tend to forget because we have always had it.
+            Having Longchamp however is an extraordinary benefit. We need to be
+            able <strong>to protect and make the ring durable</strong>
           </>
         ),
       },
@@ -441,24 +442,23 @@ const Indexi18n = {
         title: 'FAQ:',
         firstQuestion: 'Who are you and why did you start an association?',
         firstAnswer:
-          'We are cyclists who regularly ride in Longchamp. We started an association to improve the sfety and comfort conditions of the ring',
+          'We are cyclists who regularly ride in Longchamp. We started an association to improve the sfety and conditions of the ring',
         secondQuestion:
           "I don't have time to give to the association but I want to support it, should I join?",
         secondAnswer:
-          'Yes! Once a member, each of us decides of the time we want to give and can give to the association',
-        thirdQuestion: 'Is there any conditions to join?',
+          'Yes! Once a member, each of us decides the time we want to dedicate and can give to the association',
+        thirdQuestion: 'Are there any conditions to join?',
         thirdAnswer:
-          'The only condition is to share our vision that the cycling ring of Longchamp needs to be protected and promoted so that cyclists can practice the sport they love in the best conditions',
-        fourthQuestion:
-          'I cycle to work through the ring of Longchamp, can I join?',
+          'The only condition is to share our vision that the Longchamp cycling ring needs to be protected and promoted so that cyclists can practice the sport they love in the best conditions',
+        fourthQuestion: 'I cycle to work through Longchamp, can I join?',
         fourthAnswer:
-          'Of course! We focus more on road cycling but we need that our members represent all types of cycling, including commuters who represent a fair amount of users of Longchamp',
+          'Of course! We focus more on road cycling but we rely on our members representing all types of cycling, including commuters who represent a fair amount of use of Longchamp',
         fifthQuestion: 'I rarely go to Longchamp, should I join?',
         fifthAnswer:
-          'Yes! Your membership will help improve the conditions on the cycling ring for regular or occasionnal cyclists. An occasionnal cyclist has often better ideas than a cyclist who knows all the traps of Longchamp too well (damaged surface, tough days)',
+          'Yes! Your membership will help improve the conditions on the cycling ring for regular or occasionnal cyclists. An occasionnal cyclist has often better ideas than a cyclist who knows by heart all the dangers of Longchamp (damaged surface, tough conditions)',
         sixthQuestion: 'I am already a member of another club, can I join?',
         sixthAnswer:
-          'Yes and mainly get your club to join (so that we represent even more cyclists)',
+          'Yes and please get your club to join (so that even more cyclists are represented)',
       },
     },
     meetUs: {
@@ -468,7 +468,7 @@ const Indexi18n = {
       message2:
         'Location: at the fountain of the starting lane, at the top of the hill, on the left. See on the map: ',
       message3:
-        'Organistation: We will share drinks and snacks! We will try to limit waste et maybe we will pour the drinks... in your bottles! It will be the opportunity to introduce ourselves.',
+        'Organistation: We will share drinks and snacks! We will try to limit waste et maybe we will pour the drinks... in your bottles! It will be an opportunity to introduce ourselves.',
       message4: 'Next dates:',
       meeting1: '#1 : Saturday the 11th of January at 11:15am',
       meeting2: '#2 : Saturday the 7th of March at 11:15am',
