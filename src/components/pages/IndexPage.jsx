@@ -20,7 +20,7 @@ const IndexPage = ({ lng }) => {
   return (
     <Layout lng={lng}>
       <Header handleLink={handleLink} lng={lng} />
-      <Head />
+      <Head url="/" />
       <MainSection trad={trad} />
       <SecondarySection
         id={handleLink[0]}

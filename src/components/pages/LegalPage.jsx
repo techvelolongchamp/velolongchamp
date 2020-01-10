@@ -33,8 +33,8 @@ const LegalPage = ({ lng }) => {
   return (
     <Layout lng={lng}>
       <Header noScroll lng={lng} />
-      <Head title={trad.pageHeadTitle} />
-      <ThirdarySection title={trad.pageTitle}>
+      <Head title={trad.pageHeadTitle} url="/legal" />
+      <ThirdarySection title={trad.pageTitle} useH1>
         <LegalContainer>
           <h3>{trad.editor.title}</h3>
           <p>{trad.editor.message}</p>
