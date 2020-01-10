@@ -6,6 +6,7 @@ const LngContainer = styled.div`
   align-items: center;
   display: flex;
   height: 100%;
+  font-size: ${({ theme }) => theme.fonts.small};
   margin-left: ${({ theme }) => theme.spacing.xs};
 `
 

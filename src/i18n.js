@@ -11,8 +11,6 @@ i18n
   .use(initReactI18next)
   .init({
     fallbackLng: 'fr',
-    ns: ['common'],
-    defaultNS: 'common',
     debug,
     interpolation: {
       escapeValue: false, // not needed for react!!
@@ -21,7 +19,5 @@ i18n
       useSuspense: false,
     },
   })
-
-i18n.loadNamespaces('index')
 
 export default i18n

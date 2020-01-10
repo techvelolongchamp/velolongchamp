@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import { useTranslation } from 'react-i18next'
 import styled from 'styled-components'
 
 const Wrapper = styled.footer`
@@ -18,19 +17,30 @@ const Wrapper = styled.footer`
   }
 `
 
-const Footer = () => {
-  const { t } = useTranslation()
+const Footeri18n = {
+  fr: {
+    allRights: 'Tous droits réservés',
+    legal: 'Mentions légales',
+  },
+  en: {
+    allRights: 'All rights reserved',
+    legal: 'Legal Notice',
+  },
+}
+
+const Footer = ({ lng }) => {
+  const trad = Footeri18n[lng]
   const now = new Date()
   const year = now.getFullYear()
   return (
     <Wrapper>
       <p>
         ©Copyright 2019{year > 2019 && ` - ${year}`} - Vélo Longchamp -{' '}
-        {t('common:footer.allRights')}
+        {trad.allRights}
       </p>
       <p>-</p>
       <p>
-        <Link to="/legal">{t('common:footer.legal')}</Link>
+        <Link to="/legal">{trad.legal}</Link>
       </p>
     </Wrapper>
   )

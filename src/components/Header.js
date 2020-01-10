@@ -1,5 +1,4 @@
 import React from 'react'
-import { useTranslation } from 'react-i18next'
 
 import { useMatches } from '../customHooks/useMatches'
 import LanguageSelect from './LanguageSelect'
@@ -20,15 +19,34 @@ import {
   MobileScrollItem,
 } from './Header.styled'
 
-const Header = ({ noScroll, handleLink }) => {
-  const { t } = useTranslation()
-  const isMobile = useMatches('(max-width: 640px)')
+const Headeri18n = {
+  fr: {
+    presentation: 'Présentation',
+    joinUs: 'Nous rejoindre',
+    meetUs: 'Nous rencontrer',
+    contactUs: 'Nous contacter',
+    clickJoin: "Rejoindre l'association",
+  },
+  en: {
+    presentation: 'About',
+    joinUs: 'Join',
+    meetUs: 'Meet us',
+    contactUs: 'Contact',
+    clickJoin: 'Join the association',
+  },
+}
 
+const Header = ({ noScroll, handleLink, lng }) => {
+  const isMobile = useMatches('(max-width: 640px)')
+  const trad = Headeri18n[lng]
   return (
     <HeaderWrapper id="header">
       <Wrapper>
         <LeftContainer>
-          <TitleLink activeStyle={{ color: theme.defaultColor }} to="#">
+          <TitleLink
+            activeStyle={{ color: theme.defaultColor }}
+            to={handleLink && handleLink.length > 0 ? '/#' : '/'}
+          >
             <Logo src="/logo.png" alt="logo" />
           </TitleLink>
 
@@ -40,7 +58,7 @@ const Header = ({ noScroll, handleLink }) => {
                   partiallyActive={true}
                   to={`/#${handleLink[0]}`}
                 >
-                  {t('common:header.presentation')}
+                  {trad.presentation}
                 </ScrollItem>
               </li>
               <li>
@@ -49,7 +67,7 @@ const Header = ({ noScroll, handleLink }) => {
                   partiallyActive={true}
                   to={`/#${handleLink[1]}`}
                 >
-                  {t('common:header.joinUs')}
+                  {trad.joinUs}
                 </ScrollItem>
               </li>
               <li>
@@ -58,7 +76,7 @@ const Header = ({ noScroll, handleLink }) => {
                   partiallyActive={true}
                   to={`/#${handleLink[2]}`}
                 >
-                  {t('common:header.meetUs')}
+                  {trad.meetUs}
                 </ScrollItem>
               </li>
               <li>
@@ -67,7 +85,7 @@ const Header = ({ noScroll, handleLink }) => {
                   partiallyActive={true}
                   to={`/#${handleLink[3]}`}
                 >
-                  {t('common:header.contactUs')}
+                  {trad.contactUs}
                 </ScrollItem>
               </li>
             </NavList>
@@ -92,7 +110,7 @@ const Header = ({ noScroll, handleLink }) => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            {t('common:header.clickJoin')}
+            {trad.clickJoin}
           </ButtonLink>
           <LanguageSelect />
         </RightContainer>
@@ -105,7 +123,7 @@ const Header = ({ noScroll, handleLink }) => {
               partiallyActive={true}
               to={`/#${handleLink[0]}`}
             >
-              {t('common:header.presentation')}
+              {trad.presentation}
             </MobileScrollItem>
           </li>
           <li>
@@ -114,7 +132,7 @@ const Header = ({ noScroll, handleLink }) => {
               partiallyActive={true}
               to={`/#${handleLink[1]}`}
             >
-              {t('common:header.joinUs')}
+              {trad.joinUs}
             </MobileScrollItem>
           </li>
           <li>
@@ -123,7 +141,7 @@ const Header = ({ noScroll, handleLink }) => {
               partiallyActive={true}
               to={`/#${handleLink[2]}`}
             >
-              {t('common:header.meetUs')}
+              {trad.meetUs}
             </MobileScrollItem>
           </li>
           <li>
@@ -132,7 +150,7 @@ const Header = ({ noScroll, handleLink }) => {
               partiallyActive={true}
               to={`/#${handleLink[3]}`}
             >
-              {t('common:header.contactUs')}
+              {trad.contactUs}
             </MobileScrollItem>
           </li>
         </MobileNavList>

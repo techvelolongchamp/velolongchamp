@@ -1,11 +1,13 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import styled from 'styled-components'
-import { useTranslation, Trans } from 'react-i18next'
 
 import ThirdarySection from '../sections/ThirdarySection'
 import Layout from '../Layout'
 import Header from '../Header'
 import Head from '../Head'
+
+import Legali18n from './LegalPage.i18n'
 
 const LegalContainer = styled.article`
   padding-bottom: ${({ theme }) => theme.spacing.xl};
@@ -26,41 +28,34 @@ const LegalContainer = styled.article`
   }
 `
 
-const LegalPage = () => {
-  const { t, ready } = useTranslation('legal')
-  if (!ready) {
-    return <div>Loading</div>
-  }
+const LegalPage = ({ lng }) => {
+  const trad = Legali18n[lng]
   return (
-    <Layout>
-      <Header noScroll />
-      <Head title={t('legal:pageHeadTitle')} />
-      <ThirdarySection title={t('legal:pageTitle')}>
+    <Layout lng={lng}>
+      <Header noScroll lng={lng} />
+      <Head title={trad.pageHeadTitle} url="/legal" />
+      <ThirdarySection title={trad.pageTitle} useH1>
         <LegalContainer>
-          <h3>{t('legal:editor.title')}</h3>
-          <p>
-            <Trans i18nKey="legal:editor.message">
-              text
-              <br />
-              text
-              <br />
-              text
-            </Trans>
-          </p>
-          <h3>{t('legal:host.title')}</h3>
-          <p>{t('legal:host.message')}</p>
-          <h3>{t('legal:cookies.title')}</h3>
-          <p>{t('legal:cookies.message')}</p>
-          <h3>{t('legal:iproperty.title')}</h3>
-          <p>{t('legal:iproperty.message')}</p>
-          <h3>{t('legal:time.title')}</h3>
-          <p>{t('legal:time.message')}</p>
-          <h3>{t('legal:law.title')}</h3>
-          <p>{t('legal:law.message')}</p>
+          <h3>{trad.editor.title}</h3>
+          <p>{trad.editor.message}</p>
+          <h3>{trad.host.title}</h3>
+          <p>{trad.host.message}</p>
+          <h3>{trad.cookies.title}</h3>
+          <p>{trad.cookies.message}</p>
+          <h3>{trad.iproperty.title}</h3>
+          <p>{trad.iproperty.message}</p>
+          <h3>{trad.time.title}</h3>
+          <p>{trad.time.message}</p>
+          <h3>{trad.law.title}</h3>
+          <p>{trad.law.message}</p>
         </LegalContainer>
       </ThirdarySection>
     </Layout>
   )
+}
+
+LegalPage.propTypes = {
+  lng: PropTypes.string.isRequired,
 }
 
 export default LegalPage

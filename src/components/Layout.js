@@ -22,7 +22,7 @@ const Content = styled.main`
   }
 `
 
-const Layout = ({ children }) => {
+const Layout = ({ children, lng }) => {
   if (typeof window !== 'undefined') {
     require('smooth-scroll')('a[href*="#"]', {
       header: 'header',
@@ -34,8 +34,8 @@ const Layout = ({ children }) => {
       <Container>
         <GlobalStyle />
         <Content>{children}</Content>
-        <Footer />
-        <CookieManager />
+        <Footer lng={lng} />
+        <CookieManager lng={lng} />
       </Container>
     </ThemeProvider>
   )

@@ -1,16 +1,15 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
 import { useStaticQuery, graphql } from 'gatsby'
-import { useTranslation } from 'react-i18next'
 
-const Head = ({ title }) => {
-  const { t } = useTranslation()
+const Head = ({ title, url }) => {
   const data = useStaticQuery(graphql`
     query {
       site {
         siteMetadata {
           title
           author
+          siteUrl
         }
       }
     }
@@ -19,26 +18,27 @@ const Head = ({ title }) => {
     <Helmet>
       <title>
         {title
-          ? `${title} | ${t(data.site.siteMetadata.title)}`
-          : t(data.site.siteMetadata.title)}
+          ? `${title} | ${data.site.siteMetadata.title}`
+          : data.site.siteMetadata.title}
       </title>
       <script
         src="https://kit.fontawesome.com/9a1b48cc39.js"
         crossorigin="anonymous"
       ></script>
       <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1" />
       <meta name="author" content={data.site.siteMetadata.author} />
       <meta name="copyright" content="© Vélo Longchamp" />
       <meat name="type" content="website" />
-      <link rel="canonical" href="http://velo-longchamp.fr" />
+      <link rel="canonical" href={`${data.site.siteMetadata.siteUrl}${url}`} />
       <meta
         name="keywords"
-        content="velo longchamp, bike longchamp, bike paris, velo paris, hippodrome longchamp, association longchamp"
+        content="velo longchamp, vélo longchamp, bike longchamp, bike paris, velo paris, hippodrome longchamp, association longchamp, vélo paris, anneau longchamp, cyclist, cycling paris"
       />
       <meta
         name="description"
-        content="Site internet de l'association Vélo Longchamp"
+        content={`Site internet de l'association Vélo Longchamp. L'association Vélo Longchamp regroupe l'ensemble des cyclistes utilisateurs de l'anneau cyclable autour de l'hippodrome de Longchamp${
+          title ? ` - ${title}` : ''
+        }`}
       />
       <link
         rel="apple-touch-icon"

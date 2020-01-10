@@ -1,5 +1,5 @@
-import React from 'react'
-import { Link } from 'gatsby'
+import React, { useState, useEffect } from 'react'
+import { Link, useStaticQuery, graphql } from 'gatsby'
 import styled from 'styled-components'
 import { useTranslation } from 'react-i18next'
 
@@ -19,18 +19,51 @@ const Message = styled.h3`
     }
   }
 `
+const NotFoundi18n = {
+  fr: {
+    pageHeadTitle: '404',
+    pageTitle: 'Page introuvable',
+    goBack: "Retour à l'accueil",
+  },
+  en: {
+    pageHeadTitle: '404',
+    pageTitle: 'Page not found',
+    goBack: 'Go back',
+  },
+}
 
 const NotFound = () => {
-  const { t, ready } = useTranslation('404')
-  if (!ready) {
-    return <div>Loading</div>
-  }
+  const { i18n } = useTranslation()
+  const {
+    site: {
+      siteMetadata: { defaultLng, allowedLng },
+    },
+  } = useStaticQuery(graphql`
+    query {
+      site {
+        siteMetadata {
+          defaultLng
+          allowedLng
+        }
+      }
+    }
+  `)
+  const initLng = allowedLng.includes(i18n.language)
+    ? i18n.language
+    : defaultLng
+  const [lng, setLng] = useState(initLng)
+
+  useEffect(() => {
+    const lng = i18n.language.slice(0, 2) || 'fr'
+    setLng(lng)
+  }, [i18n.language])
+  const trad = NotFoundi18n[lng]
   return (
-    <Layout>
-      <Head title={t('404:pageHeadTitle')} />
-      <ThirdarySection title={t('404:pageTitle')}>
+    <Layout lng={lng}>
+      <Head title={trad.pageHeadTitle} />
+      <ThirdarySection title={trad.pageTitle}>
         <Message>
-          <Link to="/">{t('404:goBack')}</Link>
+          <Link to="/">{trad.goBack}</Link>
         </Message>
       </ThirdarySection>
     </Layout>
