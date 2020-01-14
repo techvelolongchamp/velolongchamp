@@ -39,7 +39,7 @@ if (process.env.CONTEXT === 'production') {
 
 module.exports = {
   siteMetadata: {
-    title: 'Vélo Longchamp',
+    title: "Vélo Longchamp | Association cycliste de l'Hippodrome de Longchamp",
     author: 'Benoit Goupilleau',
     defaultLng: 'fr',
     allowedLng: ['fr', 'en'],

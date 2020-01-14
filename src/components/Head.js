@@ -2,7 +2,7 @@ import React from 'react'
 import { Helmet } from 'react-helmet'
 import { useStaticQuery, graphql } from 'gatsby'
 
-const Head = ({ title, url }) => {
+const Head = ({ title, url, lng }) => {
   const data = useStaticQuery(graphql`
     query {
       site {
@@ -16,6 +16,7 @@ const Head = ({ title, url }) => {
   `)
   return (
     <Helmet>
+      <html lang={lng !== 'en' ? 'fr' : lng} />
       <title>
         {title
           ? `${title} | ${data.site.siteMetadata.title}`
@@ -36,7 +37,7 @@ const Head = ({ title, url }) => {
       />
       <meta
         name="description"
-        content={`Site internet de l'association Vélo Longchamp. L'association Vélo Longchamp regroupe l'ensemble des cyclistes utilisateurs de l'anneau cyclable autour de l'hippodrome de Longchamp${
+        content={`L'association Vélo Longchamp regroupe l'ensemble des cyclistes utilisateurs de l'anneau cyclable autour de l'hippodrome de Longchamp${
           title ? ` - ${title}` : ''
         }`}
       />
