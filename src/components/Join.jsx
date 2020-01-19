@@ -27,19 +27,19 @@ const Join = ({ trad }) => {
         <p>{trad.joinUs.reasonToJoin.title}</p>
         <ol>
           <li>
-            <h4>{trad.joinUs.reasonToJoin.first}</h4>
+            <p>{trad.joinUs.reasonToJoin.first}</p>
           </li>
           <li>
-            <h4>{trad.joinUs.reasonToJoin.second}</h4>
+            <p>{trad.joinUs.reasonToJoin.second}</p>
           </li>
           <li>
-            <h4>{trad.joinUs.reasonToJoin.third}</h4>
+            <p>{trad.joinUs.reasonToJoin.third}</p>
           </li>
           <li>
-            <h4>{trad.joinUs.reasonToJoin.fourth}</h4>
+            <p>{trad.joinUs.reasonToJoin.fourth}</p>
           </li>
           <li>
-            <h4>{trad.joinUs.reasonToJoin.fifth}</h4>
+            <p>{trad.joinUs.reasonToJoin.fifth}</p>
           </li>
         </ol>
       </JoinContainer>

@@ -33,7 +33,7 @@ const Head = ({ title, url, lng }) => {
       <link rel="canonical" href={`${data.site.siteMetadata.siteUrl}${url}`} />
       <meta
         name="keywords"
-        content="velo longchamp, vélo longchamp, bike longchamp, bike paris, velo paris, hippodrome longchamp, association longchamp, vélo paris, anneau longchamp, cyclist, cycling paris"
+        content="velo longchamp, vélo longchamp, bike longchamp, bike paris, velo paris, vélo, bike, longchamp, association longchamp, vélo paris, anneau longchamp, cyclistes, cycling paris"
       />
       <meta
         name="description"

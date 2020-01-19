@@ -41,7 +41,7 @@ export const JoinContainer = styled.article`
     align-items: center;
     margin: ${({ theme }) => theme.spacing.s} 0;
     width: 100%;
-    h4 {
+    p {
       line-height: 20px;
       color: ${({ theme }) => theme.colors.brandSecondary};
       font-size: ${({ theme }) => theme.fonts.large};
