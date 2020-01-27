@@ -70,7 +70,9 @@ const CookieManager = ({ lng }) => {
       <p>{trad.message}</p>
       <div>
         <button onClick={handleClick}>{trad.ok}</button>
-        <Link to="/legal">{trad.learnMore}</Link>
+        <Link title="Legal" to="/legal">
+          {trad.learnMore}
+        </Link>
       </div>
     </CookieContainer>
   )

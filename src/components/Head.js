@@ -10,6 +10,7 @@ const Head = ({ title, url, lng }) => {
           title
           author
           siteUrl
+          description
         }
       }
     }
@@ -22,14 +23,10 @@ const Head = ({ title, url, lng }) => {
           ? `${title} | ${data.site.siteMetadata.title}`
           : data.site.siteMetadata.title}
       </title>
-      <script
-        src="https://kit.fontawesome.com/9a1b48cc39.js"
-        crossorigin="anonymous"
-      ></script>
       <meta charset="UTF-8" />
       <meta name="author" content={data.site.siteMetadata.author} />
       <meta name="copyright" content="© Vélo Longchamp" />
-      <meat name="type" content="website" />
+      <meta name="type" content="website" />
       <link rel="canonical" href={`${data.site.siteMetadata.siteUrl}${url}`} />
       <meta
         name="keywords"
@@ -37,9 +34,53 @@ const Head = ({ title, url, lng }) => {
       />
       <meta
         name="description"
-        content={`L'association Vélo Longchamp regroupe l'ensemble des cyclistes utilisateurs de l'anneau cyclable autour de l'hippodrome de Longchamp${
+        content={`${data.site.siteMetadata.description}${
           title ? ` - ${title}` : ''
         }`}
+      />
+      <meta
+        property="og:title"
+        content={
+          title
+            ? `${title} | ${data.site.siteMetadata.title}`
+            : data.site.siteMetadata.title
+        }
+      />
+      <meta
+        property="og:description"
+        content={`${data.site.siteMetadata.description}${
+          title ? ` - ${title}` : ''
+        }`}
+      />
+      <meta property="og:type" content="website" />
+      <meta
+        property="og:url"
+        content={`${data.site.siteMetadata.siteUrl}${url}`}
+      />
+      <meta
+        property="og:image"
+        content={`${data.site.siteMetadata.siteUrl}/logo.png`}
+      />
+      <meta property="og:site_name" content={data.site.siteMetadata.title} />
+      <meta name="twitter:card" content="summary" />
+      <meta name="twitter:creator" content={data.site.siteMetadata.author} />
+      <meta
+        name="twitter:title"
+        content={
+          title
+            ? `${title} | ${data.site.siteMetadata.title}`
+            : data.site.siteMetadata.title
+        }
+      />
+      <meta
+        name="twitter:description"
+        content={`${data.site.siteMetadata.description}${
+          title ? ` - ${title}` : ''
+        }`}
+      />
+      <meta
+        name="twitter:image"
+        content={`${data.site.siteMetadata.siteUrl}/logo.png`}
       />
       <link
         rel="apple-touch-icon"

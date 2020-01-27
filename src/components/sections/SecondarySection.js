@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { forwardRef } from 'react'
 import styled from 'styled-components'
 
 import Content from '../Content'
@@ -14,13 +14,13 @@ const Title = styled.h2`
   margin: ${({ theme }) => theme.spacing.l} 0;
 `
 
-const SecondarySection = ({ id, title, children, height }) => (
-  <SectionContainer id={id} height={height}>
+const SecondarySection = forwardRef(({ id, title, children, height }, ref) => (
+  <SectionContainer ref={ref} id={id} height={height} className="anchor_tag">
     <Content>
       <Title>{title}</Title>
       {children}
     </Content>
   </SectionContainer>
-)
+))
 
 export default SecondarySection

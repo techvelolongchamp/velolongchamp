@@ -12,6 +12,7 @@ const GlobalStyle = createGlobalStyle`
   }
   body {
     font-family: Helvetica, sans-serif;
+    font-display: swap;
     margin: 0;
   }
   .swiper-container {

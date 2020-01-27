@@ -18,6 +18,7 @@ const Join = ({ trad }) => {
           <ButtonLink
             href="https://www.helloasso.com/associations/velo-longchamp"
             target="_blank"
+            title="HelloAsso"
             rel="noopener noreferrer"
           >
             {trad.joinUs.clickJoin}

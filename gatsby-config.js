@@ -40,6 +40,8 @@ if (process.env.CONTEXT === 'production') {
 module.exports = {
   siteMetadata: {
     title: "Vélo Longchamp | Association cycliste de l'Hippodrome de Longchamp",
+    description:
+      "L'association Vélo Longchamp regroupe l'ensemble des cyclistes utilisateurs de l'anneau cyclable autour de l'hippodrome de Longchamp",
     author: 'Benoit Goupilleau',
     defaultLng: 'fr',
     allowedLng: ['fr', 'en'],

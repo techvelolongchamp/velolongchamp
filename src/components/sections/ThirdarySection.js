@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { forwardRef } from 'react'
 import styled from 'styled-components'
 
 import Content from '../Content'
@@ -19,13 +19,15 @@ const H2Title = styled.h2`
   margin: ${({ theme }) => theme.spacing.l} 0;
 `
 
-const ThirdarySection = ({ id, title, children, height, useH1 = false }) => (
-  <SectionContainer id={id} height={height}>
-    <Content>
-      {useH1 ? <H1Title>{title}</H1Title> : <H2Title>{title}</H2Title>}
-      {children}
-    </Content>
-  </SectionContainer>
+const ThirdarySection = forwardRef(
+  ({ id, title, children, height, useH1 = false }, ref) => (
+    <SectionContainer ref={ref} id={id} height={height} className="anchor_tag">
+      <Content>
+        {useH1 ? <H1Title>{title}</H1Title> : <H2Title>{title}</H2Title>}
+        {children}
+      </Content>
+    </SectionContainer>
+  )
 )
 
 export default ThirdarySection

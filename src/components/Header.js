@@ -54,6 +54,7 @@ const Header = ({ noScroll, handleLink, lng }) => {
             <NavList>
               <li>
                 <ScrollItem
+                  title={trad.presentation}
                   activeStyle={{ color: theme.defaultColor }}
                   partiallyActive={true}
                   to={`/#${handleLink[0]}`}
@@ -63,6 +64,7 @@ const Header = ({ noScroll, handleLink, lng }) => {
               </li>
               <li>
                 <ScrollItem
+                  title={trad.joinUs}
                   activeStyle={{ color: theme.defaultColor }}
                   partiallyActive={true}
                   to={`/#${handleLink[1]}`}
@@ -72,6 +74,7 @@ const Header = ({ noScroll, handleLink, lng }) => {
               </li>
               <li>
                 <ScrollItem
+                  title={trad.meetUs}
                   activeStyle={{ color: theme.defaultColor }}
                   partiallyActive={true}
                   to={`/#${handleLink[2]}`}
@@ -81,6 +84,7 @@ const Header = ({ noScroll, handleLink, lng }) => {
               </li>
               <li>
                 <ScrollItem
+                  title={trad.contactUs}
                   activeStyle={{ color: theme.defaultColor }}
                   partiallyActive={true}
                   to={`/#${handleLink[3]}`}
@@ -108,6 +112,7 @@ const Header = ({ noScroll, handleLink, lng }) => {
           <ButtonLink
             href="https://www.helloasso.com/associations/velo-longchamp"
             target="_blank"
+            title="HelloAsso"
             rel="noopener noreferrer"
           >
             {trad.clickJoin}
@@ -119,6 +124,7 @@ const Header = ({ noScroll, handleLink, lng }) => {
         <MobileNavList>
           <li>
             <MobileScrollItem
+              title={trad.presentation}
               activeStyle={{ color: theme.defaultColor }}
               partiallyActive={true}
               to={`/#${handleLink[0]}`}
@@ -128,6 +134,7 @@ const Header = ({ noScroll, handleLink, lng }) => {
           </li>
           <li>
             <MobileScrollItem
+              title={trad.joinUs}
               activeStyle={{ color: theme.defaultColor }}
               partiallyActive={true}
               to={`/#${handleLink[1]}`}
@@ -137,6 +144,7 @@ const Header = ({ noScroll, handleLink, lng }) => {
           </li>
           <li>
             <MobileScrollItem
+              title={trad.meetUs}
               activeStyle={{ color: theme.defaultColor }}
               partiallyActive={true}
               to={`/#${handleLink[2]}`}
@@ -146,6 +154,7 @@ const Header = ({ noScroll, handleLink, lng }) => {
           </li>
           <li>
             <MobileScrollItem
+              title={trad.contactUs}
               activeStyle={{ color: theme.defaultColor }}
               partiallyActive={true}
               to={`/#${handleLink[3]}`}
