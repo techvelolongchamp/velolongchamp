@@ -80,10 +80,10 @@ const IndexPage = ({ lng }) => {
           <img src="/logo.png" alt="logo" />
           <p>
             <a
-              href="mailto:velo.longchamp@gmail.com?subject=Contact"
+              href="mailto:contact@velo-longchamp.fr?subject=Contact"
               title="Contact"
             >
-              velo.longchamp@gmail.com
+              contact@velo-longchamp.fr
             </a>
           </p>
         </ContactWrapper>

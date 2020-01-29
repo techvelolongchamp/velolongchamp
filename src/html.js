@@ -39,6 +39,14 @@ export default function HTML(props) {
         `,
           }}
         />
+        <script
+          id="mcjs"
+          dangerouslySetInnerHTML={{
+            __html: `
+            !function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/dcae449fb23ea3d337a6c5a26/e83c6a44361c71fc68620e6aa.js");
+        `,
+          }}
+        />
       </body>
     </html>
   )
