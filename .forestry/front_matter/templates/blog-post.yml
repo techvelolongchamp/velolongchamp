@@ -4,14 +4,20 @@ hide_body: false
 fields:
 - type: text
   name: title
-  label: title
+  label: Titre
 - type: datetime
   name: date
-  label: date
-- name: slug
-  type: tag_list
-  default: []
-  label: url
-  description: Url spécifique pour le post
+  label: Date de publication
+  config:
+    required: true
+    display_utc: true
+    date_format: DD/MM/YYYY
+  default: now
+- name: url
+  type: text
+  config:
+    required: true
+  label: Url
+  description: 'En minuscule, sans espace. ex: mon-blog-post'
 pages:
 - src/posts/nodejs.md
