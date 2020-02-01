@@ -2,6 +2,7 @@
 title: Nodejs
 date: 2019-05-04
 slug: []
+url: node
 
 ---
 I started to learn Node.js end of 2016. Since then I have improved and developed various skills thanks to my experiences and side projects.
