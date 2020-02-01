@@ -1,8 +1,9 @@
 ---
-title: "React"
-date: "2019-05-02"
----
+title: React
+date: 2019-05-02T00:00:00+02:00
+url: react
 
+---
 I started to learn React end of 2016. Since then I have improved and developed various skills thanks to my experiences and side projects.
 
 ## Key skills
