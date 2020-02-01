@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import { graphql, useStaticQuery } from 'gatsby'
 import Swiper from 'react-id-swiper'
 
 const Picture = styled.p`
@@ -8,13 +9,25 @@ const Picture = styled.p`
   height: 100%;
 `
 
-const images = [
-  '/pictures/Photo1.webp',
-  '/pictures/Photo2.webp',
-  '/pictures/Photo3.webp',
-]
-
 const Carousel = () => {
+  const { allFile } = useStaticQuery(graphql`
+    query {
+      allFile(filter: { sourceInstanceName: { eq: "pictures" } }) {
+        edges {
+          node {
+            relativePath
+          }
+        }
+      }
+    }
+  `)
+
+  const imagesGql = allFile.edges
+    .map(e => {
+      return `/pictures/${e.node.relativePath}`
+    })
+    .sort((a, b) => (a > b ? 1 : -1))
+
   const params = {
     loop: true,
     navigation: {
@@ -30,7 +43,7 @@ const Carousel = () => {
   }
   return (
     <Swiper {...params}>
-      {images.map(i => (
+      {imagesGql.map(i => (
         <Picture background={i} key={i} />
       ))}
     </Swiper>

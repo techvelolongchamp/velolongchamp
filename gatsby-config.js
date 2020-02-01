@@ -2,6 +2,13 @@ const plugins = [
   'gatsby-plugin-sass',
   'gatsby-plugin-react-helmet',
   {
+    resolve: `gatsby-source-filesystem`,
+    options: {
+      name: `pictures`,
+      path: `${__dirname}/static/pictures/`,
+    },
+  },
+  {
     resolve: 'gatsby-plugin-styled-components',
     options: {
       displayName: true,
