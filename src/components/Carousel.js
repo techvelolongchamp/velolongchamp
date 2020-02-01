@@ -8,7 +8,11 @@ const Picture = styled.p`
   height: 100%;
 `
 
-const images = ['/Photo1.webp', '/Photo2.webp', '/Photo3.webp']
+const images = [
+  '/pictures/Photo1.webp',
+  '/pictures/Photo2.webp',
+  '/pictures/Photo3.webp',
+]
 
 const Carousel = () => {
   const params = {
