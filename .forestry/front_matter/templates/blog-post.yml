@@ -13,3 +13,5 @@ fields:
   default: []
   label: url
   description: Url spécifique pour le post
+pages:
+- src/posts/nodejs.md

@@ -1,8 +1,9 @@
 ---
-title: "Nodejs"
-date: "2019-05-04"
----
+title: Nodejs
+date: 2019-05-04
+slug: []
 
+---
 I started to learn Node.js end of 2016. Since then I have improved and developed various skills thanks to my experiences and side projects.
 
 ## Key skills
@@ -19,4 +20,4 @@ I added a picture just to adjust Gatsby settings.
 
 ![Grass](./grass.png)
 
-*This post is generated from a markdown file*
+_This post is generated from a markdown file_
