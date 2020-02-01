@@ -12,7 +12,7 @@ file_template: ":filename:"
 build:
   preview_env:
   - GATSBY_GRAPHQL_IDE=playground
-  - NODE_ENV=dev
+  - CONTEXT=dev
   preview_output_directory: public
   install_dependencies_command: npm install
   preview_docker_image: node:10
