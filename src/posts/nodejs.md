@@ -1,6 +1,6 @@
 ---
 title: Nodejs
-date: 2019-05-04
+date: 2019-05-04T00:00:00+02:00
 slug: []
 url: node
 
