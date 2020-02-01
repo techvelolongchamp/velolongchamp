@@ -5,11 +5,11 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
-  path: static/pictures
-  label: Pictures
+  path: src/posts
+  label: Posts
   create: documents
   match: "**/*"
-  new_doc_ext: ".webp"
+  new_doc_ext: ''
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
