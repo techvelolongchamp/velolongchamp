@@ -8,3 +8,8 @@ fields:
 - type: datetime
   name: date
   label: date
+- name: slug
+  type: tag_list
+  default: []
+  label: url
+  description: Url spécifique pour le post
