@@ -10,8 +10,8 @@ sections:
   create: documents
   match: "**/*"
   new_doc_ext: '20200129184523'
-upload_dir: static/pictures
-public_path: "/pictures"
+upload_dir: static/media
+public_path: "/media"
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
