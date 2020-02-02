@@ -9,7 +9,7 @@ sections:
   label: Posts
   create: documents
   match: "**/*"
-  new_doc_ext: '20200129184523'
+  new_doc_ext: ".md"
 upload_dir: static/media
 public_path: "/media"
 front_matter_path: ''
