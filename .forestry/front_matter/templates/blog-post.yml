@@ -5,6 +5,8 @@ fields:
 - type: text
   name: title
   label: Titre
+  config:
+    required: true
 - type: datetime
   name: date
   label: Date de publication
