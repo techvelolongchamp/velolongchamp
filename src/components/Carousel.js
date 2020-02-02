@@ -24,7 +24,7 @@ const Carousel = () => {
 
   const imagesGql = allFile.edges
     .map(e => {
-      return `/media/carousel/${e.node.relativePath}`
+      return `/carousel/${e.node.relativePath}`
     })
     .sort((a, b) => (a > b ? 1 : -1))
 

@@ -2,8 +2,8 @@
 title: Nodejs
 date: 2020-02-01T22:00:00.000+00:00
 slug: nodejs
-
 ---
+
 Exemple d'un post
 
 ## Un titre
@@ -16,8 +16,6 @@ Une liste
 2. Deuxième élément
 
 Une image
-
-![Grass](./grass.png)
 
 _Un texte en italic_
 
