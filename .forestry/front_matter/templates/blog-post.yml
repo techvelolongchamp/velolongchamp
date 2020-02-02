@@ -13,7 +13,7 @@ fields:
     display_utc: true
     date_format: DD/MM/YYYY
   default: now
-- name: url
+- name: slug
   type: text
   config:
     required: true
@@ -21,4 +21,3 @@ fields:
   description: 'En minuscule, sans espace. ex: mon-blog-post'
 pages:
 - src/posts/nodejs.md
-- src/posts/react.md
