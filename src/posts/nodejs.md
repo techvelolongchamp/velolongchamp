@@ -1,24 +1,22 @@
 ---
 title: Nodejs
 date: 2020-02-01T23:00:00+01:00
-slug: []
-url: node
-
+slug: nodejs
 ---
-I started to learn Node.js end of 2016. Since then I have improved and developed various skills thanks to my experiences and side projects.
 
-## Key skills
+Exemple d'un post
 
-1. Node.js
-2. Express / Koa
-3. MongoDB
-4. Mongoose
-5. Mocha
-6. Redis
-7. RabbitMQ
+## Un titre
 
-I added a picture just to adjust Gatsby settings.
+Du contenu, Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+Une liste
+
+1. Un élément
+2. Deuxième élément
+
+Une image
 
 ![Grass](./grass.png)
 
-_This post is generated from a markdown file_
+_Un text en italic_

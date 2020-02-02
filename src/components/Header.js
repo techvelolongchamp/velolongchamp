@@ -11,6 +11,7 @@ import {
   TitleLink,
   Logo,
   NavList,
+  NavItem,
   ScrollItem,
   RightContainer,
   ButtonLink,
@@ -96,19 +97,19 @@ const Header = ({ noScroll, handleLink, lng }) => {
           )}
         </LeftContainer>
         <RightContainer>
-          {/* <nav>
-          <NavList>
-            <li>
-              <NavItem
-                activeStyle={{ color: theme.defaultColor }}
-                partiallyActive={true}
-                to="/blog"
-              >
-                Blog
-              </NavItem>
-            </li>
-          </NavList>
-        </nav> */}
+          <nav>
+            <NavList>
+              <li>
+                <NavItem
+                  activeStyle={{ color: theme.defaultColor }}
+                  partiallyActive={true}
+                  to="/blog"
+                >
+                  Blog
+                </NavItem>
+              </li>
+            </NavList>
+          </nav>
           <ButtonLink
             href="https://www.helloasso.com/associations/velo-longchamp"
             target="_blank"
