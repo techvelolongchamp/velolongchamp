@@ -20,5 +20,4 @@ fields:
   label: Url
   description: 'En minuscule, sans espace. ex: mon-blog-post'
 pages:
-- src/posts/nodejs.md
-- src/posts/titre-du-fichier-2.20200129184523
+- src/posts/test.md
