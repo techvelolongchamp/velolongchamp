@@ -17,7 +17,6 @@ use_front_matter_path: false
 file_template: ":filename:"
 build:
   preview_env:
-  - GATSBY_GRAPHQL_IDE=playground
   - CONTEXT=dev
   preview_output_directory: public
   install_dependencies_command: npm install
