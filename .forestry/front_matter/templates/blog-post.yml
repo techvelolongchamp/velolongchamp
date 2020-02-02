@@ -19,5 +19,3 @@ fields:
     required: true
   label: Url
   description: 'En minuscule, sans espace. ex: mon-blog-post'
-pages:
-- src/posts/test.md
