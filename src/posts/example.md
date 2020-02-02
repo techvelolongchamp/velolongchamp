@@ -1,10 +1,10 @@
 ---
 title: Example
 date: 2020-02-01T22:00:00.000+00:00
-slug: article
+slug: mon-article
 
 ---
-Exemple d'un post
+Exemple d'un post. Ce post sera accessible depuis l'url velo-longchamp.fr/blog/mon-article
 
 ## Un titre
 
