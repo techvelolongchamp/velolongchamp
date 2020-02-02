@@ -1,7 +1,7 @@
 ---
-title: Nodejs
+title: Titre du fichier
 date: 2020-02-01T22:00:00.000+00:00
-slug: nodejs
+slug: article
 
 ---
 Exemple d'un post
