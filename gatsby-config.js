@@ -5,7 +5,7 @@ const plugins = [
     resolve: `gatsby-source-filesystem`,
     options: {
       name: `pictures`,
-      path: `${__dirname}/static/pictures/`,
+      path: `${__dirname}/static/media/carousel/`,
     },
   },
   {
