@@ -17,7 +17,7 @@ Une liste
 
 Une image
 
-![](/media/grass.png)
+![Photo d'herbe](/media/grass.png "Grass")
 
 _Un texte en italic_
 
