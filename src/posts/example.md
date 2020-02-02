@@ -1,5 +1,5 @@
 ---
-title: Titre du fichier
+title: Example
 date: 2020-02-01T22:00:00.000+00:00
 slug: article
 
