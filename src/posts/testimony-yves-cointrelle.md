@@ -35,4 +35,4 @@ _L’histoire se termine bien, même si j’ai quelques séquelles qui ne manque
 _Dernier point. Il y a quelques mois, lors d’une grève de transport, alors que je me rendais à mon bureau à vélo. J’ai pris l’anneau et me suis à nouveau trouvé confronté à la même situation. Une camionnette de livreur sans doute excédé par les bouchons sur le quai de seine, a délibérément, en pleine conscience des interdictions, pris l’anneau à contresens, au mépris de tous les dangers et panneaux. J’ai tenté de le prendre en chasse mais il fut facile au véhicule de me larguer. J’ai bien cru que j’allais revivre en tant que spectateur cette fois la même mésaventure lorsque je l’ai vu s’engager à grande vitesse et sans aucune précaution dans le même virage ou j’avais été percuté. L’histoire ne s’est pas répétée mais un cycliste est apparu 2 secondes après le passage du véhicule. A quand le premier mort ? »_
 
 **Yves Cointrelle**  
-Contact : 3 rue Leroy 92150 Suresnes,  0616429597
+Contact : [contact@velo-longchamp.fr](contact@velo-longchamp.fr "contact@velo-longchamp.fr")
