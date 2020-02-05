@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link, animateScroll as scroll } from 'react-scroll'
 
 import { useMatches } from '../customHooks/useMatches'
 import LanguageSelect from './LanguageSelect'
@@ -8,6 +9,7 @@ import theme from '../theme'
 import {
   HeaderWrapper,
   LeftContainer,
+  ScrollTitle,
   TitleLink,
   Logo,
   NavList,
@@ -39,17 +41,25 @@ const Headeri18n = {
 
 const Header = ({ noScroll, handleLink, lng }) => {
   const isMobile = useMatches('(max-width: 640px)')
+
+  const scrollTop = () => {
+    scroll.scrollToTop()
+  }
+
   const trad = Headeri18n[lng]
   return (
     <HeaderWrapper id="header">
       <Wrapper>
         <LeftContainer>
-          <TitleLink
-            activeStyle={{ color: theme.defaultColor }}
-            to={handleLink && handleLink.length > 0 ? '/#' : '/'}
-          >
-            <Logo src="/logo.png" alt="logo" />
-          </TitleLink>
+          {noScroll ? (
+            <TitleLink activeStyle={{ color: theme.defaultColor }} to="/">
+              <Logo src="/logo.png" alt="logo" />
+            </TitleLink>
+          ) : (
+            <ScrollTitle onClick={scrollTop}>
+              <Logo src="/logo.png" alt="logo" />
+            </ScrollTitle>
+          )}
 
           {!isMobile && !noScroll && (
             <NavList>
@@ -57,8 +67,10 @@ const Header = ({ noScroll, handleLink, lng }) => {
                 <ScrollItem
                   title={trad.presentation}
                   activeStyle={{ color: theme.defaultColor }}
-                  partiallyActive={true}
-                  to={`/#${handleLink[0]}`}
+                  smooth
+                  spy
+                  offset={-theme.navbarHeightNb}
+                  to={handleLink[0]}
                 >
                   {trad.presentation}
                 </ScrollItem>
@@ -67,8 +79,10 @@ const Header = ({ noScroll, handleLink, lng }) => {
                 <ScrollItem
                   title={trad.joinUs}
                   activeStyle={{ color: theme.defaultColor }}
-                  partiallyActive={true}
-                  to={`/#${handleLink[1]}`}
+                  smooth
+                  spy
+                  offset={-theme.navbarHeightNb}
+                  to={handleLink[1]}
                 >
                   {trad.joinUs}
                 </ScrollItem>
@@ -77,8 +91,10 @@ const Header = ({ noScroll, handleLink, lng }) => {
                 <ScrollItem
                   title={trad.meetUs}
                   activeStyle={{ color: theme.defaultColor }}
-                  partiallyActive={true}
-                  to={`/#${handleLink[2]}`}
+                  smooth
+                  spy
+                  offset={-theme.navbarHeightNb}
+                  to={handleLink[2]}
                 >
                   {trad.meetUs}
                 </ScrollItem>
@@ -87,8 +103,10 @@ const Header = ({ noScroll, handleLink, lng }) => {
                 <ScrollItem
                   title={trad.contactUs}
                   activeStyle={{ color: theme.defaultColor }}
-                  partiallyActive={true}
-                  to={`/#${handleLink[3]}`}
+                  smooth
+                  spy
+                  offset={-theme.navbarHeightNb}
+                  to={handleLink[3]}
                 >
                   {trad.contactUs}
                 </ScrollItem>
@@ -122,8 +140,10 @@ const Header = ({ noScroll, handleLink, lng }) => {
             <MobileScrollItem
               title={trad.presentation}
               activeStyle={{ color: theme.defaultColor }}
-              partiallyActive={true}
-              to={`/#${handleLink[0]}`}
+              smooth
+              spy
+              offset={-theme.mobielNavbarHeightNb}
+              to={handleLink[0]}
             >
               {trad.presentation}
             </MobileScrollItem>
@@ -132,8 +152,10 @@ const Header = ({ noScroll, handleLink, lng }) => {
             <MobileScrollItem
               title={trad.joinUs}
               activeStyle={{ color: theme.defaultColor }}
-              partiallyActive={true}
-              to={`/#${handleLink[1]}`}
+              smooth
+              spy
+              offset={-theme.mobielNavbarHeightNb}
+              to={handleLink[1]}
             >
               {trad.joinUs}
             </MobileScrollItem>
@@ -142,8 +164,10 @@ const Header = ({ noScroll, handleLink, lng }) => {
             <MobileScrollItem
               title={trad.meetUs}
               activeStyle={{ color: theme.defaultColor }}
-              partiallyActive={true}
-              to={`/#${handleLink[2]}`}
+              smooth
+              spy
+              offset={-theme.mobielNavbarHeightNb}
+              to={handleLink[2]}
             >
               {trad.meetUs}
             </MobileScrollItem>
@@ -152,8 +176,10 @@ const Header = ({ noScroll, handleLink, lng }) => {
             <MobileScrollItem
               title={trad.contactUs}
               activeStyle={{ color: theme.defaultColor }}
-              partiallyActive={true}
-              to={`/#${handleLink[3]}`}
+              smooth
+              spy
+              offset={-theme.mobielNavbarHeightNb}
+              to={handleLink[3]}
             >
               {trad.contactUs}
             </MobileScrollItem>

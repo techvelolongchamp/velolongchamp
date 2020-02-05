@@ -23,12 +23,6 @@ const Content = styled.main`
 `
 
 const Layout = ({ children, lng }) => {
-  if (typeof window !== 'undefined') {
-    require('smooth-scroll')('a[href*="#"]', {
-      header: 'header',
-    })
-  }
-
   return (
     <ThemeProvider theme={theme}>
       <Container>

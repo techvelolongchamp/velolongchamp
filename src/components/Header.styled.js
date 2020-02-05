@@ -1,6 +1,6 @@
 import { Link } from 'gatsby'
 import styled from 'styled-components'
-import { OutboundLink } from 'gatsby-plugin-google-analytics'
+import { Link as ScrollLink } from 'react-scroll'
 
 export const HeaderWrapper = styled.header`
   position: fixed;
@@ -34,6 +34,12 @@ export const TitleLink = styled(Link)`
   align-items: center;
 `
 
+export const ScrollTitle = styled(ScrollLink)`
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+`
+
 export const NavList = styled.ul`
   display: flex;
   list-style-type: none;
@@ -46,26 +52,37 @@ export const MobileNavList = styled(NavList)`
 `
 
 export const NavItem = styled(Link)`
-  color: ${({ theme }) => theme.colors.lightGrey};
-  font-size: ${({ theme }) => theme.fonts.large};
-  padding-left: ${({ theme }) => theme.spacing.l};
-  border-left: 1px solid ${({ theme }) => theme.colors.brandSecondary};
-  margin: 0 ${({ theme }) => theme.spacing.l};
-  text-decoration: none;
-  height: 30px;
   align-items: center;
+  border-left: 1px solid ${({ theme }) => theme.colors.brandSecondary};
+  color: ${({ theme }) => theme.colors.lightGrey};
   display: flex;
+  font-size: ${({ theme }) => theme.fonts.large};
+  height: 30px;
+  margin: 0 ${({ theme }) => theme.spacing.l};
+  padding-left: ${({ theme }) => theme.spacing.l};
+  text-decoration: none;
 
   &:hover {
     color: ${({ theme }) => theme.colors.grey};
   }
 `
 
-export const ScrollItem = styled(NavItem)`
-  font-size: ${({ theme }) => theme.fonts.medium};
+export const ScrollItem = styled(ScrollLink)`
+  align-items: center;
+  border-left: 1px solid ${({ theme }) => theme.colors.brandSecondary};
   border: none;
+  color: ${({ theme }) => theme.colors.lightGrey};
+  cursor: pointer;
+  display: flex;
+  font-size: ${({ theme }) => theme.fonts.medium};
+  height: 30px;
+  smargin: 0 ${({ theme }) => theme.spacing.m};
   padding: 0;
-  margin: 0 ${({ theme }) => theme.spacing.m};
+  text-decoration: none;
+
+  &:hover {
+    color: ${({ theme }) => theme.colors.grey};
+  }
 `
 
 export const MobileScrollItem = styled(ScrollItem)`
