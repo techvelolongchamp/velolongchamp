@@ -1,6 +1,7 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import styled from 'styled-components'
 import { graphql } from 'gatsby'
+import { useTranslation } from 'react-i18next'
 
 import Layout from '../components/Layout'
 import Header from '../components/Header'
@@ -53,17 +54,41 @@ export const query = graphql`
       }
       html
     }
+    site {
+      siteMetadata {
+        defaultLng
+        allowedLng
+      }
+    }
   }
 `
 
-const Blog = ({ data: { markdownRemark } }) => {
+const Blog = ({
+  data: {
+    markdownRemark,
+    site: {
+      siteMetadata: { defaultLng, allowedLng },
+    },
+  },
+}) => {
+  const { i18n } = useTranslation()
+
+  const initLng = allowedLng.includes(i18n.language)
+    ? i18n.language
+    : defaultLng
+  const [lng, setLng] = useState(initLng)
+
+  useEffect(() => {
+    const lng = i18n.language.slice(0, 2) || 'fr'
+    setLng(lng)
+  }, [i18n.language])
   return (
-    <Layout lng="fr">
-      <Header noScroll lng="fr" />
+    <Layout lng={lng}>
+      <Header noScroll lng={lng} />
       <Head
         title={`Blog - ${markdownRemark.frontmatter.title}`}
         url={markdownRemark.frontmatter.slug}
-        lng="fr"
+        lng={lng}
       />
       <ThirdarySection title={markdownRemark.frontmatter.title} useH1 hideH1>
         <PublishDate>{markdownRemark.frontmatter.date}</PublishDate>
