@@ -2,15 +2,15 @@
 title: Témoignage du "Miraculé" de Longchamp
 date: 2020-02-02T22:00:00.000+00:00
 slug: temoignage-yves-cointrelle
-
 ---
+
 ## Témoignage du « Miraculé de Longchamp »
 
 Yves a été surnommé le « Miraculé » par les médecins après un accident très violent sur l’anneau de Longchamp. Son témoignage, qui doit être lu jusqu’au bout, est d’une rare intensité et éclaire mieux que tous nos discours sur l’importance de mieux sécuriser l’anneau.
 
 Nous le remercions vivement d’avoir bien voulu partager son histoire.
 
-***
+---
 
 _« Le 1er novembre 2018, je me suis rendu à l’anneau de Longchamp, profitant d’un jour férié et d’une météo clémente pour un entrainement de vélo de route. Une heure après avoir rejoint l’anneau, vers 10h, au niveau du virage serré au bout de la route dite de Sèvres à Neuilly, au point le plus rapide du parcours, je me suis retrouvé face à un véhicule remontant l’anneau sur la piste cyclable à contresens. Ma vitesse était de l’ordre de 40Km/h et celle du véhicule en face entre 5 et 10Km/h. Je n’ai pas eu le temps d’anticiper et ai percuté le véhicule de plein fouet._
 
@@ -36,4 +36,4 @@ _Dernier point. Il y a quelques mois, lors d’une grève de transport, alors qu
 
 ##### **Yves Cointrelle**
 
-Contact : \[contact@velo-longchamp.fr\](mailto:contact@velo-longchamp.fr?subject=\[Blog\])
+Contact : [contact@velo-longchamp.fr](mailto:contact@velo-longchamp.fr?subject=[Blog])
