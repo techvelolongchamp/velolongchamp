@@ -36,4 +36,4 @@ _Dernier point. Il y a quelques mois, lors d’une grève de transport, alors qu
 
 ##### **Yves Cointrelle**
 
-Contact : [contact@velo-longchamp.fr](contact@velo-longchamp.fr "contact@velo-longchamp.fr")
+Contact : \[contact@velo-longchamp.fr\](mailto:contact@velo-longchamp.fr?subject=\[Blog\])
