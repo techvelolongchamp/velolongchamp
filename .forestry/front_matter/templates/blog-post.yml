@@ -22,4 +22,4 @@ fields:
   label: Url
   description: 'En minuscule, sans espace, pas d''accent. ex: mon-blog-post'
 pages:
-- src/posts/example.md
+- src/posts/testimony-yves-cointrelle.md
