@@ -23,26 +23,31 @@ const Post = styled.li`
   margin: 20px 0;
 
   a {
-    background: #f4f4f4;
-    color: #000000;
+    background: ${({ theme }) => theme.colors.offWhite};
+    color: ${({ theme }) => theme.colors.defaultColor};
     display: block;
     padding: 20px;
     text-decoration: none;
+    border-radius: 5px;
   }
 
   a:hover {
-    background: #e4e4e4;
+    background: ${({ theme }) => theme.colors.darkerOffWhite};
   }
 
   h2 {
-    margin-bottom: 0;
+    font-size: ${({ theme }) => theme.fonts.large};
   }
+`
 
-  p {
-    color: #777777;
-    font-size: 12px;
-    font-style: italic;
-  }
+const PublishDate = styled.p`
+  margin: ${({ theme }) => theme.spacing.xs} 0;
+`
+
+const Extract = styled.p`
+  color: ${({ theme }) => theme.colors.grey};
+  font-size: ${({ theme }) => theme.fonts.medium};
+  font-style: italic;
 `
 
 const BlogPage = ({ lng }) => {
@@ -77,8 +82,8 @@ const BlogPage = ({ lng }) => {
             <Post key={post.node.frontmatter.slug}>
               <Link to={`/blog/${post.node.frontmatter.slug}`}>
                 <h2>{post.node.frontmatter.title}</h2>
-                <p>{post.node.frontmatter.date}</p>
-                <p>{post.node.excerpt}</p>
+                <PublishDate>{post.node.frontmatter.date}</PublishDate>
+                <Extract>{post.node.excerpt}</Extract>
               </Link>
             </Post>
           ))}

@@ -13,6 +13,7 @@ const theme = {
     lightGrey: '#999999',
     white: '#fff',
     offWhite: '#f7f7F7',
+    darkerOffWhite: '#ededed'
   },
   fonts: {
     xxlarge: '60px',
