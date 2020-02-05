@@ -110,12 +110,7 @@ const Header = ({ noScroll, handleLink, lng }) => {
               </li>
             </NavList>
           </nav>
-          <ButtonLink
-            href="https://www.helloasso.com/associations/velo-longchamp"
-            target="_blank"
-            title="HelloAsso"
-            rel="noopener noreferrer"
-          >
+          <ButtonLink to="/join" title="Join">
             {trad.clickJoin}
           </ButtonLink>
           <LanguageSelect />

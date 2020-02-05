@@ -71,7 +71,6 @@ const BlogPage = ({ lng }) => {
       <Header noScroll lng={lng} />
       <Head title="Blog" url="/blog" lng={lng} />
       <ThirdarySection title="Blog" useH1>
-        <SubTitle>List des articles publiés :</SubTitle>
         <iframe
           id="haWidget"
           allowtransparency="true"

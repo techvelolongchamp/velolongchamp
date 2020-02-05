@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { Link } from 'gatsby'
 import { OutboundLink } from 'gatsby-plugin-google-analytics'
 
 export const ButtonContainer = styled.div`
@@ -6,7 +7,7 @@ export const ButtonContainer = styled.div`
   margin: ${({ theme }) => theme.spacing.l};
 `
 
-export const ButtonLink = styled(OutboundLink)`
+export const ButtonLink = styled(Link)`
   margin: ${({ theme }) => theme.spacing.l} ${({ theme }) => theme.spacing.s};
   padding: ${({ theme }) => theme.spacing.s};
   font-size: ${({ theme }) => theme.fonts.large};

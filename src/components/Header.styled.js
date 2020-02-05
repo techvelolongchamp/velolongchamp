@@ -74,7 +74,7 @@ export const MobileScrollItem = styled(ScrollItem)`
   padding: 0 ${({ theme }) => theme.spacing.xs};
 `
 
-export const ButtonLink = styled(OutboundLink)`
+export const ButtonLink = styled(Link)`
   padding: ${({ theme }) => theme.spacing.s};
   font-size: ${({ theme }) => theme.fonts.large};
   color: ${({ theme }) => theme.colors.white};

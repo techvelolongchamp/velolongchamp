@@ -15,12 +15,7 @@ const Join = ({ trad }) => {
       <JoinContainer>
         <p>{trad.joinUs.joinMessage}</p>
         <ButtonContainer>
-          <ButtonLink
-            href="https://www.helloasso.com/associations/velo-longchamp"
-            target="_blank"
-            title="HelloAsso"
-            rel="noopener noreferrer"
-          >
+          <ButtonLink to="/join" title="HelloAsso">
             {trad.joinUs.clickJoin}
           </ButtonLink>
         </ButtonContainer>
