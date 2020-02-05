@@ -21,24 +21,7 @@ export default function HTML(props) {
           dangerouslySetInnerHTML={{ __html: props.body }}
         />
         {props.postBodyComponents}
-        <script
-          defer
-          dangerouslySetInnerHTML={{
-            __html: `
-            function loadVideo() {
-              setTimeout(function() {
-                const vidDefer = document.getElementsByTagName('iframe');
-                vidDefer[0].setAttribute('src',vidDefer[0].getAttribute('data-src'));
-              }, 500)
-            }
-            document.addEventListener('readystatechange', () => {
-              if (document.readyState === 'complete') {
-                loadVideo()
-              }
-            });
-        `,
-          }}
-        />
+ 
         <script
           id="mcjs"
           dangerouslySetInnerHTML={{

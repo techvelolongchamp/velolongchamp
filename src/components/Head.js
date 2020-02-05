@@ -21,7 +21,7 @@ const Head = ({ title, url, lng }) => {
       <title>
         {title
           ? `${title} | ${data.site.siteMetadata.title}`
-          : data.site.siteMetadata.title}
+          : `Vélo Longchamp | ${data.site.siteMetadata.title}`}
       </title>
       <meta charset="UTF-8" />
       <meta name="author" content={data.site.siteMetadata.author} />

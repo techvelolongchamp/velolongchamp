@@ -67,7 +67,7 @@ const Presentation = ({ trad }) => {
       <h3>{trad.presentation.video.title}</h3>
       <VideoWrapper>
         <iframe
-          data-src="https://www.youtube.com/embed/a6AOYfE7AeM"
+          src="https://www.youtube.com/embed/a6AOYfE7AeM"
           frameBorder="0"
           title={trad.presentation.video.iframeTitle}
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
