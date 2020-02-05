@@ -76,7 +76,7 @@ export const ScrollItem = styled(ScrollLink)`
   display: flex;
   font-size: ${({ theme }) => theme.fonts.medium};
   height: 30px;
-  smargin: 0 ${({ theme }) => theme.spacing.m};
+  margin: 0 ${({ theme }) => theme.spacing.m};
   padding: 0;
   text-decoration: none;
 
