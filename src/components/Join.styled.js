@@ -1,6 +1,5 @@
 import styled from 'styled-components'
 import { Link } from 'gatsby'
-import { OutboundLink } from 'gatsby-plugin-google-analytics'
 
 export const ButtonContainer = styled.div`
   text-align: center;
