@@ -1,9 +1,9 @@
 ---
 title: Témoignage du "Miraculé" de Longchamp
-date: 2020-02-02T22:00:00.000+00:00
+date: 2020-02-04T23:00:00+01:00
 slug: temoignage-yves-cointrelle
----
 
+---
 ## Témoignage du « Miraculé de Longchamp »
 
 Yves a été surnommé le « Miraculé » par les médecins après un accident très violent sur l’anneau de Longchamp. Son témoignage, qui doit être lu jusqu’au bout, est d’une rare intensité et éclaire mieux que tous nos discours sur l’importance de mieux sécuriser l’anneau.
