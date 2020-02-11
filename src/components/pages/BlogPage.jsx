@@ -76,7 +76,7 @@ const BlogPage = ({ lng }) => {
       <Header noScroll lng={lng} />
       <Head title="Blog" url="/blog" lng={lng} />
       <ThirdarySection title="Blog" useH1>
-        <SubTitle>List des articles publiés :</SubTitle>
+        <SubTitle>Liste des articles publiés :</SubTitle>
         <Posts>
           {data.allMarkdownRemark.edges.map(post => (
             <Post key={post.node.frontmatter.slug}>

@@ -40,7 +40,9 @@ const Footer = ({ lng }) => {
       </p>
       <p>-</p>
       <p>
-        <Link to="/legal">{trad.legal}</Link>
+        <Link title="Legal" to="/legal">
+          {trad.legal}
+        </Link>
       </p>
     </Wrapper>
   )

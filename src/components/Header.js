@@ -52,11 +52,15 @@ const Header = ({ noScroll, handleLink, lng }) => {
       <Wrapper>
         <LeftContainer>
           {noScroll ? (
-            <TitleLink activeStyle={{ color: theme.defaultColor }} to="/">
+            <TitleLink
+              title="Home"
+              activeStyle={{ color: theme.defaultColor }}
+              to="/"
+            >
               <Logo src="/logo.png" alt="logo" />
             </TitleLink>
           ) : (
-            <ScrollTitle onClick={scrollTop}>
+            <ScrollTitle onClick={scrollTop} title="Home">
               <Logo src="/logo.png" alt="logo" />
             </ScrollTitle>
           )}
