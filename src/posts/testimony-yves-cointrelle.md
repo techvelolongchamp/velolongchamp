@@ -1,7 +1,8 @@
 ---
 title: Témoignage du "Miraculé" de Longchamp
-date: 2020-02-04T23:00:00+01:00
+date: 2020-02-04T22:00:00.000+00:00
 slug: temoignage-yves-cointrelle
+shouldBePublished: true
 
 ---
 ## Témoignage du « Miraculé de Longchamp »
