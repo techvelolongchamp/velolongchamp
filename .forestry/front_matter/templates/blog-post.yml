@@ -24,8 +24,8 @@ fields:
 - name: shouldBePublished
   type: boolean
   label: Publier
-  description: Si activer, le post sera publier sur le site (à activer uniquement
-    quand le post est prêt)
+  description: Si activé, le post sera publié sur le site (à activer uniquement quand
+    le post est prêt)
   default: false
 pages:
 - src/posts/testimony-yves-cointrelle.md
