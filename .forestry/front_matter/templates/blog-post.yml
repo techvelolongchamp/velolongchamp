@@ -21,5 +21,11 @@ fields:
     required: true
   label: Url
   description: 'En minuscule, sans espace, pas d''accent. ex: mon-blog-post'
+- name: shouldBePublished
+  type: boolean
+  label: Publier
+  description: Si activer, le post sera publier sur le site (à activer uniquement
+    quand le post est prêt)
+  default: false
 pages:
 - src/posts/testimony-yves-cointrelle.md
