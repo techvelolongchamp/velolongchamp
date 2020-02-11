@@ -54,6 +54,7 @@ const BlogPage = ({ lng }) => {
   const data = useStaticQuery(graphql`
     query {
       allMarkdownRemark(
+        filter: { frontmatter: { shouldBePublished: { eq: true } } }
         sort: { fields: frontmatter___date, order: DESC }
         limit: 10
       ) {
