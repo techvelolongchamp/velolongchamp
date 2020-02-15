@@ -4,6 +4,10 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: document
+  path: src/carousel
+  label: Carousel
+  match: "**/*"
 - type: directory
   path: src/posts
   label: Posts
