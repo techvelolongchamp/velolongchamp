@@ -4,15 +4,15 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
-- type: document
-  path: src/carousel/file.json
-  label: Carousel
 - type: directory
   path: src/posts
   label: Posts
   create: documents
   match: "**/*"
   new_doc_ext: md
+- type: document
+  path: src/carousel/file.json
+  label: Carousel
 upload_dir: static/media
 public_path: "/media"
 front_matter_path: ''
