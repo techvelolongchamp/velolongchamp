@@ -11,7 +11,7 @@ sections:
   match: "**/*"
   new_doc_ext: md
 - type: document
-  path: src/carousel/file.json
+  path: src/carousel/carousel.json
   label: Carousel
 upload_dir: static/media
 public_path: "/media"
