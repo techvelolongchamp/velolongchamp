@@ -5,7 +5,7 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: document
-  path: src/carousel/*
+  path: src/carousel/file.json
   label: Carousel
 - type: directory
   path: src/posts
