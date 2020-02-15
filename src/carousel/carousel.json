@@ -1,7 +1,3 @@
 {
-  "list": [
-    "Picture1.jpg",
-    "Picture2.jpg",
-    "Picture3.jpg"
-  ]
+  "list": ["Photo1.jpg", "Photo2.jpg", "Photo3.jpg"]
 }

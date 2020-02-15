@@ -3,6 +3,8 @@ import styled from 'styled-components'
 import { graphql, useStaticQuery } from 'gatsby'
 import Swiper from 'react-id-swiper'
 
+import carousel from '../carousel/carousel.json'
+
 const Picture = styled.p`
   background-image: url(${({ background }) => background});
   background-size: cover;
@@ -23,8 +25,9 @@ const Carousel = () => {
   `)
 
   const imagesGql = allFile.edges
+    .filter(i => carousel.list.includes(i.node.relativePath))
     .map(e => {
-      return `/carousel/${e.node.relativePath}`
+      return `/media/${e.node.relativePath}`
     })
     .sort((a, b) => (a > b ? 1 : -1))
 
