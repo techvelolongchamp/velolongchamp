@@ -1,4 +1,13 @@
 ---
 label: Carousel
 hide_body: true
-fields: []
+fields:
+- name: liste_des_photos
+  type: list
+  config:
+    use_select: false
+    min: '3'
+    max: 
+    source:
+      type: simple
+  label: Liste des photos
