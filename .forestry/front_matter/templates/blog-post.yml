@@ -28,4 +28,5 @@ fields:
     le post est prêt)
   default: false
 pages:
+- src/posts/histoire-de-l-anneau-cyclable-de-longchamp-avant-les-cyclistes-1-3.md
 - src/posts/testimony-yves-cointrelle.md
