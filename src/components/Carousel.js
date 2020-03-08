@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import { graphql, useStaticQuery } from 'gatsby'
 import Swiper from 'react-id-swiper'
 
-import carousel from '../carousel/carousel.json'
+import carousel from '../json/carousel.json'
 
 const Picture = styled.p`
   background-image: url(${({ background }) => background});
