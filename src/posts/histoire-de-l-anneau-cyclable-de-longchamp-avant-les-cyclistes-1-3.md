@@ -5,9 +5,11 @@ slug: histoirelongchamp-avantlescyclistes
 shouldBePublished: false
 
 ---
-_Si vous croisez des cyclistes sportifs dans l'ouest de Paris, il est probable qu’ils aillent ou reviennent de Longchamp où se cache au milieu du bois de Boulogne une route circulaire de presque 4km strictement reservée aux cyclistes._
+_Si vous croisez des cyclistes sportifs dans l'ouest de Paris, il est probable qu’ils aillent ou reviennent de Longchamp où se trouve au milieu du bois de Boulogne une route circulaire de presque 4km strictement reservée aux cyclistes._
 
-_Question : depuis combien de temps les cyclistes tournent-ils à Longchamp? Les jeunes y ont vu Contador, les anciens Anquetil et les très anciens Bobet. Mais qui sait que des des courses cyclistes se disputaient sur cette même boucle il y a plus de 140 ans?_
+_Là, des cyclistes de tout poil tournent en rond inlassablement. Mais depuis combien de temps s'il vous plait?_
+
+_Les jeunes y ont vu Contador, les anciens Anquetil et les très anciens Bobet. Mais qui sait que les cyclistes tournent à Longchamp depuis bien plus longtemps? depuis presque 150 ans, c'est-à-dire toujours dans l'histoire du vélo._
 
 ***
 
@@ -31,7 +33,7 @@ Longchamp est une plaine maraichère quand elle est rattachée au bois de Boulog
 
 _Illustration 2 : Extrait d’une carte du bois de Boulogne de 1856. En jaune, nous indiquons l’anneau cyclable actuel (source : Ville de Paris / BHVP)_
 
-# 
+# ![](/media/Longchamp 1856.png)![](/media/Longchamp 2014.png)
 
 ***
 
