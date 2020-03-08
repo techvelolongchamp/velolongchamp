@@ -2,9 +2,11 @@
 date: 2020-03-07T13:50:32+01:00
 title: Histoire de l'anneau cyclable de Longchamp - Avant les cyclistes- 1/3
 slug: histoirelongchamp-avantlescyclistes
-shouldBePublished: false
+shouldBePublished: true
 
 ---
+## Histoire de l'anneau cyclable de Longchamp - Avant les cyclistes - 1/3
+
 _Si vous croisez des cyclistes sportifs dans l'ouest de Paris, il est probable qu’ils aillent ou reviennent de Longchamp où se trouve au milieu du bois de Boulogne une route circulaire de presque 4km strictement reservée aux cyclistes._
 
 _Là, des cyclistes de tout poil tournent en rond inlassablement. Mais depuis combien de temps s'il vous plait?_
@@ -21,9 +23,9 @@ Le bois de Boulogne est le dernier vestige d’une grande forêt de chênes et t
 
 Surtout, Haussmann décide de prolonger le bois de Boulogne jusqu’à la Seine pour donner un peu de perspective à l'ensemble. Coincé entre le fleuve et la forêt, Lonchamp, le long champ (pas de "S"), se retrouve rattaché au bois de Boulogne. Un siècle plus tard, en 1957, le bois de Boulogne est déclaré site classé.
 
-> _Illustration 1 : Longchamp en 1740 et 2019 (Source : IGN ; Google Map)_![](/media/Longchamp Cass.png)
->
-> ![](/media/Longchamp Goo.png)
+_Illustration 1 : Longchamp en 1740 et 2019 (Source : IGN ; Google Map)_
+
+![](/media/Longchamp Cass.png "Bois de Boulogne, 1740")![](/media/Longchamp Goo.png "Bois de Boulogne, 2019")
 
 ##### Longchamp, lieu de pèlerinage pour dévots, fêtards, turfistes et cyclistes
 
@@ -35,9 +37,11 @@ Longchamp est une plaine maraichère presque inhabitée quand elle est rattaché
 
 A suivre...
 
-> _Illustration 2 : L'aneau cycliste de Longchamp en 2014 (en violet sur la carte) n'a pas changé par rapport à une autre carte de 1856 (source : Ville de Paris)_
->
-> # ![](/media/Longchamp 1856.png)![](/media/Longchamp 2014.png)
+_Illustration 2 : L'aneau cycliste de Longchamp en 2014 (en violet sur la carte) n'a pas changé par rapport à une autre carte de 1856 (source : Ville de Paris)_
+
+![](/media/Longchamp 1856.png)
+
+![](/media/Longchamp 2014.png)
 
 ***
 
