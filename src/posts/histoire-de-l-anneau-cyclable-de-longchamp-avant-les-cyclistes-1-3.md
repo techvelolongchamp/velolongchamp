@@ -9,31 +9,33 @@ _Si vous croisez des cyclistes sportifs dans l'ouest de Paris, il est probable q
 
 _Là, des cyclistes de tout poil tournent en rond inlassablement. Mais depuis combien de temps s'il vous plait?_
 
-_Les jeunes y ont vu Contador, les anciens Anquetil et les très anciens Bobet. Mais qui sait que les cyclistes tournent à Longchamp depuis bien plus longtemps? depuis presque 150 ans, c'est-à-dire toujours dans l'histoire du vélo._
+_Les jeunes y ont vu Contador, les anciens Anquetil et les très anciens Bobet. Mais qui sait que les cyclistes tournent à Longchamp depuis bien plus longtemps? Depuis presque 150 ans. C'est-à-dire toujours dans l'histoire du vélo._
+
+_Voici l'histoire en 3 étapes de Longchamp, en remontant aux origines._
 
 ***
 
-A l'origine, la forêt*Longchamp, le long champ (pas de « S » !) se trouve dans le bois de Boulogne, dans le XVIe arrondissement de Paris. Difficile de l'imaginer, mais ce bois est le dernier vestige d’une grande forêt de chênes et tient sa survie à son statut de chasse royale pour la noblesse française.
+##### Longchamp, un bout de verdure en pleine ville
 
-En 1852, Napoléon III confie l’ancien domaine royal à la ville de Paris à la condition qu’il soit aménagé en lieu de promenade pour les Parisiens. Sous la conduite du baron Haussmann, le changement est radical : les murs qui ceinturent le bois sont mis à bas, les avenues élargies, les lacs creusés, les cascades construites, les pavillons érigés et les cafés-restaurants ouverts.
+Le bois de Boulogne est le dernier vestige d’une grande forêt de chênes et tient sa survie à son statut de chasse royale. Les nobles partis, l'Etat récupère le domaine jusqu'à ce qu'en 1852, Napoléon III le confie à la ville de Paris à la condition qu’il soit aménagé en lieu de promenade pour les Parisiens. Sous la conduite du baron Haussmann, le changement est radical : les murs qui ceinturent le bois sont mis à bas, les allées élargies, les lacs creusés, les cascades construites, les pavillons érigés et les cafés-restaurants ouverts.
 
-Haussmann décide également de prolonger le bois de Boulogne jusqu’à la Seine en rattachant les plaines de Longchamp et de Bagatelle à l’ancienne forêt.
+Surtout, Haussmann décide de prolonger le bois de Boulogne jusqu’à la Seine pour donner un peu de perspective à l'ensemble. Coincé entre le fleuve et la forêt, Lonchamp, le long champ (pas de "S"), se retrouve rattaché au bois de Boulogne. Un siècle plus tard, en 1957, le bois de Boulogne est déclaré site classé. 
 
-_Illustration 1 : La plaine de Longchamp est rattachée au bois de Boulogne en 1852. Malgré l’urbanisation bien visible sur ces cartes de 1740 et 2019, elle est restée le plus grand espace vert de l’ouest de Paris (Source : IGN ; Google Ma_![](/media/Longchamp Cass.png)
+> _Illustration 1 : Longchamp en 1740 et 2019 (Source : IGN ; Google Map)_![](/media/Longchamp Cass.png)
+>
+> ![](/media/Longchamp Goo.png)
 
-![](/media/Longchamp Goo.png)
-
-# Longchamp, lieu de pèlerinage pour dévots, fêtards, turfistes et cyclistes
+##### Longchamp, lieu de pèlerinage pour dévots, fêtards, turfistes et cyclistes
 
 Longchamp est un site bien connu des Parisiens depuis qu’Isabelle de France, sœur de Saint-Louis y fait construire au XIIIe siècle l’abbaye royale de l'Humilité Notre-Dame. Elle est l’objet d’une grande dévotion, en particulier lors de la semaine sainte mais au XVIIIe, le pèlerinage pascal est dévoyé en une promenade festive et mondaine à travers le bois de Boulogne. En 1746, l’archevêque de Paris ferme les portes au public pendant le pèlerinage mais « le peuple vint à Longchamp comme par le passé et, ne pouvant pénétrer dans l'église abbatiale, se répandit dans les cabarets voisins »[\[1\]](#_ftn1). Aller à Longchamp est prétexte à une sortie joyeuse, souvent ostentatoire et parfois scandaleuse.
 
-A la Révolution, l’abbaye est en grande partie démolie et on érige à la place le château de Longchamp comme résidence d’été des préfets de la Seine. Propriété aujourd’hui de la fondation GoodPlanet, il fait face au virage nord de l’hippodrome. De l’abbaye, il ne reste que deux tourelles situées dans le parc du château mais le vestige le plus emblématique est le moulin qui borde l’anneau cyclable. Rénové en XIXe, il est situé au même emplacement que le moulin abbatial construit en 1312.
+A la Révolution, l’abbaye est en grande partie démolie et on érige à la place le château de Longchamp comme résidence d’été des préfets de la Seine. Propriété aujourd’hui de la fondation GoodPlanet, il fait face au virage nord de l’hippodrome. De l’abbaye, il ne reste que deux tourelles situées dans le parc du château mais le vestige le plus emblématique est le moulin qui borde l’anneau cyclable. Rénové en XIXe, il est situé au même emplacement que le moulin abbatial de 1312.
 
-Longchamp est une plaine maraichère quand elle est rattachée au bois de Boulogne. Fort de ce nouvel espace, Haussmann fait construire un hippodrome qui est inauguré en grande pompe en 1857. La tradition festive autour de Longchamp peut reprendre avec les Parisiens concourant d’élégance pour assister aux courses. Des routes sont construites pour faire venir les spectateurs et ainsi naît la roue extérieure de l’hippodrome, une boucle de 3,6 km, comme aujourd’hui.
+Longchamp est une plaine maraichère presque inhabitée quand elle est rattachée au bois de Boulogne. Fort de ce nouvel espace, Haussmann décide d'y faire construire un hippodrome qui est inauguré en grande pompe en 1857. La tradition festive autour de Longchamp peut reprendre avec les Parisiens concourant d’élégance pour assister aux courses. Des routes sont construites pour faire venir les spectateurs et ainsi naît la roue extérieure de l’hippodrome qui est devenue notre très cher anneau de Longchamp.
 
-_Illustration 2 : Extrait d’une carte du bois de Boulogne de 1856. En jaune, nous indiquons l’anneau cyclable actuel (source : Ville de Paris / BHVP)_
-
-# ![](/media/Longchamp 1856.png)![](/media/Longchamp 2014.png)
+> _Illustration 2 : L'aneau cycliste de Longchamp en 2014 (en violet sur la carte) n'a pas changé par rapport à une autre carte de 1856 (source : Ville de Paris)_
+>
+> # ![](/media/Longchamp 1856.png)![](/media/Longchamp 2014.png)
 
 ***
 
