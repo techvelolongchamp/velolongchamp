@@ -19,7 +19,7 @@ _Voici l'histoire en 3 étapes de Longchamp, en remontant aux origines._
 
 Le bois de Boulogne est le dernier vestige d’une grande forêt de chênes et tient sa survie à son statut de chasse royale. Les nobles partis, l'Etat récupère le domaine jusqu'à ce qu'en 1852, Napoléon III le confie à la ville de Paris à la condition qu’il soit aménagé en lieu de promenade pour les Parisiens. Sous la conduite du baron Haussmann, le changement est radical : les murs qui ceinturent le bois sont mis à bas, les allées élargies, les lacs creusés, les cascades construites, les pavillons érigés et les cafés-restaurants ouverts.
 
-Surtout, Haussmann décide de prolonger le bois de Boulogne jusqu’à la Seine pour donner un peu de perspective à l'ensemble. Coincé entre le fleuve et la forêt, Lonchamp, le long champ (pas de "S"), se retrouve rattaché au bois de Boulogne. Un siècle plus tard, en 1957, le bois de Boulogne est déclaré site classé. 
+Surtout, Haussmann décide de prolonger le bois de Boulogne jusqu’à la Seine pour donner un peu de perspective à l'ensemble. Coincé entre le fleuve et la forêt, Lonchamp, le long champ (pas de "S"), se retrouve rattaché au bois de Boulogne. Un siècle plus tard, en 1957, le bois de Boulogne est déclaré site classé.
 
 > _Illustration 1 : Longchamp en 1740 et 2019 (Source : IGN ; Google Map)_![](/media/Longchamp Cass.png)
 >
@@ -31,7 +31,9 @@ Longchamp est un site bien connu des Parisiens depuis qu’Isabelle de France, s
 
 A la Révolution, l’abbaye est en grande partie démolie et on érige à la place le château de Longchamp comme résidence d’été des préfets de la Seine. Propriété aujourd’hui de la fondation GoodPlanet, il fait face au virage nord de l’hippodrome. De l’abbaye, il ne reste que deux tourelles situées dans le parc du château mais le vestige le plus emblématique est le moulin qui borde l’anneau cyclable. Rénové en XIXe, il est situé au même emplacement que le moulin abbatial de 1312.
 
-Longchamp est une plaine maraichère presque inhabitée quand elle est rattachée au bois de Boulogne. Fort de ce nouvel espace, Haussmann décide d'y faire construire un hippodrome qui est inauguré en grande pompe en 1857. La tradition festive autour de Longchamp peut reprendre avec les Parisiens concourant d’élégance pour assister aux courses. Des routes sont construites pour faire venir les spectateurs et ainsi naît la roue extérieure de l’hippodrome qui est devenue notre très cher anneau de Longchamp.
+Longchamp est une plaine maraichère presque inhabitée quand elle est rattachée au bois de Boulogne. Fort de ce nouvel espace, Haussmann décide d'y faire construire un hippodrome qui est inauguré en grande pompe en 1857. La tradition festive de Longchamp peut reprendre avec les Parisiens concourant d’élégance pour assister aux courses. Pour d'autres, c'est l'occasion de faire le tour de l'hippodrome en suivant la route nouvellement créée qui ceinture l'hippodrome. Cette même route de 3,6 km où viennent tourner les cyclistes aujourd'hui. 
+
+A suivre...
 
 > _Illustration 2 : L'aneau cycliste de Longchamp en 2014 (en violet sur la carte) n'a pas changé par rapport à une autre carte de 1856 (source : Ville de Paris)_
 >
