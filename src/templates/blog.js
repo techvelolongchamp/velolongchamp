@@ -33,9 +33,6 @@ const BlogContent = styled.div`
     border: 0.5px solid;
     color: ${({ theme }) => theme.colors.lightGrey};
   }
-  img {
-    max-width: 400px;
-  }
   h5 {
     font-size: 18px;
   }

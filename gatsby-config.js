@@ -30,7 +30,7 @@ const plugins = [
         {
           resolve: 'gatsby-remark-images',
           options: {
-            maxWidth: 750,
+            maxWidth: 500,
             linkImagesToOriginal: false,
           },
         },

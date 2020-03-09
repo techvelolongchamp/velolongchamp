@@ -15,6 +15,8 @@ import { ContactWrapper, AgendaContainer } from './IndexPage.styled'
 
 import Indexi18n from './IndexPage.i18n'
 
+import stammtisch from '../../json/stammtisch.json'
+
 const IndexPage = ({ lng }) => {
   const presentation = useRef()
   const join = useRef()
@@ -23,6 +25,22 @@ const IndexPage = ({ lng }) => {
 
   const trad = Indexi18n[lng]
   const handleLink = ['presentation', 'join', 'meeting', 'contact']
+  const displayDate = () => {
+    const options = {
+      weekday: 'long',
+      year: 'numeric',
+      month: 'long',
+      day: 'numeric',
+      hour: 'numeric',
+      minute: 'numeric',
+    }
+    return stammtisch.stammtisch.map((s, i) => {
+      const event = new Date(s)
+      return (
+        <li key={s}>{`#${i + 1} ${event.toLocaleDateString(lng, options)}`}</li>
+      )
+    })
+  }
   return (
     <Layout lng={lng}>
       <Header handleLink={handleLink} lng={lng} />
@@ -63,11 +81,7 @@ const IndexPage = ({ lng }) => {
           </p>
           <p>{trad.meetUs.message3}</p>
           <p>{trad.meetUs.message4}</p>
-          <ul>
-            <li>{trad.meetUs.meeting1}</li>
-            <li>{trad.meetUs.meeting2}</li>
-            <li>{trad.meetUs.meeting3}</li>
-          </ul>
+          <ul>{displayDate()}</ul>
         </AgendaContainer>
       </SecondarySection>
       <ThirdarySection
