@@ -35,6 +35,7 @@ const BlogContent = styled.div`
   }
   h5 {
     font-size: 18px;
+    margin: ${({ theme }) => theme.spacing.m} 0;
   }
   a {
     color: ${({ theme }) => theme.colors.defaultColor};
