@@ -1,0 +1,25 @@
+---
+date: 2020-03-22T17:27:54+01:00
+title: Quand les plus grands écrivains roulaient à Longchamp, l'Artistic Cycle Club
+slug: artistic-cycle-club
+shouldBePublished: false
+
+---
+
+_« Le rendez-vous était à l’Etoile. On faisait le tour de Longchamp, et la matinée s’achevait par un déjeuner hebdomadaire dans un Chalet-restaurant du Bois »._ Ainsi fonctionnait l’Artistic Cycle Club, nous raconte Gerard Bauër, fils du président du club Henry Bauër, lui-même fils d’Alexandre Dumas.
+
+Le club est une météorite. Quelques années et puis s'en va mais avec un casting de Galactiques, on ne peut l'oublier.
+
+L'Artistic Cycle Club est créé en 1896 avec parmi les 32 membres fondateurs de très grands noms de la littérature dont Jules renard, Alphonse Allais, Tristan Bernard, Maurice Leblanc ou Alfred Capus. 
+
+On imagine les auteurs de Knock et d'Arsène Lupin à vélo autour de Longchamp. De quoi parlent-ils? 
+
+Le Club a pour but de promouvoir la pratique du cyclisme et d’organiser des fêtes sportives. La plupart des évènements se déroulent sur le vélodrome Buffalo mais c'est à Longchamp que se dispute la grande fête annuelle : les courses d'Artistes.
+
+Ces courses ont lieu à l'été sur la même route de 3,6 km autour de l'hippodrome de Longchamp qui est devenu plus tard un anneau cyclable. Elles réunissent les artistes dramatiques et lyriques de Paris sur 5 tours pour les hommes, et 2 tours pour les femmes.
+
+Après les courses, une grande fête est organisée aux chalets du Cycle, s’achevant nous dit le programme officiel par un lait froid et frais servi à 6h du matin au Pré-Catelan.
+
+Reste que l’aventure de l'Artistic Cycle Club tourne court. Effectif de galactiques mais trajectoire météroique. Le club est dissous après quelques années. Mais rien ne nous dit que nos artistes ne continuaient pas à se retrouver pour aller faire leur tour de Longchamp. "Une fois qu'on a passé les bornes, il n'y a plus de limites" disait Alphonse Allais.
+
+![](/media/Artistic Cycle club.png)
