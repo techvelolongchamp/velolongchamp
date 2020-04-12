@@ -1,11 +1,11 @@
 ---
 date: 2020-03-07T12:50:32.000+00:00
-title: Histoire de l'anneau cyclable de Longchamp - Avant les cyclistes- 1/3
+title: Histoire de l'anneau cyclable de Longchamp - Avant les cyclistes - 1/3
 slug: histoirelongchamp-avantlescyclistes
 shouldBePublished: true
 
 ---
-## Histoire de l'anneau cyclable de Longchamp - Avant les cyclistes - 1/3
+## Histoire de l'anneau cyclable de Longchamp - 1e partie - Avant les cyclistes
 
 _Si vous croisez des cyclistes sportifs dans l'ouest de Paris, il est probable qu’ils aillent ou reviennent de "Longchamp" (pas de "S"!), une route circulaire de presque 4km interdite aux voitures._
 
@@ -21,7 +21,7 @@ Le bois de Boulogne est le dernier vestige d’une grande forêt de chênes et t
 
 Surtout, Haussmann décide de mettre à bas le mur d'enceinte du bois pour avoir un espace continu de Paris à la Seine. **Lonchamp, le long champ, étroite bande maraichère entre le fleuve et la forêt, est rattaché au bois de Boulogne.** Le bois de Boulogne prend alors ses dimensions actuelles. Au début du XXe siècle, il est officiellement rattaché au XVIe arrondissement de Paris et en 1957, est déclaré site classé pour garantir sa préservation.
 
-_Illustration 1 : Longchamp en 1740 et 2019 (Source : IGN ; Google Map)_
+_Longchamp en 1740 et 2019 (Source : IGN ; Google Map)_
 
 ![](/media/Longchamp Cass.png "Bois de Boulogne, 1740")![](/media/Longchamp Goo.png "Bois de Boulogne, 2019")
 
@@ -31,7 +31,7 @@ Longchamp est un site bien connu des Parisiens depuis qu’Isabelle de France, s
 
 A la Révolution, l’abbaye est en grande partie démolie et on érige à la place le château de Longchamp comme résidence d’été des préfets de la Seine (Haussmann étant donc le premier locataire). Propriété aujourd’hui de la fondation GoodPlanet, il fait face au virage nord de l’hippodrome et on peut voir dans son parc deux anciennes tourelles de l'abbaye. **Mais le vestige le plus emblématique est le moulin qui borde l’anneau cyclable. Rénové en XIXe, il est situé au même emplacement que le moulin abbatial de 1312.**
 
-_Illustration 2 : La plaine maraichère de Longchamp en 1737 (Source :_ gallica.bnf.fr_)_
+_La plaine maraichère de Longchamp en 1737 (Source :_ gallica.bnf.fr)
 
 ![](/media/Carte 1737.png)
 
@@ -41,7 +41,7 @@ Longchamp est une plaine maraichère quand elle est rattachée au bois de Boulog
 
 A suivre...
 
-_Illustration 3 : L'aneau cycliste de Longchamp en 2014 (en violet sur la carte) n'a pas changé par rapport à une autre carte de 1856 (source : Ville de Paris)_
+_L'aneau cycliste de Longchamp en 2014 (en violet sur la carte) n'a pas changé par rapport à une autre carte de 1856 (source : Ville de Paris)_
 
 ![](/media/Longchamp 1856.png)
 
