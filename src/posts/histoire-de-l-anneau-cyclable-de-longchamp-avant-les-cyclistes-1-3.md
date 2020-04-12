@@ -7,15 +7,15 @@ shouldBePublished: true
 ---
 ## Histoire de l'anneau cyclable de Longchamp - 1e partie - Avant les cyclistes
 
-_Si vous croisez des cyclistes sportifs dans l'ouest de Paris, il est probable qu’ils aillent ou reviennent de "Longchamp" (pas de "S"!), une route circulaire de presque 4km interdite aux voitures._
+_Si vous croisez des cyclistes sportifs dans l'ouest de Paris, il est probable qu’ils aillent ou reviennent de "Longchamp", une route circulaire de presque 4km interdite aux voitures._
 
 _Là, des cyclistes tournent en rond, inlassablement, continuellement. Depuis 150 ans._
 
-_Voici l'histoire en 3 étapes de Longchamp, en remontant aux origines._
+_En voici l'histoire, en 3 parties._
 
 ***
 
-##### Le rattachement tardif de Longchamp au bois de Boulogne
+##### Longchamp intègre le bois de Boulogne
 
 Le bois de Boulogne est le dernier vestige d’une grande forêt de chênes et tient sa survie à son statut de chasse royale. Les nobles partis, l'Etat récupère le domaine et **en 1852, Napoléon III le confie à la ville de Paris à la condition qu’il soit aménagé en lieu de promenade pour les Parisiens**. Sous la conduite du baron Haussmann et d'Aldolphe Alphand, le changement est radical : les allées élargies, les lacs creusés, les cascades érigées, les cafés-restaurants ouverts.
 
