@@ -31,7 +31,7 @@ Longchamp est un site bien connu des Parisiens depuis qu’Isabelle de France, s
 
 A la Révolution, l’abbaye est en grande partie démolie et on érige à la place le château de Longchamp comme résidence d’été des préfets de la Seine (Haussmann étant donc le premier locataire). Propriété aujourd’hui de la fondation GoodPlanet, il fait face au virage nord de l’hippodrome et on peut voir dans son parc deux anciennes tourelles de l'abbaye. **Mais le vestige le plus emblématique est le moulin qui borde l’anneau cyclable. Rénové en XIXe, il est situé au même emplacement que le moulin abbatial de 1312.**
 
-_Illustration 2 : La plaine maraichère de Longchamp en 1737 (Source : IGN ; Google Map)_
+_Illustration 2 : La plaine maraichère de Longchamp en 1737 (Source :_ gallica.bnf.fr_)_
 
 ![](/media/Carte 1737.png)
 
