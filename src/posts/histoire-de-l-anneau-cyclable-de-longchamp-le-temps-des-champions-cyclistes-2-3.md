@@ -8,15 +8,17 @@ shouldBePublished: true
 ---
 ## Histoire de l'anneau cyclable de Longchamp - 2e partie - Le temps des champions cyclistes
 
-_Suite de notre_ [_1e partie_](https://velo-longchamp.fr/blog/histoirelongchamp-avantlescyclistes) _consacrée à l'histoire de Longchamp._ 
+_Suite de notre_ _histoire en 3 parties de Longchamp._ [_Lien 1e partie_](https://velo-longchamp.fr/blog/histoirelongchamp-avantlescyclistes) 
 
 ##### Longchamp, lieu de rendez-vous cycliste depuis 150 ans
 
-Si Longchamp polarise autant les cyclistes, ce n'est pas grace à son cadre superbe, au coeur de bois de Boulogne avec vue imprenable sur les coteaux de Suresnes et la masse sombre du Mont Valérien.
+Si Longchamp attire autant les cyclistes, ce n'est pas grâce à son cadre superbe, au coeur du bois de Boulogne avec vue imprenable sur les coteaux de Suresnes et la masse sombre du Mont Valérien.
 
-C'est grace à son tracé. Un circuit ininterrompu de 3,58km. 2 virages, 2 lignes droites. Le seul endroit à l'ouest de Paris où les cyclistes peuvent rouler en continu et à haute intensité. L'endroit est connu d longue date. Dès les années 1870 (avec un 8), c'est là où les cyclistes viennent s'entrainer[\[1\]](#_ftn1).
+C'est grâce à son tracé. Un anneau ininterrompu de 3,58km. 2 virages, 2 lignes droites. 1 faux plat montant. C'est le seul endroit à l'ouest de Paris où les cyclistes peuvent rouler en continu et à haute intensité. 
 
-Et s’affronter. Quelques années seulement après l’invention du vélo , des compétitions officielles sont organisées avec d’un côté les courses sur route (Paris-Rouen en 1869 ; Paris-Versailles en 1871), et de l’autre les courses de vitesses qui deviendront les courses sur piste. Mais, comme il n’y a pas encore de vélodrome, elles se disputent sur la boucle de Longchamp.
+Le circuit fait le tour de l'hippodrome de Longchamp et date donc de 1857, date de l'inauguration du champ de course. Le vélo, lui, est inventé à tatons dans les années 1860 et immédiatement, on apprend que les apprentis cyclistes viennent s'entrainer à Longchamp[\[1\]](#_ftn1).
+
+Et s’affronter. A côté des courses sur route (Paris-Rouen en 1869 ; Paris-Versailles en 1871), on organise des courses de vitesse. Et, comme il n’y a pas encore de vélodrome, C'est à Longchamp que l'on se donne rendez-vous.
 
 La première course cycliste officielle à Longchamp dont nous avons retrouvé la trace a eu lieu il y a 140 ans, en 1880[\[2\]](#_ftn2) ! C’était un 20 tours, soit 72 km, et elle fut remportée par Charles Terront. Mais, des épreuves antérieures ont certainement eu lieu puisque nous savons par exemple qu’une course était programmée à Longchamp en 1877 mais qu’elle fut annulée au dernier moment en raison de fortes pluies qui rendirent la piste impraticable[\[3\]](#_ftn3). Au début des années 1880, les courses de vitesse à Longchamp ont lieu tous les ans et s’imposent comme « l’épreuve capitale de l'année, qui attirait des milliers de spectateurs au Bois de Boulogne »[\[4\]](#_ftn4).
 
@@ -46,7 +48,7 @@ Longchamp n’accueille plus de courses professionnelles depuis que le Critériu
 
 _Arrivée du Critérium des As en 1922. La ligne existe toujours au sommet de la route de Sèvres à Neuilly (Source : gallica.bnf.fr / Bibliothèque nationale de France)_
 
-,![](/media/Longchamp ligne d'arrivée.jpg)
+,!\[\](/media/Longchamp ligne d'arrivée.jpg)
 
 _Passage devant le moulin durant le Critérium des As en 1927. (Source : gallica.bnf.fr / Bibliothèque nationale de France)_
 
