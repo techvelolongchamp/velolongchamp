@@ -31,13 +31,17 @@ Longchamp est un site bien connu des Parisiens depuis qu’Isabelle de France, s
 
 A la Révolution, l’abbaye est en grande partie démolie et on érige à la place le château de Longchamp comme résidence d’été des préfets de la Seine (Haussmann étant donc le premier locataire). Propriété aujourd’hui de la fondation GoodPlanet, il fait face au virage nord de l’hippodrome et on peut voir dans son parc deux anciennes tourelles de l'abbaye. **Mais le vestige le plus emblématique est le moulin qui borde l’anneau cyclable. Rénové en XIXe, il est situé au même emplacement que le moulin abbatial de 1312.**
 
+_Illustration 2 : La plaine maraichère de Longchamp en 1737 (Source : IGN ; Google Map)_
+
+![](/media/Carte 1737.png)
+
 Longchamp est une plaine maraichère quand elle est rattachée au bois de Boulogne. Fort de cet espace, **Haussmann décide d'y faire construire un hippodrome qui est inauguré en grande pompe en 1857**. Le pélerinage vers Longchamp peut reprendre. L'hippodrome remplace l'abbaye. Les dates de jours de courses remplacent le calendrier chrétien. Mais les Parisiens continuent à concourir d'élégance et de fantaisie à Longchamp. La ville s'y déverse et s'y libère.
 
 150 ans plus tard, la route qui fait le tour de l'hippodrome n'a pas bougé. C'est là où les cyclistes tournent en rond.
 
 A suivre...
 
-_Illustration 2 : L'aneau cycliste de Longchamp en 2014 (en violet sur la carte) n'a pas changé par rapport à une autre carte de 1856 (source : Ville de Paris)_
+_Illustration 3 : L'aneau cycliste de Longchamp en 2014 (en violet sur la carte) n'a pas changé par rapport à une autre carte de 1856 (source : Ville de Paris)_
 
 ![](/media/Longchamp 1856.png)
 
