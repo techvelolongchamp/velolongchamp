@@ -8,7 +8,7 @@ shouldBePublished: true
 ---
 ## Histoire de l'anneau cyclable de Longchamp - 2e partie - Le temps des champions cyclistes
 
-_Suite de notre_ _histoire en 3 parties de Longchamp._ La première partie [est ici](https://velo-longchamp.fr/blog/histoirelongchamp-avantlescyclistes)
+_Suite de notre_ _histoire en 3 parties de Longchamp._ La première partie est [ici](https://velo-longchamp.fr/blog/histoirelongchamp-avantlescyclistes)
 
 ##### Longchamp, lieu de rendez-vous cycliste depuis 150 ans
 
@@ -52,7 +52,7 @@ Longchamp n’accueille plus de courses professionnelles depuis que le Critériu
 
 _Arrivée du Critérium des As en 1922. La ligne existe toujours au sommet de la route de Sèvres à Neuilly (Source : gallica.bnf.fr / Bibliothèque nationale de France)_
 
-![](/media/Longchamp ligne d'arrivée.jpg)
+!\[\](/media/Longchamp ligne d'arrivée.jpg)
 
 _Passage devant le moulin durant le Critérium des As en 1927. Le sens de circulation est inversé aujourd'hui (Source : gallica.bnf.fr / Bibliothèque nationale de France)_
 
