@@ -8,19 +8,19 @@ shouldBePublished: true
 ---
 ## Histoire de l'anneau cyclable de Longchamp - 2e partie - Le temps des champions cyclistes
 
-_Suite de notre_ _histoire en 3 parties de Longchamp._ 
+_Suite de notre_ _histoire en 3 parties de Longchamp._ La première partie [est ici](https://velo-longchamp.fr/blog/histoirelongchamp-avantlescyclistes)
 
 ##### Longchamp, lieu de rendez-vous cycliste depuis 150 ans
 
 Si Longchamp attire autant les cyclistes, ce n'est pas seulement grâce à son cadre superbe, au coeur du bois de Boulogne avec vue imprenable sur les coteaux de Suresnes et la masse sombre du Mont Valérien.
 
-C'est grâce à son tracé. Un anneau ininterrompu de 3,58km. 2 virages, 2 lignes droites. 1 faux plat montant. C'est le seul endroit à l'ouest de Paris où les cyclistes peuvent rouler en continu et à haute intensité.
+C'est grâce à son tracé. Un anneau ininterrompu de 3,58km. 2 virages, 2 lignes droites. 1 faux plat montant. **C'est le seul endroit à l'ouest de Paris où les cyclistes peuvent rouler en continu et à haute intensité.**
 
 Le circuit fait le tour de l'hippodrome de Longchamp et date donc de 1857, année d'inauguration du champ de course. Le vélo, lui, est inventé par tâtonnement dans les années 1860 après l'invention décisive du pédalier par Michaux, à Paris. Immédiatement, les né-cyclistes choisissent Longchamp pour s'entrainer [\[1\]](#_ftn1).
 
 Et s’affronter. A côté des courses sur route (Paris-Rouen en 1869 ; Paris-Versailles en 1871), des courses de vitesse sont organisées. Et, comme il n’y a pas encore de vélodrome, le tour de l'hippodrome fait office d'arène.
 
-La première course cycliste officielle à Longchamp dont nous avons retrouvé la trace a eu lieu il y a 140 ans, en 1880[\[2\]](#_ftn2) ! C’était un 20 tours, soit 72 km, et elle fut remportée par Charles Terront. Mais, des épreuves antérieures ont certainement eu lieu puisque nous savons par exemple qu’une course était programmée à Longchamp en 1877 mais qu’elle fut annulée au dernier moment en raison de fortes pluies qui rendirent la piste impraticable[\[3\]](#_ftn3). Au début des années 1880, les courses de vitesse à Longchamp ont lieu tous les ans et s’imposent comme « l’épreuve capitale de l'année, qui attirait des milliers de spectateurs au Bois de Boulogne »[\[4\]](#_ftn4).
+**La première course cycliste officielle à Longchamp dont nous avons retrouvé la trace a eu lieu il y a 140 ans, en 1880**[**\[2\]**](#_ftn2) **! C’était un 20 tours, soit 72 km**, et elle fut remportée par Charles Terront. Mais, des épreuves antérieures ont certainement eu lieu puisque nous savons par exemple qu’une course était programmée à Longchamp en 1877 mais qu’elle fut annulée au dernier moment en raison de fortes pluies qui rendirent la piste impraticable[\[3\]](#_ftn3). Au début des années 1880, les courses de vitesse à Longchamp ont lieu tous les ans et s’imposent comme « l’épreuve capitale de l'année, qui attirait des milliers de spectateurs au Bois de Boulogne »[\[4\]](#_ftn4).
 
 _Charles Terront, vainqueur de la première course officielle à Longchamp en 1880 et futur vainqueur du premier Paris-Brest-Paris (Source : gallica.bnf.fr / Bibliothèque nationale de France)_
 
