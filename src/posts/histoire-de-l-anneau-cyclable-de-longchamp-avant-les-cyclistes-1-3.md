@@ -17,9 +17,9 @@ _En voici l'histoire, en 3 parties._
 
 ##### Longchamp intègre le bois de Boulogne
 
-Le bois de Boulogne est le dernier vestige d’une grande forêt de chênes et tient sa survie à son statut de chasse royale. Les nobles partis, l'Etat récupère le domaine et **en 1852, Napoléon III le confie à la ville de Paris à la condition qu’il soit aménagé en lieu de promenade pour les Parisiens**. Sous la conduite du baron Haussmann et d'Aldolphe Alphand, le changement est radical : les allées élargies, les lacs creusés, les cascades érigées, les cafés-restaurants ouverts.
+Le bois de Boulogne est le dernier vestige d’une grande forêt de chênes et tient sa survie à son statut de chasse royale. Les nobles partis, l'Etat récupère le domaine et **en 1852, Napoléon III le confie à la ville de Paris à la condition qu’il soit aménagé en lieu de promenade pour les Parisiens**. Sous la conduite du baron Haussmann et d'Aldolphe Alphand, le changement est radical : les allées élargies, des lacs creusés, des cascades érigées, des cafés-restaurants ouverts.
 
-Surtout, Haussmann décide de mettre à bas le mur d'enceinte du bois pour avoir un espace continu de Paris à la Seine. **Lonchamp, le long champ, étroite bande maraichère entre le fleuve et la forêt, est rattaché au bois de Boulogne.** Le bois de Boulogne prend alors ses dimensions actuelles. Au début du XXe siècle, il est officiellement rattaché au XVIe arrondissement de Paris et en 1957, est déclaré site classé pour garantir sa préservation.
+Surtout, Haussmann décide de mettre à bas le mur d'enceinte du bois pour avoir un espace continu de Paris à la Seine. **Lonchamp - le long champ - étroite bande maraichère entre le fleuve et la forêt, est rattaché au bois de Boulogne.** Le bois de Boulogne prend alors ses dimensions actuelles. Au début du XXe siècle, il est officiellement rattaché au XVIe arrondissement de Paris et en 1957, est déclaré site classé pour garantir sa préservation.
 
 _Longchamp en 1740 et 2019 (Source : IGN ; Google Map)_
 
@@ -27,7 +27,7 @@ _Longchamp en 1740 et 2019 (Source : IGN ; Google Map)_
 
 ##### Longchamp, lieu de pèlerinage pour dévots, fêtards, turfistes et cyclistes
 
-Longchamp est un site bien connu des Parisiens depuis qu’Isabelle de France, sœur de Saint-Louis y fait construire au XIIIe siècle l’abbaye royale de l'Humilité Notre-Dame. Elle est l’objet d’une grande dévotion, en particulier au moment de Pâques. Mais au XVIIIe siècle, le pèlerinage pascal est progressivement dévoyé en une promenade festive et mondaine à travers le bois de Boulogne. En 1746, l’archevêque de Paris ferme les portes de l'abbaye au public pendant le pèlerinage mais **« le peuple vint à Longchamp comme par le passé et, ne pouvant pénétrer dans l'église abbatiale, se répandit dans les cabarets voisins »**[\[1\]](#_ftn1). Aller à Longchamp était prétexte à une sortie joyeuse, souvent ostentatoire et parfois scandaleuse.
+Longchamp est un site bien connu des Parisiens depuis qu’Isabelle de France, sœur de Saint-Louis y fait construire au XIIIe siècle l’abbaye royale de l'Humilité Notre-Dame qui fait l’objet d’une grande dévotion, en particulier au moment de Pâques. Mais au XVIIIe siècle, le pèlerinage pascal est progressivement dévoyé en une promenade festive et mondaine à travers le bois de Boulogne. En 1746, l’archevêque de Paris ferme les portes de l'abbaye au public pendant le pèlerinage mais **« le peuple vint à Longchamp comme par le passé et, ne pouvant pénétrer dans l'église abbatiale, se répandit dans les cabarets voisins »**[\[1\]](#_ftn1). Aller à Longchamp était prétexte à une sortie joyeuse, souvent ostentatoire et parfois scandaleuse.
 
 A la Révolution, l’abbaye est en grande partie démolie et on érige à la place le château de Longchamp comme résidence d’été des préfets de la Seine (Haussmann étant donc le premier locataire). Propriété aujourd’hui de la fondation GoodPlanet, il fait face au virage nord de l’hippodrome et on peut voir dans son parc deux anciennes tourelles de l'abbaye. **Mais le vestige le plus emblématique est le moulin qui borde l’anneau cyclable. Rénové en XIXe, il est situé au même emplacement que le moulin abbatial de 1312.**
 
@@ -41,7 +41,7 @@ Longchamp est une plaine maraichère quand elle est rattachée au bois de Boulog
 
 A suivre...
 
-_L'aneau cycliste de Longchamp en 2014 (en violet sur la carte) n'a pas changé par rapport à une autre carte de 1856 (source : Ville de Paris)_
+_L'anneau cycliste de Longchamp en 2014 (en violet sur la carte) n'a pas changé par rapport à une autre carte de 1856 (source : Ville de Paris)_
 
 ![](/media/Longchamp 1856.png)
 
