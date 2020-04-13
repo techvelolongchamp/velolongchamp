@@ -12,7 +12,7 @@ _Suite de notre_ _histoire en 3 parties de Longchamp._
 
 ##### Longchamp, lieu de rendez-vous cycliste depuis 150 ans
 
-Si Longchamp attire autant les cyclistes, ce n'est pas grâce à son cadre superbe, au coeur du bois de Boulogne avec vue imprenable sur les coteaux de Suresnes et la masse sombre du Mont Valérien.
+Si Longchamp attire autant les cyclistes, ce n'est pas seulement grâce à son cadre superbe, au coeur du bois de Boulogne avec vue imprenable sur les coteaux de Suresnes et la masse sombre du Mont Valérien.
 
 C'est grâce à son tracé. Un anneau ininterrompu de 3,58km. 2 virages, 2 lignes droites. 1 faux plat montant. C'est le seul endroit à l'ouest de Paris où les cyclistes peuvent rouler en continu et à haute intensité.
 
@@ -30,7 +30,7 @@ _Charles Terront, vainqueur de la première course officielle à Longchamp en 18
 
 Afin de promouvoir ce nouveau sport qu’est le cyclisme, l’Union Vélocipédique de France (UVF), future Fédération Française de Cyclisme (FFC) décide d’organiser des championnats de France de vitesse avec comme épreuve reine le 100km. Si la première édition a lieu en 1885 à Grenoble, les championnats se tiennent à partir de 1886 à Longchamp.
 
-1889 est un tournant historique puisque pour la première fois, seules les bicyclettes sont autorisées[\[5\]](#_ftn5) aux championnats de France et l’histoire retient qu’ils ont eu pour théâtre la boucle de 3,6km autour de l’hippodrome. Le vainqueur se nomme Charles Terront, le même qui gagnait la 1e course en 1880, avec un temps de 3h40 soit 27 km/h de moyenne.
+1889 est un tournant historique puisque pour la première fois, seules les bicyclettes sont autorisées[\[5\]](#_ftn5) aux championnats de France et l’histoire retient qu’ils ont eu pour théâtre la boucle de 3,6km autour de l’hippodrome. Le vainqueur se nomme Charles Terront (le même qui gagnait la 1e course à Longchamp en 1880), avec un temps de 3h40 soit 27 km/h de moyenne.
 
 _Liste des champions de France de 100km (Source : gallica.bnf.fr / Bibliothèque nationale de France)_
 
@@ -46,7 +46,7 @@ _Victoire de Pélissier en 1926, rapportée dans le journal Excelsior (Source : 
 
 Créé en 1921, il réunit sur invitation les meilleurs coureurs de l’année pour un 100km, soit 27,5 tours de Longchamp. Le Critérium fait partie des grands moments sportifs de l’année et attire un très nombreux public : jusqu’à 50 000 personnes en 1933[\[6\]](#_ftn6). Tous les plus grands champions sont venus courir à Longchamp, citons dans le désordre les frères Pélissier, Thys, Merckx, Poulidor, Anquetil, Bobet, Coppi, Blanchonnet, Darrigade, Simpson, etc.
 
-C’est une course dite avec entraineur donc chaque coureur est « entrainé » par un derny (une moto) ou un tandem qui lui maintient un train d’enfer. En 1949, Louison Bobet (triple vainqueur du tour de France) et Fausto Coppi (double vainqueur du tour de France) se livrent un duel d’anthologie, remporté par le Français en 1h54 soit 52,5 km/h de moyenne ! A noter que les coureurs roulaient dans le sens inverse des aiguilles d’une montre (le moulin sur la gauche) alors que l’on roule dans l’autre sens aujourd’hui (le moulin sur la droite). 
+C’est une course dite avec entraineur donc chaque coureur est « entrainé » par un derny (une moto) ou un tandem qui lui maintient un train d’enfer. En 1949, Louison Bobet (triple vainqueur du tour de France) et Fausto Coppi (double vainqueur du tour de France) se livrent un duel d’anthologie, remporté par le Français en 1h54 soit 52,5 km/h de moyenne ! A noter que les coureurs roulaient dans le sens inverse des aiguilles d’une montre (le moulin sur la gauche) alors que l’on roule dans l’autre sens aujourd’hui (le moulin sur la droite).
 
 Longchamp n’accueille plus de courses professionnelles depuis que le Critérium des As a été délocalisé en 1967. Mais, des courses amateurs continuent à être organisées comme le critérium de Longchamp ou la Keirin Caviar.
 
