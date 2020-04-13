@@ -30,7 +30,7 @@ _Charles Terront, vainqueur de la première course officielle à Longchamp en 18
 
 Afin de promouvoir ce nouveau sport qu’est le cyclisme, l’Union Vélocipédique de France (UVF), future Fédération Française de Cyclisme (FFC) décide d’organiser des championnats de France de vitesse avec comme épreuve reine le 100km. Si la première édition a lieu en 1885 à Grenoble, les championnats se tiennent à partir de 1886 à Longchamp.
 
-1889 est un tournant historique puisque pour la première fois, seules les bicyclettes sont autorisées[\[5\]](#_ftn5) aux championnats de France et l’histoire retient qu’ils ont eu pour théâtre la boucle de 3,6km autour de l’hippodrome. Le vainqueur se nomme Charles Terront (le même qui gagnait la 1e course à Longchamp en 1880), avec un temps de 3h40 soit 27 km/h de moyenne.
+**1889 est un tournant historique puisque pour la première fois, seules les bicyclettes sont autorisées**[**\[5\]**](#_ftn5) **aux championnats de France et l’histoire retient qu’ils ont eu pour théâtre la boucle de 3,6km autour de l’hippodrome**. Le vainqueur se nomme Charles Terront (le même qui gagnait la 1e course à Longchamp en 1880), avec un temps de 3h40 soit 27 km/h de moyenne.
 
 _Liste des champions de France de 100km (Source : gallica.bnf.fr)_
 
@@ -48,11 +48,11 @@ Créé en 1921, il réunit sur invitation les meilleurs coureurs de l’année p
 
 C’est une course dite avec entraineur donc chaque coureur est « entrainé » par un derny (une moto) ou un tandem qui lui maintient un train d’enfer. En 1949, Louison Bobet (triple vainqueur du tour de France) et Fausto Coppi (double vainqueur du tour de France) se livrent un duel d’anthologie, remporté par le Français en 1h54 soit 52,5 km/h de moyenne ! A noter que les coureurs roulaient dans le sens inverse des aiguilles d’une montre (le moulin sur la gauche) alors que l’on roule dans l’autre sens aujourd’hui (le moulin sur la droite).
 
-Longchamp n’accueille plus de courses professionnelles depuis que le Critérium des As a été délocalisé en 1967. Mais, d**es courses amateurs continuent à être organisées comme le critérium de Longchamp ou la Keirin Caviar.**
+Longchamp n’accueille plus de courses professionnelles depuis que le Critérium des As a été délocalisé en 1967. Mais, **des courses amateurs continuent à être organisées comme le critérium de Longchamp ou la Keirin Caviar.**
 
 _Critérium des As 1922. La ligne existe toujours au sommet de la route de Sèvres à Neuilly (Source : gallica.bnf.fr)_
 
-!\[\](/media/Longchamp ligne d'arrivée.jpg)
+![](/media/Longchamp ligne d'arrivée.jpg)
 
 ![](/media/1922 - Critérium des As - Agence Rol XX.JPEG)
 
