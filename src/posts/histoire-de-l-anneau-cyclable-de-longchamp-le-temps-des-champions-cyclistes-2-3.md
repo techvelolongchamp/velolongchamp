@@ -16,7 +16,7 @@ Si Longchamp attire autant les cyclistes, ce n'est pas seulement grâce à son c
 
 C'est grâce à son tracé. Un anneau ininterrompu de 3,58km. 2 virages, 2 lignes droites. 1 faux plat montant. **C'est le seul endroit à l'ouest de Paris où les cyclistes peuvent rouler en continu et à haute intensité.**
 
-Le circuit fait le tour de l'hippodrome de Longchamp et date donc de 1857, année d'inauguration du champ de course. Le vélo, lui, est inventé par tâtonnement dans les années 1860 après l'invention décisive du pédalier par Michaux, à Paris. Immédiatement, les né-cyclistes choisissent Longchamp pour s'entrainer [\[1\]](#_ftn1).
+Le circuit fait le tour de l'hippodrome de Longchamp et date donc de 1857, année d'inauguration du champ de course. Le vélo, lui, est inventé par tâtonnement dans les années 1860 après l'invention décisive du pédalier par Michaux, à Paris. Immédiatement, les néo-cyclistes choisissent Longchamp pour s'entrainer [\[1\]](#_ftn1).
 
 Et s’affronter. A côté des courses sur route (Paris-Rouen en 1869 ; Paris-Versailles en 1871), des courses de vitesse sont organisées. Et, comme il n’y a pas encore de vélodrome, le tour de l'hippodrome fait office d'arène.
 
@@ -52,7 +52,7 @@ Longchamp n’accueille plus de courses professionnelles depuis que le Critériu
 
 _Critérium des As 1922. La ligne existe toujours au sommet de la route de Sèvres à Neuilly (Source : gallica.bnf.fr)_
 
-![](/media/Longchamp ligne d'arrivée.jpg)
+!\[\](/media/Longchamp ligne d'arrivée.jpg)
 
 ![](/media/1922 - Critérium des As - Agence Rol XX.JPEG)
 
