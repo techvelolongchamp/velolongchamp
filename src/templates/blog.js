@@ -38,7 +38,12 @@ const BlogContent = styled.div`
     margin: ${({ theme }) => theme.spacing.m} 0;
   }
   a {
-    color: ${({ theme }) => theme.colors.defaultColor};
+    color: ${({ theme }) => theme.colors.brandPrimary};
+    font-weight: 300;
+    &:hover {
+      font-weight: 400;
+      text-decoration: underline;
+    }
   }
 `
 
