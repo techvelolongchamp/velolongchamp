@@ -29,6 +29,7 @@ const Headeri18n = {
     meetUs: 'Nous rencontrer',
     contactUs: 'Nous contacter',
     clickJoin: "Rejoindre l'association",
+    blog: 'Actualités',
   },
   en: {
     presentation: 'About',
@@ -36,6 +37,7 @@ const Headeri18n = {
     meetUs: 'Meet us',
     contactUs: 'Contact',
     clickJoin: 'Join the association',
+    blog: 'News',
   },
 }
 
@@ -127,7 +129,7 @@ const Header = ({ noScroll, handleLink, lng }) => {
                   partiallyActive={true}
                   to="/blog"
                 >
-                  Blog
+                  {trad.blog}
                 </NavItem>
               </li>
             </NavList>

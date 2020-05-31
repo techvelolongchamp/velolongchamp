@@ -42,3 +42,19 @@ export const AgendaContainer = styled.article`
     padding: ${({ theme }) => theme.spacing.s} 0;
   }
 `
+
+export const SocialWrapper = styled.div`
+  svg {
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+  }
+
+  .facebook {
+    color: #3b5998;
+  }
+
+  .twitter {
+    color: #00acee;
+  }
+`

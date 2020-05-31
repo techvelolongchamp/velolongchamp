@@ -48,8 +48,8 @@ const JoinFrame = ({ lng }) => {
   return (
     <Layout lng={lng}>
       <Header noScroll lng={lng} />
-      <Head title="Blog" url="/blog" lng={lng} />
-      <ThirdarySection title="Blog" useH1>
+      <Head title="Join" url="/join" lng={lng} />
+      <ThirdarySection title="Join" useH1>
         <SubTitle>{trad.join}</SubTitle>
         <FrameContainer>
           <iframe

@@ -32,7 +32,7 @@ const AlertContainer = styled.div`
   color: white;
   cursor: pointer;
   display: flex;
-  font-size: 30px;
+  font-size: 40px;
   font-weight: 100;
   position: fixed;
   transition: all 0.3s ease;
@@ -95,8 +95,8 @@ const LayoutI18n = {
   },
 }
 
-const Layout = ({ children, lng }) => {
-  const [showAlert, setShowAlert] = useState(false)
+const Layout = ({ children, lng, alert }) => {
+  const [showAlert, setShowAlert] = useState(!!alert)
   const alertRef = useRef(null)
 
   const handleClickOutside = event => {
@@ -105,8 +105,13 @@ const Layout = ({ children, lng }) => {
     }
   }
 
+  const hideAlert = () => {
+    if (showAlert) setShowAlert(false)
+  }
+
   useEffect(() => {
     document.addEventListener('mousedown', handleClickOutside)
+    setTimeout(hideAlert, 4000)
     return () => {
       document.removeEventListener('mousedown', handleClickOutside)
     }

@@ -1,5 +1,6 @@
 import React, { useRef } from 'react'
 import { FaMapMarkedAlt } from 'react-icons/fa'
+import { IoLogoFacebook, IoLogoTwitter, IoLogoInstagram } from 'react-icons/io'
 
 import Header from '../Header'
 import Layout from '../Layout'
@@ -11,7 +12,11 @@ import ThirdarySection from '../sections/ThirdarySection'
 import Presentation from '../Presentation'
 import Join from '../Join'
 
-import { ContactWrapper, AgendaContainer } from './IndexPage.styled'
+import {
+  ContactWrapper,
+  AgendaContainer,
+  SocialWrapper,
+} from './IndexPage.styled'
 
 import Indexi18n from './IndexPage.i18n'
 
@@ -42,7 +47,7 @@ const IndexPage = ({ lng }) => {
     })
   }
   return (
-    <Layout lng={lng}>
+    <Layout lng={lng} alert>
       <Header handleLink={handleLink} lng={lng} />
       <Head url="/" lng={lng} />
       <MainSection trad={trad} />
@@ -92,6 +97,32 @@ const IndexPage = ({ lng }) => {
       >
         <ContactWrapper>
           <img src="/logo.png" alt="logo" />
+          <SocialWrapper>
+            <a
+              href="https://www.facebook.com/velo.longchamp.3"
+              title="Facebook"
+              target="_blank"
+              className="facebook"
+            >
+              <IoLogoFacebook />
+            </a>
+            <a
+              href="https://twitter.com/velolongchamp"
+              title="Twitter"
+              target="_blank"
+              className="twitter"
+            >
+              <IoLogoTwitter />
+            </a>
+            <a
+              href="https://www.instagram.com/velolongchamp/"
+              title="Instagram"
+              target="_blank"
+              className="instagram"
+            >
+              <IoLogoInstagram />
+            </a>
+          </SocialWrapper>
           <p>
             <a
               href="mailto:contact@velo-longchamp.fr?subject=Contact"
