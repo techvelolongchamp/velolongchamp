@@ -99,7 +99,7 @@ const IndexPage = ({ lng }) => {
           <img src="/logo.png" alt="logo" />
           <SocialWrapper>
             <a
-              href="https://www.facebook.com/velo.longchamp.3"
+              href="https://www.facebook.com/AssoVeloLongchamp"
               title="Facebook"
               target="_blank"
               className="facebook"
