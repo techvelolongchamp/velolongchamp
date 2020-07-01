@@ -3,7 +3,7 @@ date: 2020-06-29T00:04:32+02:00
 title: Accident dramatique sur l'anneau de Longchamp le mercredi 27 mai 2020 vers
   18h30
 slug: accident-dramatique-longchamp-27-mai-2020
-shouldBePublished: false
+shouldBePublished: true
 
 ---
 #### **Un témoignage poignant (1/3)**
