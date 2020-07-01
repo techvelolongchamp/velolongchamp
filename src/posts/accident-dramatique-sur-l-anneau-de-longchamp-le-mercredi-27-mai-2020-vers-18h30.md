@@ -10,6 +10,8 @@ shouldBePublished: true
 
 Autour de l'hippodrome de Longchamp, route des Tribunes, juste avant le Moulin
 
+![](/media/coucher_de_soleil_longchamp_600x298.png)
+
 Témoignage d'un de nos adhérents :
 
 "_En ce qui concerne le dramatique accident du mercredi 27 mai aux alentours de 18h30 et j’étais effectivement présent. À l'entrée du virage du Moulin un attroupement avec une chute ; et des cyclistes s'occupant du blessé lui posant des questions. Lancé à pleine vitesse, j'ai esquivé l'obstacle manifestement tout frais._
