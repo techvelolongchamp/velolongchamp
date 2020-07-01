@@ -28,7 +28,7 @@ _Il s’agissait d’un cycliste d'environ 60 ans portant des lunettes de cyclis
 
 _Bien que professionnels, perturbés nous décidons avec mon collègue de quitter les lieux et d'interrompre toute activité sportive. Nous partons dépités et un peu choqués d'un tel drame par un aussi bel après-midi ensoleillé._
 
-_Plus tard dans la soirée j'apprends sur_ [_Strava_](https://velo-longchamp.us4.list-manage.com/track/click?u=dcae449fb23ea3d337a6c5a26&id=2f91c9a5c0&e=f400e2aed5) _que la police a interrompu le circuit de l'anneau pendant environ une heure, je n’ai depuis aucune nouvelle du blessé qui est très probablement décédé._"
+_Plus tard dans la soirée j'apprends sur_  [_Strava_]() _que la police a interrompu le circuit de l'anneau pendant environ une heure, je n’ai depuis aucune nouvelle du blessé qui est très probablement décédé._"
 
 ![Photo de l'entrée ParisLongchamp](/media/entree_golf_600x298.jpg "Entrée ParisLongchamp")
 
