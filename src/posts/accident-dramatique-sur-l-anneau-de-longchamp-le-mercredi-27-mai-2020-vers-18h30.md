@@ -6,7 +6,7 @@ slug: accident-dramatique-longchamp-27-mai-2020
 shouldBePublished: true
 
 ---
-#### **Un témoignage poignant (1/3)**
+## **Un témoignage poignant (1/3)**
 
 Autour de l'hippodrome de Longchamp, route des Tribunes, juste avant le Moulin
 
@@ -30,7 +30,7 @@ _Plus tard dans la soirée j'apprends sur_ [_Strava_](https://velo-longchamp.us4
 
 ![Photo de l'entrée ParisLongchamp](/media/entree_golf_600x298.jpg "Entrée ParisLongchamp")
 
-#### **L'implication d'un cycliste pour trouver un défibrillateur (2/3)**
+## **L'implication d'un cycliste pour trouver un défibrillateur (2/3)**
 
 Suite à ce témoignage glaçant, après de nombreux coups fils pour identifier les bons interlocuteurs et recouper les informations, l'association Vélo Longchamp a essayé de comprendre la chaîne des secours.
 
@@ -60,7 +60,7 @@ L'association Vélo Longchamp a aussi échangé avec l'adjudant Chef Jeanne, res
 
 ![Photo emplacement défibrillateur ParisLongchamp](/media/defibrilateur_longchamp_600x298.png "Emplacement défibrillateur")
 
-#### **Comment être plus réactifs en cas d'accident (3/3)**
+## **Comment être plus réactifs en cas d'accident (3/3)**
 
 Suite à ce terrible accident, nous avons contacté FranceGalop sur 2 points :
 
@@ -95,11 +95,7 @@ _Voici notre recommandation pour FG :_
 _Définir une pratique adaptée au prêt de DAE hors du site (souplesse et réactivité)_
 
 * _L'agent du PC sécurité de FranceGalop note le nom et le téléphone de la personne venant chercher le DAE_
-
-
 * _Si l'agent peut sortir, il accompagne ou rejoint cette personne sur le lieu de l'accident_
-
-
 * _Sur place, l'agent prend les noms et numéro de téléphone des services d'urgence intervenant afin de savoir où ira le DAE si jamais les Pompiers / Samu partent avec l'appareil._"
 
 Depuis cet accident, nous avons aussi échangé avec le Golf de Longchamp qui a prévu d'acheter un défibrillateur dans les prochaines semaines. Nous sensibilisons aussi la Mairie sur l'idée de prévoir un défibrillateur autour de l'anneau cyclable, malgré un risque de vandalisme important.
