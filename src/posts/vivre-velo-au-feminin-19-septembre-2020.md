@@ -13,4 +13,4 @@ Programme à venir
 
 ### Inscriptions :
 
-[Formulaire d'inscription](https://velo-longchamp.typeform.com/to/ZExF5qZg)
+[Formulaire d'inscription](https://velo-longchamp.typeform.com/to/ZExF5qZg){:target="_blank"}
