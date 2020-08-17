@@ -7,10 +7,10 @@ shouldBePublished: false
 ---
 ## Ateliers sur l'Anneau Cyclable de Longchamp
 
-#### Programme :
+### Programme :
 
 Programme à venir
 
-#### Inscriptions :
+### Inscriptions :
 
 [Formulaire d'inscription](https://velo-longchamp.typeform.com/to/ZExF5qZg)
