@@ -49,8 +49,9 @@ Mme **Anne HIDALGO**, Maire de Paris
 
 Mme **Marie Françoise POTEREAU**, Vice-Présidente de la FFC
 
-####   
-**Sécurité & respect des règles sanitaires**
+#### 
+
+#### **Sécurité & respect des règles sanitaires**
 
 Aucun matériel ne sera prêté. Vous devez apporter votre propre vélo, casque et masque sanitaire.
 
