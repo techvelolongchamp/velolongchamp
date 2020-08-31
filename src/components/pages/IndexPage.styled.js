@@ -8,6 +8,7 @@ export const ContactWrapper = styled.div`
 
   img {
     width: 200px;
+    padding: 10px 0;
   }
 
   p {

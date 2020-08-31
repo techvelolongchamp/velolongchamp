@@ -182,7 +182,6 @@ const GlobalStyle = createGlobalStyle`
 
   img {
     border-style: none;
-    width: 100%
   }
 
   /* Forms

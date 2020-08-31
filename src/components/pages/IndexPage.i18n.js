@@ -3,6 +3,9 @@ import React from 'react'
 const Indexi18n = {
   fr: {
     mainSection: {
+      date: '19 SEPTEMBRE 2020',
+      start: '15H00',
+      end: '18H00',
       title: 'Bienvenue sur le site de Vélo Longchamp',
       part1:
         "L'association Vélo Longchamp regroupe l'ensemble des cyclistes utilisateurs de l'anneau cyclable autour de l'hippodrome de Longchamp",
@@ -244,6 +247,9 @@ const Indexi18n = {
   },
   en: {
     mainSection: {
+      date: 'SEPTEMBER 19th 2020',
+      start: '3pm',
+      end: '6pm',
       title: 'Welcome to Vélo Longchamp',
       part1:
         'The Vélo Longchamp association gathers all cyclists who cycle around the Longchamp hippodrome situated in Paris, France',
