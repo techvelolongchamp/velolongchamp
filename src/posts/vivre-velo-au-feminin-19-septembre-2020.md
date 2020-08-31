@@ -2,7 +2,7 @@
 date: 2020-09-01T10:06:17+02:00
 title: Événement Vivre vélo au féminin - 19 septembre 2020
 slug: evenement-vivre-velo-au-feminin-19-septembre-2020
-shouldBePublished: false
+shouldBePublished: true
 
 ---
 ## Événement _Vivre vélo au féminin_ le 19 septembre 2020 à Longchamp
@@ -29,7 +29,7 @@ Trois créneaux sont proposés **sur inscription** pour prendre part aux **ateli
 
 #### Inscriptions
 
-[**Formulaire d'inscription**](https://velo-longchamp.typeform.com/to/ZExF5qZg "Formulaire d'inscription") {:target="_blank"}
+<a class="form" target="_blank" href="https://velo-longchamp.typeform.com/to/ZExF5qZg">**Formulaire d'inscription**</a>
 
 #### Lieu de l’événement
 
@@ -37,7 +37,7 @@ Trois créneaux sont proposés **sur inscription** pour prendre part aux **ateli
 
 Visualiser la localisation sur Google Maps :
 
-<iframe src="[https://www.google.com/maps/embed?pb=](https://www.google.com/maps/embed?pb= "https://www.google.com/maps/embed?pb=")!1m18!1m12!1m3!1d1312.6788047304665!2d2.2354557774697286!3d48.85139080725452!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e67ad6db5bca13%3A0xae110f50bac53e28!2sRoute%20de%20la%20Seine%20%C3%80%20la%20Butte%20Mortemart%2C%2075016%20Paris%2C%20France!5e0!3m2!1sfr!2sca!4v1598609489883!5m2!1sfr!2sca" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2625.357689581268!2d2.234204016070423!3d48.851389279286806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e67ad6db5bca13%3A0xae110f50bac53e28!2sRoute%20de%20la%20Seine%20%C3%80%20la%20Butte%20Mortemart%2C%2075016%20Paris!5e0!3m2!1sfr!2sfr!4v1598865605220!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 
 #### **La journée se déroulera en la présence de :**
 

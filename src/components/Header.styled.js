@@ -65,6 +65,13 @@ export const NavItem = styled(Link)`
   &:hover {
     color: ${({ theme }) => theme.colors.grey};
   }
+
+  @media screen and (max-width: 640px) {
+    font-size: ${({ theme }) => theme.fonts.medium};
+    border: none;
+    padding: 0;
+    margin: 0 ${({ theme }) => theme.spacing.s};
+  }
 `
 
 export const ScrollItem = styled(ScrollLink)`
@@ -97,8 +104,13 @@ export const ButtonLink = styled(Link)`
   color: ${({ theme }) => theme.colors.white};
   background: ${({ theme }) => theme.colors.brandSecondary};
   border-radius: 5px;
+
+  @media screen and (max-width: 640px) {
+    font-size: ${({ theme }) => theme.fonts.medium};
+  }
 `
 
 export const Logo = styled.img`
-  width: 70px;
+  height: 70px;
+  padding: 5px 0;
 `

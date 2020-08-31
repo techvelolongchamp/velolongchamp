@@ -8,6 +8,7 @@ import carousel from '../json/carousel.json'
 const Picture = styled.p`
   background-image: url(${({ background }) => background});
   background-size: cover;
+  background-position: center;
   height: 100%;
 `
 

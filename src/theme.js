@@ -1,8 +1,8 @@
 const theme = {
-  navbarHeight: '81px',
-  navbarHeightNb: 81,
-  mobielNavbarHeight: '111px',
-  mobielNavbarHeightNb: 111,
+  navbarHeight: '80px',
+  navbarHeightNb: 80,
+  mobielNavbarHeight: '110px',
+  mobielNavbarHeightNb: 110,
   sectionHeight: '600px',
   contentMaxWidth: '750px',
   colors: {

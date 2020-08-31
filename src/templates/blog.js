@@ -33,6 +33,13 @@ const BlogContent = styled.div`
     border: 0.5px solid;
     color: ${({ theme }) => theme.colors.lightGrey};
   }
+  h4 {
+    color: ${({ theme }) => theme.colors.brandTertiary};
+    font-size: ${({ theme }) => theme.fonts.large};
+    font-weight: 500;
+    margin: ${({ theme }) => theme.spacing.m} 0;
+    padding-right: ${({ theme }) => theme.spacing.s};
+  }
   h5 {
     font-size: 18px;
     margin: ${({ theme }) => theme.spacing.m} 0;
@@ -43,6 +50,27 @@ const BlogContent = styled.div`
     &:hover {
       font-weight: 400;
       text-decoration: underline;
+    }
+    
+    &.form {
+      font-size: 20px;
+      font-weight: 400;
+    }
+  }
+
+
+  ul li {
+    align-items: center;
+    color: ${({ theme }) => theme.colors.brandSecondary};
+    font-size: ${({ theme }) => theme.fonts.large};
+    font-weight: 500;
+    margin: ${({ theme }) => theme.spacing.s} 0;
+    list-style: inside;
+    padding-left: ${({ theme }) => theme.spacing.l};
+    width: 50%;
+
+    @media (max-width: 640px) {
+      width: 100%;
     }
   }
 `
