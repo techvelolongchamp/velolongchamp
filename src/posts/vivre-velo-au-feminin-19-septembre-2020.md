@@ -1,5 +1,5 @@
 ---
-date: 2020-09-01T10:06:17+02:00
+date: 2020-09-01T10:06:17.000+02:00
 title: Événement Vivre vélo au féminin - 19 septembre 2020
 slug: evenement-vivre-velo-au-feminin-19-septembre-2020
 shouldBePublished: true
@@ -7,19 +7,15 @@ shouldBePublished: true
 ---
 ## Événement _Vivre vélo au féminin_ le 19 septembre 2020 à Longchamp
 
-##### **Les parisiennes ont rendez-vous avec l’anneau cyclable de Longchamp !**
+##### **Les cyclistes féminines ont rendez-vous avec l’anneau cyclable de Longchamp !**
 
-131 ans après le premier Championnat de Cyclisme Féminin, à Longchamp, un peloton 100% femmes réunissant des cyclistes du quotidien et des championnes Françaises s’élancera sur l’anneau.
-
-La veille de l’arrivée du Tour de France à Paris, la **FFC**, la **FDJ** et l’association **Vélo Longchamp**, plus grand collectif cycliste Français, s’associent pour promouvoir le **vélo au féminin**, en organisant une **initiation au sport cycliste pour les femmes** : c’est _Vivre vélo au féminin_.
-
-Les ambassadrices FFC sont 12 jeunes femmes passionnées de vélo. Compétitrices de haut niveau, elles obtiennent les plus belles victoires dans les plus grandes compétitions (JO, mondiaux, championnats). Très impliquées dans la vie de leur sport de cœur, elles promeuvent le cyclisme féminin sur tout le territoire français.
-
-Le cyclisme féminin est un axe de développement majeur pour la Fédération Française de Cyclisme qui milite pour la mixité dans le sport cycliste et **encourage la pratique féminine sous toutes ses formes**, en compétition comme en loisir. La FFC compte **plus de 12 000** féminines licenciées, soit environ 10% de ses effectifs.
+La veille de l’arrivée du Tour de France à Paris, la **FFC**, la **FDJ** et l’association **Vélo Longchamp**, plus grand collectif cycliste Français, s’associent pour promouvoir le **vélo au féminin**, inciter à la remise en selle et conjuguer “cycler” au féminin en organisant une **initiation au sport cycliste pour les femmes** : c’est _Vivre vélo au féminin_.
 
 #### Programme de la journée
 
-Trois créneaux sont proposés **sur inscription** pour prendre part aux **ateliers** et aux **randonnées cyclistes** organisés :
+**Samedi 19 septembre 2020 de 15h00 à 18h00**
+
+**Inscrivez-vous à l'un des trois créneaux proposés pour prendre part aux ateliers et randonnées cyclistes** qui seront animés par des experts FFC et les ambassadrices FFC.
 
 * 15h00 : départ de la première randonnée
 * 16h00 : départ de la deuxième randonnée
@@ -27,7 +23,7 @@ Trois créneaux sont proposés **sur inscription** pour prendre part aux **ateli
 
 **Important :** en raison de la situation sanitaire, seules les personnes inscrites et munies d’une invitation pourront se joindre à l'événement.
 
-#### Inscriptions
+#### Inscriptions :
 
 <a class="form" target="_blank" href="https://velo-longchamp.typeform.com/to/ZExF5qZg">Formulaire d'inscription</a>
 
@@ -51,10 +47,14 @@ Mme **Marie Françoise POTEREAU**, Vice-Présidente de la FFC
 
 #### **Sécurité & respect des règles sanitaires**
 
-Aucun matériel ne sera prêté. Vous devez apporter votre propre vélo, casque et masque sanitaire.
+**Aucun matériel, ni ravitaillement ne sera proposé**. Vous devez apporter votre propre vélo, casque, ravitaillement et masque sanitaire.
 
 **Le port du casque est obligatoire, aucun participant non casqué ne sera admis.**
 
-Vous êtes invités à vous désinfectez les mains avec le gel hydroalcoolique mis à votre disposition en arrivant sur le lieu de l’événement. Portez votre masque et restez à 2 mètres de distance en tout temps.
+**Portez votre masque** lorsque vous n'êtes pas sur le vélo ou lorsque vous êtes à l’arrêt.
 
-L’anneau cyclable de Longchamp est un équipement sportif ouvert à tou.te.s et à toutes les pratiques. Il ne sera pas fermé lors de la randonnée. Participer à la randonnée est sujet aux risques inhérents à la pratique du vélo en groupe. Pour la sécurité de toutes et de tous et afin de garder au rassemblement son caractère de randonnée, **aucune pratique dangereuse** ou contraire au code la route **ne sera tolérée**.
+Vous êtes invités à vous **désinfecter les mains avec le gel hydroalcoolique** mis à votre disposition en arrivant sur le lieu de l’événement.
+
+La **distanciation physique** est de rigueur, restez à bonne distance des autres personnes présentes sur place.
+
+L’anneau cyclable de Longchamp est un équipement sportif ouvert à tou.te.s et à toutes les pratiques. Il ne sera pas fermé lors de la randonnée. Participer à la randonnée est sujet aux risques inhérents à la pratique du vélo en groupe. Pour la sécurité de toutes et de tous et afin de conserver l’esprit randonnée de ce rassemblement, **aucune pratique dangereuse** ou contraire au code la route **ne sera tolérée**.
