@@ -27,7 +27,7 @@ Un maillot de cyclisme aux couleurs de l'événement sera offert à chaque parti
 
 #### Inscriptions :
 
-<a class="form" target="_blank" href="https://velo-longchamp.typeform.com/to/ZExF5qZg">Cliquer ici pour s'inscrire</a>
+<a class="form" target="_blank" href="https://velo-longchamp.typeform.com/to/ZExF5qZg">**Cliquer ici pour s'inscrire**</a>
 
 Les invitations seront envoyées aux personnes inscrites quelques jours avant l'événement.
 
