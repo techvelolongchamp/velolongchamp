@@ -19,19 +19,17 @@ Le cyclisme féminin est un axe de développement majeur pour la Fédération Fr
 
 #### Programme de la journée
 
-Trois créneaux sont proposés **sur inscription** pour prendre part aux **randonnées cyclistes** organisées :
+Trois créneaux sont proposés **sur inscription** pour prendre part aux **ateliers** et aux **randonnées cyclistes** organisés :
 
-* 15h00 - 15h45 : première randonnée
-* 16h00 - 16h45 : deuxième randonnée
-* 17h00 - 17h45 : troisième randonnée
+* 15h00 : départ de la première randonnée
+* 16h00 : départ de la deuxième randonnée
+* 17h00 : départ de la troisième randonnée
 
-Des **ateliers** seront proposés tout au long de l'après-midi par le collectif FFC sur la **remise en selle** et le **savoir rouler en peloton**.
-
-**Important :** en raison de la situation sanitaire, seules les personnes inscrites et munies d’une invitation pourront se joindre au peloton et participer aux ateliers.
+**Important :** en raison de la situation sanitaire, seules les personnes inscrites et munies d’une invitation pourront se joindre à l'événement.
 
 #### Inscriptions
 
-[Formulaire d'inscription](https://velo-longchamp.typeform.com/to/ZExF5qZg "Formulaire d'inscription") {:target="_blank"}
+[**Formulaire d'inscription**](https://velo-longchamp.typeform.com/to/ZExF5qZg "Formulaire d'inscription") {:target="_blank"}
 
 #### Lieu de l’événement
 
@@ -57,6 +55,6 @@ Aucun matériel ne sera prêté. Vous devez apporter votre propre vélo, casque 
 
 **Le port du casque est obligatoire, aucun participant non casqué ne sera admis.**
 
-Vous êtes invités à vous désinfectez les mains avec le gel hydro alcoolique mis à votre disposition en arrivant sur le lieu de l’événement. Portez votre masque et restez à 2 mètres de distance en tout temps.
+Vous êtes invités à vous désinfectez les mains avec le gel hydroalcoolique mis à votre disposition en arrivant sur le lieu de l’événement. Portez votre masque et restez à 2 mètres de distance en tout temps.
 
 L’anneau cyclable de Longchamp est un équipement sportif ouvert à tou.te.s et à toutes les pratiques. Il ne sera pas fermé lors de la randonnée. Participer à la randonnée est sujet aux risques inhérents à la pratique du vélo en groupe. Pour la sécurité de toutes et de tous et afin de garder au rassemblement son caractère de randonnée, **aucune pratique dangereuse** ou contraire au code la route **ne sera tolérée**.
