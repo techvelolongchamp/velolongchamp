@@ -55,6 +55,7 @@ const BlogContent = styled.div`
     &.form {
       font-size: 20px;
       font-weight: 400;
+      text-decoration: underline;
     }
   }
 

@@ -29,7 +29,7 @@ Trois créneaux sont proposés **sur inscription** pour prendre part aux **ateli
 
 #### Inscriptions
 
-<a class="form" target="_blank" href="https://velo-longchamp.typeform.com/to/ZExF5qZg">**Formulaire d'inscription**</a>
+<a class="form" target="_blank" href="https://velo-longchamp.typeform.com/to/ZExF5qZg">Formulaire d'inscription</a>
 
 #### Lieu de l’événement
 
