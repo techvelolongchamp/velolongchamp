@@ -74,12 +74,26 @@ const VivreVelo = styled.div`
   }
 `
 
-const Button = styled(Link)`
+const ButtonContainer = styled.div`
   position: absolute;
   right: 0;
   bottom: 0;
   margin-bottom: 100px;
   margin-right: 40px;
+
+  div {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  img {
+    width: 90px;
+  }
+`
+
+const Button = styled(Link)`
   padding: 10px;
   font-size: ${({ theme }) => theme.fonts.large};
   color: ${({ theme }) => theme.colors.brandSecondary};
@@ -103,9 +117,15 @@ const MainSection = ({ id, trad }) => {
         </SubTitle>
         <img src="/Logo_VV.png" alt="Vivre Vélo au Féminin" />
       </VivreVelo>
-      <Button to="/blog/evenement-vivre-velo-au-feminin-19-septembre-2020">
-        Programme et inscriptions
-      </Button>
+      <ButtonContainer>
+        <Button to="/blog/evenement-vivre-velo-au-feminin-19-septembre-2020">
+          Programme et inscriptions
+        </Button>
+        <div>
+          <img src="/Logo_FFC.svg" alt="FFC" />
+          <img src="/Logo-FDJ.png" alt="FDJ" />
+        </div>
+      </ButtonContainer>
 
       {/* <Carousel />
       <MainContainer>
