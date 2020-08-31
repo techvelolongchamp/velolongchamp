@@ -21,11 +21,15 @@ La veille de l’arrivée du Tour de France à Paris, la **FFC**, la **FDJ** et 
 * 16h00 : départ de la deuxième randonnée
 * 17h00 : départ de la troisième randonnée
 
+Un maillot de cyclisme aux couleurs de l'événement sera offert à chaque participante.
+
 **Important :** en raison de la situation sanitaire, seules les personnes inscrites et munies d’une invitation pourront se joindre à l'événement.
 
 #### Inscriptions :
 
-<a class="form" target="_blank" href="https://velo-longchamp.typeform.com/to/ZExF5qZg">Formulaire d'inscription</a>
+<a class="form" target="_blank" href="https://velo-longchamp.typeform.com/to/ZExF5qZg">Cliquer ici pour s'inscrire</a>
+
+Les invitations seront envoyées aux personnes inscrites quelques jours avant l'événement.
 
 #### Lieu de l’événement
 
