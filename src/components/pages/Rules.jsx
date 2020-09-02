@@ -149,11 +149,12 @@ const RulesPage = ({ lng }) => {
             6.2 - Assurance des organisateurs et des participants : <br />
             La FFC co organisateur de “Vivre vélo au féminin” est assuré par des
             garanties conformes aux dispositions des articles L.321-1 et L.331-9
-            du Code du sport. Assurance souscrite auprès de … Police d’assurance
-            numéro … Tous les participants à “Vivre vélo au féminin”, licenciés
-            à une fédération sportive et non licenciés, y compris les étrangers,
-            sont assurés par des garanties conformes aux dispositions des
-            articles L.321- 1 et L.331-9 du Code du sport.
+            du Code du sport. Assurance souscrite auprès d’AXA France IARD par
+            l’intermédiaire du courtier en assurance GRAS SAVOYE. Police
+            d’assurance numéro 727546262604. Tous les participants à “Vivre vélo
+            au féminin”, licenciés à une fédération sportive et non licenciés, y
+            compris les étrangers, sont assurés par des garanties conformes aux
+            dispositions des articles L.321- 1 et L.331-9 du Code du sport.
           </p>
           <h3>7. UTILISATION DE LA VOIE PUBLIQUE</h3>
           <p>
