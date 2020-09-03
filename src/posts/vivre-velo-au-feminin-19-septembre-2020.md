@@ -23,6 +23,10 @@ La veille de l’arrivée du Tour de France à Paris, la **FFC**, la **FDJ** et 
 
 Un maillot de cyclisme aux couleurs de l'événement sera offert à chaque participante.
 
+La FDJ fera gagner à 5 cyclistes féminines tirées au sort parmi les inscrites*, une randonnée exceptionnelle sur les Champs Elysées quelques heures avant l’arrivée des coureurs du Tour de France, dimanche 20 septembre.
+
+_*présence obligatoire lors du tirage au sort_
+
 **Important :** en raison de la situation sanitaire, seules les personnes inscrites et munies d’une invitation pourront se joindre à l'événement.
 
 #### Inscriptions :
