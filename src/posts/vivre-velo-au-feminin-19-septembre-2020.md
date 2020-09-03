@@ -31,6 +31,8 @@ _*présence obligatoire lors du tirage au sort_
 
 #### Inscriptions :
 
+**Les inscriptions sont ouvertes jusqu’au lundi 14 septembre inclus et limitées à 90 participantes par randonnée.**
+
 <a class="form" target="_blank" href="https://velo-longchamp.typeform.com/to/ZExF5qZg">**Cliquer ici pour s'inscrire**</a>
 
 Les invitations seront envoyées aux personnes inscrites quelques jours avant l'événement.
@@ -39,9 +41,7 @@ Les invitations seront envoyées aux personnes inscrites quelques jours avant l'
 
 **Grille haute de la route de la seine à la butte de Mortemart (rond-point de Boulogne)**
 
-Visualiser la localisation sur Google Maps :
-
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2625.357689581268!2d2.234204016070423!3d48.851389279286806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e67ad6db5bca13%3A0xae110f50bac53e28!2sRoute%20de%20la%20Seine%20%C3%80%20la%20Butte%20Mortemart%2C%2075016%20Paris!5e0!3m2!1sfr!2sfr!4v1598865605220!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+![](/media/lieu_evenement_vivre_velo_au_feminin.png)
 
 #### **La journée se déroulera en la présence de :**
 
