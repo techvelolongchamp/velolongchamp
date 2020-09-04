@@ -21,13 +21,13 @@ La veille de l’arrivée du Tour de France à Paris, la **FFC**, la **FDJ** et 
 * 16h00 : départ de la deuxième randonnée
 * 17h00 : départ de la troisième randonnée
 
-Un maillot de cyclisme aux couleurs de l'événement sera offert à chaque participante.
+Un maillot de cyclisme aux couleurs de l'événement sera remis à chaque participante.
 
 La FDJ fera gagner à 5 cyclistes féminines tirées au sort parmi les inscrites*, une randonnée exceptionnelle sur les Champs Elysées quelques heures avant l’arrivée des coureurs du Tour de France, dimanche 20 septembre.
 
 _*présence obligatoire lors du tirage au sort_
 
-**Important :** en raison de la situation sanitaire, seules les personnes inscrites et munies d’une invitation pourront se joindre à l'événement.
+**Important :** en raison de la situation sanitaire, seules les personnes inscrites et munies d’une invitation (envoyée quelques jours avant l'événement) pourront se joindre à l'événement.
 
 #### Inscriptions :
 
@@ -35,23 +35,13 @@ _*présence obligatoire lors du tirage au sort_
 
 <a class="form" target="_blank" href="https://velo-longchamp.typeform.com/to/ZExF5qZg">**Cliquer ici pour s'inscrire**</a>
 
-Les invitations seront envoyées aux personnes inscrites quelques jours avant l'événement.
-
 #### Lieu de l’événement
 
-**Grille haute de la route de la seine à la butte de Mortemart (rond-point de Boulogne)**
+**Croisement de la route de la Seine à la Butte Mortemart et route de Sèvres à Neuilly**
+
+[Visualiser le lieu sur Google Maps](https://www.google.com/maps/@48.8514801,2.2369612,3a,75y,253.85h,93.15t/data=!3m7!1e1!3m5!1sdngsX0Ndc6xw3sHIdDCjWg!2e0!6s%2F%2Fgeo3.ggpht.com%2Fcbk%3Fpanoid%3DdngsX0Ndc6xw3sHIdDCjWg%26output%3Dthumbnail%26cb_client%3Dmaps_sv.tactile.gps%26thumb%3D2%26w%3D203%26h%3D100%26yaw%3D322.86356%26pitch%3D0%26thumbfov%3D100!7i16384!8i8192?hl=fr "Entrée de l'événement")
 
 ![](/media/lieu_evenement_vivre_velo_au_feminin.png)
-
-#### **La journée se déroulera en la présence de :**
-
-Mme **Roxana MARACINEANU**, Ministre des sports
-
-Mme **Anne HIDALGO**, Maire de Paris
-
-Mme **Marie Françoise POTEREAU**, Vice-Présidente de la FFC
-
-#### 
 
 #### **Sécurité & respect des règles sanitaires**
 
