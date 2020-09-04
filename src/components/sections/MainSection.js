@@ -89,6 +89,7 @@ const ButtonContainer = styled.div`
   }
 
   img {
+    height: 50px;
     width: 90px;
   }
 `
