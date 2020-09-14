@@ -154,7 +154,7 @@ const Indexi18n = {
     },
     joinUs: {
       sectionTitle: "Nous rejoindre (C'EST GRATUIT !)",
-      clickJoin: "Rejoindre l'association",
+      clickJoin: 'Adhérer gratuitement',
       joinMessage:
         'Devenir membre de VELO LONGCHAMP est gratuit et ne prend que quelques instants :',
       reasonToJoin: {
@@ -398,7 +398,7 @@ const Indexi18n = {
     },
     joinUs: {
       sectionTitle: "Join Us (IT'S FREE!)",
-      clickJoin: 'Join the association',
+      clickJoin: 'Join for free',
       joinMessage:
         'Becoming a member of VELO LONGCHAMP is free and only takes a few minutes:',
       reasonToJoin: {

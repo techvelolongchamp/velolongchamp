@@ -28,7 +28,7 @@ const Headeri18n = {
     joinUs: 'Nous rejoindre',
     meetUs: 'Nous rencontrer',
     contactUs: 'Nous contacter',
-    clickJoin: "Rejoindre l'association",
+    clickJoin: 'Adhérer gratuitement',
     blog: 'Actualités',
   },
   en: {
@@ -36,7 +36,7 @@ const Headeri18n = {
     joinUs: 'Join',
     meetUs: 'Meet us',
     contactUs: 'Contact',
-    clickJoin: 'Join the association',
+    clickJoin: 'Join for free',
     blog: 'News',
   },
 }

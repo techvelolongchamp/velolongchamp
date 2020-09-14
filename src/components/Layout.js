@@ -26,7 +26,7 @@ const Content = styled.main`
 
 const AlertContainer = styled.div`
   align-items: center;
-  background: ${({ theme }) => theme.colors.brandSecondary};
+  background: darkorange;
   border-bottom-left-radius: 30px;
   border-top-left-radius: 30px;
   color: white;
@@ -47,7 +47,7 @@ const AlertContainer = styled.div`
 
 const AlertMessage = styled.div`
   align-items: center;
-  background: ${({ theme }) => theme.colors.brandSecondary};
+  background: darkorange;
   color: ${({ theme }) => theme.colors.white};
   display: flex;
   position: fixed;
@@ -111,7 +111,7 @@ const Layout = ({ children, lng, alert }) => {
 
   useEffect(() => {
     document.addEventListener('mousedown', handleClickOutside)
-    setTimeout(hideAlert, 4000)
+    setTimeout(hideAlert, 6000)
     return () => {
       document.removeEventListener('mousedown', handleClickOutside)
     }
