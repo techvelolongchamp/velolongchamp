@@ -37,7 +37,7 @@ const AlertContainer = styled.div`
   position: fixed;
   transition: all 0.3s ease;
   right: ${({ showAlert }) => (showAlert ? '200px' : '0')};
-  top: 120px;
+  top: 100px;
   z-index: 10;
 
   svg {
@@ -53,7 +53,7 @@ const AlertMessage = styled.div`
   position: fixed;
   transition: all 0.3s ease;
   right: ${({ showAlert }) => (showAlert ? '0' : '-200px')};
-  top: 120px;
+  top: 100px;
   z-index: 10;
   width: 200px;
   font-size: 16px;

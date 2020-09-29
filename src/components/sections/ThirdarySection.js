@@ -21,9 +21,17 @@ const H2Title = styled.h2`
   margin: ${({ theme }) => theme.spacing.l} 0;
 `
 
-const ThirdarySection = ({ id, title, children, height, useH1, hideH1 }) => (
+const ThirdarySection = ({
+  id,
+  title,
+  children,
+  height,
+  useH1,
+  hideH1,
+  maxWidth,
+}) => (
   <SectionContainer name={id} id={id} height={height}>
-    <Content>
+    <Content maxWidth={maxWidth}>
       {useH1 ? (
         <H1Title hideH1={hideH1}>{title}</H1Title>
       ) : (
@@ -37,11 +45,13 @@ const ThirdarySection = ({ id, title, children, height, useH1, hideH1 }) => (
 ThirdarySection.propTypes = {
   useH1: PropTypes.bool,
   hideH1: PropTypes.bool,
+  maxWidth: PropTypes.string,
 }
 
 ThirdarySection.defaultProps = {
   useH1: false,
   hideH1: false,
+  maxWidth: undefined,
 }
 
 export default ThirdarySection
