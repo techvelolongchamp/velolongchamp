@@ -110,7 +110,7 @@ const Button = styled(Link)`
 const MainSection = ({ id, trad }) => {
   return (
     <SectionContainer id={id}>
-      <Picture background="/media/Banniere.JPG" />
+      <Picture background="/media/Banniere.webp" />
       {/* <VivreVelo>
         <SubTitle>
           {trad.mainSection.date} | {trad.mainSection.start} <FiChevronRight />
