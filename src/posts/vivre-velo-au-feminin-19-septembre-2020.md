@@ -33,7 +33,7 @@ _*présence obligatoire lors du tirage au sort_
 
 **Les inscriptions sont ouvertes jusqu’au lundi 14 septembre inclus et limitées à 90 participantes par randonnée.**
 
-<a class="form" target="_blank" href="https://velo-longchamp.typeform.com/to/ZExF5qZg">**Cliquer ici pour s'inscrire**</a>
+Inscriptions closes
 
 #### Lieu de l’événement
 
