@@ -110,8 +110,8 @@ const Button = styled(Link)`
 const MainSection = ({ id, trad }) => {
   return (
     <SectionContainer id={id}>
-      <Picture background="/media/Banniere.png" />
-      <VivreVelo>
+      <Picture background="/media/Banniere.JPG" />
+      {/* <VivreVelo>
         <SubTitle>
           {trad.mainSection.date} | {trad.mainSection.start} <FiChevronRight />
           {trad.mainSection.end}
@@ -126,7 +126,7 @@ const MainSection = ({ id, trad }) => {
           <img src="/Logo_FFC.svg" alt="FFC" />
           <img src="/Logo-FDJ.png" alt="FDJ" />
         </div>
-      </ButtonContainer>
+      </ButtonContainer> */}
 
       {/* <Carousel />
       <MainContainer>
