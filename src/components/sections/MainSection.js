@@ -108,19 +108,9 @@ const Button = styled(Link)`
 `
 
 const MainSection = ({ id, trad }) => {
-  const isSafari =
-    /constructor/i.test(window.HTMLElement) ||
-    (function(p) {
-      return p.toString() === '[object SafariRemoteNotification]'
-    })(
-      !window['safari'] ||
-        (typeof global.safari !== 'undefined' && global.safari.pushNotification)
-    )
   return (
     <SectionContainer id={id}>
-      <Picture
-        background={isSafari ? '/media/Banniere.JPG' : '/media/Banniere.webp'}
-      />
+      <Picture background="/media/Banniere.JPG" />
       {/* <VivreVelo>
         <SubTitle>
           {trad.mainSection.date} | {trad.mainSection.start} <FiChevronRight />
