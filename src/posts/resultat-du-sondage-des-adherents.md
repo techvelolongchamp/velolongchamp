@@ -29,3 +29,5 @@ Sur les autres services :
 * **La 2e priorité est le compteur vélo (61%)** puis la webcam puis la station de réparation
 
 ##### On a bien noté que **l’éclairage est essentiel** pour vous. Ca a toujours été une de nos revendications. Mais, pour l’heure, **nous n’avons pas eu d’accord de la Mairie** malgré nos demandes répétées et nos propositions d’éclairage « doux ». La partie sans éclairage de l’Anneau dépend de la division Parcs et Jardins qui nous dit que c’est une réserve de biodiversité. Euh, vu la pollution émise par nos voisins à Longchamp, on a du mal à comprendre donc on continue à pousser.
+
+###### Selon l’état de consommation du budget, nous **demanderons un compteur vélo en premier**, vu qu’il a votre préférence par rapport à la webcam et au pied d’atelier. On a reçu pas mal d’idées supplémentaires (ex : casiers) qu’on ajoute à la liste.
