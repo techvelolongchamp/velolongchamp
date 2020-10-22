@@ -1,7 +1,7 @@
 ---
 date: 2020-10-22T11:22:11.000+02:00
-title: Résultat du sondage des adhérents
-slug: resultats-sondage
+title: Résultats du questionnaire aux adhérents
+slug: resultats-questionnaire
 shouldBePublished: false
 
 ---
