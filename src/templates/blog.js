@@ -33,6 +33,12 @@ const BlogContent = styled.div`
     border: 0.5px solid;
     color: ${({ theme }) => theme.colors.lightGrey};
   }
+  h3 {
+    font-size: 18px;
+    margin: ${({ theme }) => theme.spacing.l} 0;
+    color: ${({ theme }) => theme.colors.brandTertiary};
+    font-weight: 600;
+  }
   h4 {
     color: ${({ theme }) => theme.colors.brandTertiary};
     font-size: ${({ theme }) => theme.fonts.large};
@@ -44,6 +50,14 @@ const BlogContent = styled.div`
     font-size: 18px;
     margin: ${({ theme }) => theme.spacing.m} 0;
   }
+
+  h6 {
+    font-size: 16px;
+    margin: ${({ theme }) => theme.spacing.m} 0;
+    font-weight: 200;
+    color: ${({ theme }) => theme.colors.brandPrimary};
+  }
+
   a {
     color: ${({ theme }) => theme.colors.brandPrimary};
     font-weight: 300;
@@ -51,7 +65,7 @@ const BlogContent = styled.div`
       font-weight: 400;
       text-decoration: underline;
     }
-    
+
     &.form {
       font-size: 20px;
       font-weight: 400;
@@ -59,16 +73,15 @@ const BlogContent = styled.div`
     }
   }
 
-
   ul li {
     align-items: center;
     color: ${({ theme }) => theme.colors.brandSecondary};
-    font-size: ${({ theme }) => theme.fonts.large};
-    font-weight: 500;
+    font-size: ${({ theme }) => theme.fonts.medium};
+    font-weight: 200;
     margin: ${({ theme }) => theme.spacing.s} 0;
     list-style: inside;
     padding-left: ${({ theme }) => theme.spacing.l};
-    width: 50%;
+    max-width: 75%;
 
     @media (max-width: 640px) {
       width: 100%;

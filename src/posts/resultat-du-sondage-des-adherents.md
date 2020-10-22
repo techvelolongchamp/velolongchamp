@@ -13,7 +13,7 @@ Nous avons eu 526 réponses à notre questionnaire, soit environ **50% du nombre
 
 Voici ci-dessous les résultats, avec nos commentaires. Tout en bas du document, il y a une carte de Longchamp avec les noms (ex « goulet moulin ») pour vous repérer.
 
-### **Quelles sont les priorités des aménagements à faire à Longchamp ?**
+### **1. Quelles sont les priorités des aménagements à faire à Longchamp ?**
 
 * Le **1er niveau de priorité**, de très loin, est **l’élargissement du goulet côté Moulin** (i.e. le rétrécissement avant d’arriver devant le golf).
 * Le **2e niveau** est la réfection du **revêtement** + la **séparation vélo/voitures** + le réaménagement de **l’entrée du golf**
@@ -32,7 +32,7 @@ Sur les autres services :
 
 ###### _Selon l’état de consommation du budget, nous **demanderons un compteur vélo en premier**, vu qu’il a votre préférence par rapport à la webcam et au pied d’atelier. On a reçu pas mal d’idées supplémentaires (ex : casiers) qu’on ajoute à la liste._
 
-### **Comment voulez-vous traiter la séparation entre vélos et voitures ?**
+### **2. Comment voulez-vous traiter la séparation entre vélos et voitures ?**
 
 * Sur le segment entre le golf et le virage descendant côté Boulogne : **en majorité, les répondants préfèrent des balisettes espacées**. A noter qu’il y a autant de répondants en faveur de barrières continues qu’en faveur d’une simple ligne blanche (ce qu’il y a aujourd’hui), ce qui montre bien la divergence d’opinions.
 
@@ -48,7 +48,7 @@ Sur les autres services :
 
 ###### _Avant de trouver des solutions au parking illégal et dangereux des taxis/vtc devant les grilles, il faut obtenir l’élargissement de l’Anneau, qui ne fait que 3m. **Nous ne demanderons donc pas de séparation physique**_
 
-### **Elargissement des goulets**
+### **3. Elargissement des goulets**
 
 * **Goulet côté moulin : 84%** des répondants considèrent **qu’il faut élargir tout le goulet (entre le moulin et le golf) et pas seulement refaire le revêtement au niveau des racines avant l’entrée du golf.**
 * Virage descendant côté Boulogne : les répondants veulent aussi l’élargissement du virage, mais c’est moins essentiel.
@@ -59,14 +59,14 @@ Sur les autres services :
 
 ###### _Pour le virage descendant côté Boulogne. Certes, il y a moins de probabilité d’accident mais si ça arrive, c’est un carnage vu qu’il n’y a aucune visibilité (chien qui traverse, coureur, voiture à contre sens…). Donc, on **continuera à le demander mais on note que c’est moins prioritaire que le moulin.** Travaux non confirmés à date à cet endroit._
 
-### **Autres problèmes de voirie**
+### **4. Autres problèmes de voirie**
 
 * **La majorité des répondants apprécie le revêtement actuel** (55%), qu’il faut cependant reprendre par endroits route des Tribunes
 
 
 * Pour le problème des voitures garées devant le camp des gens du voyage (avant la barrière), les répondants préfèrent une **réponse forte en demandant la neutralisation de l’espace pour empêcher le stationnement illégal**. Certains ont dit qu’on pouvait faire les 3. Oui, c’est vrai, même si la police a du mal à se faire respecter là-bas. Reste que le problème avec les gens du voyage va bien au-delà du stationnement illégal et qu’il va falloir l’adresser
 
-### Profil
+### **5. Profil**
 
 * **30**% des répondants viennent au moins 3 fois par semaine, **84% au moins 1 fois par semaine**. **Longchamp est clairement un équipement sportif** !
 * **94% d’hommes**… Nous avons un peu rééquilibré les choses depuis l’évènement « Vivre vélo au féminin » mi-septembre mais il y du boulot pour rendre Longchamp plus mixte
