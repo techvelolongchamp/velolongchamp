@@ -13,7 +13,7 @@ Nous avons eu 526 réponses à notre questionnaire, soit environ **50% du nombre
 
 Voici ci-dessous les résultats, avec nos commentaires. Tout en bas du document, il y a une carte de Longchamp avec les noms (ex « goulet moulin ») pour vous repérer.
 
-### **Quelles sont les priorités des aménagements à faire à Longchamp ?**
+##### **Quelles sont les priorités des aménagements à faire à Longchamp ?**
 
 * Le **1er niveau de priorité**, de très loin, est **l’élargissement du goulet côté Moulin** (i.e. le rétrécissement avant d’arriver devant le golf).
 * Le **2e niveau** est la réfection du **revêtement** + la **séparation vélo/voitures** + le réaménagement de **l’entrée du golf**
