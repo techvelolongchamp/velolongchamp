@@ -1,5 +1,5 @@
 ---
-date: 2020-10-22T11:22:11+02:00
+date: 2020-10-22T11:22:11.000+02:00
 title: Résultat du sondage des adhérents
 slug: resultats-sondage
 shouldBePublished: false
@@ -21,16 +21,20 @@ Voici ci-dessous les résultats, avec nos commentaires. Tout en bas du document,
 
 ###### _Tous ces travaux sont essentiels pour sécuriser l’Anneau et nous nous battrons pour tout obtenir. Mais, s’il nous est demandé un niveau de priorité, nous suivrons l’ordre donné ici par les adhérents._
 
-Sur les autres services : 
+Sur les autres services :
 
 * **La priorité est l’éclairage, demandé par 82%** des répondants (il manque sur environ 1km, côté Boulogne)
-
-
 * **La 2e priorité est le compteur vélo (61%)** puis la webcam puis la station de réparation
 
 ###### _On a bien noté que **l’éclairage est essentiel** pour vous. Ca a toujours été une de nos revendications. Mais, pour l’heure, **nous n’avons pas eu d’accord de la Mairie** malgré nos demandes répétées et nos propositions d’éclairage « doux ». La partie sans éclairage de l’Anneau dépend de la division Parcs et Jardins qui nous dit que c’est une réserve de biodiversité. Euh, vu la pollution émise par nos voisins à Longchamp, on a du mal à comprendre donc on continue à pousser._
 
 ###### _Selon l’état de consommation du budget, nous **demanderons un compteur vélo en premier**, vu qu’il a votre préférence par rapport à la webcam et au pied d’atelier. On a reçu pas mal d’idées supplémentaires (ex : casiers) qu’on ajoute à la liste._
+
+![](/media/chart-1.png)
+
+![](/media/chart-2.png)
+
+![](/media/chart-3.png)
 
 ### **2. Comment voulez-vous traiter la séparation entre vélos et voitures ?**
 
@@ -48,6 +52,10 @@ Sur les autres services :
 
 ###### _Avant de trouver des solutions au parking illégal et dangereux des taxis/vtc devant les grilles, il faut obtenir l’élargissement de l’Anneau, qui ne fait que 3m. **Nous ne demanderons donc pas de séparation physique**_
 
+![](/media/chart-4.png)![](/media/chart-4b.png)
+
+![](/media/chart-5.png)![](/media/chart-5b.png)
+
 ### **3. Elargissement des goulets**
 
 * **Goulet côté moulin : 84%** des répondants considèrent **qu’il faut élargir tout le goulet (entre le moulin et le golf) et pas seulement refaire le revêtement au niveau des racines avant l’entrée du golf.**
@@ -59,18 +67,32 @@ Sur les autres services :
 
 ###### _Pour le virage descendant côté Boulogne. Certes, il y a moins de probabilité d’accident mais si ça arrive, c’est un carnage vu qu’il n’y a aucune visibilité (chien qui traverse, coureur, voiture à contre sens…). Donc, on **continuera à le demander mais on note que c’est moins prioritaire que le moulin.** Travaux non confirmés à date à cet endroit._
 
+![](/media/chart-6.png)![](/media/chart-6b.png)
+
 ### **4. Autres problèmes de voirie**
 
 * **La majorité des répondants apprécie le revêtement actuel** (55%), qu’il faut cependant reprendre par endroits route des Tribunes
-
-
 * Pour le problème des voitures garées devant le camp des gens du voyage (avant la barrière), les répondants préfèrent une **réponse forte en demandant la neutralisation de l’espace pour empêcher le stationnement illégal**. Certains ont dit qu’on pouvait faire les 3. Oui, c’est vrai, même si la police a du mal à se faire respecter là-bas. Reste que le problème avec les gens du voyage va bien au-delà du stationnement illégal et qu’il va falloir l’adresser
+
+![](/media/chart-7b.png)
+
+![](/media/chart-7.png)
 
 ### **5. Profil**
 
 * **30**% des répondants viennent au moins 3 fois par semaine, **84% au moins 1 fois par semaine**. **Longchamp est clairement un équipement sportif** !
 * **94% d’hommes**… Nous avons un peu rééquilibré les choses depuis l’évènement « Vivre vélo au féminin » mi-septembre mais il y du boulot pour rendre Longchamp plus mixte
 
+![](/media/chart-8.png)![](/media/chart-9.png)
+
+![](/media/chart-10.png)![](/media/chart-11.png)
+
+![](/media/chart-12.png)
+
 **Carte :**
 
+![](/media/carte.png)
+
 **Exemple balisettes :**
+
+![](/media/balisettes.png)
