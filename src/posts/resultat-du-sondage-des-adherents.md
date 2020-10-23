@@ -1,11 +1,11 @@
 ---
 date: 2020-10-22T11:22:11.000+02:00
-title: Résultats du questionnaire aux adhérents
+title: Résultats du sondage aux adhérents
 slug: resultats-questionnaire
 shouldBePublished: true
 
 ---
-## Réponse au questionnaire Vélo Longchamp sur les aménagements
+## Résultats du sondage sur les aménagements à mener sur l'anneau de Longchamp
 
 Voici les résultats du sondage que nous avions fait passer en août **pour avoir l’avis des adhérents sur les travaux d’aménagements à mener sur l'anneau de Longchamp** – avant un rendez-vous début septembre avec la Mairie de Paris. On fera d’ailleurs très **rapidement un point d’étape sur les travaux lancés par le service voirie de la Mairie de Paris** qui vont au-delà des sujets de ce sondage (ex : flaque d’eau après les grilles de l’hippodrome).
 
