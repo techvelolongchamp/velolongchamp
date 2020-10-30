@@ -10,7 +10,7 @@ shouldBePublished: false
 
 Le 19 septembre 2020, veille de l’arrivée du Tour de France à Paris, nous étions associés à la Fédération Française de Cyclisme (FFC) et la FDJ pour promouvoir le cyclisme féminin lors de l'événement "_Vivre vélo au féminin_" !
 
-C'est **180 participantes** qui avaient rendez-vous avec l'anneau de Longchamp ! Âgées entre 8 et 68 ans, elles étaient de tous niveaux et tous horizons ! C'est un réel succès pour nous et nos partenaires, nous envisageons déjà l'organisation d'une prochaine édition ou d'un événement sous un autre format avec la FFC ! Nous souhaitons voir davantage de mixité à l'avenir dans le peloton de Longchamp !
+C'est **180 participantes** qui avaient rendez-vous avec l'anneau de Longchamp ! Âgées entre 8 et 68 ans, elles étaient de **tous niveaux et tous horizons** ! C'est un réel succès pour nous et nos partenaires, nous envisageons déjà l'organisation d'une **prochaine édition** ou d'un **événement sous un autre format avec la FFC** ! **Nous souhaitons voir davantage de mixité à l'avenir dans le peloton de Longchamp !**
 
 Trois créneaux leurs étaient proposés pour prendre part aux **ateliers et randonnées cyclistes animés par des experts FFC et les ambassadrices FFC**.
 
