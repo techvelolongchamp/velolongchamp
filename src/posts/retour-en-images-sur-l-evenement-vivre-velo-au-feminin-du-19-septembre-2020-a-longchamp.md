@@ -16,7 +16,7 @@ Trois créneaux leurs étaient proposés pour prendre part aux **ateliers et ran
 
 #### Revivez l'événement en vidéo :
 
-<iframe width="560" height="315" src="[https://www.youtube.com/embed/F3CCsfdlPLc](https://www.youtube.com/embed/F3CCsfdlPLc "https://www.youtube.com/embed/F3CCsfdlPLc")" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/F3CCsfdlPLc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Réalisation : Antoine Bouillier
 
