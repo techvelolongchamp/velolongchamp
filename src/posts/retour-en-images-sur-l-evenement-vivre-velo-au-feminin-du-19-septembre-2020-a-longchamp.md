@@ -6,7 +6,7 @@ slug: retour-en-images-vivre-velo-au-feminin-19-septembre-2020-longchamp
 shouldBePublished: false
 
 ---
-## Retour en image : événement Vivre vélo au féminin le 19 septembre 2020
+## Retour en images : événement Vivre vélo au féminin
 
 Le 19 septembre 2020, veille de l’arrivée du Tour de France à Paris, nous étions associés à la Fédération Française de Cyclisme (FFC) et la FDJ pour promouvoir le cyclisme féminin lors de l'événement "_Vivre vélo au féminin_" !
 
@@ -20,7 +20,7 @@ Trois créneaux leurs étaient proposés pour prendre part aux **ateliers et ran
 
 Réalisation : Antoine Bouillier
 
-#### Retrouvez les photos de l'événement sur notre page Facebook ici **(lien à ajouter)**
+#### [Retrouvez les photos de l'événement sur notre page Facebook](https://www.facebook.com/media/set/?set=a.178093863945256&type=3 "Photos de l'événement sur Facebook")
 
 ##### [Lisez l'article rédigé par Romain Beauvais dans Les Reines du Vélo](https://lesreinesduvelo.fr/tag/vivre-velo-au-feminin/)
 
@@ -38,8 +38,7 @@ Réalisation : Antoine Bouillier
 * Joseph SANTUCCI, chef de la Division du bois de Boulogne
 * Nicolas RODRIGUEZ et Nabil KANDI, France Galop
 * Mathilde DUPRÉ, FFC
-
-  **Un grand merci à tous les bénévoles qui ont permis le bon déroulement de l'événement dans le respect des règles sanitaires :**
+* **Un grand merci à tous les bénévoles qui ont permis le bon déroulement de l'événement dans le respect des règles sanitaires :**
 
   Christophe, Aurélien S (French Frogs), Erwan, Emeline, Valéry, Annick, Aurélien P, Didier, Colette, Anne-Charlotte, Athénaïs (Be Mojoo), Thomas & Man.
 * **Photographe :** Romain Bouillier
