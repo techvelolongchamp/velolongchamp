@@ -42,5 +42,7 @@ Réalisation : Antoine Bouillier
   **Un grand merci à tous les bénévoles qui ont permis le bon déroulement de l'événement dans le respect des règles sanitaires :**
 
   Christophe, Aurélien S (French Frogs), Erwan, Emeline, Valéry, Annick, Aurélien P, Didier, Colette, Anne-Charlotte, Athénaïs (Be Mojoo), Thomas & Man.
+
 * **Photographe :** Romain Bouillier
+
 * **Ambassadrices FFC :** Amandine LACLARE, Clémence TATREAUX, Mathilde SAHUGUET, Alizée COLLAS et Laure GIRARD.
