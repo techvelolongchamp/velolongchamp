@@ -27,6 +27,8 @@ Réalisation : Antoine Bouillier
 ##### **L'événement s'est déroulé en présence de :**
 
 * Marie-Françoise POTEREAU, Vice présidente de la FFC
+
+
 * Christine LAVARDE, Sénateur des Hauts-de-Seine
 * Nadir HADDOU, ex-coureur cycliste professionnel Big Mat-Auber 93
 * Samia BADAT-KARAM, Élue conseillère de Paris 16e
