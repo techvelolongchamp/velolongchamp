@@ -38,7 +38,8 @@ Réalisation : Antoine Bouillier
 * Joseph SANTUCCI, chef de la Division du bois de Boulogne
 * Nicolas RODRIGUEZ et Nabil KANDI, France Galop
 * Mathilde DUPRÉ, FFC
-* **Un grand merci à tous les bénévoles qui ont permis le bon déroulement de l'événement dans le respect des règles sanitaires :**
+
+  **Un grand merci à tous les bénévoles qui ont permis le bon déroulement de l'événement dans le respect des règles sanitaires :**
 
   Christophe, Aurélien S (French Frogs), Erwan, Emeline, Valéry, Annick, Aurélien P, Didier, Colette, Anne-Charlotte, Athénaïs (Be Mojoo), Thomas & Man.
 * **Photographe :** Romain Bouillier
