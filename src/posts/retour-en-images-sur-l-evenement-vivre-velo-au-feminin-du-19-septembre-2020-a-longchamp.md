@@ -3,7 +3,7 @@ date: 2020-11-01T12:34:55+01:00
 title: Retour en images sur l'événement Vivre vélo au féminin du 19 septembre 2020
   à Longchamp !
 slug: retour-en-images-vivre-velo-au-feminin-19-septembre-2020-longchamp
-shouldBePublished: false
+shouldBePublished: true
 
 ---
 ## Retour en images : événement Vivre vélo au féminin
