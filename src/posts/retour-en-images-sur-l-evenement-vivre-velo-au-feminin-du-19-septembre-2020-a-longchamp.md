@@ -32,7 +32,8 @@ Réalisation : Antoine Bouillier
 * Samia BADAT-KARAM, Élue conseillère de Paris 16e
 * Pierre RABADAN, Adjoint à la Mairie de Paris en charge du sport, des Jeux Olympiques et paralympiques
 * Ali OUBAALI, Adjoint au Maire du 16e en charge de sports
-* Hanna SEBBAH, Élue conseillère de Paris 16e Karim ZIADY, Conseiller de Paris, délégué au Sport de proximité
+* Hanna SEBBAH, Élue conseillère de Paris 16e
+* Karim ZIADY, Conseiller de Paris, délégué au Sport de proximité
 
   ##### **Remerciements**
 * Joseph SANTUCCI, chef de la Division du bois de Boulogne
