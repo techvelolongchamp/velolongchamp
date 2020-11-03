@@ -41,6 +41,7 @@ const Indexi18n = {
           'Ainsi, nous nous impliquons activement dans différents projets comme le développement de la pratique du vélo par les jeunes et le soutien de la pratique handisport. Rappelons qu’en étant protégé de la circulation des voitures, l’anneau de Lonchamp est particulièrement adapté à l’entrainement des sportifs handisports.',
         part5:
           'Fort de l’adhésion de plusieurs centaines de membres, et de l’affiliation de nombreux clubs sportifs parisiens et franciliens, nous sommes fiers de compter dans nos rangs tous les profils et toutes les pratiques cyclistes, sans distinction d’âge, de genre, de niveau, ou même de type de vélo ! Nous avons par exemple des pratiquants de tandem (certains malvoyants ou aveugles) et de vélo couché.',
+        link: 'Consulter nos statuts',
       },
       why: {
         title: 'Pourquoi une association Vélo Longchamp ?',
@@ -285,6 +286,7 @@ const Indexi18n = {
           'Thus, we are actively involved in various projects such as the development of cycling for young people or the support of disabled sport activities. As the area is protected from road traffic, the ring is particularly suitable for the training of athletes with disabilities.',
         part5:
           'Thanks to the membership of hundreds of cyclists and various local sport clubs, we are proud to have amongst us all cyclist profiles and cycling activity without distinction of age, gender, level or even the type of bike! For example, we have practitioners who use tandem (some visually impaired or blind) or of recumbent bikes.',
+        link: 'Read about our statuses (in French)',
       },
       why: {
         title: 'Why an association Vélo Longchamp?',

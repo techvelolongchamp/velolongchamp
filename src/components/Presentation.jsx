@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'gatsby'
 
 import { PresentationContainer, VideoWrapper } from './Presentation.styled'
 
@@ -11,6 +12,9 @@ const Presentation = ({ trad }) => {
       <p>{trad.presentation.whoAreWe.part3}</p>
       <p>{trad.presentation.whoAreWe.part4}</p>
       <p>{trad.presentation.whoAreWe.part5}</p>
+      <p>
+        <Link to="/statuts">{trad.presentation.whoAreWe.link}</Link>
+      </p>
       <h3>{trad.presentation.why.title}</h3>
       <p>{trad.presentation.why.part1}</p>
       <p>{trad.presentation.why.part2}</p>

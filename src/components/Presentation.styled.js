@@ -56,6 +56,11 @@ export const PresentationContainer = styled.article`
     margin-right: ${({ theme }) => theme.spacing.xs};
   }
 
+  a  {
+    color: ${({ theme }) => theme.colors.brandSecondary};
+    font-weight: 800;
+  }
+
   ul {
     list-style: none;
     display: flex;

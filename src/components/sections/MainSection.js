@@ -111,22 +111,6 @@ const MainSection = ({ id, trad }) => {
   return (
     <SectionContainer id={id}>
       <Picture background="/media/Banniere.JPG" />
-      {/* <VivreVelo>
-        <SubTitle>
-          {trad.mainSection.date} | {trad.mainSection.start} <FiChevronRight />
-          {trad.mainSection.end}
-        </SubTitle>
-        <img src="/Logo_VV.png" alt="Vivre Vélo au Féminin" />
-      </VivreVelo>
-      <ButtonContainer>
-        <Button to="/blog/evenement-vivre-velo-au-feminin-19-septembre-2020">
-          Programme et inscriptions
-        </Button>
-        <div>
-          <img src="/Logo_FFC.svg" alt="FFC" />
-          <img src="/Logo-FDJ.png" alt="FDJ" />
-        </div>
-      </ButtonContainer> */}
 
       {/* <Carousel />
       <MainContainer>
