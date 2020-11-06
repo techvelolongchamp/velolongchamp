@@ -73,18 +73,38 @@ const BlogContent = styled.div`
     }
   }
 
-  ul li {
+  ul,
+  ol {
+    list-style: inside;
+  }
+
+  ul,
+  ol li {
     align-items: center;
     color: ${({ theme }) => theme.colors.brandSecondary};
     font-size: ${({ theme }) => theme.fonts.medium};
     font-weight: 200;
     margin: ${({ theme }) => theme.spacing.s} 0;
-    list-style: inside;
     padding-left: ${({ theme }) => theme.spacing.l};
     max-width: 75%;
 
     @media (max-width: 640px) {
       width: 100%;
+    }
+  }
+
+  .downloadButton {
+    background: ${({ theme }) => theme.colors.brandSecondary};
+    border-radius: 5px;
+    border: none;
+    color: ${({ theme }) => theme.colors.white};
+    font-size: ${({ theme }) => theme.fonts.large};
+    outline: none;
+    padding: ${({ theme }) => theme.spacing.s};
+    text-decoration: none;
+
+    @media screen and (max-width: 640px) {
+      font-size: ${({ theme }) => theme.fonts.medium};
     }
   }
 `
