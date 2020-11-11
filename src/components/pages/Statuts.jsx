@@ -274,7 +274,7 @@ const StatutsPage = ({ lng }) => {
           </p>
 
           <DownloadContainer>
-            <DownloadButton href="20191204_Statuts_vf_signes.pdf" download>
+            <DownloadButton href="/20191204_Statuts_vf_signes.pdf" download>
               Télécharger la version signée des statuts
             </DownloadButton>
           </DownloadContainer>
