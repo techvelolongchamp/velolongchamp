@@ -43,8 +43,8 @@ shouldBePublished: true
 
 * **Travaux (marquage au sol)**
 * **Gens du voyage**
-* **Relation avec France Galop**
-* **Relation avec les clubs et la Fédération**
+* **Relation avec le milieu sportif**
+* **Autres**
 * Synthèse rapide des idées retenues du débat par Jeanne : 5’
 
 Durée totale visée de l’AG via Teams : 1h30
