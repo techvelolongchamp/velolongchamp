@@ -2,7 +2,7 @@
 date: 2020-11-16T16:55:38+01:00
 title: Assemblée Générale du 30 Novembre 2020
 slug: ag-2020
-shouldBePublished: false
+shouldBePublished: true
 
 ---
 ## Assemblée Générale du 30 Novembre 2020
@@ -11,35 +11,41 @@ shouldBePublished: false
 
 #### **Assemblée Générale ordinaire et votes (de l’AG mixte) - 30' :**
 
-1. Par le secrétaire général :
+1.Par le secrétaire général :
 
   * Présentation de la nouvelle équipe de Vélo Longchamp : [Présentation des candidats](#docs)
   * Exposé bref du rapport moral : [Rapport moral](#docs)
 
-2. Par le Trésorier : [Rapport financier](#docs)
+2.Par le Trésorier : 
 
-  * Exposé bref du rapport financier par le Trésorier 
+  * Exposé bref du rapport financier par le Trésorier : [Rapport financier](#docs)
 
-3. Votes par main levée dans Teams : Pour / Contre / Abstention
+3.Votes par main levée dans Teams : Pour / Contre / Abstention
 
   * **Quitus** pour la gestion de l’exercice l’année 2019/2020 (Rapport moral et financier)
   * **Modification** de l’article 8 des statuts comme suit : 
 
-L'association est dirigée par un Conseil d'Administration qui peut comprendre jusqu'à 13 membres. Ils sont élus pour 1 an par l'Assemblée Générale et sont rééligibles.
-Le conseil d'administration choisit parmi ses membres un Bureau comprenant à minima : 
-  * Un Président
-  * Un Secrétaire général
-  * Secrétaire Général délégué à la Communication  
-  * Secrétaire Général délégué aux outils 
-  * Un Trésorier
-  * Délégué aux fédérations 
+<div class="article8">
+  <p>L'association est dirigée par un Conseil d'Administration qui peut comprendre jusqu'à 13 membres. Ils sont élus pour 1 an par l'Assemblée Générale et sont rééligibles.</p>
+  <p>Le conseil d'administration choisit parmi ses membres un Bureau comprenant à minima :</p>
+  <ul>
+    <li>Un Président</li>
+    <li>Un Secrétaire général</li>
+    <li>Secrétaire Général délégué à la Communication</li>
+    <li>Secrétaire Général délégué aux outils</li>
+    <li>Un Trésorier</li>
+    <li>Délégué aux fédérations</li>
+  </ul>
+  
+</div>
+
 
 
   * **Election** des membres du CA 2021: Antoine (Terrier), Benoit (Goupilleau), Eric (Dupond), Frédérique (Thaller), Gabriel (Blanchong), Jeanne (Peronne), Marc (Biarne), Nicolas (Le Herissier), Patrick (Lachmann) Stéphane (Jander), Thierry (de Bailliencourt), Thomas (Servant), Yves (Robin).
 
   * Résultat des votes par le secrétaire de séance
 
-4. Questions – Débat avec les participants – sur la rénovation de l’anneau et les autres missions de VL : 45’
+4.Questions – Débat avec les participants – sur la rénovation de l’anneau et les autres missions de VL : 45’
 
   * **Travaux (marquage au sol)**
   * **Gens du voyage**

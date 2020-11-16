@@ -107,6 +107,24 @@ const BlogContent = styled.div`
       font-size: ${({ theme }) => theme.fonts.medium};
     }
   }
+
+  .article8 {
+    padding-left: 30px;
+    margin-bottom: 20px;
+    p {
+      font-style: italic;
+      font-size: 12px;
+      line-height: initial;
+      margin-bottom: 5px;
+      
+    }
+    ul {
+      margin: 5px 0;
+      font-style: italic;
+      font-size: 12px;
+      list-style-type: circle;
+    }
+  }
 `
 
 export const query = graphql`
