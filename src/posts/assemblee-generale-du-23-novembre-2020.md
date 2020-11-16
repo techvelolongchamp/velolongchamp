@@ -44,7 +44,8 @@ Votes par main levée dans Teams : Pour / Contre / Abstention
 * **Gens du voyage**
 * **Relation avec le milieu sportif**
 * **Autres**
-* Synthèse rapide des idées retenues du débat par Jeanne : 5’
+
+  Synthèse rapide des idées retenues du débat par Jeanne : 5’
   <div id="docs"></div>
 
 ### **Documents**
