@@ -1,6 +1,6 @@
 ---
 date: 2020-11-16T16:55:38.000+01:00
-title: Assemblée Générale du 30 Novembre 2020
+title: Assemblée Générale du 30 novembre 2020
 slug: ag-2020
 shouldBePublished: true
 
@@ -11,18 +11,11 @@ shouldBePublished: true
 
 #### **Assemblée Générale ordinaire et votes (de l’AG mixte) - 30' :**
 
-1\. Par le secrétaire général :
-
 * Présentation de la nouvelle équipe de Vélo Longchamp : [Présentation des candidats](#docs)
 * Exposé bref du rapport moral : [Rapport moral](#docs)
-  
-
-2\. Par le Trésorier :
-
 * Exposé bref du rapport financier par le Trésorier : [Rapport financier](#docs)
-  
 
-3\. Votes par main levée dans Teams : Pour / Contre / Abstention
+Votes par main levée dans Teams : Pour / Contre / Abstention
 
 * **Quitus** pour la gestion de l’exercice l’année 2019/2020 (Rapport moral et financier)
 * **Modification** de l’article 8 des statuts comme suit :
@@ -38,7 +31,7 @@ shouldBePublished: true
 
 </div>
 
-* **Election** des membres du CA 2021: Antoine (Terrier), Benoit (Goupilleau), Eric (Dupond), Erwan (Leverrier), Frédérique (Thaller), Gabriel (Blanchong), Jeanne (Peronne), Marc (Biarne), Nicolas (Le Herissier), Patrick (Lachmann) Stéphane (Jander), Thierry (de Bailliencourt), Thomas (Servant).
+* **Élection** des membres du CA 2021 : Antoine (Terrier), Benoit (Goupilleau), Eric (Dupond), Erwan (Leverrier), Frédérique (Thaller), Gabriel (Blanchong), Jeanne (Peronne), Marc (Biarne), Nicolas (Le Herissier), Patrick (Lachmann) Stéphane (Jander), Thierry (de Bailliencourt), Thomas (Servant).
 * Résultat des votes par le secrétaire de séance
 
 #### **Questions – Débat avec les participants – sur la rénovation de l’anneau et les autres missions de VL : 45’**
