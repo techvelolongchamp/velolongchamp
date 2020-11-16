@@ -1,14 +1,13 @@
 ---
-date: 2020-11-06T16:55:38+01:00
-title: Assemblée Générale du 23 Novembre 2020
+date: 2020-11-06T16:55:38.000+01:00
+title: Assemblée Générale du 30 Novembre 2020
 slug: ag-2020
 shouldBePublished: false
 
 ---
-## Assemblée Générale du 23 Novembre 2020
+## Assemblée Générale du 30 Novembre 2020
 
 ### **Ordre du jour**
-
 
 ### **Documents**
 
@@ -25,8 +24,6 @@ L'essentiel à retenir :
 * Pour demander la parole ou pour exprimer votre vote, utilisez le bouton “Lever la main” : <img width="40px" src="/media/hand.png"/>
 * Respectez les débats. Un modérateur sera là pour éviter les interruptions de parole et organiser les débats.
 * Si vous arrivez en cours de séance, envoyez un message via le chat : <img width="40px" src="/media/chat.png"/>
-
-
 
 #### **Identification des adhérents**
 
@@ -50,9 +47,7 @@ Une fois votre prise de parole terminée, nous vous priions de bien vouloir “b
 
 #### **Processus de vote**
 
-Chaque vote sera précédé d’un débat. Une fois le débat terminé, nous procéderons à un vote quand l’objet débattu doit être voté.
-
-Nous procéderons dans l’ordre :
+Nous procéderons aux votes prévus à l’ordre du jour selon l’ordre suivant :
 
 1. Votes “Pour”
 2. Votes “Contre”
