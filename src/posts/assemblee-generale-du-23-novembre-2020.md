@@ -11,9 +11,17 @@ shouldBePublished: false
 
 ### **Documents**
 
+Rapport moral :
+
+<a class="downloadButton" href="/AG01_RapportMoral.pdf" download>Télécharger le rapport moral</a>
+
 Rapport financier :
 
 <a class="downloadButton" href="/AG01_RapportFinancier.pdf" download>Télécharger le rapport financier</a>
+
+Présentation des candidats au CA :
+
+<a class="downloadButton" href="/AG01_CandidatsCA.pdf" download>Télécharger la présentation des candidats</a>
 
 ### **Procédure de vote et organisation des débats**
 
