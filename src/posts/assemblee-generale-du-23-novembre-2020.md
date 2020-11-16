@@ -11,36 +11,45 @@ shouldBePublished: false
 
 #### **Assemblée Générale ordinaire et votes (de l’AG mixte) - 30' :**
 
-Par le secrétaire général :
+1. Par le secrétaire général :
 
-* Présentation de la nouvelle équipe de Vélo Longchamp : velo-longchamp.fr/equipe
-* Exposé bref du rapport moral : velo-longchamp.fr/rapport-moral_2020
-* Par le Trésorier :
+  * Présentation de la nouvelle équipe de Vélo Longchamp : [Présentation des candidats](#docs)
+  * Exposé bref du rapport moral : [Rapport moral](#docs)
 
+2. Par le Trésorier : [Rapport financier](#docs)
 
-* Exposé bref du rapport financier par le Trésorier : velo-longchamp.fr/rapport-financier_2020
+  * Exposé bref du rapport financier par le Trésorier 
 
+3. Votes par main levée dans Teams : Pour / Contre / Abstention
 
-* Votes par main levée dans Teams : Pour / Contre / Abstention
+  * **Quitus** pour la gestion de l’exercice l’année 2019/2020 (Rapport moral et financier)
+  * **Modification** de l’article 8 des statuts comme suit : 
 
-1. **Quitus** pour la gestion de l’exercice l’année 2019/2020 (rapport Moral et Financier)
-2. **Modification** de l’article 8 des statuts : 
-3. **Election** des membres du CA 2021: Antoine (Terrier), Benoit (Goupilleau), Eric (Dupond), Frédérique (Thaller), Gabriel (Blanchong), Jeanne (Peronne), Marc (Biarne), Nicolas (Le Herissier), Patrick (Lachmann) Stéphane (Jander), Thierry (de Bailliencourt), Thomas (Servant), Yves (Robin).
-
-* Résultat des votes par le secrétaire de séance
-
-* Questions – Débat avec les participants – sur la rénovation de l’anneau et les autres missions de VL : 45’
-
-
-* **Travaux (marquage au sol)**
-* **Gens du voyage**
-* **Relation avec France Galop**
+L'association est dirigée par un Conseil d'Administration qui peut comprendre jusqu'à 13 membres. Ils sont élus pour 1 an par l'Assemblée Générale et sont rééligibles.
+Le conseil d'administration choisit parmi ses membres un Bureau comprenant à minima : 
+  * Un Président
+  * Un Secrétaire général
+  * Secrétaire Général délégué à la Communication  
+  * Secrétaire Général délégué aux outils 
+  * Un Trésorier
+  * Délégué aux fédérations 
 
 
-* **Relation avec les clubs et la Fédération**
+  * **Election** des membres du CA 2021: Antoine (Terrier), Benoit (Goupilleau), Eric (Dupond), Frédérique (Thaller), Gabriel (Blanchong), Jeanne (Peronne), Marc (Biarne), Nicolas (Le Herissier), Patrick (Lachmann) Stéphane (Jander), Thierry (de Bailliencourt), Thomas (Servant), Yves (Robin).
 
+  * Résultat des votes par le secrétaire de séance
 
-* Synthèse rapide des idées retenues du débat par Jeanne: 5’
+4. Questions – Débat avec les participants – sur la rénovation de l’anneau et les autres missions de VL : 45’
+
+  * **Travaux (marquage au sol)**
+  * **Gens du voyage**
+  * **Relation avec France Galop**
+  * **Relation avec les clubs et la Fédération**
+
+  * Synthèse rapide des idées retenues du débat par Jeanne: 5’
+
+Durée totale visée de l’AG via Teams : 1h30 
+<div id="docs"></div>
 
 ### **Documents**
 
