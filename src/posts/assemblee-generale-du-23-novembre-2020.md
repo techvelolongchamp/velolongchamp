@@ -9,7 +9,7 @@ shouldBePublished: true
 
 * En ligne via Microsoft Teams
 * Heure de début : 19h00 // Heure de fin envisagée : 20h30
-* Secrétaire de séance : Benoît Goupilleau
+* Animateur de séance : Benoît Goupilleau
 * Modérateur : Jeanne Peronne
 
 ### **Ordre du jour**
