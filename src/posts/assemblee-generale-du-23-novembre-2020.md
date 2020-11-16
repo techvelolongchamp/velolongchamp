@@ -7,9 +7,10 @@ shouldBePublished: true
 ---
 ## Assemblée Générale du 30 novembre 2020
 
-Heure de début : 19h00
-
-Durée totale visée de l’AG via Microsoft Teams : 1h30
+* En ligne via Microsoft Teams
+* Heure de début : 19h00 // Heure de fin envisagée : 20h30
+* Secrétaire de séance : Benoît Goupilleau
+* Modérateur : Jeanne Peronne
 
 ### **Ordre du jour**
 
@@ -19,7 +20,7 @@ Durée totale visée de l’AG via Microsoft Teams : 1h30
 * Exposé bref du rapport moral : [Rapport moral](#docs)
 * Exposé bref du rapport financier par le Trésorier : [Rapport financier](#docs)
 
-Votes par main levée dans Teams : Pour / Contre / Abstention
+Votes par main levée dans Microsoft Teams : Pour / Contre / Abstention
 
 * **Quitus** pour la gestion de l’exercice l’année 2019/2020 (Rapport moral et financier)
 * **Modification** de l’article 8 des statuts comme suit :
@@ -38,7 +39,7 @@ Votes par main levée dans Teams : Pour / Contre / Abstention
 * **Élection** des membres du CA 2021 : Antoine (Terrier), Benoit (Goupilleau), Eric (Dupond), Erwan (Leverrier), Frédérique (Thaller), Gabriel (Blanchong), Jeanne (Peronne), Marc (Biarne), Nicolas (Le Herissier), Patrick (Lachmann) Stéphane (Jander), Thierry (de Bailliencourt), Thomas (Servant).
 * Résultat des votes par le secrétaire de séance
 
-#### **Questions – Débat avec les participants – sur la rénovation de l’anneau et les autres missions de VL : 45’**
+#### **Questions – Débat avec les participants – sur la rénovation de l’anneau et les autres missions de Vélo Longchamp : 45’**
 
 * **Travaux (marquage au sol)**
 * **Gens du voyage**
@@ -66,7 +67,7 @@ Présentation des candidats au CA :
 
 L'essentiel à retenir :
 
-* L’outil utilisé sera Microsoft Teams. L’invitation sera envoyée aux adhérents quelques jours avant l'AG. Il suffira de cliquer sur le lien depuis un ordinateur pour accéder à la rencontre virtuelle.
+* L’outil utilisé sera Microsoft Teams. L’invitation sera envoyée aux adhérents quelques jours avant l'AG. Il suffira de cliquer sur le lien depuis un ordinateur ou un téléphone portale pour accéder à la rencontre virtuelle.
 * Coupez le son de votre micro : <img width="40px" src="/media/micOff.png"/>
 * Pour demander la parole ou pour exprimer votre vote, utilisez le bouton “Lever la main” : <img width="40px" src="/media/hand.png"/>
 * Respectez les débats. Un modérateur sera là pour éviter les interruptions de parole et organiser les débats.
@@ -74,7 +75,7 @@ L'essentiel à retenir :
 
 #### **Identification des adhérents**
 
-Pour que votre vote soit comptabilisé nous devons nous assurer que vous êtes adhérent de l’association. Avant de commencer l’AG nous vous demanderons à chacun de nous fournir l'adresse email utilisée pour votre adhésion. Nous testerons par la même occasion de bon fonctionnement de votre son et du bouton pour prendre la parole.
+Pour que votre vote soit comptabilisé nous devons nous assurer que vous êtes adhérent de l’association. Avant de commencer l’AG nous vous demanderons à chacun de nous fournir l'adresse email utilisée pour votre adhésion à Vélo Longchamp.
 
 Si vous arrivez en cours d’AG, après l’identification des adhérents, nous vous contacterons pour vous identifier via le chat de teams : </br>
 <img width="40px" src="/media/chat.png"/>
