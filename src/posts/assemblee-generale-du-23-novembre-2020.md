@@ -45,7 +45,7 @@ shouldBePublished: true
 
   * Résultat des votes par le secrétaire de séance
 
-4.Questions – Débat avec les participants – sur la rénovation de l’anneau et les autres missions de VL : 45’
+#### **Questions – Débat avec les participants – sur la rénovation de l’anneau et les autres missions de VL : 45’**
 
   * **Travaux (marquage au sol)**
   * **Gens du voyage**
