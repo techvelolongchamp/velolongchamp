@@ -1,5 +1,5 @@
 ---
-date: 2020-11-06T16:55:38.000+01:00
+date: 2020-11-16T16:55:38+01:00
 title: Assemblée Générale du 30 Novembre 2020
 slug: ag-2020
 shouldBePublished: false
