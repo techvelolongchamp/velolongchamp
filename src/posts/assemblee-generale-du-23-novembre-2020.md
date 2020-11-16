@@ -7,6 +7,10 @@ shouldBePublished: true
 ---
 ## Assemblée Générale du 30 novembre 2020
 
+Heure de début : 19h00
+
+Durée totale visée de l’AG via Microsoft Teams : 1h30
+
 ### **Ordre du jour**
 
 #### **Assemblée Générale ordinaire et votes (de l’AG mixte) - 30' :**
@@ -41,9 +45,7 @@ Votes par main levée dans Teams : Pour / Contre / Abstention
 * **Relation avec le milieu sportif**
 * **Autres**
 * Synthèse rapide des idées retenues du débat par Jeanne : 5’
-
-Durée totale visée de l’AG via Teams : 1h30
-<div id="docs"></div>
+  <div id="docs"></div>
 
 ### **Documents**
 
