@@ -11,17 +11,17 @@ shouldBePublished: true
 
 #### **Assemblée Générale ordinaire et votes (de l’AG mixte) - 30' :**
 
-1. Par le secrétaire général :
+1\. Par le secrétaire général :
 
 * Présentation de la nouvelle équipe de Vélo Longchamp : [Présentation des candidats](#docs)
 * Exposé bref du rapport moral : [Rapport moral](#docs)
-  2. Par le Trésorier :
+  
 
-
+  2\. Par le Trésorier :
 * Exposé bref du rapport financier par le Trésorier : [Rapport financier](#docs)
-  3. Votes par main levée dans Teams : Pour / Contre / Abstention
+  
 
-
+  3\. Votes par main levée dans Teams : Pour / Contre / Abstention
 * **Quitus** pour la gestion de l’exercice l’année 2019/2020 (Rapport moral et financier)
 * **Modification** de l’article 8 des statuts comme suit :
 
