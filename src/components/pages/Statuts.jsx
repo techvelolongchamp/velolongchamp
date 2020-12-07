@@ -178,7 +178,7 @@ const StatutsPage = ({ lng }) => {
           </p>
 
           <ul>
-            <li>Un Présiden</li>
+            <li>Un Président</li>
             <li>Un Secrétaire général</li>
             <li>Un Trésorier</li>
           </ul>
