@@ -5,7 +5,7 @@ slug: contacts-photographes
 shouldBePublished: true
 
 ---
-### Les photographes à Longchamp
+## Les photographes à Longchamp
 
 ##### Vous nous demandez souvent les coordonnées des photographes qui viennent à Longchamp photographier les cyclistes !
 
@@ -15,17 +15,17 @@ Avec leurs accords, nous mettons à disposition leurs coordonnées pour que vous
 
 > 
 
-##### **Contacts des photographes (par ordre alphabétique) :**
+#### **Contacts des photographes (par ordre alphabétique) :**
 
-**- DAIGRE Hervé**
+##### **- DAIGRE Hervé**
 
 Instagram : [@the_trve_herve](https://www.instagram.com/the_trve_herve/)
 
-**- DUPONT Romain**
+##### **- DUPONT Romain**
 
 Instagram : [@le___gruppetto](https://www.instagram.com/le___gruppetto/)
 
-**- DUYS Solène**
+##### **- DUYS Solène**
 
 Instagram : [@soleneduys](https://www.instagram.com/soleneduys/)
 
@@ -33,7 +33,7 @@ Site Internet : [https://sduys9.wixsite.com/sduysphotographie](https://sduys9.wi
 
 E-mail : sduys@hotmail.fr
 
-**- GAREL Nicolas**
+##### **- GAREL Nicolas**
 
 Instagram : [ng.photographie](https://www.instagram.com/ng.photographie/)
 
