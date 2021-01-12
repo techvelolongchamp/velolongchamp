@@ -37,6 +37,12 @@ E-mail : sduys@hotmail.fr
 
 Instagram : [ng.photographie](https://www.instagram.com/ng.photographie/)
 
+\- PETIT Jonathan
+
+Instagram : [@x_pjay](https://www.instagram.com/x_pjay/)
+
+Portfolio : [https://spark.adobe.com/page/KjqqKVV4SCmS7/](https://spark.adobe.com/page/KjqqKVV4SCmS7/ "https://spark.adobe.com/page/KjqqKVV4SCmS7/")
+
 > 
 
 **N'hésitez pas à nous écrire à** [**contact@velo-longchamp.fr**](mailto:contact@velo-longchamp.fr?subject=%5BBlog%5D) **pour que nous puissions enrichir cette liste !**
