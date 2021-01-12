@@ -13,6 +13,8 @@ shouldBePublished: true
 
 Avec leurs accords, nous mettons à disposition leurs coordonnées pour que vous puissiez les contacter et retrouver les photos de vous sur le vélo !
 
+> 
+
 ##### **Contacts des photographes (par ordre alphabétique) :**
 
 **- DAIGRE Hervé**
@@ -34,5 +36,7 @@ E-mail : sduys@hotmail.fr
 **- GAREL Nicolas**
 
 Instagram : [ng.photographie](https://www.instagram.com/ng.photographie/)
+
+> 
 
 **N'hésitez pas à nous écrire à** [**contact@velo-longchamp.fr**](mailto:contact@velo-longchamp.fr?subject=%5BBlog%5D) **pour que nous puissions enrichir cette liste !**
