@@ -37,7 +37,7 @@ E-mail : sduys@hotmail.fr
 
 Instagram : [ng.photographie](https://www.instagram.com/ng.photographie/)
 
-\- PETIT Jonathan
+##### **- PETIT Jonathan**
 
 Instagram : [@x_pjay](https://www.instagram.com/x_pjay/)
 
