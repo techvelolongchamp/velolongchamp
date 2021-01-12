@@ -15,7 +15,7 @@ Avec leurs accords, nous mettons à disposition leurs coordonnées pour que vous
 
 > 
 
-#### **Contacts des photographes (par ordre alphabétique) :**
+### **Contacts des photographes (par ordre alphabétique) :**
 
 ##### **- DAIGRE Hervé**
 
