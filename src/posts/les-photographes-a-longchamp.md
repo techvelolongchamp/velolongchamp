@@ -37,6 +37,10 @@ Instagram : [@soleneduys](https://www.instagram.com/soleneduys/) // [Site Intern
 
 Instagram : [@ng.photographie](https://www.instagram.com/ng.photographie/)
 
+##### **- MOUTIER Baptiste**
+
+Instagram : [@baptistemoutier](https://www.instagram.com/baptistemoutier/)
+
 ##### **- PETIT Jonathan**
 
 Instagram : [@x_pjay](https://www.instagram.com/x_pjay/) // [Portfolio](https://spark.adobe.com/page/KjqqKVV4SCmS7/)
