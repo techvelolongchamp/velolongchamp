@@ -35,7 +35,7 @@ Instagram : [@soleneduys](https://www.instagram.com/soleneduys/) // [Site Intern
 
 ##### **- GAREL Nicolas**
 
-Instagram : [ng.photographie](https://www.instagram.com/ng.photographie/)
+Instagram : [@ng.photographie](https://www.instagram.com/ng.photographie/)
 
 ##### **- PETIT Jonathan**
 
