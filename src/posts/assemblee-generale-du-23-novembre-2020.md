@@ -109,3 +109,9 @@ Le Secrétaire de séance comptera les votes “Pour”. Une fois le décompte t
 Après que tous les “Pour” auront baissé la main, Le Secrétaire procédera au vote “Contre” avec le bouton “Lever la main” et, une fois le décompte “Contre” terminé et après confirmation du Secrétaire, vous devrez cliquer sur “Baisser la main”.
 
 A chaque fin de vote, un récapitulatif du nombre de vote “Pour”, “Contre” et abstention sera fait.
+
+#### **CR de l'AG**
+
+Vous pouvez consulter le CR de l'AG via le lien suivant :
+
+<a class="downloadButton" href="/CR-VeloLongchamp_AG2020.pdf" download>Télécharger le CR</a>
