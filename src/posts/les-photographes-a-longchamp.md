@@ -1,5 +1,5 @@
 ---
-date: 2021-01-12T17:19:20+01:00
+date: 2021-01-12T17:19:20.000+01:00
 title: Les photographes à Longchamp
 slug: contacts-photographes
 shouldBePublished: true
@@ -48,6 +48,10 @@ Instagram : [@x_pjay](https://www.instagram.com/x_pjay/) // [Portfolio](https://
 ##### **- VANDENBUSSCHE Eric**
 
 Instagram : [@aliasevdb](https://www.instagram.com/aliasevdb/) // [Google Drive](https://drive.google.com/drive/folders/1xwt1vTMbq3m1aq7-Pe6UKD2fxKHrfd-L)
+
+##### **- VAN-VIET Agathe**
+
+Instagram : [@agatouvv]() // [Portfolio](https://agathevanvietphotographie.wordpress.com/) // [E-mail](mailto:agathevanviet.pro@gmail.com )
 
 > 
 
