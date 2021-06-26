@@ -11,12 +11,12 @@ sections:
   match: "**/*"
   new_doc_ext: md
 - type: document
-  path: src/json/carousel.json
+  path: json/carousel.json
   label: Carousel
 - type: document
-  path: src/json/stammtisch.json
-  label: Stammtisch
-upload_dir: static/media
+  path: json/events.json
+  label: Events
+upload_dir: public/media
 public_path: "/media"
 front_matter_path: ''
 use_front_matter_path: false
