@@ -82,7 +82,8 @@ const en = {
     <a>Yes and please get your club to join (so that even more cyclists are represented)</a>
     `,
   'meetUs.sectionTitle': 'Meet Us',
-  'meetUs.message1': 'Come meet us on the occasion of informal meetings',
+  'meetUs.message1':
+    'Come meet us on the occasion of informal events we will organise',
   'meetUs.message2':
     'Location: at the fountain of the starting lane, at the top of the hill, on the left. See on the map: ',
   'meetUs.message3':

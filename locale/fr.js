@@ -83,7 +83,7 @@ const fr = {
     `,
   'meetUs.sectionTitle': 'Nous rencontrer',
   'meetUs.message1':
-    "Venez nous rencontrer à l'occasion de Stammtisch (rencontre informelle)",
+    "Venez nous rencontrer à l'occasion d'événements informels que nous organiserons.",
   'meetUs.message2':
     'Lieu : à la fontaine de la ligne de départ, en haut du faux plat montant à gauche. Ouvrir la carte : ',
   'meetUs.message3':
