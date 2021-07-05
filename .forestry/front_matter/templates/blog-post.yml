@@ -27,3 +27,5 @@ fields:
   description: Si activé, le post sera publié sur le site (à activer uniquement quand
     le post est prêt)
   default: false
+pages:
+- posts/fermeture-de-l-anneau-newsletter-juin.md
