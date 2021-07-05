@@ -2,7 +2,7 @@
 date: 2021-06-30T14:02:51+02:00
 title: Fermeture de l'anneau - Newsletter Juin
 slug: fermeture-newsletter
-shouldBePublished: false
+shouldBePublished: true
 
 ---
 # NEWSLETTER - Juin 2021
