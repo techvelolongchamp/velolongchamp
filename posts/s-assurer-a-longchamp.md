@@ -5,7 +5,7 @@ slug: assurancelongchamp
 shouldBePublished: true
 
 ---
-#### **S’assurer à Longchamp**
+## **S’assurer à Longchamp**
 
 Vous le savez tous, la pratique du vélo est non sans risque et c’est encore plus le cas à Longchamp. Le fait de rouler nombreux, avec des conditions de forme et une expérience de la pratique de l’anneau hétérogènes augmentent le risque de chute.  
 S’assurer pour pratiquer le vélo n’est pas une obligation en soi mais, aussi prudent que l’on puisse être, tous les risques ne peuvent être évités (crevaison inattendue, nid de poule, inattention d’un tiers…).  
