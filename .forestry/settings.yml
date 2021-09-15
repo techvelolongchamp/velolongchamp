@@ -13,9 +13,6 @@ sections:
 - type: document
   path: json/carousel.json
   label: Carousel
-- type: document
-  path: json/events.json
-  label: Events
 upload_dir: public/media
 public_path: "/media"
 front_matter_path: ''
