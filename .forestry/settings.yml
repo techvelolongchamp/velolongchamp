@@ -4,16 +4,15 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
-- type: document
-  path: json/calendar.json
-  label: Calendar
-  match: "**/*"
 - type: directory
   path: posts
   label: Posts
   create: documents
   match: "**/*"
   new_doc_ext: md
+- type: document
+  path: json/calendar.json
+  label: Calendar
 - type: document
   path: json/carousel.json
   label: Carousel
