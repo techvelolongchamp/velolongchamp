@@ -4,9 +4,6 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
-- type: document
-  path: json/test.json
-  label: test
 - type: directory
   path: posts
   label: Posts
