@@ -19,9 +19,6 @@ sections:
   match: "**/*"
   new_doc_ext: md
 - type: document
-  path: json/calendar.json
-  label: Calendar
-- type: document
   path: json/carousel.json
   label: Carousel
 upload_dir: public/media
