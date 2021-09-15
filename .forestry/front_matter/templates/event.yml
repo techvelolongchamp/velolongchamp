@@ -1,4 +1,53 @@
 ---
 label: Event
 hide_body: true
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: true
+    min: 3
+  label: Titre
+- name: description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Description
+- name: organizer
+  type: select
+  default: Vélo Longchamp
+  config:
+    required: true
+    options:
+    - Vélo Longchamp
+    - France Galop
+    - Cycliste
+    - Autre
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Organisateur
+- name: startDate
+  type: datetime
+  label: Date début
+  description: ''
+  config:
+    required: true
+    date_format: 
+    time_format: 
+    display_utc: false
+- name: endDate
+  type: datetime
+  label: Date de fin
+  description: ''
+  config:
+    required: true
+    date_format: 
+    time_format: 
+    display_utc: false
