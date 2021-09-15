@@ -42,6 +42,7 @@ fields:
     date_format: 
     time_format: 
     display_utc: false
+  default: now
 - name: endDate
   type: datetime
   label: Date de fin
@@ -51,5 +52,6 @@ fields:
     date_format: 
     time_format: 
     display_utc: false
+  default: now
 pages:
 - calendar/test-event.json
