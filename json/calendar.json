@@ -1,7 +1,11 @@
 {
-  "organizer": "Vélo Longchamp",
-  "title": "Test",
-  "endDate": "2021-09-16T19:34:52+02:00",
-  "startDate": "2021-09-15T17:35:02+02:00",
-  "description": ""
+  "events": [
+    {
+      "organizer": "Vélo Longchamp",
+      "title": "Test",
+      "endDate": "2021-09-16T19:34:52+02:00",
+      "startDate": "2021-09-15T17:35:02+02:00",
+      "description": ""
+    }
+  ]
 }
