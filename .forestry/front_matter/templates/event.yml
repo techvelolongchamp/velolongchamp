@@ -39,8 +39,8 @@ fields:
   description: ''
   config:
     required: true
-    date_format: 
-    time_format: 
+    date_format: DD/MM/YYYY
+    time_format: HH:MM
     display_utc: false
   default: now
 - name: endDate
@@ -49,8 +49,8 @@ fields:
   description: ''
   config:
     required: true
-    date_format: 
-    time_format: 
+    date_format: DD/MM/YYYY
+    time_format: HH:MM
     display_utc: false
   default: now
 pages:
