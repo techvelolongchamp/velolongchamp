@@ -1,38 +1,13 @@
 import React from 'react'
 import { FaMapMarkedAlt } from 'react-icons/fa'
-import { useRouter } from 'next/router'
 import { useIntl } from 'react-intl'
 
 import { AgendaContainer } from './Meet.styled'
 
-import events from '../../json/events.json'
-
-const meetups = events.meetups
-
 const Meet = () => {
-  const { locale } = useRouter()
   const { formatMessage } = useIntl()
   const displayDate = () => {
-    const options = {
-      weekday: 'long',
-      year: 'numeric',
-      month: 'long',
-      day: 'numeric',
-      hour: 'numeric',
-      minute: 'numeric',
-    }
-    if (meetups.length === 0) {
-      return formatMessage({ id: 'meetUs.noMeeting' })
-    }
-    return meetups.map((s, i) => {
-      const event = new Date(s)
-      return (
-        <li key={s}>{`#${i + 1} ${event.toLocaleDateString(
-          locale,
-          options
-        )}`}</li>
-      )
-    })
+    return formatMessage({ id: 'meetUs.noMeeting' })
   }
 
   return (
