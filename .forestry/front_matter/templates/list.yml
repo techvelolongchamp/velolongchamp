@@ -9,3 +9,5 @@ fields:
     min: 
     max: 
   label: Item
+pages:
+- json/carousel.json
