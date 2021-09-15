@@ -53,4 +53,3 @@ fields:
     display_utc: false
 pages:
 - calendar/test-event.json
-- json/calendar.json
