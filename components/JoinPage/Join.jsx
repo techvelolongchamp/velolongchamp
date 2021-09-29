@@ -15,7 +15,7 @@ const Join = () => {
           allowtransparency="true"
           data-hj-allow-iframe=""
           scrolling="auto"
-          src="https://www.helloasso.com/associations/velo-longchamp/adhesions/adherer-gratuitement-a-velo-longchamp-pour-la-renovation-de-l-anneau-cycliste/widget"
+          src="https://www.helloasso.com/associations/velo-longchamp/adhesions/adhesion-association-velo-longchamp/widget"
           style={{ width: '100%', height: '750px', border: 'none' }}
         ></iframe>
       </FrameContainer>
@@ -25,7 +25,7 @@ const Join = () => {
           {
             a: (chunk) => (
               <a
-                href="https://www.helloasso.com/associations/velo-longchamp/adhesions/adherer-gratuitement-a-velo-longchamp-pour-la-renovation-de-l-anneau-cycliste"
+                href="https://www.helloasso.com/associations/velo-longchamp/adhesions/adhesion-association-velo-longchamp"
                 target="_blank"
                 rel="noopener noreferrer"
                 title="HelloAsso"
