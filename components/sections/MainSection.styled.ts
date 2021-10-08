@@ -9,7 +9,7 @@ export const SectionContainer = styled.section`
   }
 `
 
-export const Picture = styled.p`
+export const Picture = styled.p<{ background: string }>`
   background-image: url(${({ background }) => background});
   background-size: cover;
   background-position: center;

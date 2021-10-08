@@ -14,9 +14,9 @@ const CookieManager = () => {
     if (cookieValue !== cookieApproval) setCookieApproval(cookieValue)
   }, [])
 
-  const handleClick = (e) => {
+  const handleClick = (e: React.MouseEvent) => {
     e.preventDefault()
-    Cookies.set('cookie-approval', true)
+    Cookies.set('cookie-approval', 'true')
     setCookieApproval(true)
   }
 

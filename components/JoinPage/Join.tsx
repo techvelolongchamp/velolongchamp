@@ -12,7 +12,6 @@ const Join = () => {
         <iframe
           title={formatMessage({ id: 'join.title' })}
           id="haWidget"
-          allowtransparency="true"
           data-hj-allow-iframe=""
           scrolling="auto"
           src="https://www.helloasso.com/associations/velo-longchamp/adhesions/adhesion-association-velo-longchamp/widget"

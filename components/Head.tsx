@@ -1,11 +1,10 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 import { Helmet } from 'react-helmet'
 import { useRouter } from 'next/router'
 
 import { siteMetadata } from '../constants'
 
-const Head = ({ title }) => {
+const Head: React.FC<{ title?: string }> = ({ title }) => {
   const { locale, pathname } = useRouter()
 
   return (
@@ -34,7 +33,7 @@ const Head = ({ title }) => {
           ? `${title} | ${siteMetadata.title}`
           : `Vélo Longchamp | ${siteMetadata.title}`}
       </title>
-      <meta charset="UTF-8" />
+      <meta charSet="UTF-8" />
       <meta name="author" content={siteMetadata.author} />
       <meta name="copyright" content="© Vélo Longchamp" />
       <meta name="type" content="website" />
@@ -103,10 +102,6 @@ const Head = ({ title }) => {
       <meta name="theme-color" content="#ffffff" />
     </Helmet>
   )
-}
-
-Head.propTypes = {
-  title: PropTypes.string,
 }
 
 export default Head

@@ -6,11 +6,6 @@ export const ContactWrapper = styled.div`
   align-items: center;
   padding-bottom: ${({ theme }) => theme.spacing.xl};
 
-  img {
-    width: 200px;
-    padding: 10px 0;
-  }
-
   p {
     font-size: ${({ theme }) => theme.fonts.medium};
   }
@@ -20,6 +15,7 @@ export const ContactWrapper = styled.div`
 `
 
 export const SocialWrapper = styled.div`
+  padding-top: 10px;
   svg {
     width: 30px;
     height: 30px;

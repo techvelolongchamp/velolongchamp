@@ -7,16 +7,23 @@ import excerptAst from 'mdast-excerpt'
 
 const postsDirectory = path.join(process.cwd(), 'posts')
 
-const asExcerpt = (options) => (node) => {
-  return excerptAst(node, options || {})
-}
+const asExcerpt =
+  (options: {
+    pruneLength?: number
+    truncate?: boolean
+    excerptSeparator?: string
+    omission?: string
+  }) =>
+  (node: any) => {
+    return excerptAst(node, options || {})
+  }
 
-export async function markdownToHtml(markdown) {
+export async function markdownToHtml(markdown: string): Promise<string> {
   const result = await remark().use(html).process(markdown)
   return result.toString()
 }
 
-export async function markdownExcerpt(markdown) {
+export async function markdownExcerpt(markdown: string): Promise<string> {
   const result = await remark()
     .use(asExcerpt, { omission: '' })
     .process(markdown)
@@ -40,13 +47,13 @@ export function getPostFiles() {
   })
 }
 
-export function getPostBySlug(slug, fields = []) {
+export function getPostBySlug(slug: string, fields: string[] = []) {
   const realSlug = slug.replace('.md', '')
   const fullPath = path.join(postsDirectory, `${realSlug}.md`)
   const fileContents = fs.readFileSync(fullPath, 'utf8')
   const { data, content } = matter(fileContents)
 
-  const items = {}
+  const items: { [key: string]: string } = {}
 
   fields.forEach((field) => {
     if (field === 'content') {
@@ -66,7 +73,7 @@ export function getPostBySlug(slug, fields = []) {
   return items
 }
 
-export function getAllPosts(fields = []) {
+export function getAllPosts(fields: string[] = []) {
   const files = getPostFiles()
 
   const posts = files

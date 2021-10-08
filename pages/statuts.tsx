@@ -68,7 +68,7 @@ const StatutPage = () => {
   return (
     <Layout>
       <Header noScroll />
-      <Head title="Statuts Association" url="/statuts" />
+      <Head title="Statuts Association" />
       <ThirdarySection title="Statuts de l'association Vélo Longchamp" useH1>
         <RulesContainer>
           <h3>Article 1er - Constitution</h3>

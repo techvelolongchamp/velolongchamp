@@ -1,6 +1,6 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 import { useIntl } from 'react-intl'
+import { GetStaticProps } from 'next'
 
 import Head from '../../components/Head'
 import Layout from '../../components/ui/Layout'
@@ -11,7 +11,7 @@ import Blog from '../../components/Blog'
 
 import { getAllPosts, markdownExcerpt } from '../../utils/blog'
 
-const BlogPage = ({ posts }) => {
+const BlogPage: React.FC<{ posts: Post[] }> = ({ posts }) => {
   const { formatMessage } = useIntl()
   return (
     <Layout>
@@ -24,17 +24,13 @@ const BlogPage = ({ posts }) => {
   )
 }
 
-BlogPage.propTypes = {
-  posts: PropTypes.array.isRequired,
-}
-
 export default BlogPage
 
-export async function getStaticProps() {
+export const getStaticProps: GetStaticProps = async () => {
   const posts = getAllPosts(['title', 'date', 'slug', 'content'])
 
   const postWithExcerpt = await Promise.all(
-    posts.map(async (post) => {
+    posts.map(async (post: Record<string, string>) => {
       const excerpt = await markdownExcerpt(post.content)
       return { ...post, excerpt }
     })

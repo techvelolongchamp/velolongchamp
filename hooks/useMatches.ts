@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 
-export const useMatches = (query) => {
+export const useMatches = (query: string): boolean => {
   const [matches, setMatches] = useState(false)
   useEffect(() => {
     if (window) {

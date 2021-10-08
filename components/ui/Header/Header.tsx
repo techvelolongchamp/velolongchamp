@@ -1,5 +1,4 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 import { animateScroll as scroll } from 'react-scroll'
 import { useIntl } from 'react-intl'
 import Link from 'next/link'
@@ -25,7 +24,10 @@ import {
   MobileScrollItem,
 } from './Header.styled'
 
-const Header = ({ noScroll, handleLink }) => {
+const Header: React.FC<{ noScroll?: boolean; handleLink?: string[] }> = ({
+  noScroll,
+  handleLink,
+}) => {
   const { formatMessage } = useIntl()
   const isMobile = useMatches('(max-width: 640px)')
 
@@ -38,7 +40,7 @@ const Header = ({ noScroll, handleLink }) => {
       <Wrapper>
         <LeftContainer>
           {noScroll ? (
-            <Link href="/">
+            <Link href="/" passHref>
               <TitleLink>
                 <Logo src="/logo.png" alt="logo" />
               </TitleLink>
@@ -49,7 +51,7 @@ const Header = ({ noScroll, handleLink }) => {
             </ScrollTitle>
           )}
 
-          {!isMobile && !noScroll && (
+          {!isMobile && !noScroll && handleLink && handleLink.length === 4 && (
             <NavList>
               <li>
                 <ScrollItem
@@ -106,19 +108,19 @@ const Header = ({ noScroll, handleLink }) => {
           <nav>
             <NavList>
               <li>
-                <Link href="/blog">
+                <Link href="/blog" passHref>
                   <NavItem>{formatMessage({ id: 'header.blog' })}</NavItem>
                 </Link>
               </li>
             </NavList>
           </nav>
-          <Link href="/join">
+          <Link href="/join" passHref>
             <ButtonLink>{formatMessage({ id: 'header.clickJoin' })}</ButtonLink>
           </Link>
           <LanguageSelect />
         </RightContainer>
       </Wrapper>
-      {isMobile && !noScroll && (
+      {isMobile && !noScroll && handleLink && handleLink.length === 4 && (
         <MobileNavList>
           <li>
             <MobileScrollItem
@@ -172,11 +174,6 @@ const Header = ({ noScroll, handleLink }) => {
       )}
     </HeaderWrapper>
   )
-}
-
-Header.propTypes = {
-  noScroll: PropTypes.bool,
-  handleLink: PropTypes.arrayOf(PropTypes.string),
 }
 
 export default Header

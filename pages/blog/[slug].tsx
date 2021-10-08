@@ -1,5 +1,5 @@
 import React from 'react'
-import PropTypes from 'prop-types'
+import { GetStaticProps, GetStaticPaths } from 'next'
 
 import Head from '../../components/Head'
 import Layout from '../../components/ui/Layout'
@@ -10,7 +10,9 @@ import BlogContent from '../../components/Blog/BlogContent'
 
 import { getAllPosts, getPostBySlug, markdownToHtml } from '../../utils/blog'
 
-const Post = ({ post }) => {
+const Post: React.FC<{
+  post: { title: string; date: string; content: string }
+}> = ({ post }) => {
   return (
     <Layout>
       <Head />
@@ -22,18 +24,14 @@ const Post = ({ post }) => {
   )
 }
 
-Post.propTypes = {
-  post: PropTypes.shape({
-    title: PropTypes.string.isRequired,
-    date: PropTypes.string.isRequired,
-    content: PropTypes.string.isRequired,
-  }).isRequired,
-}
-
 export default Post
 
-export async function getStaticProps({ params }) {
-  const post = getPostBySlug(params.slug, ['title', 'date', 'content'])
+export const getStaticProps: GetStaticProps = async ({ params }) => {
+  const post = getPostBySlug((params?.slug as string) || '', [
+    'title',
+    'date',
+    'content',
+  ])
   const content = await markdownToHtml(post.content || '')
 
   return {
@@ -46,10 +44,10 @@ export async function getStaticProps({ params }) {
   }
 }
 
-export async function getStaticPaths({ locales }) {
+export const getStaticPaths: GetStaticPaths = async ({ locales }) => {
   const posts = getAllPosts(['slug'])
   return {
-    paths: locales
+    paths: locales!
       .map((locale) =>
         posts.map((post) => {
           return {

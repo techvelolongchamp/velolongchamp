@@ -1,10 +1,10 @@
 import styled from 'styled-components'
 
-export const SectionContainer = styled.section`
+export const SectionContainer = styled.section<{ height?: string }>`
   min-height: ${({ theme, height }) => (height ? height : theme.sectionHeight)};
 `
 
-export const H1Title = styled.h1`
+export const H1Title = styled.h1<{ hideH1?: boolean }>`
   ${({ hideH1 }) => hideH1 && 'display: none;'}
   color: ${({ theme }) => theme.colors.brandPrimary};
   font-size: ${({ theme }) => theme.fonts.xlarge};

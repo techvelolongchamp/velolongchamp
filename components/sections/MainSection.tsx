@@ -1,12 +1,11 @@
 import React from 'react'
 import Image from 'next/image'
-import PropTypes from 'prop-types'
 
-import Background from '../../public/media/Banniere.JPG'
+import Background from '../../public/media/Banniere.jpg'
 
 import { SectionContainer } from './MainSection.styled'
 
-const MainSection = ({ id }) => {
+const MainSection: React.FC<{ id?: string }> = ({ id }) => {
   return (
     <SectionContainer id={id}>
       <Image
@@ -19,10 +18,6 @@ const MainSection = ({ id }) => {
       />
     </SectionContainer>
   )
-}
-
-MainSection.propTypes = {
-  id: PropTypes.string,
 }
 
 export default MainSection

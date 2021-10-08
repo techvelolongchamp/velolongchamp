@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const CookieContainer = styled.div`
+export const CookieContainer = styled.div<{ showCookie: boolean }>`
   background: ${({ theme }) => theme.colors.defaultColor};
   bottom: ${({ showCookie }) => (showCookie ? '0' : '-200px')};
   transition: all 1s ease;

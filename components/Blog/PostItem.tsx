@@ -1,16 +1,15 @@
 import React from 'react'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
-import PropTypes from 'prop-types'
 
 import { Post, PublishDate, Extract } from './PostItem.styled'
 
 import { formatDate } from '../../utils/date'
 
-const PostItem = ({ slug, title, date, excerpt }) => {
+const PostItem: React.FC<Post> = ({ slug, title, date, excerpt }) => {
   const { locale } = useRouter()
   return (
-    <Link href={`/blog/${slug}`}>
+    <Link href={`/blog/${slug}`} passHref>
       <Post>
         <h2>{title}</h2>
         <PublishDate>{formatDate(date, locale)}</PublishDate>
@@ -18,13 +17,6 @@ const PostItem = ({ slug, title, date, excerpt }) => {
       </Post>
     </Link>
   )
-}
-
-PostItem.propTypes = {
-  slug: PropTypes.string.isRequired,
-  title: PropTypes.string.isRequired,
-  date: PropTypes.string.isRequired,
-  excerpt: PropTypes.string.isRequired,
 }
 
 export default PostItem

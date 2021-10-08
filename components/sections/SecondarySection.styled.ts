@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const SectionContainer = styled.section`
+export const SectionContainer = styled.section<{ height?: string }>`
   min-height: ${({ theme, height }) => (height ? height : theme.sectionHeight)};
   background: ${({ theme }) => theme.colors.offWhite};
 `

@@ -14,7 +14,7 @@ export const Content = styled.main`
   }
 `
 
-export const AlertContainer = styled.div`
+export const AlertContainer = styled.div<{ showAlert: boolean }>`
   align-items: center;
   background: darkorange;
   border-bottom-left-radius: 30px;
@@ -35,7 +35,7 @@ export const AlertContainer = styled.div`
   }
 `
 
-export const AlertMessage = styled.div`
+export const AlertMessage = styled.div<{ showAlert: boolean }>`
   align-items: center;
   background: darkorange;
   color: ${({ theme }) => theme.colors.white};

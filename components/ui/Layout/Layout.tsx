@@ -1,5 +1,4 @@
 import React, { useState, useRef, useEffect } from 'react'
-import PropTypes from 'prop-types'
 import { FiAlertTriangle } from 'react-icons/fi'
 import { useIntl } from 'react-intl'
 
@@ -14,13 +13,13 @@ import {
   Button,
 } from './Layout.styled'
 
-const Layout = ({ children, alert }) => {
+const Layout: React.FC<{ alert?: boolean }> = ({ children, alert }) => {
   const { formatMessage } = useIntl()
   const [showAlert, setShowAlert] = useState(!!alert)
-  const alertRef = useRef(null)
+  const alertRef = useRef<HTMLDivElement>(null)
 
-  const handleClickOutside = (event) => {
-    if (alertRef.current && !alertRef.current.contains(event.target)) {
+  const handleClickOutside = (event: MouseEvent) => {
+    if (alertRef.current && !alertRef.current.contains(event.target as Node)) {
       setShowAlert(false)
     }
   }
@@ -37,7 +36,7 @@ const Layout = ({ children, alert }) => {
     }
   })
 
-  const handleClick = (e) => {
+  const handleClick = (e: React.MouseEvent) => {
     e.stopPropagation()
     setShowAlert(!showAlert)
   }
@@ -66,14 +65,6 @@ const Layout = ({ children, alert }) => {
       <CookieManager />
     </Container>
   )
-}
-
-Layout.propTypes = {
-  children: PropTypes.oneOfType([
-    PropTypes.arrayOf(PropTypes.node),
-    PropTypes.node,
-  ]).isRequired,
-  alert: PropTypes.bool,
 }
 
 export default Layout

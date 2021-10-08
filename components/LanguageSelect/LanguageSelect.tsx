@@ -10,11 +10,11 @@ const LanguageSelect = () => {
   return (
     <LngContainer>
       {locale === 'fr' ? (
-        <Link href={{ pathname, query }} locale="en">
+        <Link href={{ pathname, query }} locale="en" passHref>
           <SelectLng>EN</SelectLng>
         </Link>
       ) : (
-        <Link href={{ pathname, query }} locale="fr">
+        <Link href={{ pathname, query }} locale="fr" passHref>
           <SelectLng>FR</SelectLng>
         </Link>
       )}

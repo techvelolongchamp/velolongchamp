@@ -18,7 +18,7 @@ const Join = () => {
       <JoinContainer>
         <p>{formatMessage({ id: 'joinUs.joinMessage' })}</p>
         <ButtonContainer>
-          <Link href="/join">
+          <Link href="/join" passHref>
             <ButtonLink>{formatMessage({ id: 'joinUs.clickJoin' })}</ButtonLink>
           </Link>
         </ButtonContainer>

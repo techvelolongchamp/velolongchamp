@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 import { IoLogoFacebook, IoLogoTwitter, IoLogoInstagram } from 'react-icons/io'
 
 import { ContactWrapper, SocialWrapper } from './Contact.styled'
@@ -6,7 +7,7 @@ import { ContactWrapper, SocialWrapper } from './Contact.styled'
 const Contact = () => {
   return (
     <ContactWrapper>
-      <img src="/logo.png" alt="logo" />
+      <Image src="/logo.png" alt="logo" width={200} height={150} />
       <SocialWrapper>
         <a
           href="https://www.facebook.com/AssoVeloLongchamp"

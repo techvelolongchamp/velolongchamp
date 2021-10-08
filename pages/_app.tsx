@@ -1,4 +1,5 @@
 import React from 'react'
+import type { AppProps, NextWebVitalsMetric } from 'next/app'
 import { IntlProvider } from 'react-intl'
 import { ThemeProvider } from 'styled-components'
 import { useRouter } from 'next/router'
@@ -8,12 +9,29 @@ import theme from '../styles/theme'
 
 import en from '../locale/en'
 import fr from '../locale/fr'
+enum Locale {
+  'EN' = 'en',
+  'FR' = 'fr',
+}
 
-const languages = { en, fr }
+const languages: { en: Record<string, string>; fr: Record<string, string> } = {
+  en,
+  fr,
+}
 
-export function reportWebVitals({ id, name, label, value }) {
+declare global {
+  interface Window {
+    gtag: any
+  }
+}
+
+export function reportWebVitals({
+  id,
+  name,
+  label,
+  value,
+}: NextWebVitalsMetric) {
   if (typeof window.gtag === 'function') {
-    console.log('here')
     window.gtag('event', name, {
       event_category:
         label === 'web-vital' ? 'Web Vitals' : 'Next.js custom metric',
@@ -24,11 +42,10 @@ export function reportWebVitals({ id, name, label, value }) {
   }
 }
 
-// eslint-disable-next-line react/prop-types
-function MyApp({ Component, pageProps }) {
+function MyApp({ Component, pageProps }: AppProps) {
   const router = useRouter()
-  const { locale } = router
-  const messages = languages[locale]
+  const locale = router.locale as Locale
+  const messages: Record<string, string> = languages[locale || Locale.FR]
 
   return (
     <ThemeProvider theme={theme}>

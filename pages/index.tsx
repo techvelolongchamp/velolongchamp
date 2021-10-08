@@ -16,10 +16,10 @@ import Contact from '../components/Contact'
 const handleLink = ['presentation', 'join', 'meeting', 'contact']
 
 export default function Home() {
-  const presentation = useRef()
-  const join = useRef()
-  const meeting = useRef()
-  const contact = useRef()
+  const presentation = useRef<HTMLDivElement>(null)
+  const join = useRef<HTMLDivElement>(null)
+  const meeting = useRef<HTMLDivElement>(null)
+  const contact = useRef<HTMLDivElement>(null)
   const { formatMessage } = useIntl()
   return (
     <Layout alert>
