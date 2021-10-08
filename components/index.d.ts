@@ -1,4 +1,4 @@
-declare module '*.jpg'
+declare module '*.JPG'
 
 declare interface Post {
   slug: string

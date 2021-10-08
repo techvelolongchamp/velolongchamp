@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 
-import Background from '../../public/media/Banniere.jpg'
+import Background from '../../public/media/Banniere.JPG'
 
 import { SectionContainer } from './MainSection.styled'
 
