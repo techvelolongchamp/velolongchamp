@@ -18,7 +18,7 @@ const Presentation = () => {
         }
       )}
 
-      <p>
+      <p id="statuts-links">
         <Link href="/statuts">
           {formatMessage({ id: 'presentation.whoAreWe.link' })}
         </Link>

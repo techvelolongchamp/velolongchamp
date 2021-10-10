@@ -41,12 +41,13 @@ const Header: React.FC<{ noScroll?: boolean; handleLink?: string[] }> = ({
         <LeftContainer>
           {noScroll ? (
             <Link href="/" passHref>
-              <TitleLink data-testid="title-link">
+              <TitleLink data-testid="title-link" id="logo-link">
                 <Logo src="/logo.png" alt="logo" />
               </TitleLink>
             </Link>
           ) : (
             <ScrollTitle
+              id="logo-scroll"
               data-testid="scroll-title"
               onClick={scrollTop}
               title="Home"
@@ -65,6 +66,7 @@ const Header: React.FC<{ noScroll?: boolean; handleLink?: string[] }> = ({
                   spy
                   offset={-theme.navbarHeightNb}
                   to={handleLink[0]}
+                  id={handleLink[0]}
                 >
                   {formatMessage({ id: 'header.presentation' })}
                 </ScrollItem>
@@ -77,6 +79,7 @@ const Header: React.FC<{ noScroll?: boolean; handleLink?: string[] }> = ({
                   spy
                   offset={-theme.navbarHeightNb}
                   to={handleLink[1]}
+                  id={handleLink[1]}
                 >
                   {formatMessage({ id: 'header.joinUs' })}
                 </ScrollItem>
@@ -89,6 +92,7 @@ const Header: React.FC<{ noScroll?: boolean; handleLink?: string[] }> = ({
                   spy
                   offset={-theme.navbarHeightNb}
                   to={handleLink[2]}
+                  id={handleLink[2]}
                 >
                   {formatMessage({ id: 'header.meetUs' })}
                 </ScrollItem>
@@ -101,6 +105,7 @@ const Header: React.FC<{ noScroll?: boolean; handleLink?: string[] }> = ({
                   spy
                   offset={-theme.navbarHeightNb}
                   to={handleLink[3]}
+                  id={handleLink[3]}
                 >
                   {formatMessage({ id: 'header.contactUs' })}
                 </ScrollItem>
@@ -113,13 +118,17 @@ const Header: React.FC<{ noScroll?: boolean; handleLink?: string[] }> = ({
             <NavList>
               <li>
                 <Link href="/blog" passHref>
-                  <NavItem>{formatMessage({ id: 'header.blog' })}</NavItem>
+                  <NavItem id="blog-link">
+                    {formatMessage({ id: 'header.blog' })}
+                  </NavItem>
                 </Link>
               </li>
             </NavList>
           </nav>
           <Link href="/join" passHref>
-            <ButtonLink>{formatMessage({ id: 'header.clickJoin' })}</ButtonLink>
+            <ButtonLink id="join-link">
+              {formatMessage({ id: 'header.clickJoin' })}
+            </ButtonLink>
           </Link>
           <LanguageSelect />
         </RightContainer>
@@ -134,6 +143,7 @@ const Header: React.FC<{ noScroll?: boolean; handleLink?: string[] }> = ({
               spy
               offset={-theme.mobielNavbarHeightNb}
               to={handleLink[0]}
+              id={handleLink[0]}
             >
               {formatMessage({ id: 'header.presentation' })}
             </MobileScrollItem>
@@ -146,6 +156,7 @@ const Header: React.FC<{ noScroll?: boolean; handleLink?: string[] }> = ({
               spy
               offset={-theme.mobielNavbarHeightNb}
               to={handleLink[1]}
+              id={handleLink[1]}
             >
               {formatMessage({ id: 'header.joinUs' })}
             </MobileScrollItem>
@@ -158,6 +169,7 @@ const Header: React.FC<{ noScroll?: boolean; handleLink?: string[] }> = ({
               spy
               offset={-theme.mobielNavbarHeightNb}
               to={handleLink[2]}
+              id={handleLink[2]}
             >
               {formatMessage({ id: 'header.meetUs' })}
             </MobileScrollItem>
@@ -170,6 +182,7 @@ const Header: React.FC<{ noScroll?: boolean; handleLink?: string[] }> = ({
               spy
               offset={-theme.mobielNavbarHeightNb}
               to={handleLink[3]}
+              id={handleLink[3]}
             >
               {formatMessage({ id: 'header.contactUs' })}
             </MobileScrollItem>

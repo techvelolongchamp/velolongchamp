@@ -180,7 +180,9 @@ exports[`Presentation unit tests should render correctly 1`] = `
     </p>
      
     
-    <p>
+    <p
+      id="statuts-links"
+    >
       <a
         href="/statuts"
       >

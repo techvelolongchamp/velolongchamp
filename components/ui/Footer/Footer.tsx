@@ -15,7 +15,7 @@ const Footer = () => {
         {formatMessage({ id: 'footer.allRights' })}
       </p>
       <p>-</p>
-      <p>
+      <p id="legal-link">
         <Link href="/legal">{formatMessage({ id: 'footer.legal' })}</Link>
       </p>
     </Wrapper>

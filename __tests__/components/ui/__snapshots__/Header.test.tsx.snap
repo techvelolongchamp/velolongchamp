@@ -162,6 +162,7 @@ exports[`Header unit tests should render correctly - no scroll 1`] = `
           class="c3"
           data-testid="title-link"
           href="/"
+          id="logo-link"
         >
           <img
             alt="logo"
@@ -181,6 +182,7 @@ exports[`Header unit tests should render correctly - no scroll 1`] = `
               <a
                 class="c7"
                 href="/blog"
+                id="blog-link"
               >
                 Actualités
               </a>
@@ -190,6 +192,7 @@ exports[`Header unit tests should render correctly - no scroll 1`] = `
         <a
           class="c8"
           href="/join"
+          id="join-link"
         >
           Adhérer gratuitement
         </a>
@@ -200,6 +203,7 @@ exports[`Header unit tests should render correctly - no scroll 1`] = `
             class="c10"
             data-testid="select-en"
             href="/"
+            id="select-en"
           >
             EN
           </button>
@@ -396,6 +400,7 @@ exports[`Header unit tests should render correctly - with links 1`] = `
         <a
           class="c3"
           data-testid="scroll-title"
+          id="logo-scroll"
           title="Home"
         >
           <img
@@ -412,6 +417,7 @@ exports[`Header unit tests should render correctly - with links 1`] = `
           >
             <a
               class="c6"
+              id="presentation"
               title="Présentation"
             >
               Présentation
@@ -422,6 +428,7 @@ exports[`Header unit tests should render correctly - with links 1`] = `
           >
             <a
               class="c6"
+              id="join"
               title="Nous rejoindre"
             >
               Nous rejoindre
@@ -432,6 +439,7 @@ exports[`Header unit tests should render correctly - with links 1`] = `
           >
             <a
               class="c6"
+              id="meeting"
               title="Nous rencontrer"
             >
               Nous rencontrer
@@ -442,6 +450,7 @@ exports[`Header unit tests should render correctly - with links 1`] = `
           >
             <a
               class="c6"
+              id="contact"
               title="Nous contacter"
             >
               Nous contacter
@@ -460,6 +469,7 @@ exports[`Header unit tests should render correctly - with links 1`] = `
               <a
                 class="c8"
                 href="/blog"
+                id="blog-link"
               >
                 Actualités
               </a>
@@ -469,6 +479,7 @@ exports[`Header unit tests should render correctly - with links 1`] = `
         <a
           class="c9"
           href="/join"
+          id="join-link"
         >
           Adhérer gratuitement
         </a>
@@ -479,6 +490,7 @@ exports[`Header unit tests should render correctly - with links 1`] = `
             class="c11"
             data-testid="select-en"
             href="/"
+            id="select-en"
           >
             EN
           </button>
@@ -689,6 +701,7 @@ exports[`Header unit tests should render correctly - with links and mobile 1`] =
         <a
           class="c3"
           data-testid="scroll-title"
+          id="logo-scroll"
           title="Home"
         >
           <img
@@ -709,6 +722,7 @@ exports[`Header unit tests should render correctly - with links and mobile 1`] =
               <a
                 class="c7"
                 href="/blog"
+                id="blog-link"
               >
                 Actualités
               </a>
@@ -718,6 +732,7 @@ exports[`Header unit tests should render correctly - with links and mobile 1`] =
         <a
           class="c8"
           href="/join"
+          id="join-link"
         >
           Adhérer gratuitement
         </a>
@@ -728,6 +743,7 @@ exports[`Header unit tests should render correctly - with links and mobile 1`] =
             class="c10"
             data-testid="select-en"
             href="/"
+            id="select-en"
           >
             EN
           </button>
@@ -742,6 +758,7 @@ exports[`Header unit tests should render correctly - with links and mobile 1`] =
       >
         <a
           class="c12 c13"
+          id="presentation"
           title="Présentation"
         >
           Présentation
@@ -752,6 +769,7 @@ exports[`Header unit tests should render correctly - with links and mobile 1`] =
       >
         <a
           class="c12 c13"
+          id="join"
           title="Nous rejoindre"
         >
           Nous rejoindre
@@ -762,6 +780,7 @@ exports[`Header unit tests should render correctly - with links and mobile 1`] =
       >
         <a
           class="c12 c13"
+          id="meeting"
           title="Nous rencontrer"
         >
           Nous rencontrer
@@ -772,6 +791,7 @@ exports[`Header unit tests should render correctly - with links and mobile 1`] =
       >
         <a
           class="c12 c13"
+          id="contact"
           title="Nous contacter"
         >
           Nous contacter
@@ -943,6 +963,7 @@ exports[`Header unit tests should render correctly 1`] = `
         <a
           class="c3"
           data-testid="scroll-title"
+          id="logo-scroll"
           title="Home"
         >
           <img
@@ -963,6 +984,7 @@ exports[`Header unit tests should render correctly 1`] = `
               <a
                 class="c7"
                 href="/blog"
+                id="blog-link"
               >
                 Actualités
               </a>
@@ -972,6 +994,7 @@ exports[`Header unit tests should render correctly 1`] = `
         <a
           class="c8"
           href="/join"
+          id="join-link"
         >
           Adhérer gratuitement
         </a>
@@ -982,6 +1005,7 @@ exports[`Header unit tests should render correctly 1`] = `
             class="c10"
             data-testid="select-en"
             href="/"
+            id="select-en"
           >
             EN
           </button>

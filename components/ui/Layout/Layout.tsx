@@ -44,7 +44,12 @@ const Layout: React.FC<{ alert?: boolean }> = ({ children, alert }) => {
   return (
     <Container>
       <div ref={alertRef}>
-        <AlertContainer showAlert={showAlert} onClick={handleClick}>
+        <AlertContainer
+          showAlert={showAlert}
+          onClick={handleClick}
+          data-testid="show-alert"
+          id="show-alert"
+        >
           <FiAlertTriangle />
         </AlertContainer>
         <AlertMessage showAlert={showAlert}>
@@ -55,7 +60,8 @@ const Layout: React.FC<{ alert?: boolean }> = ({ children, alert }) => {
             title="Formulaire"
             rel="noopener noreferrer"
             onClick={handleClick}
-            data-testid="show-alert"
+            data-testid="notice-alert"
+            id="notice-alert"
           >
             {formatMessage({ id: 'layout.button' })}
           </Button>

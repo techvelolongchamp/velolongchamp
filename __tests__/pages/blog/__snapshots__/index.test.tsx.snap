@@ -376,6 +376,8 @@ exports[`BlogPage unit tests should render correctly 1`] = `
     <div>
       <div
         class="c1"
+        data-testid="show-alert"
+        id="show-alert"
       >
         <svg
           fill="none"
@@ -411,8 +413,9 @@ exports[`BlogPage unit tests should render correctly 1`] = `
         Signaler un accident ou problème sur l'anneau
         <a
           class="c3"
-          data-testid="show-alert"
+          data-testid="notice-alert"
           href="https://docs.google.com/forms/d/e/1FAIpQLSdmrvUuZ953-3P8NVmNjiG8N78hY1lcdg_hVbr8lnYEqSjM9A/viewform?vc=0&c=0&w=1"
+          id="notice-alert"
           rel="noopener noreferrer"
           target="_blank"
           title="Formulaire"
@@ -438,6 +441,7 @@ exports[`BlogPage unit tests should render correctly 1`] = `
               class="c8"
               data-testid="title-link"
               href="/"
+              id="logo-link"
             >
               <img
                 alt="logo"
@@ -457,6 +461,7 @@ exports[`BlogPage unit tests should render correctly 1`] = `
                   <a
                     class="c12"
                     href="/blog"
+                    id="blog-link"
                   >
                     Actualités
                   </a>
@@ -466,6 +471,7 @@ exports[`BlogPage unit tests should render correctly 1`] = `
             <a
               class="c13"
               href="/join"
+              id="join-link"
             >
               Adhérer gratuitement
             </a>
@@ -476,6 +482,7 @@ exports[`BlogPage unit tests should render correctly 1`] = `
                 class="c15"
                 data-testid="select-en"
                 href="/"
+                id="select-en"
               >
                 EN
               </button>
@@ -556,7 +563,9 @@ exports[`BlogPage unit tests should render correctly 1`] = `
       <p>
         -
       </p>
-      <p>
+      <p
+        id="legal-link"
+      >
         <a
           href="/legal"
         >
@@ -573,6 +582,7 @@ exports[`BlogPage unit tests should render correctly 1`] = `
       <div>
         <button
           data-testid="accept-cookie"
+          id="accept-cookie"
         >
           OK
         </button>

@@ -171,6 +171,8 @@ exports[`Layout unit tests should render correctly - alert closed 1`] = `
     <div>
       <div
         class="c1"
+        data-testid="show-alert"
+        id="show-alert"
       >
         <svg
           fill="none"
@@ -206,8 +208,9 @@ exports[`Layout unit tests should render correctly - alert closed 1`] = `
         Signaler un accident ou problème sur l'anneau
         <a
           class="c3"
-          data-testid="show-alert"
+          data-testid="notice-alert"
           href="https://docs.google.com/forms/d/e/1FAIpQLSdmrvUuZ953-3P8NVmNjiG8N78hY1lcdg_hVbr8lnYEqSjM9A/viewform?vc=0&c=0&w=1"
+          id="notice-alert"
           rel="noopener noreferrer"
           target="_blank"
           title="Formulaire"
@@ -234,7 +237,9 @@ exports[`Layout unit tests should render correctly - alert closed 1`] = `
       <p>
         -
       </p>
-      <p>
+      <p
+        id="legal-link"
+      >
         <a
           href="/legal"
         >
@@ -251,6 +256,7 @@ exports[`Layout unit tests should render correctly - alert closed 1`] = `
       <div>
         <button
           data-testid="accept-cookie"
+          id="accept-cookie"
         >
           OK
         </button>
@@ -436,6 +442,8 @@ exports[`Layout unit tests should render correctly 1`] = `
     <div>
       <div
         class="c1"
+        data-testid="show-alert"
+        id="show-alert"
       >
         <svg
           fill="none"
@@ -471,8 +479,9 @@ exports[`Layout unit tests should render correctly 1`] = `
         Signaler un accident ou problème sur l'anneau
         <a
           class="c3"
-          data-testid="show-alert"
+          data-testid="notice-alert"
           href="https://docs.google.com/forms/d/e/1FAIpQLSdmrvUuZ953-3P8NVmNjiG8N78hY1lcdg_hVbr8lnYEqSjM9A/viewform?vc=0&c=0&w=1"
+          id="notice-alert"
           rel="noopener noreferrer"
           target="_blank"
           title="Formulaire"
@@ -499,7 +508,9 @@ exports[`Layout unit tests should render correctly 1`] = `
       <p>
         -
       </p>
-      <p>
+      <p
+        id="legal-link"
+      >
         <a
           href="/legal"
         >
@@ -516,6 +527,7 @@ exports[`Layout unit tests should render correctly 1`] = `
       <div>
         <button
           data-testid="accept-cookie"
+          id="accept-cookie"
         >
           OK
         </button>

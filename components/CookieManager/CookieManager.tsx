@@ -24,7 +24,11 @@ const CookieManager = () => {
     <CookieContainer showCookie={!cookieApproval}>
       <p>{formatMessage({ id: 'cookie.message' })}</p>
       <div>
-        <button data-testid="accept-cookie" onClick={handleClick}>
+        <button
+          data-testid="accept-cookie"
+          onClick={handleClick}
+          id="accept-cookie"
+        >
           {formatMessage({ id: 'cookie.ok' })}
         </button>
         <Link href="/legal">{formatMessage({ id: 'cookie.learnMore' })}</Link>

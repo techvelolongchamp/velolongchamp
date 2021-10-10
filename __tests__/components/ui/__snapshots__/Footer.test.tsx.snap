@@ -32,7 +32,9 @@ exports[`Footer unit tests should render correctly 1`] = `
     <p>
       -
     </p>
-    <p>
+    <p
+      id="legal-link"
+    >
       <a
         href="/legal"
       >

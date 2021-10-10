@@ -712,6 +712,8 @@ exports[`Home unit tests should render correctly 1`] = `
     <div>
       <div
         class="c1"
+        data-testid="show-alert"
+        id="show-alert"
       >
         <svg
           fill="none"
@@ -747,8 +749,9 @@ exports[`Home unit tests should render correctly 1`] = `
         Signaler un accident ou problème sur l'anneau
         <a
           class="c3"
-          data-testid="show-alert"
+          data-testid="notice-alert"
           href="https://docs.google.com/forms/d/e/1FAIpQLSdmrvUuZ953-3P8NVmNjiG8N78hY1lcdg_hVbr8lnYEqSjM9A/viewform?vc=0&c=0&w=1"
+          id="notice-alert"
           rel="noopener noreferrer"
           target="_blank"
           title="Formulaire"
@@ -773,6 +776,7 @@ exports[`Home unit tests should render correctly 1`] = `
             <a
               class="c8"
               data-testid="scroll-title"
+              id="logo-scroll"
               title="Home"
             >
               <img
@@ -789,6 +793,7 @@ exports[`Home unit tests should render correctly 1`] = `
               >
                 <a
                   class="c11"
+                  id="presentation"
                   title="Présentation"
                 >
                   Présentation
@@ -799,6 +804,7 @@ exports[`Home unit tests should render correctly 1`] = `
               >
                 <a
                   class="c11"
+                  id="join"
                   title="Nous rejoindre"
                 >
                   Nous rejoindre
@@ -809,6 +815,7 @@ exports[`Home unit tests should render correctly 1`] = `
               >
                 <a
                   class="c11"
+                  id="meeting"
                   title="Nous rencontrer"
                 >
                   Nous rencontrer
@@ -819,6 +826,7 @@ exports[`Home unit tests should render correctly 1`] = `
               >
                 <a
                   class="c11"
+                  id="contact"
                   title="Nous contacter"
                 >
                   Nous contacter
@@ -837,6 +845,7 @@ exports[`Home unit tests should render correctly 1`] = `
                   <a
                     class="c13"
                     href="/blog"
+                    id="blog-link"
                   >
                     Actualités
                   </a>
@@ -846,6 +855,7 @@ exports[`Home unit tests should render correctly 1`] = `
             <a
               class="c14"
               href="/join"
+              id="join-link"
             >
               Adhérer gratuitement
             </a>
@@ -856,6 +866,7 @@ exports[`Home unit tests should render correctly 1`] = `
                 class="c16"
                 data-testid="select-en"
                 href="/"
+                id="select-en"
               >
                 EN
               </button>
@@ -923,7 +934,9 @@ exports[`Home unit tests should render correctly 1`] = `
             </p>
              
     
-            <p>
+            <p
+              id="statuts-links"
+            >
               <a
                 href="/statuts"
               >
@@ -1484,7 +1497,9 @@ exports[`Home unit tests should render correctly 1`] = `
       <p>
         -
       </p>
-      <p>
+      <p
+        id="legal-link"
+      >
         <a
           href="/legal"
         >
@@ -1501,6 +1516,7 @@ exports[`Home unit tests should render correctly 1`] = `
       <div>
         <button
           data-testid="accept-cookie"
+          id="accept-cookie"
         >
           OK
         </button>

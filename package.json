@@ -9,7 +9,11 @@
     "lint": "next lint",
     "test": "jest --watch",
     "test:coverage": "jest --coverage",
-    "forestry:preview": "next dev -p 8080 -H 0.0.0.0"
+    "forestry:preview": "next dev -p 8080 -H 0.0.0.0",
+    "cypress": "cypress open",
+    "cypress:headless": "cypress run",
+    "e2e": "start-server-and-test start http://localhost:3000 cypress",
+    "e2e:headless": "start-server-and-test start http://localhost:3000 cypress:headless"
   },
   "dependencies": {
     "blurhash": "^1.1.4",
@@ -54,6 +58,7 @@
     "jest": "^27.2.5",
     "jest-styled-components": "^7.0.5",
     "prettier": "^2.3.2",
+    "start-server-and-test": "^1.14.0",
     "ts-jest": "^27.0.5",
     "typescript": "^4.4.3"
   }

@@ -47,6 +47,7 @@ exports[`CookieManager unit tests should render correctly - cookie accepted 1`] 
     <div>
       <button
         data-testid="accept-cookie"
+        id="accept-cookie"
       >
         OK
       </button>
@@ -107,6 +108,7 @@ exports[`CookieManager unit tests should render correctly 1`] = `
     <div>
       <button
         data-testid="accept-cookie"
+        id="accept-cookie"
       >
         OK
       </button>
