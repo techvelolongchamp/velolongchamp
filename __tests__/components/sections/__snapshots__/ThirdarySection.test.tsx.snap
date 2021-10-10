@@ -1,0 +1,154 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ThirdarySection unit tests should render correctly - with id, title and height - h1 1`] = `
+.c1 {
+  margin: 0 auto;
+  max-width: 750px;
+  padding: 10px;
+  height: inherit;
+}
+
+.c0 {
+  min-height: 300px;
+}
+
+.c2 {
+  color: #419a1c;
+  font-size: 30px;
+  margin: 20px 0;
+}
+
+<div>
+  <section
+    class="c0"
+    height="300px"
+    id="my-id"
+  >
+    <div
+      class="c1"
+    >
+      <h1
+        class="c2"
+        data-testid="h1-title"
+      >
+        section-title
+      </h1>
+      Hello
+    </div>
+  </section>
+</div>
+`;
+
+exports[`ThirdarySection unit tests should render correctly - with id, title and height - h1 hidden 1`] = `
+.c1 {
+  margin: 0 auto;
+  max-width: 750px;
+  padding: 10px;
+  height: inherit;
+}
+
+.c0 {
+  min-height: 300px;
+}
+
+.c2 {
+  display: none;
+  color: #419a1c;
+  font-size: 30px;
+  margin: 20px 0;
+}
+
+<div>
+  <section
+    class="c0"
+    height="300px"
+    id="my-id"
+  >
+    <div
+      class="c1"
+    >
+      <h1
+        class="c2"
+        data-testid="h1-title"
+      >
+        section-title
+      </h1>
+      Hello
+    </div>
+  </section>
+</div>
+`;
+
+exports[`ThirdarySection unit tests should render correctly - with id, title and height - h2 1`] = `
+.c1 {
+  margin: 0 auto;
+  max-width: 750px;
+  padding: 10px;
+  height: inherit;
+}
+
+.c0 {
+  min-height: 300px;
+}
+
+.c2 {
+  color: #419a1c;
+  font-size: 30px;
+  margin: 20px 0;
+}
+
+<div>
+  <section
+    class="c0"
+    height="300px"
+    id="my-id"
+  >
+    <div
+      class="c1"
+    >
+      <h2
+        class="c2"
+        data-testid="h2-title"
+      >
+        section-title
+      </h2>
+      Hello
+    </div>
+  </section>
+</div>
+`;
+
+exports[`ThirdarySection unit tests should render correctly 1`] = `
+.c1 {
+  margin: 0 auto;
+  max-width: 750px;
+  padding: 10px;
+  height: inherit;
+}
+
+.c0 {
+  min-height: 600px;
+}
+
+.c2 {
+  color: #419a1c;
+  font-size: 30px;
+  margin: 20px 0;
+}
+
+<div>
+  <section
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      <h2
+        class="c2"
+        data-testid="h2-title"
+      />
+      Hello
+    </div>
+  </section>
+</div>
+`;

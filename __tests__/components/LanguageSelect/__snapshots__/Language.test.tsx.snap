@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LanguageSelect unit tests should render correctly - en 1`] = `
+.c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  font-size: 12px;
+  margin-left: 5px;
+}
+
+.c1 {
+  background: none;
+  border: none;
+  outline: none;
+  padding: 5px;
+  width: 24px;
+}
+
+.c1:hover {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <button
+      class="c1"
+      data-testid="select-fr"
+      href="/"
+    >
+      FR
+    </button>
+  </div>
+</div>
+`;
+
+exports[`LanguageSelect unit tests should render correctly 1`] = `
+.c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  font-size: 12px;
+  margin-left: 5px;
+}
+
+.c1 {
+  background: none;
+  border: none;
+  outline: none;
+  padding: 5px;
+  width: 24px;
+}
+
+.c1:hover {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <button
+      class="c1"
+      data-testid="select-en"
+      href="/"
+    >
+      EN
+    </button>
+  </div>
+</div>
+`;

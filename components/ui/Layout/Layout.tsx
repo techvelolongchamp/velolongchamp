@@ -55,6 +55,7 @@ const Layout: React.FC<{ alert?: boolean }> = ({ children, alert }) => {
             title="Formulaire"
             rel="noopener noreferrer"
             onClick={handleClick}
+            data-testid="show-alert"
           >
             {formatMessage({ id: 'layout.button' })}
           </Button>

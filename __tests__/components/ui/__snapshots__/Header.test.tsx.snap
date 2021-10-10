@@ -1,0 +1,993 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header unit tests should render correctly - no scroll 1`] = `
+.c9 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  font-size: 12px;
+  margin-left: 5px;
+}
+
+.c10 {
+  background: none;
+  border: none;
+  outline: none;
+  padding: 5px;
+  width: 24px;
+}
+
+.c10:hover {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c0 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 5;
+  background: #f7f7F7;
+  padding: 5px 10px;
+  border-bottom: 1px solid #fff;
+  color: #0d171b;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+}
+
+.c7 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-left: 1px solid #6d6e71;
+  color: #999999;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 16px;
+  height: 30px;
+  margin: 0 20px;
+  padding-left: 20px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c7:hover {
+  color: #666666;
+}
+
+.c8 {
+  background: #6d6e71;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px;
+}
+
+.c4 {
+  height: 70px;
+  padding: 5px 0;
+}
+
+@media screen and (max-width:640px) {
+  .c7 {
+    font-size: 14px;
+    border: none;
+    padding: 0;
+    margin: 0 10px;
+  }
+}
+
+@media screen and (max-width:640px) {
+  .c8 {
+    font-size: 14px;
+  }
+}
+
+<div>
+  <header
+    class="c0"
+    id="header"
+  >
+    <div
+      class="c1"
+    >
+      <div
+        class="c2"
+      >
+        <a
+          class="c3"
+          data-testid="title-link"
+          href="/"
+        >
+          <img
+            alt="logo"
+            class="c4"
+            src="/logo.png"
+          />
+        </a>
+      </div>
+      <div
+        class="c5"
+      >
+        <nav>
+          <ul
+            class="c6"
+          >
+            <li>
+              <a
+                class="c7"
+                href="/blog"
+              >
+                Actualités
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <a
+          class="c8"
+          href="/join"
+        >
+          Adhérer gratuitement
+        </a>
+        <div
+          class="c9"
+        >
+          <button
+            class="c10"
+            data-testid="select-en"
+            href="/"
+          >
+            EN
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+</div>
+`;
+
+exports[`Header unit tests should render correctly - with links 1`] = `
+.c10 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  font-size: 12px;
+  margin-left: 5px;
+}
+
+.c11 {
+  background: none;
+  border: none;
+  outline: none;
+  padding: 5px;
+  width: 24px;
+}
+
+.c11:hover {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c0 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 5;
+  background: #f7f7F7;
+  padding: 5px 10px;
+  border-bottom: 1px solid #fff;
+  color: #0d171b;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+}
+
+.c8 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-left: 1px solid #6d6e71;
+  color: #999999;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 16px;
+  height: 30px;
+  margin: 0 20px;
+  padding-left: 20px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c8:hover {
+  color: #666666;
+}
+
+.c6 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-left: 1px solid #6d6e71;
+  border: none;
+  color: #999999;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 14px;
+  height: 30px;
+  margin: 0 15px;
+  padding: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c6:hover {
+  color: #666666;
+}
+
+.c9 {
+  background: #6d6e71;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px;
+}
+
+.c4 {
+  height: 70px;
+  padding: 5px 0;
+}
+
+@media screen and (max-width:640px) {
+  .c8 {
+    font-size: 14px;
+    border: none;
+    padding: 0;
+    margin: 0 10px;
+  }
+}
+
+@media screen and (max-width:640px) {
+  .c9 {
+    font-size: 14px;
+  }
+}
+
+<div>
+  <header
+    class="c0"
+    id="header"
+  >
+    <div
+      class="c1"
+    >
+      <div
+        class="c2"
+      >
+        <a
+          class="c3"
+          data-testid="scroll-title"
+          title="Home"
+        >
+          <img
+            alt="logo"
+            class="c4"
+            src="/logo.png"
+          />
+        </a>
+        <ul
+          class="c5"
+        >
+          <li
+            data-testid="scroll-item"
+          >
+            <a
+              class="c6"
+              title="Présentation"
+            >
+              Présentation
+            </a>
+          </li>
+          <li
+            data-testid="scroll-item"
+          >
+            <a
+              class="c6"
+              title="Nous rejoindre"
+            >
+              Nous rejoindre
+            </a>
+          </li>
+          <li
+            data-testid="scroll-item"
+          >
+            <a
+              class="c6"
+              title="Nous rencontrer"
+            >
+              Nous rencontrer
+            </a>
+          </li>
+          <li
+            data-testid="scroll-item"
+          >
+            <a
+              class="c6"
+              title="Nous contacter"
+            >
+              Nous contacter
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div
+        class="c7"
+      >
+        <nav>
+          <ul
+            class="c5"
+          >
+            <li>
+              <a
+                class="c8"
+                href="/blog"
+              >
+                Actualités
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <a
+          class="c9"
+          href="/join"
+        >
+          Adhérer gratuitement
+        </a>
+        <div
+          class="c10"
+        >
+          <button
+            class="c11"
+            data-testid="select-en"
+            href="/"
+          >
+            EN
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+</div>
+`;
+
+exports[`Header unit tests should render correctly - with links and mobile 1`] = `
+.c9 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  font-size: 12px;
+  margin-left: 5px;
+}
+
+.c10 {
+  background: none;
+  border: none;
+  outline: none;
+  padding: 5px;
+  width: 24px;
+}
+
+.c10:hover {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c0 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 5;
+  background: #f7f7F7;
+  padding: 5px 10px;
+  border-bottom: 1px solid #fff;
+  color: #0d171b;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+}
+
+.c11 {
+  width: 100%;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c7 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-left: 1px solid #6d6e71;
+  color: #999999;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 16px;
+  height: 30px;
+  margin: 0 20px;
+  padding-left: 20px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c7:hover {
+  color: #666666;
+}
+
+.c12 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-left: 1px solid #6d6e71;
+  border: none;
+  color: #999999;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 14px;
+  height: 30px;
+  margin: 0 15px;
+  padding: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c12:hover {
+  color: #666666;
+}
+
+.c13 {
+  font-size: 14px;
+  margin: 0;
+  padding: 0 5px;
+}
+
+.c8 {
+  background: #6d6e71;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px;
+}
+
+.c4 {
+  height: 70px;
+  padding: 5px 0;
+}
+
+@media screen and (max-width:640px) {
+  .c7 {
+    font-size: 14px;
+    border: none;
+    padding: 0;
+    margin: 0 10px;
+  }
+}
+
+@media screen and (max-width:640px) {
+  .c8 {
+    font-size: 14px;
+  }
+}
+
+<div>
+  <header
+    class="c0"
+    id="header"
+  >
+    <div
+      class="c1"
+    >
+      <div
+        class="c2"
+      >
+        <a
+          class="c3"
+          data-testid="scroll-title"
+          title="Home"
+        >
+          <img
+            alt="logo"
+            class="c4"
+            src="/logo.png"
+          />
+        </a>
+      </div>
+      <div
+        class="c5"
+      >
+        <nav>
+          <ul
+            class="c6"
+          >
+            <li>
+              <a
+                class="c7"
+                href="/blog"
+              >
+                Actualités
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <a
+          class="c8"
+          href="/join"
+        >
+          Adhérer gratuitement
+        </a>
+        <div
+          class="c9"
+        >
+          <button
+            class="c10"
+            data-testid="select-en"
+            href="/"
+          >
+            EN
+          </button>
+        </div>
+      </div>
+    </div>
+    <ul
+      class="c6 c11"
+    >
+      <li
+        data-testid="mobile-item"
+      >
+        <a
+          class="c12 c13"
+          title="Présentation"
+        >
+          Présentation
+        </a>
+      </li>
+      <li
+        data-testid="mobile-item"
+      >
+        <a
+          class="c12 c13"
+          title="Nous rejoindre"
+        >
+          Nous rejoindre
+        </a>
+      </li>
+      <li
+        data-testid="mobile-item"
+      >
+        <a
+          class="c12 c13"
+          title="Nous rencontrer"
+        >
+          Nous rencontrer
+        </a>
+      </li>
+      <li
+        data-testid="mobile-item"
+      >
+        <a
+          class="c12 c13"
+          title="Nous contacter"
+        >
+          Nous contacter
+        </a>
+      </li>
+    </ul>
+  </header>
+</div>
+`;
+
+exports[`Header unit tests should render correctly 1`] = `
+.c9 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  font-size: 12px;
+  margin-left: 5px;
+}
+
+.c10 {
+  background: none;
+  border: none;
+  outline: none;
+  padding: 5px;
+  width: 24px;
+}
+
+.c10:hover {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c0 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 5;
+  background: #f7f7F7;
+  padding: 5px 10px;
+  border-bottom: 1px solid #fff;
+  color: #0d171b;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+}
+
+.c7 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-left: 1px solid #6d6e71;
+  color: #999999;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 16px;
+  height: 30px;
+  margin: 0 20px;
+  padding-left: 20px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c7:hover {
+  color: #666666;
+}
+
+.c8 {
+  background: #6d6e71;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px;
+}
+
+.c4 {
+  height: 70px;
+  padding: 5px 0;
+}
+
+@media screen and (max-width:640px) {
+  .c7 {
+    font-size: 14px;
+    border: none;
+    padding: 0;
+    margin: 0 10px;
+  }
+}
+
+@media screen and (max-width:640px) {
+  .c8 {
+    font-size: 14px;
+  }
+}
+
+<div>
+  <header
+    class="c0"
+    id="header"
+  >
+    <div
+      class="c1"
+    >
+      <div
+        class="c2"
+      >
+        <a
+          class="c3"
+          data-testid="scroll-title"
+          title="Home"
+        >
+          <img
+            alt="logo"
+            class="c4"
+            src="/logo.png"
+          />
+        </a>
+      </div>
+      <div
+        class="c5"
+      >
+        <nav>
+          <ul
+            class="c6"
+          >
+            <li>
+              <a
+                class="c7"
+                href="/blog"
+              >
+                Actualités
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <a
+          class="c8"
+          href="/join"
+        >
+          Adhérer gratuitement
+        </a>
+        <div
+          class="c9"
+        >
+          <button
+            class="c10"
+            data-testid="select-en"
+            href="/"
+          >
+            EN
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+</div>
+`;

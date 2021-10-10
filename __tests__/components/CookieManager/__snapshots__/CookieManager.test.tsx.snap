@@ -1,0 +1,121 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CookieManager unit tests should render correctly - cookie accepted 1`] = `
+.c0 {
+  background: #0d171b;
+  bottom: -200px;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+  color: white;
+  font-size: 14px;
+  padding: 10px;
+  position: fixed;
+  text-align: center;
+  width: 100vw;
+  z-index: 1000;
+}
+
+.c0 div {
+  margin-top: 10px;
+}
+
+.c0 a {
+  background: #6d6e71;
+  border-radius: 5px;
+  color: #fff;
+  margin: 0 10px;
+  padding: 5px;
+}
+
+.c0 button {
+  background: #419a1c;
+  border-radius: 5px;
+  color: #fff;
+  margin: 0 10px;
+  outline: done;
+  padding: 5px;
+  width: 40px;
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <p>
+      En poursuivant votre navigation sur notre site, vous acceptez l'utilisation de cookies afin de nous permettre d'améliorer votre expérience utilisateur.
+    </p>
+    <div>
+      <button
+        data-testid="accept-cookie"
+      >
+        OK
+      </button>
+      <a
+        href="/legal"
+      >
+        En savoir plus
+      </a>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`CookieManager unit tests should render correctly 1`] = `
+.c0 {
+  background: #0d171b;
+  bottom: 0;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+  color: white;
+  font-size: 14px;
+  padding: 10px;
+  position: fixed;
+  text-align: center;
+  width: 100vw;
+  z-index: 1000;
+}
+
+.c0 div {
+  margin-top: 10px;
+}
+
+.c0 a {
+  background: #6d6e71;
+  border-radius: 5px;
+  color: #fff;
+  margin: 0 10px;
+  padding: 5px;
+}
+
+.c0 button {
+  background: #419a1c;
+  border-radius: 5px;
+  color: #fff;
+  margin: 0 10px;
+  outline: done;
+  padding: 5px;
+  width: 40px;
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <p>
+      En poursuivant votre navigation sur notre site, vous acceptez l'utilisation de cookies afin de nous permettre d'améliorer votre expérience utilisateur.
+    </p>
+    <div>
+      <button
+        data-testid="accept-cookie"
+      >
+        OK
+      </button>
+      <a
+        href="/legal"
+      >
+        En savoir plus
+      </a>
+    </div>
+  </div>
+</div>
+`;

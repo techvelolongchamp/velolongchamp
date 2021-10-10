@@ -9,6 +9,7 @@ import theme from '../styles/theme'
 
 import en from '../locale/en'
 import fr from '../locale/fr'
+
 enum Locale {
   'EN' = 'en',
   'FR' = 'fr',

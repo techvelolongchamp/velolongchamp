@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer unit tests should render correctly 1`] = `
+.c0 {
+  background: #f7f7F7;
+  border-top: 1px solid #f7f7F7;
+  color: #999999;
+  padding: 10px 0 5px;
+  text-align: center;
+}
+
+.c0 a {
+  color: #999999;
+}
+
+.c0 a:hover {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+<div>
+  <footer
+    class="c0"
+  >
+    <p>
+      ©Copyright 2019
+       - 2021
+       - Vélo Longchamp -
+       
+      Tous droits réservés
+    </p>
+    <p>
+      -
+    </p>
+    <p>
+      <a
+        href="/legal"
+      >
+        Mentions légales
+      </a>
+    </p>
+  </footer>
+</div>
+`;

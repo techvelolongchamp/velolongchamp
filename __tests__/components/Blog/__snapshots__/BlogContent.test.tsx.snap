@@ -1,0 +1,160 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BlogContent unit tests should render correctly 1`] = `
+.c0 {
+  margin: 5px 0;
+}
+
+.c1 {
+  color: #0d171b;
+}
+
+.c1 h2 {
+  color: #419a1c;
+  font-size: 30px;
+  margin: 20px 0;
+}
+
+.c1 p {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 300;
+  margin-bottom: 15px;
+}
+
+.c1 hr {
+  margin: 15px 0;
+  text-shadow: none;
+  font-weight: 400;
+  border: 0.5px solid;
+  color: #999999;
+}
+
+.c1 h3 {
+  font-size: 18px;
+  margin: 20px 0;
+  color: #9e9577;
+  font-weight: 600;
+}
+
+.c1 h4 {
+  color: #9e9577;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 15px 0;
+  padding-right: 10px;
+}
+
+.c1 h5 {
+  font-size: 18px;
+  margin: 15px 0;
+}
+
+.c1 h6 {
+  font-size: 16px;
+  margin: 15px 0;
+  font-weight: 200;
+  color: #419a1c;
+}
+
+.c1 a {
+  color: #419a1c;
+  font-weight: 300;
+}
+
+.c1 a:hover {
+  font-weight: 400;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c1 a.form {
+  font-size: 20px;
+  font-weight: 400;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c1 img {
+  text-align: center;
+  max-width: 500px;
+}
+
+.c1 ul,
+.c1 ol {
+  list-style: inside;
+}
+
+.c1 ul,
+.c1 ol li {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #6d6e71;
+  font-size: 14px;
+  font-weight: 200;
+  margin: 10px 0;
+  padding-left: 20px;
+  max-width: 75%;
+}
+
+.c1 .downloadButton {
+  background: #6d6e71;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  outline: none;
+  padding: 10px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c1 .article8 {
+  padding-left: 30px;
+  margin-bottom: 20px;
+}
+
+.c1 .article8 p {
+  font-style: italic;
+  font-size: 12px;
+  line-height: initial;
+  margin-bottom: 5px;
+}
+
+.c1 .article8 ul {
+  margin: 5px 0;
+  font-style: italic;
+  font-size: 12px;
+  list-style-type: circle;
+}
+
+@media (max-width:640px) {
+  .c1 ul,
+  .c1 ol li {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width:640px) {
+  .c1 .downloadButton {
+    font-size: 14px;
+  }
+}
+
+<div>
+  <p
+    class="c0"
+  >
+    24 mars 2021
+  </p>
+  <div
+    class="c1"
+  >
+    <div>
+      Hello world
+    </div>
+  </div>
+</div>
+`;

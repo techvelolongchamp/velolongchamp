@@ -1,0 +1,287 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Join unit tests should render correctly 1`] = `
+.c1 {
+  text-align: center;
+  margin: 20px;
+}
+
+.c2 {
+  background: #6d6e71;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 20px 10px;
+  padding: 10px;
+}
+
+.c0 {
+  padding-bottom: 20px;
+}
+
+.c0 p {
+  color: #0d171b;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 10px 0;
+  text-align: justify;
+}
+
+.c0 ol {
+  counter-reset: styled-counter;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.c0 ol li {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  counter-increment: styled-counter;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 10px 0;
+  width: 100%;
+}
+
+.c0 ol li p {
+  color: #6d6e71;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  padding-right: 10px;
+}
+
+.c0 ol li::before {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #6d6e71;
+  content: '0' counter(styled-counter);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: 'Abril Fatface',serif;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 1;
+  margin-right: 10px;
+}
+
+.c3 {
+  padding-bottom: 30px;
+}
+
+.c3 h3 {
+  color: #9e9577;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 20px 0;
+}
+
+.c4 {
+  color: #0d171b;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 20px;
+  margin-top: 10px;
+  padding: 10px 0;
+}
+
+.c5 {
+  color: #0d171b;
+  font-size: 14px;
+  font-weight: 200;
+  line-height: 20px;
+  padding: 10px 0;
+}
+
+<div>
+  <article
+    class="c0"
+  >
+    <p>
+      Devenir membre de VELO LONGCHAMP est gratuit et ne prend que quelques instants :
+    </p>
+    <div
+      class="c1"
+    >
+      <a
+        class="c2"
+        href="/join"
+      >
+        Adhérer gratuitement
+      </a>
+    </div>
+    <p>
+      Voici 5 arguments imparables pour vous convaincre d’adhérer :
+    </p>
+    <ol>
+      
+    
+      <li>
+        <p>
+          Vous roulerez plus tôt sur un 
+          <strong>
+            anneau sécurisé et confortable
+          </strong>
+           ! Car plus on est nombreux, plus on a de poids et plus vite seront faits les travaux d’aménagement nécessaires
+        </p>
+      </li>
+      
+    
+      <li>
+        <p>
+          Votre 
+          <strong>
+            avis est tout aussi important
+          </strong>
+           que celui d’un autre ! En devenant membre, vous pouvez exprimer directement vos besoins et vos priorités ; vous pouvez lancer une initiative qui vous tient à cœur ; vous pouvez voter en Assemblée Générale ; vous êtes tenu au courant des avancées du projet
+        </p>
+      </li>
+      
+    
+      <li>
+        <p>
+          Vous pouvez 
+          <strong>
+            cumuler avec d’autres clubs
+          </strong>
+           ! On n’est pas exclusif ! Vous pouvez rester membre de votre club de vélo, de triathlon ou autre.
+        </p>
+      </li>
+      
+    
+      <li>
+        <p>
+          Vous ne roulerez 
+          <strong>
+            plus jamais seul
+          </strong>
+           ! En nous rejoignant, vous allez rencontrer d’autres cyclistes qui pourront, si vous le voulez, vous accompagner à Longchamp. Nous allons créer des ateliers (initiation tandem, "premiers secours" ou "comment bichonner son vélo"). Nous voulons aussi mettre en place une rencontre informelle tous les mois à l’anneau
+        </p>
+      </li>
+      
+    
+      <li>
+        <p>
+          Vous savez que sans Longchamp, la vie serait moins belle ! On a tendance à l’oublier car on l’a toujours connu mais avoir Longchamp est une chance extraordinaire. Il faut pouvoir 
+          <strong>
+            protéger et pérenniser l’anneau
+          </strong>
+        </p>
+      </li>
+      
+    
+    </ol>
+  </article>
+  <article
+    class="c3"
+  >
+    <h3>
+      FAQ :
+    </h3>
+    
+    
+    <p
+      class="c4"
+    >
+      Qui êtes-vous et pourquoi avoir créer une association ?
+    </p>
+    
+    
+    <p
+      class="c5"
+    >
+      Nous sommes des cyclistes qui roulons régulièrement sur l’anneau de Longchamp. Nous avons voulu créer une association pour améliorer les conditions de sécurité et de confort de l’anneau
+    </p>
+    
+    
+    <p
+      class="c4"
+    >
+      Je n’ai pas le temps de m’engager dans l’association mais je veux la soutenir, dois-je adhérer ?
+    </p>
+    
+    
+    <p
+      class="c5"
+    >
+      Oui ! Une fois adhérent, chacun décide du temps qu’il peut et veut consacrer à l’association
+    </p>
+    
+    
+    <p
+      class="c4"
+    >
+      Est-ce qu’il y a des conditions pour devenir adhérent ?
+    </p>
+    
+    
+    <p
+      class="c5"
+    >
+      La seule condition est de partager notre vision qu’il faut défendre et promouvoir l’anneau de Longchamp pour que les cyclistes puissent pratiquer le sport qu’ils aiment dans les meilleures conditions
+    </p>
+    
+    
+    <p
+      class="c4"
+    >
+      Je fais du vélotaf par l’anneau de Longchamp, puis-je adhérer ?
+    </p>
+    
+    
+    <p
+      class="c5"
+    >
+      Bien sûr ! Nous sommes davantage orientés cyclisme sportif mais nous avons besoin que nos membres représentent toutes les formes de cyclisme, y compris les vélotafeurs qui sont une part non négligeable des usagers de l’anneau
+    </p>
+    
+    
+    <p
+      class="c4"
+    >
+      Je viens très rarement à Longchamp, dois-je adhérer ?
+    </p>
+    
+    
+    <p
+      class="c5"
+    >
+      Oui ! Votre adhésion aidera à améliorer les conditions de l’anneau pour les cyclistes réguliers ou plus occasionnels. Un occasionnel a souvent de meilleures idées qu’un cycliste qui connait chaque piège de Longchamp (revêtement abimé, journées plus compliquées)
+    </p>
+    
+    
+    <p
+      class="c4"
+    >
+      Je suis déjà membre d’un autre club, puis-je adhérer ?
+    </p>
+    
+    
+    <p
+      class="c5"
+    >
+      Oui et surtout pensez à faire adhérer votre Club (pour que nous puissions représenter encore plus de pratiquants)
+    </p>
+    
+    
+  </article>
+</div>
+`;

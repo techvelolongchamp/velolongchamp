@@ -1,0 +1,654 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Post unit tests should render correctly 1`] = `
+.c21 {
+  background: #f7f7F7;
+  border-top: 1px solid #f7f7F7;
+  color: #999999;
+  padding: 10px 0 5px;
+  text-align: center;
+}
+
+.c21 a {
+  color: #999999;
+}
+
+.c21 a:hover {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c22 {
+  background: #0d171b;
+  bottom: 0;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+  color: white;
+  font-size: 14px;
+  padding: 10px;
+  position: fixed;
+  text-align: center;
+  width: 100vw;
+  z-index: 1000;
+}
+
+.c22 div {
+  margin-top: 10px;
+}
+
+.c22 a {
+  background: #6d6e71;
+  border-radius: 5px;
+  color: #fff;
+  margin: 0 10px;
+  padding: 5px;
+}
+
+.c22 button {
+  background: #419a1c;
+  border-radius: 5px;
+  color: #fff;
+  margin: 0 10px;
+  outline: done;
+  padding: 5px;
+  width: 40px;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.c4 {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  margin-top: 80px;
+}
+
+.c1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: darkorange;
+  border-bottom-left-radius: 30px;
+  border-top-left-radius: 30px;
+  color: white;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 40px;
+  font-weight: 100;
+  position: fixed;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  right: 0;
+  top: 120px;
+  z-index: 10;
+}
+
+.c1 svg {
+  margin: 10px;
+}
+
+.c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: darkorange;
+  color: #fff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: fixed;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  right: -200px;
+  top: 120px;
+  z-index: 10;
+  width: 200px;
+  font-size: 16px;
+  padding: 10px;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center;
+  border-bottom-left-radius: 10px;
+}
+
+.c3 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #fff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 16px;
+  height: 30px;
+  margin: 10px 20px 0;
+  padding: 5px;
+  cursor: pointer;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  background: #419a1c;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 120px;
+  border-radius: 5px;
+}
+
+.c3:hover {
+  color: #f7f7F7;
+}
+
+.c14 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  font-size: 12px;
+  margin-left: 5px;
+}
+
+.c15 {
+  background: none;
+  border: none;
+  outline: none;
+  padding: 5px;
+  width: 24px;
+}
+
+.c15:hover {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c5 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 5;
+  background: #f7f7F7;
+  padding: 5px 10px;
+  border-bottom: 1px solid #fff;
+  color: #0d171b;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.c10 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.c11 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+}
+
+.c12 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-left: 1px solid #6d6e71;
+  color: #999999;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 16px;
+  height: 30px;
+  margin: 0 20px;
+  padding-left: 20px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c12:hover {
+  color: #666666;
+}
+
+.c13 {
+  background: #6d6e71;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px;
+}
+
+.c9 {
+  height: 70px;
+  padding: 5px 0;
+}
+
+.c17 {
+  margin: 0 auto;
+  max-width: 750px;
+  padding: 10px;
+  height: inherit;
+}
+
+.c16 {
+  min-height: 600px;
+}
+
+.c18 {
+  display: none;
+  color: #419a1c;
+  font-size: 30px;
+  margin: 20px 0;
+}
+
+.c19 {
+  margin: 5px 0;
+}
+
+.c20 {
+  color: #0d171b;
+}
+
+.c20 h2 {
+  color: #419a1c;
+  font-size: 30px;
+  margin: 20px 0;
+}
+
+.c20 p {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 300;
+  margin-bottom: 15px;
+}
+
+.c20 hr {
+  margin: 15px 0;
+  text-shadow: none;
+  font-weight: 400;
+  border: 0.5px solid;
+  color: #999999;
+}
+
+.c20 h3 {
+  font-size: 18px;
+  margin: 20px 0;
+  color: #9e9577;
+  font-weight: 600;
+}
+
+.c20 h4 {
+  color: #9e9577;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 15px 0;
+  padding-right: 10px;
+}
+
+.c20 h5 {
+  font-size: 18px;
+  margin: 15px 0;
+}
+
+.c20 h6 {
+  font-size: 16px;
+  margin: 15px 0;
+  font-weight: 200;
+  color: #419a1c;
+}
+
+.c20 a {
+  color: #419a1c;
+  font-weight: 300;
+}
+
+.c20 a:hover {
+  font-weight: 400;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c20 a.form {
+  font-size: 20px;
+  font-weight: 400;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c20 img {
+  text-align: center;
+  max-width: 500px;
+}
+
+.c20 ul,
+.c20 ol {
+  list-style: inside;
+}
+
+.c20 ul,
+.c20 ol li {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #6d6e71;
+  font-size: 14px;
+  font-weight: 200;
+  margin: 10px 0;
+  padding-left: 20px;
+  max-width: 75%;
+}
+
+.c20 .downloadButton {
+  background: #6d6e71;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  outline: none;
+  padding: 10px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c20 .article8 {
+  padding-left: 30px;
+  margin-bottom: 20px;
+}
+
+.c20 .article8 p {
+  font-style: italic;
+  font-size: 12px;
+  line-height: initial;
+  margin-bottom: 5px;
+}
+
+.c20 .article8 ul {
+  margin: 5px 0;
+  font-style: italic;
+  font-size: 12px;
+  list-style-type: circle;
+}
+
+@media (max-width:640px) {
+  .c4 {
+    margin-top: 110px;
+  }
+}
+
+@media screen and (max-width:640px) {
+  .c12 {
+    font-size: 14px;
+    border: none;
+    padding: 0;
+    margin: 0 10px;
+  }
+}
+
+@media screen and (max-width:640px) {
+  .c13 {
+    font-size: 14px;
+  }
+}
+
+@media (max-width:640px) {
+  .c20 ul,
+  .c20 ol li {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width:640px) {
+  .c20 .downloadButton {
+    font-size: 14px;
+  }
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <div>
+      <div
+        class="c1"
+      >
+        <svg
+          fill="none"
+          height="1em"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          viewBox="0 0 24 24"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"
+          />
+          <line
+            x1="12"
+            x2="12"
+            y1="9"
+            y2="13"
+          />
+          <line
+            x1="12"
+            x2="12.01"
+            y1="17"
+            y2="17"
+          />
+        </svg>
+      </div>
+      <div
+        class="c2"
+      >
+        Signaler un accident ou problème sur l'anneau
+        <a
+          class="c3"
+          data-testid="show-alert"
+          href="https://docs.google.com/forms/d/e/1FAIpQLSdmrvUuZ953-3P8NVmNjiG8N78hY1lcdg_hVbr8lnYEqSjM9A/viewform?vc=0&c=0&w=1"
+          rel="noopener noreferrer"
+          target="_blank"
+          title="Formulaire"
+        >
+          Formulaire
+        </a>
+      </div>
+    </div>
+    <main
+      class="c4"
+    >
+      <header
+        class="c5"
+        id="header"
+      >
+        <div
+          class="c6"
+        >
+          <div
+            class="c7"
+          >
+            <a
+              class="c8"
+              data-testid="title-link"
+              href="/"
+            >
+              <img
+                alt="logo"
+                class="c9"
+                src="/logo.png"
+              />
+            </a>
+          </div>
+          <div
+            class="c10"
+          >
+            <nav>
+              <ul
+                class="c11"
+              >
+                <li>
+                  <a
+                    class="c12"
+                    href="/blog"
+                  >
+                    Actualités
+                  </a>
+                </li>
+              </ul>
+            </nav>
+            <a
+              class="c13"
+              href="/join"
+            >
+              Adhérer gratuitement
+            </a>
+            <div
+              class="c14"
+            >
+              <button
+                class="c15"
+                data-testid="select-en"
+                href="/"
+              >
+                EN
+              </button>
+            </div>
+          </div>
+        </div>
+      </header>
+      <section
+        class="c16"
+      >
+        <div
+          class="c17"
+        >
+          <h1
+            class="c18"
+            data-testid="h1-title"
+          >
+            title1
+          </h1>
+          <p
+            class="c19"
+          >
+            24 mars 2021
+          </p>
+          <div
+            class="c20"
+          >
+            content
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer
+      class="c21"
+    >
+      <p>
+        ©Copyright 2019
+         - 2021
+         - Vélo Longchamp -
+         
+        Tous droits réservés
+      </p>
+      <p>
+        -
+      </p>
+      <p>
+        <a
+          href="/legal"
+        >
+          Mentions légales
+        </a>
+      </p>
+    </footer>
+    <div
+      class="c22"
+    >
+      <p>
+        En poursuivant votre navigation sur notre site, vous acceptez l'utilisation de cookies afin de nous permettre d'améliorer votre expérience utilisateur.
+      </p>
+      <div>
+        <button
+          data-testid="accept-cookie"
+        >
+          OK
+        </button>
+        <a
+          href="/legal"
+        >
+          En savoir plus
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;

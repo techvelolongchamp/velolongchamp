@@ -1,0 +1,385 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Presentation unit tests should render correctly 1`] = `
+.c0 {
+  padding-bottom: 30px;
+}
+
+.c0 h3 {
+  font-size: 16px;
+  margin: 20px 0;
+  color: #9e9577;
+  font-weight: 600;
+}
+
+.c0 p {
+  font-size: 14px;
+  line-height: 20px;
+  color: #0d171b;
+  padding: 10px 0;
+  text-align: justify;
+}
+
+.c0 ol {
+  list-style: none;
+  counter-reset: styled-counter;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+.c0 ol li {
+  counter-increment: styled-counter;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 10px 0;
+  width: 50%;
+}
+
+.c0 ol li h4 {
+  color: #6d6e71;
+  font-size: 16px;
+  font-weight: 500;
+  padding-right: 10px;
+}
+
+.c0 ol li::before {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #6d6e71;
+  content: '0' counter(styled-counter);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: 'Abril Fatface',serif;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 1;
+  margin-right: 5px;
+}
+
+.c0 a {
+  color: #6d6e71;
+  font-weight: 800;
+}
+
+.c0 ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+.c0 ul li {
+  counter-increment: styled-counter;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 10px 0;
+  width: 50%;
+}
+
+.c0 ul li h4 {
+  color: #6d6e71;
+  font-size: 16px;
+  font-weight: 500;
+  padding-right: 10px;
+}
+
+.c1 {
+  text-align: center;
+}
+
+.c1 iframe {
+  width: 560px;
+  height: 315px;
+}
+
+@media (max-width:640px) {
+  .c0 ol li {
+    width: 100%;
+  }
+}
+
+@media (max-width:640px) {
+  .c0 ul li {
+    width: 100%;
+  }
+}
+
+@media (max-width:640px) {
+  .c1 iframe {
+    width: 100%;
+    max-width: 560px;
+    max-height: 315px;
+    height: 100%;
+    height: -moz-available;
+    height: -webkit-fill-available;
+    height: -webkit-fill-available;
+    height: -moz-available;
+    height: fill-available;
+  }
+}
+
+<div>
+  <article
+    class="c0"
+  >
+    <h3>
+      Qui sommes-nous ?
+    </h3>
+    
+    
+    <p>
+      VELO LONGCHAMP est une association de cyclistes pour les cyclistes
+    </p>
+    
+    
+    <p>
+      A l’origine, nous avons porté un projet de rénovation de l’anneau de Longchamp dans le cadre du budget participatif Paris 2020. Grand succès puisque notre projet a été retenu et des fonds alloués (500 K€ provisionnés) ! Notre mission première est de suivre ce projet pour que la rénovation de l’anneau soit rapide et réponde aux besoins des cyclistes.
+    </p>
+    
+    
+    <p>
+      Mais notre vision est plus large et pourrait se résumer ainsi : 
+      <strong>
+        Défendre et promouvoir l’anneau de Longchamp pour que toutes et tous, nous puissions faire du vélo dans les meilleures conditions.
+      </strong>
+    </p>
+    
+    
+    <p>
+      Ainsi, nous nous impliquons activement dans différents projets comme le développement de la pratique du vélo par les jeunes et le soutien de la pratique handisport. Rappelons qu’en étant protégé de la circulation des voitures, l’anneau de Lonchamp est particulièrement adapté à l’entrainement des sportifs handisports.
+    </p>
+    
+    
+    <p>
+      Fort de l’adhésion de plusieurs centaines de membres, et de l’affiliation de nombreux clubs sportifs parisiens et franciliens, nous sommes fiers de compter dans nos rangs tous les profils et toutes les pratiques cyclistes, sans distinction d’âge, de genre, de niveau, ou même de type de vélo ! Nous avons par exemple des pratiquants de tandem (certains malvoyants ou aveugles) et de vélo couché.
+    </p>
+     
+    
+    <p>
+      <a
+        href="/statuts"
+      >
+        Consulter nos statuts
+      </a>
+    </p>
+    <h3>
+      Pourquoi une association Vélo Longchamp ?
+    </h3>
+    
+    
+    <p>
+      L’anneau cyclable de Lonchamp est l’un des rares et précieux endroits où l’on peut rouler à son rythme, en sécurité, protégé des voitures. D’ailleurs, c’est le segment le plus roulé de France, de très loin, d’après l’application Strava. C’est donc un site sportif incontournable !
+    </p>
+    
+    
+    <p>
+      Comme l’anneau similaire de Vincennes (Polygone), l'anneau cyclable de Longchamp est devenu une véritable institution pour les cyclistes sportifs de Paris et de sa proche banlieue. Des centaines de cyclistes sportifs amateurs (et professionnels) s'y entrainent tous les jours ainsi que de nombreux marcheurs et coureurs à pied qui tournent en sens inverse sur son trottoir intérieur.
+    </p>
+    
+    
+    <p>
+      Pourtant, les années passent et les conditions se dégradent : revêtement abimé, marquage au sol effacé, signalisation défaillante ou absente, conflits d'usage fréquents avec les véhicules stationnant ou entrant et sortant de l'hippodrome, manque de concertation avec les autres usagers. Il est temps de réaménager l’anneau pour que nous, et les générations suivantes, puissions rouler dans des conditions parfaitement sûres et confortables.
+    </p>
+    
+    
+    <h3>
+      Nos engagements :
+    </h3>
+    <ol>
+      
+    
+      <li>
+        <h4>
+          <strong>
+            Sécuriser
+          </strong>
+           l’anneau
+        </h4>
+      </li>
+      
+    
+      <li>
+        <h4>
+          Améliorer le 
+          <strong>
+            confort
+          </strong>
+           de l’anneau
+        </h4>
+      </li>
+      
+    
+      <li>
+        <h4>
+          <strong>
+            Représenter
+          </strong>
+           toutes les pratiques sportives autour de l’anneau
+        </h4>
+      </li>
+      
+    
+      <li>
+        <h4>
+          <strong>
+            Se concerter
+          </strong>
+           avec les autres usagers
+        </h4>
+      </li>
+      
+    
+      <li>
+        <h4>
+          Définir et rappeler les 
+          <strong>
+            bonnes pratiques
+          </strong>
+           de sécurité pour les cyclistes
+        </h4>
+      </li>
+      
+    
+      <li>
+        <h4>
+          <strong>
+            Faire venir le plus grand nombre
+          </strong>
+           sur l’anneau
+        </h4>
+      </li>
+      
+    
+      <li>
+        <h4>
+          <strong>
+            Pérenniser
+          </strong>
+           l'anneau
+        </h4>
+      </li>
+      
+  
+    </ol>
+    <h3>
+      Nos missions :
+    </h3>
+    <ul>
+      
+    
+      <li>
+        <h4>
+          Suivre activement 
+          <strong>
+            le projet de rénovation de l’anneau
+          </strong>
+           initié par le budget participatif 2020 de la mairie de Paris pour le prioritiser et s’assurer que les demandes des cyclistes sont prises en compte
+        </h4>
+      </li>
+      
+    
+      <li>
+        <h4>
+          <strong>
+            Recueillir les demandes et priorités
+          </strong>
+           des différentes pratiques sportives autour de l’anneau (débutants, handisport, clubs, peloton, triathlètes, coureurs, autre, etc.)
+        </h4>
+      </li>
+      
+    
+      <li>
+        <h4>
+          <strong>
+            Représenter les cyclistes
+          </strong>
+           de Longchamp auprès des autorités publiques et des opérateurs privés qui gèrent et exploitent le site (mairie Paris et ses services DVD, DEVE, mairie XVIe, Préfecture de Paris, France Galop, Golf ParisLongchamp, festival Solidays, festival Lollapalooza, Cirque de Paname, etc.)
+        </h4>
+      </li>
+      
+    
+      <li>
+        <h4>
+          Définir des 
+          <strong>
+            règles de bonnes conduites
+          </strong>
+           pour tous les usagers du site (cyclistes, conducteurs, piétons, coureurs, salariés, aire d’accueil, etc.)
+        </h4>
+      </li>
+      
+    
+      <li>
+        <h4>
+          Créer des évènements pour 
+          <strong>
+            promouvoir l’anneau
+          </strong>
+           de Longchamp (entraînements, initiation, courses, etc.)
+        </h4>
+      </li>
+      
+    
+      <li>
+        <h4>
+          <strong>
+            Initier
+          </strong>
+           à la pratique du cyclisme en accompagnant les débutants (enfants et adultes) et en pensant une zone dédiée à l’initiation. Soutenir les écoles de vélos des clubs pour les jeunes de 5-18 ans
+        </h4>
+      </li>
+      
+    
+      <li>
+        <h4>
+          <strong>
+            Veiller à la pérennité du site
+          </strong>
+           en suivant les opérations qui pourraient impacter son devenir (renégociation des conventions des occupants de l’hippodrome, etc.)
+        </h4>
+      </li>
+      
+    
+    </ul>
+    <h3>
+      Decouvrez l'anneau de Longchamp avec la vidéo de Jeune Cycliste Dynamique :
+    </h3>
+    <div
+      class="c1"
+    >
+      <iframe
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen=""
+        frameborder="0"
+        src="https://www.youtube.com/embed/a6AOYfE7AeM"
+        title="Découvrez Longchamp"
+      />
+    </div>
+  </article>
+</div>
+`;

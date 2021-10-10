@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Blog unit tests should render correctly 1`] = `
+.c0 {
+  font-size: 16px;
+  margin: 20px 0;
+  color: #9e9577;
+  font-weight: 600;
+}
+
+.c1 {
+  list-style-type: none;
+  margin: 0;
+}
+
+.c2 {
+  background: #f7f7F7;
+  border-radius: 5px;
+  color: #0d171b;
+  cursor: pointer;
+  display: block;
+  margin: 20px 0;
+  padding: 20px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c2:hover {
+  background: #ededed;
+}
+
+.c2 h2 {
+  font-size: 16px;
+}
+
+.c3 {
+  margin: 5px 0;
+}
+
+.c4 {
+  color: #666666;
+  font-size: 14px;
+  font-style: italic;
+}
+
+<div>
+  <p
+    class="c0"
+  >
+    Liste des articles publiés :
+  </p>
+  <ol
+    class="c1"
+  >
+    <li
+      class="c2"
+      href="/blog/slug1"
+    >
+      <h2>
+        title1
+      </h2>
+      <p
+        class="c3"
+      >
+        24 mars 2021
+      </p>
+      <p
+        class="c4"
+      >
+        excerpt1
+      </p>
+    </li>
+    <li
+      class="c2"
+      href="/blog/slug2"
+    >
+      <h2>
+        title2
+      </h2>
+      <p
+        class="c3"
+      >
+        10 mars 2021
+      </p>
+      <p
+        class="c4"
+      >
+        excerpt2
+      </p>
+    </li>
+  </ol>
+</div>
+`;

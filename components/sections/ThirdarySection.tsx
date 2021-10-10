@@ -18,9 +18,11 @@ const ThirdarySection = forwardRef<
   <SectionContainer id={id} height={height} ref={ref}>
     <Content>
       {useH1 ? (
-        <H1Title hideH1={hideH1}>{title}</H1Title>
+        <H1Title data-testid="h1-title" hideH1={hideH1}>
+          {title}
+        </H1Title>
       ) : (
-        <H2Title>{title}</H2Title>
+        <H2Title data-testid="h2-title">{title}</H2Title>
       )}
       {children}
     </Content>

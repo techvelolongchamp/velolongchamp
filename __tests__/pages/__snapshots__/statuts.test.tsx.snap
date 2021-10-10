@@ -1,0 +1,810 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StatutPage unit tests should render correctly 1`] = `
+.c22 {
+  background: #f7f7F7;
+  border-top: 1px solid #f7f7F7;
+  color: #999999;
+  padding: 10px 0 5px;
+  text-align: center;
+}
+
+.c22 a {
+  color: #999999;
+}
+
+.c22 a:hover {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c23 {
+  background: #0d171b;
+  bottom: 0;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+  color: white;
+  font-size: 14px;
+  padding: 10px;
+  position: fixed;
+  text-align: center;
+  width: 100vw;
+  z-index: 1000;
+}
+
+.c23 div {
+  margin-top: 10px;
+}
+
+.c23 a {
+  background: #6d6e71;
+  border-radius: 5px;
+  color: #fff;
+  margin: 0 10px;
+  padding: 5px;
+}
+
+.c23 button {
+  background: #419a1c;
+  border-radius: 5px;
+  color: #fff;
+  margin: 0 10px;
+  outline: done;
+  padding: 5px;
+  width: 40px;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.c4 {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  margin-top: 80px;
+}
+
+.c1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: darkorange;
+  border-bottom-left-radius: 30px;
+  border-top-left-radius: 30px;
+  color: white;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 40px;
+  font-weight: 100;
+  position: fixed;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  right: 0;
+  top: 120px;
+  z-index: 10;
+}
+
+.c1 svg {
+  margin: 10px;
+}
+
+.c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: darkorange;
+  color: #fff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: fixed;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  right: -200px;
+  top: 120px;
+  z-index: 10;
+  width: 200px;
+  font-size: 16px;
+  padding: 10px;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center;
+  border-bottom-left-radius: 10px;
+}
+
+.c3 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #fff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 16px;
+  height: 30px;
+  margin: 10px 20px 0;
+  padding: 5px;
+  cursor: pointer;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  background: #419a1c;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 120px;
+  border-radius: 5px;
+}
+
+.c3:hover {
+  color: #f7f7F7;
+}
+
+.c14 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  font-size: 12px;
+  margin-left: 5px;
+}
+
+.c15 {
+  background: none;
+  border: none;
+  outline: none;
+  padding: 5px;
+  width: 24px;
+}
+
+.c15:hover {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c5 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 5;
+  background: #f7f7F7;
+  padding: 5px 10px;
+  border-bottom: 1px solid #fff;
+  color: #0d171b;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.c10 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.c11 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+}
+
+.c12 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-left: 1px solid #6d6e71;
+  color: #999999;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 16px;
+  height: 30px;
+  margin: 0 20px;
+  padding-left: 20px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c12:hover {
+  color: #666666;
+}
+
+.c13 {
+  background: #6d6e71;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px;
+}
+
+.c9 {
+  height: 70px;
+  padding: 5px 0;
+}
+
+.c17 {
+  margin: 0 auto;
+  max-width: 750px;
+  padding: 10px;
+  height: inherit;
+}
+
+.c16 {
+  min-height: 600px;
+}
+
+.c18 {
+  color: #419a1c;
+  font-size: 30px;
+  margin: 20px 0;
+}
+
+.c19 {
+  padding-bottom: 30px;
+}
+
+.c19 h3 {
+  color: #9e9577;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 20px 0;
+}
+
+.c19 ul {
+  color: #0d171b;
+  font-size: 14px;
+  line-height: 20px;
+  list-style-position: inside;
+}
+
+.c19 p {
+  color: #0d171b;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 10px 0;
+  text-align: justify;
+}
+
+.c19 p.approve {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-weight: bold;
+  position: relative;
+  margin-left: 20px;
+}
+
+.c19 p.approve svg {
+  position: absolute;
+  left: -20px;
+  width: 14px;
+  height: 14px;
+}
+
+.c21 {
+  background: #6d6e71;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+  padding: 10px;
+}
+
+.c20 {
+  margin: 10px 0;
+  text-align: center;
+}
+
+@media (max-width:640px) {
+  .c4 {
+    margin-top: 110px;
+  }
+}
+
+@media screen and (max-width:640px) {
+  .c12 {
+    font-size: 14px;
+    border: none;
+    padding: 0;
+    margin: 0 10px;
+  }
+}
+
+@media screen and (max-width:640px) {
+  .c13 {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:640px) {
+  .c21 {
+    font-size: 14px;
+  }
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <div>
+      <div
+        class="c1"
+      >
+        <svg
+          fill="none"
+          height="1em"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          viewBox="0 0 24 24"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"
+          />
+          <line
+            x1="12"
+            x2="12"
+            y1="9"
+            y2="13"
+          />
+          <line
+            x1="12"
+            x2="12.01"
+            y1="17"
+            y2="17"
+          />
+        </svg>
+      </div>
+      <div
+        class="c2"
+      >
+        Signaler un accident ou problème sur l'anneau
+        <a
+          class="c3"
+          data-testid="show-alert"
+          href="https://docs.google.com/forms/d/e/1FAIpQLSdmrvUuZ953-3P8NVmNjiG8N78hY1lcdg_hVbr8lnYEqSjM9A/viewform?vc=0&c=0&w=1"
+          rel="noopener noreferrer"
+          target="_blank"
+          title="Formulaire"
+        >
+          Formulaire
+        </a>
+      </div>
+    </div>
+    <main
+      class="c4"
+    >
+      <header
+        class="c5"
+        id="header"
+      >
+        <div
+          class="c6"
+        >
+          <div
+            class="c7"
+          >
+            <a
+              class="c8"
+              data-testid="title-link"
+              href="/"
+            >
+              <img
+                alt="logo"
+                class="c9"
+                src="/logo.png"
+              />
+            </a>
+          </div>
+          <div
+            class="c10"
+          >
+            <nav>
+              <ul
+                class="c11"
+              >
+                <li>
+                  <a
+                    class="c12"
+                    href="/blog"
+                  >
+                    Actualités
+                  </a>
+                </li>
+              </ul>
+            </nav>
+            <a
+              class="c13"
+              href="/join"
+            >
+              Adhérer gratuitement
+            </a>
+            <div
+              class="c14"
+            >
+              <button
+                class="c15"
+                data-testid="select-en"
+                href="/"
+              >
+                EN
+              </button>
+            </div>
+          </div>
+        </div>
+      </header>
+      <section
+        class="c16"
+      >
+        <div
+          class="c17"
+        >
+          <h1
+            class="c18"
+            data-testid="h1-title"
+          >
+            Statuts de l'association Vélo Longchamp
+          </h1>
+          <article
+            class="c19"
+          >
+            <h3>
+              Article 1er - Constitution
+            </h3>
+            <p>
+              Il est fondé entre les adhérents aux présents statuts une association régie par la loi du 1er juillet 1901 et le décret du 16 août 1901, ayant pour titre Vélo Longchamp.
+            </p>
+            <h3>
+              Article 2 - Objet de l'Association
+            </h3>
+            <p>
+              L'association Vélo Longchamp a pour objet la défense et la promotion
+            du cyclisme sur l'anneau de Longchamp.
+            </p>
+            <p>
+              Les missions de l'association sont, notamment, de :
+            </p>
+            <ul>
+              <li>
+                Porter les besoins des cyclistes auprès des autorités publiques et des organismes privés qui gèrent le site
+              </li>
+              <li>
+                Contribuer à l'élaboration de règles de bonnes conduites pour les
+              différents usagers de l'anneau, et de bonnes pratiques pour
+              l'aménagement d'un anneau de vitesse
+              </li>
+              <li>
+                Promouvoir l'initiation au cyclisme sur l'anneau, en particulier à
+              destination des enfants, des adultes débutants, et des pratiquants
+              handisports
+              </li>
+              <li>
+                Organiser ou co-organiser des évènements sportifs ou récréatifs
+              sur l'anneau de Longchamp
+              </li>
+              <li>
+                Encourager l'usage du vélo et réduire celui de la voiture, en
+              particulier dans le bois de Boulogne
+              </li>
+              <li>
+                Pérenniser la vocation sportive du site, en particulier comme anneau de vitesse pour les cyclistes.
+              </li>
+            </ul>
+            <h3>
+              Article 3 : Siège Social
+            </h3>
+            <p>
+              Le siège social est fixé chez Éric Dupond, FG/DFA, CO Orange S.A. 21 rue jasmin, 75016 Paris
+            </p>
+            <p>
+              Il pourra être transféré par simple décision du conseil
+            d'administration.
+            </p>
+            <h3>
+              Article 4 : Membres
+            </h3>
+            <p>
+              L'association se compose de :
+            </p>
+            <ul>
+              <li>
+                Membres adhérents : personnes physiques à jour de leur cotisation
+              </li>
+              <li>
+                Membres associés : personnes morales à jour de leur cotisation
+              </li>
+              <li>
+                Membres honoraires : personnes physiques ayant oeuvré de manière
+              fondamentale au succès de l'association. Désignées par l'assemblée
+              générale, elles sont dispensées de cotisation
+              </li>
+            </ul>
+            <h3>
+              Article 5 : Radiation
+            </h3>
+            <p>
+              La qualité de membre de l'association se perd par :
+            </p>
+            <ul>
+              <li>
+                La démission ou le décès
+              </li>
+              <li>
+                La radiation prononcée par le conseil d'administration pour motif
+              grave
+              </li>
+            </ul>
+            <h3>
+              Article 6 : Affiliation
+            </h3>
+            <p>
+              L'association peut adhérer à d'autres associations par décision du
+            conseil d'administration.
+            </p>
+            <h3>
+              Article 7 : Ressources
+            </h3>
+            <p>
+              Les ressources de l'association comprennent :
+            </p>
+            <ul>
+              <li>
+                Le montant des dons et des cotisations. Le barème des cotisations
+              est fixé par l'assemblée générale
+              </li>
+              <li>
+                Les subventions
+              </li>
+            </ul>
+            <h3>
+              Article 8 : Conseil d'Administration
+            </h3>
+            <p>
+              L'association est dirigée par un Conseil d'Administration qui peut
+            comprendre jusqu'à 9 membres. Ils sont élus pour 1 an par
+            l'Assemblée Générale et sont rééligibles.
+            </p>
+            <p>
+              Le conseil d'administration choisit parmi ses membres un Bureau
+            comprenant a minima :
+            </p>
+            <ul>
+              <li>
+                Un Président
+              </li>
+              <li>
+                Un Secrétaire général
+              </li>
+              <li>
+                Un Trésorier
+              </li>
+            </ul>
+            <p>
+              En cas de vacance, le Conseil d'Administration peut pourvoir
+            provisoirement au remplacement de ses membres. Les pouvoirs des
+            membres ainsi élus prennent fin à la date à laquelle devait
+            normalement expirer le mandat des membres remplacés.
+            </p>
+            <p>
+              Toute décision d'ester en justice ou de se porter parte civile doit
+            être approuvée par le Conseil d'Administration, qui mandate alors le
+            Président pour représenter l'association.
+            </p>
+            <h3>
+              Article 9 : Réunions du Conseil d'Administration
+            </h3>
+            <p>
+              Le Conseil d'Administration se réunit au moins une fois par an, sur
+            convocation du Président, ou sur demande d'au moins la moitié de ses
+            membres.
+            </p>
+            <p>
+              Les membres ne pouvant pas participer à la réunion peuvent se faire représenter par un autre membre. Un membre peut représenter au maximum trois membres en plus de lui-même.
+            </p>
+            <p>
+              Les décisions sont prises à la majorité absolue des voix des membres
+            présents et représentés. En cas d'égalité, la voix du Président est
+            prépondérante. Pour les votes, chaque membre a une voix, plus une
+            voix par membre représenté.
+            </p>
+            <p>
+              Tout membre qui, sans excuse, n'aura pas assisté à trois réunions
+            consécutives pourra être considéré comme démissionnaire
+            </p>
+            <h3>
+              Article 10 : Assemblée Générale Ordinaire
+            </h3>
+            <p>
+              L'Assemblée Générale ordinaire se réunit au moins une fois par an.
+            Une convocation doit être envoyée au moins quinze jours avant la
+            date de réunion par le Bureau.
+            </p>
+            <p>
+              Un membre de l'Assemblée Générale ordinaire peut représenter au
+            maximum trois membres en plus de lui-même.
+            </p>
+            <p>
+              L'Assemblée Générale ordinaire comprend tous les membres de
+            l'association. Les membres ne pouvant pas participer à l'assemblée
+            peuvent se faire représenter par un autre membre. Un membre peut
+            représenter au maximum trois membres en plus de lui-même.
+            </p>
+            <p>
+              Les décisions sont prises à la majorité absolue des voix des membres
+            présents et représentés. En cas d'égalité, la voix du Président est
+            prépondérante. Pour les votes, chaque membre a une voix, plus une
+            voix par membre représenté.
+            </p>
+            <p>
+              Le Président, assisté des membres du Conseil d'Administration,
+            dirige l'Assemblée Générale ordinaire. Le trésorier présente les
+            comptes et soumet le bilan à l'approbation de l'assemblée. Après
+            épuisement de l'ordre du jour, l'assemblée élit le nouveau Conseil
+            d'Administration.
+            </p>
+            <p>
+              Les minutes de l'Assemblée Générale ordinaires sont approuvées par
+            le Président puis diffusées à l'ensemble des adhérents. Les
+            décisions s'imposent à tous les membres y compris les membres
+            absents ou représentés.
+            </p>
+            <h3>
+              Article 11 : Assemblée Générale Extraordinaire
+            </h3>
+            <p>
+              Si besoin est, ou sur demande d'au moins la moitié des adhérents de
+            l'association, une Assemblée Générale extraordinaire peut être
+            convoquée par le Bureau. Une telle assemblée doit suivre les
+            formalités prévues par l'article 10.
+            </p>
+            <h3>
+              Article 12 : Règlement Intérieur
+            </h3>
+            <p>
+              Un règlement intérieur peut être établi par le Conseil
+            d'Administration qui le fait alors approuver par l'Assemblée
+            Générale. Ce règlement, le cas échéant, précise certains points des
+            statuts.
+            </p>
+            <h3>
+              Article 13 : Dissolution
+            </h3>
+            <p>
+              En cas de dissolution prononcée par les deux tiers au moins des
+            adhérents présents ou représentés à l'Assemblée Générale, un ou
+            plusieurs liquidateurs sont nommés par celle-ci, et l'actif, s'il a
+            lieu, est dévolu conformément à l'article 9 de la loi du 1er juillet
+            1901 et au décret du 16 août 1901.
+            </p>
+            <div
+              class="c20"
+            >
+              <a
+                class="c21"
+                download=""
+                href="/20191204_Statuts_vf_signes.pdf"
+              >
+                Télécharger la version signée des statuts
+              </a>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+    <footer
+      class="c22"
+    >
+      <p>
+        ©Copyright 2019
+         - 2021
+         - Vélo Longchamp -
+         
+        Tous droits réservés
+      </p>
+      <p>
+        -
+      </p>
+      <p>
+        <a
+          href="/legal"
+        >
+          Mentions légales
+        </a>
+      </p>
+    </footer>
+    <div
+      class="c23"
+    >
+      <p>
+        En poursuivant votre navigation sur notre site, vous acceptez l'utilisation de cookies afin de nous permettre d'améliorer votre expérience utilisateur.
+      </p>
+      <div>
+        <button
+          data-testid="accept-cookie"
+        >
+          OK
+        </button>
+        <a
+          href="/legal"
+        >
+          En savoir plus
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;

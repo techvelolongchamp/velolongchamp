@@ -41,19 +41,23 @@ const Header: React.FC<{ noScroll?: boolean; handleLink?: string[] }> = ({
         <LeftContainer>
           {noScroll ? (
             <Link href="/" passHref>
-              <TitleLink>
+              <TitleLink data-testid="title-link">
                 <Logo src="/logo.png" alt="logo" />
               </TitleLink>
             </Link>
           ) : (
-            <ScrollTitle onClick={scrollTop} title="Home">
+            <ScrollTitle
+              data-testid="scroll-title"
+              onClick={scrollTop}
+              title="Home"
+            >
               <Logo src="/logo.png" alt="logo" />
             </ScrollTitle>
           )}
 
           {!isMobile && !noScroll && handleLink && handleLink.length === 4 && (
             <NavList>
-              <li>
+              <li data-testid="scroll-item">
                 <ScrollItem
                   title={formatMessage({ id: 'header.presentation' })}
                   activeClass="active"
@@ -65,7 +69,7 @@ const Header: React.FC<{ noScroll?: boolean; handleLink?: string[] }> = ({
                   {formatMessage({ id: 'header.presentation' })}
                 </ScrollItem>
               </li>
-              <li>
+              <li data-testid="scroll-item">
                 <ScrollItem
                   title={formatMessage({ id: 'header.joinUs' })}
                   activeClass="active"
@@ -77,7 +81,7 @@ const Header: React.FC<{ noScroll?: boolean; handleLink?: string[] }> = ({
                   {formatMessage({ id: 'header.joinUs' })}
                 </ScrollItem>
               </li>
-              <li>
+              <li data-testid="scroll-item">
                 <ScrollItem
                   title={formatMessage({ id: 'header.meetUs' })}
                   activeClass="active"
@@ -89,7 +93,7 @@ const Header: React.FC<{ noScroll?: boolean; handleLink?: string[] }> = ({
                   {formatMessage({ id: 'header.meetUs' })}
                 </ScrollItem>
               </li>
-              <li>
+              <li data-testid="scroll-item">
                 <ScrollItem
                   title={formatMessage({ id: 'header.contactUs' })}
                   activeClass="active"
@@ -122,7 +126,7 @@ const Header: React.FC<{ noScroll?: boolean; handleLink?: string[] }> = ({
       </Wrapper>
       {isMobile && !noScroll && handleLink && handleLink.length === 4 && (
         <MobileNavList>
-          <li>
+          <li data-testid="mobile-item">
             <MobileScrollItem
               title={formatMessage({ id: 'header.presentation' })}
               activeClass="active"
@@ -134,7 +138,7 @@ const Header: React.FC<{ noScroll?: boolean; handleLink?: string[] }> = ({
               {formatMessage({ id: 'header.presentation' })}
             </MobileScrollItem>
           </li>
-          <li>
+          <li data-testid="mobile-item">
             <MobileScrollItem
               title={formatMessage({ id: 'header.joinUs' })}
               activeClass="active"
@@ -146,7 +150,7 @@ const Header: React.FC<{ noScroll?: boolean; handleLink?: string[] }> = ({
               {formatMessage({ id: 'header.joinUs' })}
             </MobileScrollItem>
           </li>
-          <li>
+          <li data-testid="mobile-item">
             <MobileScrollItem
               title={formatMessage({ id: 'header.meetUs' })}
               activeClass="active"
@@ -158,7 +162,7 @@ const Header: React.FC<{ noScroll?: boolean; handleLink?: string[] }> = ({
               {formatMessage({ id: 'header.meetUs' })}
             </MobileScrollItem>
           </li>
-          <li>
+          <li data-testid="mobile-item">
             <MobileScrollItem
               title={formatMessage({ id: 'header.contactUs' })}
               activeClass="active"

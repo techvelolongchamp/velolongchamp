@@ -10,7 +10,7 @@ const MainSection: React.FC<{ id?: string }> = ({ id }) => {
     <SectionContainer id={id}>
       <Image
         src={Background}
-        alt="Picture of the author"
+        alt="Banniere.JPG"
         placeholder="blur"
         blurDataURL="LIE{hDW;9FMvcut7RPMxx^%MkBRP"
         layout="fill"

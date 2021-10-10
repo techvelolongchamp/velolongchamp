@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Join unit tests should render correctly 1`] = `
+.c1 {
+  background: url(..//loader.gif) center center no-repeat;
+}
+
+.c0 {
+  font-size: 16px;
+  margin: 20px 0;
+  color: #9e9577;
+  font-weight: 600;
+}
+
+.c2 {
+  text-align: center;
+}
+
+.c2 a {
+  cursor: pointer;
+  color: inherit;
+}
+
+.c2 a:hover {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+<div>
+  <p
+    class="c0"
+  >
+    Adhérer gratuitement à Vélo Longchamp :
+  </p>
+  <div
+    class="c1"
+  >
+    <iframe
+      data-hj-allow-iframe=""
+      id="haWidget"
+      scrolling="auto"
+      src="https://www.helloasso.com/associations/velo-longchamp/adhesions/adhesion-association-velo-longchamp/widget"
+      style="width: 100%; height: 750px;"
+      title="Nous rejoindre"
+    />
+  </div>
+  <div
+    class="c2"
+  >
+    Si vous rencontrez un problème avec le formulaire, vous pouvez y accéder directement depuis le site de HelloAsso en cliquant 
+    <a
+      href="https://www.helloasso.com/associations/velo-longchamp/adhesions/adhesion-association-velo-longchamp"
+      rel="noopener noreferrer"
+      target="_blank"
+      title="HelloAsso"
+    >
+      ici
+    </a>
+  </div>
+</div>
+`;

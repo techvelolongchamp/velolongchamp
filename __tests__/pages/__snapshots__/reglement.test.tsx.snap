@@ -1,0 +1,868 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RulePage unit tests should render correctly 1`] = `
+.c20 {
+  background: #f7f7F7;
+  border-top: 1px solid #f7f7F7;
+  color: #999999;
+  padding: 10px 0 5px;
+  text-align: center;
+}
+
+.c20 a {
+  color: #999999;
+}
+
+.c20 a:hover {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c21 {
+  background: #0d171b;
+  bottom: 0;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+  color: white;
+  font-size: 14px;
+  padding: 10px;
+  position: fixed;
+  text-align: center;
+  width: 100vw;
+  z-index: 1000;
+}
+
+.c21 div {
+  margin-top: 10px;
+}
+
+.c21 a {
+  background: #6d6e71;
+  border-radius: 5px;
+  color: #fff;
+  margin: 0 10px;
+  padding: 5px;
+}
+
+.c21 button {
+  background: #419a1c;
+  border-radius: 5px;
+  color: #fff;
+  margin: 0 10px;
+  outline: done;
+  padding: 5px;
+  width: 40px;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.c4 {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  margin-top: 80px;
+}
+
+.c1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: darkorange;
+  border-bottom-left-radius: 30px;
+  border-top-left-radius: 30px;
+  color: white;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 40px;
+  font-weight: 100;
+  position: fixed;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  right: 0;
+  top: 120px;
+  z-index: 10;
+}
+
+.c1 svg {
+  margin: 10px;
+}
+
+.c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: darkorange;
+  color: #fff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: fixed;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  right: -200px;
+  top: 120px;
+  z-index: 10;
+  width: 200px;
+  font-size: 16px;
+  padding: 10px;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center;
+  border-bottom-left-radius: 10px;
+}
+
+.c3 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #fff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 16px;
+  height: 30px;
+  margin: 10px 20px 0;
+  padding: 5px;
+  cursor: pointer;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  background: #419a1c;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 120px;
+  border-radius: 5px;
+}
+
+.c3:hover {
+  color: #f7f7F7;
+}
+
+.c14 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  font-size: 12px;
+  margin-left: 5px;
+}
+
+.c15 {
+  background: none;
+  border: none;
+  outline: none;
+  padding: 5px;
+  width: 24px;
+}
+
+.c15:hover {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c5 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 5;
+  background: #f7f7F7;
+  padding: 5px 10px;
+  border-bottom: 1px solid #fff;
+  color: #0d171b;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.c10 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.c11 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+}
+
+.c12 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-left: 1px solid #6d6e71;
+  color: #999999;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 16px;
+  height: 30px;
+  margin: 0 20px;
+  padding-left: 20px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c12:hover {
+  color: #666666;
+}
+
+.c13 {
+  background: #6d6e71;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px;
+}
+
+.c9 {
+  height: 70px;
+  padding: 5px 0;
+}
+
+.c17 {
+  margin: 0 auto;
+  max-width: 750px;
+  padding: 10px;
+  height: inherit;
+}
+
+.c16 {
+  min-height: 600px;
+}
+
+.c18 {
+  color: #419a1c;
+  font-size: 30px;
+  margin: 20px 0;
+}
+
+.c19 {
+  padding-bottom: 30px;
+}
+
+.c19 h3 {
+  color: #9e9577;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 20px 0;
+}
+
+.c19 p {
+  color: #0d171b;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 10px 0;
+  text-align: justify;
+}
+
+.c19 p.approve {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-weight: bold;
+  position: relative;
+  margin-left: 20px;
+}
+
+.c19 p.approve svg {
+  position: absolute;
+  left: -20px;
+  width: 14px;
+  height: 14px;
+}
+
+@media (max-width:640px) {
+  .c4 {
+    margin-top: 110px;
+  }
+}
+
+@media screen and (max-width:640px) {
+  .c12 {
+    font-size: 14px;
+    border: none;
+    padding: 0;
+    margin: 0 10px;
+  }
+}
+
+@media screen and (max-width:640px) {
+  .c13 {
+    font-size: 14px;
+  }
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <div>
+      <div
+        class="c1"
+      >
+        <svg
+          fill="none"
+          height="1em"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          viewBox="0 0 24 24"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"
+          />
+          <line
+            x1="12"
+            x2="12"
+            y1="9"
+            y2="13"
+          />
+          <line
+            x1="12"
+            x2="12.01"
+            y1="17"
+            y2="17"
+          />
+        </svg>
+      </div>
+      <div
+        class="c2"
+      >
+        Signaler un accident ou problème sur l'anneau
+        <a
+          class="c3"
+          data-testid="show-alert"
+          href="https://docs.google.com/forms/d/e/1FAIpQLSdmrvUuZ953-3P8NVmNjiG8N78hY1lcdg_hVbr8lnYEqSjM9A/viewform?vc=0&c=0&w=1"
+          rel="noopener noreferrer"
+          target="_blank"
+          title="Formulaire"
+        >
+          Formulaire
+        </a>
+      </div>
+    </div>
+    <main
+      class="c4"
+    >
+      <header
+        class="c5"
+        id="header"
+      >
+        <div
+          class="c6"
+        >
+          <div
+            class="c7"
+          >
+            <a
+              class="c8"
+              data-testid="title-link"
+              href="/"
+            >
+              <img
+                alt="logo"
+                class="c9"
+                src="/logo.png"
+              />
+            </a>
+          </div>
+          <div
+            class="c10"
+          >
+            <nav>
+              <ul
+                class="c11"
+              >
+                <li>
+                  <a
+                    class="c12"
+                    href="/blog"
+                  >
+                    Actualités
+                  </a>
+                </li>
+              </ul>
+            </nav>
+            <a
+              class="c13"
+              href="/join"
+            >
+              Adhérer gratuitement
+            </a>
+            <div
+              class="c14"
+            >
+              <button
+                class="c15"
+                data-testid="select-en"
+                href="/"
+              >
+                EN
+              </button>
+            </div>
+          </div>
+        </div>
+      </header>
+      <section
+        class="c16"
+      >
+        <div
+          class="c17"
+        >
+          <h1
+            class="c18"
+            data-testid="h1-title"
+          >
+            Règlement de l'événement Vivre vélo au féminin organisé le 19 septembre 2020 sur l'anneau cyclable de Longchamp
+          </h1>
+          <article
+            class="c19"
+          >
+            <p>
+              Suite à la parution du décret n° 2012-312 du 5 mars 2012, relatif aux manifestations sportives sur les voies publiques ou ouvertes à la circulation publique modifiant le Code du sport ; à l’arrêté d’application du 3 mai 2012 relatif aux manifestations sportives sur les voies publiques ou ouvertes à la circulation publique ; à la circulaire interministérielle du 2 août 2012 concernant l’application du décret n° 2012-312 du 5 mars 2012, cité ci-dessus. Règlement validé par le ministère des Sports, après avis du ministère de l’Intérieur.
+            </p>
+            <h3>
+              1. PREAMBULE
+            </h3>
+            <p>
+              “Vivre vélo au féminin” est organisé par la Fédération Française de Cyclisme (FFC) et l’association Vélo Longchamp (VL). “Vivre vélo au féminin” se conforme aux règles techniques et de sécurité édictée par la FFC.
+            </p>
+            <h3>
+              2. DEFINITION
+            </h3>
+            <p>
+              “Vivre vélo au féminin” est une randonnée de cyclotourisme sur voie cyclable (anneau cyclable de Longchamp). Dans le strict respect du Code de la route et des règlements pris par les autorités de police compétentes, sans priorité de passage ni mise en place de signaleurs, sans classement ni mesure de performance. Le respect de l’environnement s’impose à tous les pratiquants. Le parcours n’est ni imposé, ni fléché.
+            </p>
+            <h3>
+              3. DESCRIPTION
+            </h3>
+            <p>
+              “Vivre vélo au féminin” propose des parcours cyclistes et des ateliers d’apprentissage du vélo de route en peloton. L’objectif de “Vivre vélo au féminin” est la promotion du cyclisme féminin l’encouragement de la mixité.
+            </p>
+            <h3>
+              4. REGIME ADMINISTRATIF
+            </h3>
+            <p>
+              Les organisations de “Vivre vélo au féminin” sont soumis au régime de la déclaration préalable en préfecture(s) codifiée dans la partie réglementaire du Code du sport suivant les dispositions décrites ci-dessous.
+            </p>
+            <h3>
+              5. TEXTES REGLEMENTAIRES
+            </h3>
+            <p>
+              • Code du sport - Décret n° 2007-1133 du 24 juillet 2007- (titre III - Manifestations sportives - section 4 intitulée : épreuves et compétitions sportives sur la voie publique.
+            </p>
+            <p>
+              • Décret n° 2012-312 du 5 mars 2012 relatif aux manifestations sportives sur les voies publiques ouvertes à la circulation publique modifiant le Code du sport.
+            </p>
+            <p>
+              • Arrêté d’application du 3 mai 2012 relatif aux manifestations sportives sur les voies publiques ou ouvertes à la circulation publique - NOR : IOCA1222710A.
+            </p>
+            <p>
+              • Circulaire interministérielle n° DS/2012/305 et n° DMAT/2012/000646 du 2 août 2012 concernant l’application du décret n° 2012 du 5 mars 2012 relatif aux manifestations sportives sur les voies publiques ou ouvertes à la circulation publique. Conformément au décret du 5 mars 2012 :
+            </p>
+            <p>
+              - Art. R.331-6. − Les manifestations sportives qui se déroulent dans le respect du Code de la route et qui n’imposent à leurs participants qu’un ou plusieurs points de rassemblement ou de contrôle, à l’exclusion d’un horaire fixé à l’avance et de tout classement, en fonction notamment soit de la plus grande vitesse réalisée, soit d’une moyenne imposée, sur une partie quelconque du parcours, ne sont pas soumises à l’autorisation prévue à l’alinéa 1 du présent article.
+            </p>
+            <p>
+              - Art. R. 331-7. − Dans les disciplines pour lesquelles elles ont obtenu délégation, les fédérations délégataires édictent les règles techniques et de sécurité applicables aux manifestations mentionnées à l’article R.331-6
+            </p>
+            <h3>
+              6. OBLIGATIONS DE L’ORGANISATEUR
+            </h3>
+            <p>
+              6.1 - Démarches administratives : conformément à l’arrêté du 3 mai 2012 relatif aux manifestations sportives sur les voies publiques ou ouvertes à la circulation publique, les organisateurs de “Vivre vélo au féminin” certifient avoir effectué une déclaration en préfecture à l’aide de l’imprimé Cerfa n° 13447*03 un mois avant la date prévue pour son organisation.
+            </p>
+            <p>
+              6.2 - Assurance des organisateurs et des participants : 
+              <br />
+              La FFC co organisateur de “Vivre vélo au féminin” est assuré par des garanties conformes aux dispositions des articles L.321-1 et L.331-9 du Code du sport. Assurance souscrite auprès d’AXA France IARD par l’intermédiaire du courtier en assurance GRAS SAVOYE. Police d’assurance numéro 727546262604. Tous les participants à “Vivre vélo au féminin”, licenciés à une fédération sportive et non licenciés, y compris les étrangers, sont assurés par des garanties conformes aux dispositions des articles L.321- 1 et L.331-9 du Code du sport.
+            </p>
+            <h3>
+              7. UTILISATION DE LA VOIE PUBLIQUE
+            </h3>
+            <p>
+              7.1 - Choix des itinéraires : les parcours proposés par l’organisateur ne présentent aucun danger spécifique et n’empruntent que des voies cyclables. Les participants s’engagent à respecter les voies et emplacements réservés aux cyclistes, lorsqu’ils existent.
+            </p>
+            <p>
+              7.2 - Flux des participants : un échelonnement des départs, facilite le flux des participants dans la circulation et évitent l’effet de peloton massif. Les groupes constitués ne pourront excéder 10 cyclistes.
+            </p>
+            <p>
+              7.3 - Marquage sur la voie publique : l’organisateur se conforme à la réglementation :
+            </p>
+            <p>
+              • Aucun marquage à la peinture ne sera réalisé sur la chaussée.
+              <br />
+              • Aucun papillon, affiche ou marque ne sera apposé sur les panneaux réglementaires, leurs supports et tout autre équipement de signalisation routière ainsi que sur les ouvrages situés sur l’emprise du domaine routier ou surplombant celui-ci.
+              <br />
+              • Aucun panneau ou flèche ne sera cloué sur les arbres.
+            </p>
+            <p>
+              7.4 - Routes interdites aux manifestations sportives : l’organisateur respecte l’arrêté interministériel publié annuellement et portant interdiction de certaines routes aux concentrations et manifestations sportives à certaines périodes de l’année. Les participants ne pourront ni emprunter les axes concernés, ni les traverser.
+            </p>
+            <h3>
+              8. SÉCURITÉ ET PRÉVENTION
+            </h3>
+            <p>
+              8.1 – Sécurité : sur la carte de route nominative remise à chaque participant, figurera :
+            </p>
+            <p>
+              • Les règles de sécurité essentielles,
+              <br />
+              • Les consignes concernant les premiers soins,
+              <br />
+              • Les numéros de téléphone des secours (Pompiers, SMUR, SAMU).
+            </p>
+            <p>
+              8.2 - Certificat médical : la présentation du certificat de non contre-indication n’est pas obligatoire pour participer. Toutefois, à titre préventif, il est recommandé aux pratiquants de passer un examen médical annuel préalable à toute activité sportive.
+            </p>
+            <p>
+              8.3 - Port du casque : le port du casque à coque rigide est obligatoire pour tous les participants.
+            </p>
+            <p>
+              8.4 - Circulation nocturne : les bicyclettes doivent être équipées conformément aux dispositions du Code de la route. Pour circuler hors agglomération, l’organisateur rappelle aux participants l’obligation du port du gilet de haute visibilité conforme à la réglementation en vigueur : article R 431-1-1 du Code de la route et articles 2 et 3 de l’arrêté du 29/9/2008.
+            </p>
+            <p>
+              8.5 - Circulation diurne : hors agglomération et par visibilité insuffisante, le port du gilet de haute visibilité est obligatoire.
+            </p>
+            <h3>
+              9. DEVOIRS DES PARTICIPANTS
+            </h3>
+            <p>
+              9.1 – Comportement : les participants ne bénéficient en aucun cas d’une priorité de passage. Ils se doivent :
+            </p>
+            <p>
+              • D’appliquer les dispositions du Code de la route et celles prises par les autorités locales compétentes,
+              <br />
+              • De respecter les consignes verbales et écrites de l’organisateur,
+              <br />
+              • D’exécuter les injonctions des services de police ou de gendarmerie données dans l’intérêt de la sécurité et de la circulation routières. La responsabilité personnelle du participant demeure pleine et entière au regard de ces dispositions, prescriptions, consignes et injonctions.
+            </p>
+            <p>
+              9.2 - Equipement des cycles : les cycles utilisés par les participants sont mus exclusivement par la force musculaire, équipés conformément aux dispositions du Code de la route et en état de fonctionnement, notamment au niveau des organes de sécurité et de freinage.
+            </p>
+            <h3>
+              10. SPÉCIFICITÉS DES PARTICIPANTS
+            </h3>
+            <p>
+              10.1 - Identification des participants : une carte de route est remise par l’organisateur à chaque participant lors de son inscription.
+            </p>
+            <p>
+              10.2 - Provenance des participants : Toute personne de nationalité française ou étrangère peut participer.
+            </p>
+            <p>
+              10.3 – Âge des participants : La manifestation est réservée aux personnes âgées de 18 ans révolus.
+            </p>
+            <h3>
+              En participant à l'événement :
+            </h3>
+            <p
+              class="approve"
+            >
+              <svg
+                fill="none"
+                height="1em"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <polyline
+                  points="9 11 12 14 22 4"
+                />
+                <path
+                  d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"
+                />
+              </svg>
+              J’ai lu et j’approuve le présent règlement.
+            </p>
+            <p
+              class="approve"
+            >
+              <svg
+                fill="none"
+                height="1em"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <polyline
+                  points="9 11 12 14 22 4"
+                />
+                <path
+                  d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"
+                />
+              </svg>
+              Je certifie avoir souscrit à une assurance responsabilité civile et maladie/accident, me garantissant de tous sinistres subis ou causés à des tiers de mon fait.
+            </p>
+            <p
+              class="approve"
+            >
+              <svg
+                fill="none"
+                height="1em"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <polyline
+                  points="9 11 12 14 22 4"
+                />
+                <path
+                  d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"
+                />
+              </svg>
+              Je certifie avoir pris connaissance du conseil délivré par l’organisateur concernant la vérification auprès de mon médecin traitant de mon aptitude actuelle à la pratique du cyclisme d’endurance.
+            </p>
+            <p
+              class="approve"
+            >
+              <svg
+                fill="none"
+                height="1em"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <polyline
+                  points="9 11 12 14 22 4"
+                />
+                <path
+                  d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"
+                />
+              </svg>
+              Je certifie avoir pris connaissance de mes obligations concernant le port d’un casque à coque dure.
+            </p>
+            <p
+              class="approve"
+            >
+              <svg
+                fill="none"
+                height="1em"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <polyline
+                  points="9 11 12 14 22 4"
+                />
+                <path
+                  d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"
+                />
+              </svg>
+              Je certifie avoir pris connaissance de mes obligations concernant le port du gilet de haute visibilité.
+            </p>
+            <p
+              class="approve"
+            >
+              <svg
+                fill="none"
+                height="1em"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <polyline
+                  points="9 11 12 14 22 4"
+                />
+                <path
+                  d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"
+                />
+              </svg>
+              Je certifie avoir pris connaissance de mes obligations concernant le fait de disposer d’un vélo équipé d’un phare blanc avant et d’un feu rouge arrière en cas de roulage de nuit.
+            </p>
+            <p
+              class="approve"
+            >
+              <svg
+                fill="none"
+                height="1em"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <polyline
+                  points="9 11 12 14 22 4"
+                />
+                <path
+                  d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"
+                />
+              </svg>
+              Je reconnais rester responsable de ma participation à Vivre vélo au féminin qu’aucune réclamation ou action de quelque nature que ce soit ne pourra être considérée comme recevable à l’encontre de l’organisateur et des partenaires.
+            </p>
+            <p
+              class="approve"
+            >
+              <svg
+                fill="none"
+                height="1em"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <polyline
+                  points="9 11 12 14 22 4"
+                />
+                <path
+                  d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"
+                />
+              </svg>
+              J'accepte que les organisateurs puissent prendre des photos de
+            l'événement incluant des participantes a des fins de promotion du
+            cyclisme féminin
+            </p>
+          </article>
+        </div>
+      </section>
+    </main>
+    <footer
+      class="c20"
+    >
+      <p>
+        ©Copyright 2019
+         - 2021
+         - Vélo Longchamp -
+         
+        Tous droits réservés
+      </p>
+      <p>
+        -
+      </p>
+      <p>
+        <a
+          href="/legal"
+        >
+          Mentions légales
+        </a>
+      </p>
+    </footer>
+    <div
+      class="c21"
+    >
+      <p>
+        En poursuivant votre navigation sur notre site, vous acceptez l'utilisation de cookies afin de nous permettre d'améliorer votre expérience utilisateur.
+      </p>
+      <div>
+        <button
+          data-testid="accept-cookie"
+        >
+          OK
+        </button>
+        <a
+          href="/legal"
+        >
+          En savoir plus
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;
