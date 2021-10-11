@@ -1,6 +1,10 @@
 name: E2e Tests
 
-on: [push]
+on:
+  workflow_run:
+    workflows: ["Unit Tests"]
+    types:
+      - completed
 
 jobs:
   cypress-run:
