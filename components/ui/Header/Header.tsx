@@ -66,7 +66,7 @@ const Header: React.FC<{ noScroll?: boolean; handleLink?: string[] }> = ({
                   spy
                   offset={-theme.navbarHeightNb}
                   to={handleLink[0]}
-                  id={handleLink[0]}
+                  id={handleLink[0] + 'scrolllink'}
                 >
                   {formatMessage({ id: 'header.presentation' })}
                 </ScrollItem>
@@ -79,7 +79,7 @@ const Header: React.FC<{ noScroll?: boolean; handleLink?: string[] }> = ({
                   spy
                   offset={-theme.navbarHeightNb}
                   to={handleLink[1]}
-                  id={handleLink[1]}
+                  id={handleLink[1] + 'scrolllink'}
                 >
                   {formatMessage({ id: 'header.joinUs' })}
                 </ScrollItem>
@@ -92,7 +92,7 @@ const Header: React.FC<{ noScroll?: boolean; handleLink?: string[] }> = ({
                   spy
                   offset={-theme.navbarHeightNb}
                   to={handleLink[2]}
-                  id={handleLink[2]}
+                  id={handleLink[2] + 'scrolllink'}
                 >
                   {formatMessage({ id: 'header.meetUs' })}
                 </ScrollItem>
@@ -105,7 +105,7 @@ const Header: React.FC<{ noScroll?: boolean; handleLink?: string[] }> = ({
                   spy
                   offset={-theme.navbarHeightNb}
                   to={handleLink[3]}
-                  id={handleLink[3]}
+                  id={handleLink[3] + 'scrolllink'}
                 >
                   {formatMessage({ id: 'header.contactUs' })}
                 </ScrollItem>
@@ -143,7 +143,7 @@ const Header: React.FC<{ noScroll?: boolean; handleLink?: string[] }> = ({
               spy
               offset={-theme.mobielNavbarHeightNb}
               to={handleLink[0]}
-              id={handleLink[0]}
+              id={handleLink[0] + 'scrolllink'}
             >
               {formatMessage({ id: 'header.presentation' })}
             </MobileScrollItem>
@@ -156,7 +156,7 @@ const Header: React.FC<{ noScroll?: boolean; handleLink?: string[] }> = ({
               spy
               offset={-theme.mobielNavbarHeightNb}
               to={handleLink[1]}
-              id={handleLink[1]}
+              id={handleLink[1] + 'scrolllink'}
             >
               {formatMessage({ id: 'header.joinUs' })}
             </MobileScrollItem>
@@ -169,7 +169,7 @@ const Header: React.FC<{ noScroll?: boolean; handleLink?: string[] }> = ({
               spy
               offset={-theme.mobielNavbarHeightNb}
               to={handleLink[2]}
-              id={handleLink[2]}
+              id={handleLink[2] + 'scrolllink'}
             >
               {formatMessage({ id: 'header.meetUs' })}
             </MobileScrollItem>
@@ -182,7 +182,7 @@ const Header: React.FC<{ noScroll?: boolean; handleLink?: string[] }> = ({
               spy
               offset={-theme.mobielNavbarHeightNb}
               to={handleLink[3]}
-              id={handleLink[3]}
+              id={handleLink[3] + 'scrolllink'}
             >
               {formatMessage({ id: 'header.contactUs' })}
             </MobileScrollItem>

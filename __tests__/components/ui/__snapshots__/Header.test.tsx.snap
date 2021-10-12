@@ -417,7 +417,7 @@ exports[`Header unit tests should render correctly - with links 1`] = `
           >
             <a
               class="c6"
-              id="presentation"
+              id="presentationscrolllink"
               title="Présentation"
             >
               Présentation
@@ -428,7 +428,7 @@ exports[`Header unit tests should render correctly - with links 1`] = `
           >
             <a
               class="c6"
-              id="join"
+              id="joinscrolllink"
               title="Nous rejoindre"
             >
               Nous rejoindre
@@ -439,7 +439,7 @@ exports[`Header unit tests should render correctly - with links 1`] = `
           >
             <a
               class="c6"
-              id="meeting"
+              id="meetingscrolllink"
               title="Nous rencontrer"
             >
               Nous rencontrer
@@ -450,7 +450,7 @@ exports[`Header unit tests should render correctly - with links 1`] = `
           >
             <a
               class="c6"
-              id="contact"
+              id="contactscrolllink"
               title="Nous contacter"
             >
               Nous contacter
@@ -758,7 +758,7 @@ exports[`Header unit tests should render correctly - with links and mobile 1`] =
       >
         <a
           class="c12 c13"
-          id="presentation"
+          id="presentationscrolllink"
           title="Présentation"
         >
           Présentation
@@ -769,7 +769,7 @@ exports[`Header unit tests should render correctly - with links and mobile 1`] =
       >
         <a
           class="c12 c13"
-          id="join"
+          id="joinscrolllink"
           title="Nous rejoindre"
         >
           Nous rejoindre
@@ -780,7 +780,7 @@ exports[`Header unit tests should render correctly - with links and mobile 1`] =
       >
         <a
           class="c12 c13"
-          id="meeting"
+          id="meetingscrolllink"
           title="Nous rencontrer"
         >
           Nous rencontrer
@@ -791,7 +791,7 @@ exports[`Header unit tests should render correctly - with links and mobile 1`] =
       >
         <a
           class="c12 c13"
-          id="contact"
+          id="contactscrolllink"
           title="Nous contacter"
         >
           Nous contacter

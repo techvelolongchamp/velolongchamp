@@ -793,7 +793,7 @@ exports[`Home unit tests should render correctly 1`] = `
               >
                 <a
                   class="c11"
-                  id="presentation"
+                  id="presentationscrolllink"
                   title="Présentation"
                 >
                   Présentation
@@ -804,7 +804,7 @@ exports[`Home unit tests should render correctly 1`] = `
               >
                 <a
                   class="c11"
-                  id="join"
+                  id="joinscrolllink"
                   title="Nous rejoindre"
                 >
                   Nous rejoindre
@@ -815,7 +815,7 @@ exports[`Home unit tests should render correctly 1`] = `
               >
                 <a
                   class="c11"
-                  id="meeting"
+                  id="meetingscrolllink"
                   title="Nous rencontrer"
                 >
                   Nous rencontrer
@@ -826,7 +826,7 @@ exports[`Home unit tests should render correctly 1`] = `
               >
                 <a
                   class="c11"
-                  id="contact"
+                  id="contactscrolllink"
                   title="Nous contacter"
                 >
                   Nous contacter
