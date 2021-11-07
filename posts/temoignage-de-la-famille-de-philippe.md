@@ -7,7 +7,7 @@ shouldBePublished: false
 ---
 ## Témoignage de la famille de Philippe - mort le 14 juin 2021 à Longchamp
 
-C'était un drame dont nous vous avions relayé l'appel à témoins. Aujourd'hui, nous en savons plus sur Philippe et les conditions de sont accident. Sa famille a tenu à témoigner pour qu'aucune autre famille n'ait à vivre cela. Nous leur adressons une nouvelle fois toutes nos condoléances et tout notre soutient dans cette épreuve.
+C'était un drame dont nous vous avions relayé l'appel à témoins. Aujourd'hui, nous en savons plus sur Philippe et les conditions de son accident. Sa famille a tenu à témoigner pour qu'aucune autre famille n'ait à vivre cela. Nous leur adressons une nouvelle fois toutes nos condoléances et tout notre soutient dans cette épreuve.
 
 Voici leur message :
 
