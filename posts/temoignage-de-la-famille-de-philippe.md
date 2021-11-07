@@ -2,7 +2,7 @@
 date: 2021-11-07T17:27:10+01:00
 title: Témoignage de la famille de Philippe
 slug: temoignage-philippe
-shouldBePublished: false
+shouldBePublished: true
 
 ---
 ## Témoignage de la famille de Philippe - mort le 14 juin 2021 à Longchamp
