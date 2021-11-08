@@ -112,3 +112,5 @@ Comment peut-on accepter que cet anneau utilisé par des milliers de cycliste so
 J’ai pris la décision de ne pas m’y résoudre.
 
 Après réflexion j’ai porté plainte au pénal contre la ville de Paris à la fin du mois de juillet.
+
+![](/media/philippe.jpeg)
