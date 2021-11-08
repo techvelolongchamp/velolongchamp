@@ -13,8 +13,6 @@ Voici leur message :
 
 ***
 
-![](/media/philippe.jpeg "Philippe")
-
 Le 14 juin 2021, en fin de matinée Philippe comme chaque lundi quitte son appartement pour aller s’entrainer à vélo sur l’anneau de Longchamp.
 
 C’est un homme sportif : la marche, le vélo, le parapente.
@@ -114,3 +112,5 @@ Comment peut-on accepter que cet anneau utilisé par des milliers de cycliste so
 J’ai pris la décision de ne pas m’y résoudre.
 
 Après réflexion j’ai porté plainte au pénal contre la ville de Paris à la fin du mois de juillet.
+
+![](/media/philippe.jpeg "Philippe")
