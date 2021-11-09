@@ -28,6 +28,7 @@ fields:
     le post est prêt)
   default: false
 pages:
+- posts/communique-de-presse-pour-rendre-la-route-de-sevres-a-neuilly-100-pieton-et-cyclable.md
 - posts/fermeture-de-l-anneau-newsletter-juin.md
 - posts/s-assurer-a-longchamp.md
 - posts/temoignage-de-la-famille-de-philippe.md
