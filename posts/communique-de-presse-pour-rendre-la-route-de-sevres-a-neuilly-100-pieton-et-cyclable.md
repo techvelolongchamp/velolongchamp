@@ -3,7 +3,7 @@ date: 2021-11-09T15:55:55+01:00
 title: 'Communiqué de presse : pour rendre la route de Sèvres à Neuilly 100% piéton
   et cyclable'
 slug: bossedelongchampauxpiétonscyclistes
-shouldBePublished: false
+shouldBePublished: true
 
 ---
 _Communiqué de presse_
