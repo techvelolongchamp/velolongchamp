@@ -29,4 +29,12 @@ export const SocialWrapper = styled.div`
   .twitter {
     color: #00acee;
   }
+
+  .youtube {
+    color: #ff0000;
+  }
+
+  .instagram {
+    color: #c13584;
+  }
 `

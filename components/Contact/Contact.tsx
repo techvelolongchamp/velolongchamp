@@ -1,6 +1,11 @@
 import React from 'react'
 import Image from 'next/image'
-import { IoLogoFacebook, IoLogoTwitter, IoLogoInstagram } from 'react-icons/io'
+import {
+  IoLogoFacebook,
+  IoLogoTwitter,
+  IoLogoInstagram,
+  IoLogoYoutube,
+} from 'react-icons/io'
 
 import { ContactWrapper, SocialWrapper } from './Contact.styled'
 
@@ -35,6 +40,15 @@ const Contact = () => {
           className="instagram"
         >
           <IoLogoInstagram />
+        </a>
+        <a
+          href="https://www.youtube.com/channel/UCILGPS4lvBE5GXbTnFze5rA"
+          title="Youtube"
+          target="_blank"
+          rel="noreferrer"
+          className="youtube"
+        >
+          <IoLogoYoutube />
         </a>
       </SocialWrapper>
       <p>

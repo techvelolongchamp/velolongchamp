@@ -652,6 +652,14 @@ exports[`Home unit tests should render correctly 1`] = `
   color: #00acee;
 }
 
+.c35 .youtube {
+  color: #ff0000;
+}
+
+.c35 .instagram {
+  color: #c13584;
+}
+
 @media (max-width:640px) {
   .c4 {
     margin-top: 110px;
@@ -1468,6 +1476,27 @@ exports[`Home unit tests should render correctly 1`] = `
                   />
                   <path
                     d="M360 176c-13.3 0-24-10.7-24-24s10.7-24 24-24c13.2 0 24 10.7 24 24s-10.8 24-24 24zM256 192c35.3 0 64 28.7 64 64s-28.7 64-64 64-64-28.7-64-64 28.7-64 64-64m0-32c-53 0-96 43-96 96s43 96 96 96 96-43 96-96-43-96-96-96z"
+                  />
+                </svg>
+              </a>
+              <a
+                class="youtube"
+                href="https://www.youtube.com/channel/UCILGPS4lvBE5GXbTnFze5rA"
+                rel="noreferrer"
+                target="_blank"
+                title="Youtube"
+              >
+                <svg
+                  fill="currentColor"
+                  height="1em"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 512 512"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M508.6 148.8c0-45-33.1-81.2-74-81.2C379.2 65 322.7 64 265 64h-18c-57.6 0-114.2 1-169.6 3.6C36.6 67.6 3.5 104 3.5 149 1 184.6-.1 220.2 0 255.8c-.1 35.6 1 71.2 3.4 106.9 0 45 33.1 81.5 73.9 81.5 58.2 2.7 117.9 3.9 178.6 3.8 60.8.2 120.3-1 178.6-3.8 40.9 0 74-36.5 74-81.5 2.4-35.7 3.5-71.3 3.4-107 .2-35.6-.9-71.2-3.3-106.9zM207 353.9V157.4l145 98.2-145 98.3z"
                   />
                 </svg>
               </a>
