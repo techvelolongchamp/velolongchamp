@@ -2,7 +2,7 @@
 date: 2021-01-04T16:55:38+01:00
 title: Assemblée Générale du 20 janvier 2022
 slug: ag-2021
-shouldBePublished: false
+shouldBePublished: true
 
 ---
 ## Assemblée Générale du 20 janvier 2022
