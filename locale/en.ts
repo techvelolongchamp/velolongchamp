@@ -116,6 +116,7 @@ const en = {
   'join.subtitle': 'Join Vélo Longchamp for free:',
   'join.problem':
     'If you come across a problem with the form, you can directly access it on HelloAsso website by clicking <a>here</a>',
+  'calendar.title': 'Agenda',
 }
 
 export default en

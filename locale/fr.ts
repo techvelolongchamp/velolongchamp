@@ -117,6 +117,7 @@ const fr = {
   'join.subtitle': 'Adhérer gratuitement à Vélo Longchamp :',
   'join.problem':
     'Si vous rencontrez un problème avec le formulaire, vous pouvez y accéder directement depuis le site de HelloAsso en cliquant <a>ici</a>',
+  'calendar.title': 'Calendrier',
 }
 
 export default fr

@@ -13,10 +13,11 @@ const ThirdarySection = forwardRef<
     useH1?: boolean
     hideH1?: boolean
     children: React.ReactNode
+    maxWidth?: string
   }
->(({ id, title, children, height, useH1, hideH1 }, ref) => (
+>(({ id, title, children, height, useH1, hideH1, maxWidth }, ref) => (
   <SectionContainer id={id} height={height} ref={ref}>
-    <Content>
+    <Content maxWidth={maxWidth}>
       {useH1 ? (
         <H1Title data-testid="h1-title" hideH1={hideH1}>
           {title}
