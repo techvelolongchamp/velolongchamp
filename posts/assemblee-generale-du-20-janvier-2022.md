@@ -1,49 +1,34 @@
 ---
 date: 2020-11-16T16:55:38.000+01:00
 title: Assemblée Générale du 20 janvier 2022
-slug: ag-2020
-shouldBePublished: true
+slug: ag-2021
+shouldBePublished: false
 
 ---
-## Assemblée Générale du 30 novembre 2020
+## Assemblée Générale du 20 janvier 2022
 
 * En ligne via Microsoft Teams
 * Heure de début : 19h00 // Heure de fin envisagée : 20h30
 * Animateur de séance : Benoît Goupilleau
-* Modérateur : Jeanne Peronne
+* Modérateur : Thomas Servant
 
 ### **Ordre du jour**
 
 #### **Assemblée Générale ordinaire et votes (de l’AG mixte) - 30' :**
 
-* Présentation de la nouvelle équipe de Vélo Longchamp : [Présentation des candidats](#docs)
-* Exposé bref du rapport moral : [Rapport moral](#docs)
-* Exposé bref du rapport financier par le Trésorier : [Rapport financier](#docs)
+* Présentation de la nouvelle équipe de Vélo Longchamp : Présentation des candidats
+* Exposé bref du rapport moral : Rapport moral
+* Exposé bref du rapport financier par le Trésorier : Rapport financier
 
 Votes par main levée dans Microsoft Teams : Pour / Contre / Abstention
 
-* **Quitus** pour la gestion de l’exercice l’année 2019/2020 (Rapport moral et financier)
-* **Modification** de l’article 8 des statuts comme suit :
-
-<div class="article8">
-<p>L'association est dirigée par un Conseil d'Administration qui peut comprendre jusqu'à 13 membres. Ils sont élus pour 1 an par l'Assemblée Générale et sont rééligibles.</p>
-<p>Le conseil d'administration choisit parmi ses membres un Bureau comprenant à minima :</p>
-<ul>
-<li>Un Président</li>
-<li>Un Secrétaire général</li>
-<li>Un Trésorier</li>
-</ul>
-
-</div>
-
-* **Élection** des membres du CA 2021 : Antoine (Terrier), Benoit (Goupilleau), Eric (Dupond), Erwan (Leverrier), Frédérique (Thaller), Gabriel (Blanchong), Jeanne (Peronne), Marc (Biarne), Nicolas (Le Herissier), Patrick (Lachmann) Stéphane (Jander), Thierry (de Bailliencourt), Thomas (Servant).
+* **Quitus** pour la gestion de l’exercice l’année 2021 (Rapport moral et financier)
+* **Élection** des membres du CA 2022 : Antoine (Terrier), Benoit (Goupilleau), Gabriel (Blanchong), Marc (Biarne), Nicolas (Le Herissier), Patrick (Lachmann), Stéphane (Jander), Thierry (de Bailliencourt), Thomas (Servant).
 * Résultat des votes par le secrétaire de séance
 
 #### **Questions – Débat avec les participants – sur la rénovation de l’anneau et les autres missions de Vélo Longchamp : 45’**
 
-* **Travaux (marquage au sol)**
-* **Gens du voyage**
-* **Relation avec le milieu sportif**
+* **Fermeture de la route de Sèvres à Neuilly**
 * **Autres**
 
   Synthèse rapide des idées retenues du débat par Jeanne : 5’
@@ -53,15 +38,15 @@ Votes par main levée dans Microsoft Teams : Pour / Contre / Abstention
 
 Rapport moral :
 
-<a class="downloadButton" href="/AG01_RapportMoral.pdf" download>Télécharger le rapport moral</a>
+<a class="downloadButton" href="" download>Télécharger le rapport moral</a>
 
 Rapport financier :
 
-<a class="downloadButton" href="/AG01_RapportFinancier.pdf" download>Télécharger le rapport financier</a>
+<a class="downloadButton" href="" download>Télécharger le rapport financier</a>
 
 Présentation des candidats au CA :
 
-<a class="downloadButton" href="/AG01_CandidatsCA.pdf" download>Télécharger la présentation des candidats</a>
+<a class="downloadButton" href="" download>Télécharger la présentation des candidats</a>
 
 ### **Procédure de vote et organisation des débats**
 
@@ -109,9 +94,3 @@ Le Secrétaire de séance comptera les votes “Pour”. Une fois le décompte t
 Après que tous les “Pour” auront baissé la main, Le Secrétaire procédera au vote “Contre” avec le bouton “Lever la main” et, une fois le décompte “Contre” terminé et après confirmation du Secrétaire, vous devrez cliquer sur “Baisser la main”.
 
 A chaque fin de vote, un récapitulatif du nombre de vote “Pour”, “Contre” et abstention sera fait.
-
-#### **CR de l'AG**
-
-Vous pouvez consulter le CR de l'AG via le lien suivant :
-
-<a class="downloadButton" href="/CR-VeloLongchamp_AG2020.pdf" download>Télécharger le CR</a>
