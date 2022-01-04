@@ -1,5 +1,5 @@
 ---
-date: 2021-01-04T16:55:38+01:00
+date: 2022-01-04T16:55:38+01:00
 title: Assemblée Générale du 20 janvier 2022
 slug: ag-2021
 shouldBePublished: true
@@ -28,11 +28,10 @@ Votes par main levée dans Microsoft Teams : Pour / Contre / Abstention
 
 #### **Questions – Débat avec les participants – sur la rénovation de l’anneau et les autres missions de Vélo Longchamp : 45’**
 
-* **Fermeture de la route de Sèvres à Neuilly**
-* **Autres**
+* Fermeture de la route de Sèvres à Neuilly
+* Autres
 
-  Synthèse rapide des idées retenues du débat par Jeanne : 5’
-  <div id="docs"></div>
+  Synthèse rapide des idées retenues du débat : 5’
 
 ### **Documents**
 
