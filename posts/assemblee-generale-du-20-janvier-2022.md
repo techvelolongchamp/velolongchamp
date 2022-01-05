@@ -1,11 +1,11 @@
 ---
-date: 2022-01-04T16:55:38+01:00
-title: Assemblée Générale du 20 janvier 2022
+date: 2022-01-04T16:55:38.000+01:00
+title: Assemblée Générale du 24 janvier 2022
 slug: ag-2021
 shouldBePublished: true
 
 ---
-## Assemblée Générale du 20 janvier 2022
+## Assemblée Générale du 24 janvier 2022
 
 * En ligne via Microsoft Teams
 * Heure de début : 19h00 // Heure de fin envisagée : 20h30
