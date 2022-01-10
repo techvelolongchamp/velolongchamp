@@ -7,7 +7,7 @@ shouldBePublished: true
 ---
 ## Assemblée Générale du 24 janvier 2022
 
-* En ligne via Microsoft Teams
+* En ligne via Microsoft Teams (lien à venir)
 * Heure de début : 19h00 // Heure de fin envisagée : 20h30
 * Animateur de séance : Benoît Goupilleau
 * Modérateur : Thomas Servant
