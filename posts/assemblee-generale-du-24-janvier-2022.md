@@ -17,7 +17,7 @@ shouldBePublished: true
 #### **Assemblée Générale ordinaire et votes (de l’AG mixte) - 30' :**
 
 * Présentation de la nouvelle équipe de Vélo Longchamp : Présentation des candidats
-* Exposé bref du rapport moral : Rapport moral
+* Exposé bref du rapport moral par le Président : Rapport moral
 * Exposé bref du rapport financier par le Trésorier : Rapport financier
 
 Votes par main levée dans Microsoft Teams : Pour / Contre / Abstention
