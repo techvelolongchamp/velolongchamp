@@ -29,6 +29,7 @@ Votes par main levée dans Microsoft Teams : Pour / Contre / Abstention
 #### **Questions – Débat avec les participants – sur la rénovation de l’anneau et les autres missions de Vélo Longchamp : 45’**
 
 * Fermeture de la route de Sèvres à Neuilly
+* Panneaux de signalisation
 * Autres
 
   Synthèse rapide des idées retenues du débat : 5’
