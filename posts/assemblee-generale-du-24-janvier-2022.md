@@ -23,7 +23,7 @@ shouldBePublished: true
 Votes par main levée dans Microsoft Teams : Pour / Contre / Abstention
 
 * **Quitus** pour la gestion de l’exercice l’année 2021 (Rapport moral et financier)
-* **Élection** des membres du CA 2022 : Antoine (Terrier), Arthur (Adenot), Aurélio (Audras), Benoit (Goupilleau), Gabriel (Blanchong), Laure (Michaud), Laurent (Forti), Marc (Biarne), Nicolas (Le Herissier), Patrick (Lachmann), Stéphane (Jander), Thierry (de Bailliencourt), Thomas (Servant).
+* **Élection** des membres du CA 2022 : Antoine (Terrier), Arthur (Adenot), Aurélio (Audras), Benoit (Goupilleau), Gabriel (Blanchong), Laura (Michaud), Laurent (Forti), Marc (Biarne), Nicolas (Le Herissier), Patrick (Lachmann), Stéphane (Jander), Thierry (de Bailliencourt), Thomas (Servant).
 * Résultat des votes par le secrétaire de séance
 
 #### **Questions – Débat avec les participants – sur la rénovation de l’anneau et les autres missions de Vélo Longchamp : 45’**
