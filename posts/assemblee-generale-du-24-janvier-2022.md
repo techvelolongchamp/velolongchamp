@@ -42,7 +42,7 @@ Rapport financier : Bientôt disponible
 
 Présentation des candidats au CA :
 
-<a class="downloadButton" href="/AG02_CandidatsCA.pdf" download>Télécharger la présentation des candidats</a>
+<a class="downloadButton" href="/AG02_CandidatsCA.pdf" target=_"_blank">Télécharger la présentation des candidats</a>
 
 ### **Procédure de vote et organisation des débats**
 
