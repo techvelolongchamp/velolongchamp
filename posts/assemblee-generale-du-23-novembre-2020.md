@@ -53,15 +53,15 @@ Votes par main levée dans Microsoft Teams : Pour / Contre / Abstention
 
 Rapport moral :
 
-<a class="downloadButton" href="/AG01_RapportMoral.pdf" download>Télécharger le rapport moral</a>
+<a class="downloadButton" href="/AG01_RapportMoral.pdf"  target="_blank">Télécharger le rapport moral</a>
 
 Rapport financier :
 
-<a class="downloadButton" href="/AG01_RapportFinancier.pdf" download>Télécharger le rapport financier</a>
+<a class="downloadButton" href="/AG01_RapportFinancier.pdf" target="_blank">Télécharger le rapport financier</a>
 
 Présentation des candidats au CA :
 
-<a class="downloadButton" href="/AG01_CandidatsCA.pdf" download>Télécharger la présentation des candidats</a>
+<a class="downloadButton" href="/AG01_CandidatsCA.pdf" target="_blank">Télécharger la présentation des candidats</a>
 
 ### **Procédure de vote et organisation des débats**
 
@@ -114,4 +114,4 @@ A chaque fin de vote, un récapitulatif du nombre de vote “Pour”, “Contre�
 
 Vous pouvez consulter le CR de l'AG via le lien suivant :
 
-<a class="downloadButton" href="/CR-VeloLongchamp_AG2020.pdf" download>Télécharger le CR</a>
+<a class="downloadButton" href="/CR-VeloLongchamp_AG2020.pdf" target="_blank">Télécharger le CR</a>
