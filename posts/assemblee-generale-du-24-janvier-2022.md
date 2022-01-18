@@ -32,7 +32,7 @@ Votes par main levée dans Microsoft Teams : Pour / Contre / Abstention
 * Panneaux de signalisation
 * Autres
 
-  Synthèse rapide des idées retenues du débat : 5’
+Synthèse rapide des idées retenues du débat : 5’
 
 ### **Documents**
 
