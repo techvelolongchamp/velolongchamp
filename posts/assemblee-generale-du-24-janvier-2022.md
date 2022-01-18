@@ -36,13 +36,17 @@ Votes par main levée dans Microsoft Teams : Pour / Contre / Abstention
 
 ### **Documents**
 
-Rapport moral : Bientôt disponible
+Rapport moral :
 
-Rapport financier : Bientôt disponible
+<a class="downloadButton" href="/AG02_RapportMoral.pdf"  target="_blank">Télécharger le rapport moral</a>
+
+Rapport financier :
+
+<a class="downloadButton" href="/AG02_RapportFinancier.pdf" target="_blank">Télécharger le rapport financier</a>
 
 Présentation des candidats au CA :
 
-<a class="downloadButton" href="/AG02_CandidatsCA.pdf" target=_"_blank">Télécharger la présentation des candidats</a>
+<a class="downloadButton" href="/AG02_CandidatsCA.pdf" target="_blank">Télécharger la présentation des candidats</a>
 
 ### **Procédure de vote et organisation des débats**
 
