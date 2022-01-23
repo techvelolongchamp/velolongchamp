@@ -30,6 +30,7 @@ Votes par main levée dans Microsoft Teams : Pour / Contre / Abstention
 
 * Fermeture de la route de Sèvres à Neuilly
 * Panneaux de signalisation
+* Proposition plan de circulation nord Longchamp
 * Autres
 
 Synthèse rapide des idées retenues du débat : 5’
