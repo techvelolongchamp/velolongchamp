@@ -36,7 +36,7 @@ fields:
 - name: startDate
   type: datetime
   label: Date début
-  description: ''
+  description: Si toute la journée, sélectionner n'importe quelle heure
   config:
     required: true
     date_format: DD/MM/YYYY
@@ -46,13 +46,15 @@ fields:
 - name: endDate
   type: datetime
   label: Date de fin
-  description: ''
+  description: Si toute la journée, sélectionner n'importe quelle heure
   config:
     required: true
     date_format: DD/MM/YYYY
     time_format: h:mm A
     display_utc: false
   default: now
+  showOnly:
+    value: false
 - name: recurrent
   type: boolean
   label: Récurrent ?
@@ -77,5 +79,8 @@ fields:
   showOnly:
     field: recurrent
     value: true
+- name: all_day
+  type: boolean
+  label: Toute la journée ?
 pages:
 - calendar/test-event.json
