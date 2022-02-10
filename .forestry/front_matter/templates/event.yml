@@ -25,7 +25,7 @@ fields:
     options:
     - Vélo Longchamp
     - France Galop
-    - Cycliste
+    - Club
     - Autre
     source:
       type: simple
@@ -53,5 +53,37 @@ fields:
     time_format: h:mm A
     display_utc: false
   default: now
+- name: recurrent
+  type: boolean
+  label: Récurrent
+  default: false
+- name: repeat
+  type: tag_list
+  default:
+  - Lu
+  label: Répeter le
+  showOnly:
+    field: recurrent
+    value: true
+- name: repeat_day
+  type: list
+  config:
+    use_select: true
+    min: 
+    max: 
+    source:
+      type: simple
+    options:
+    - Lundi
+    - Mardi
+    - Mercredi
+    - Jeudi
+    - Vendredi
+    - Samedi
+    - Dimanche
+  label: Repeat day
+  showOnly:
+    field: recurrent
+    value: true
 pages:
 - calendar/test-event.json
