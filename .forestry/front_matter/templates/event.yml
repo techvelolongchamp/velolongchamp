@@ -55,17 +55,9 @@ fields:
   default: now
 - name: recurrent
   type: boolean
-  label: Récurrent
+  label: Récurrent ?
   default: false
-- name: repeat
-  type: tag_list
-  default:
-  - Lu
-  label: Répeter le
-  showOnly:
-    field: recurrent
-    value: true
-- name: repeat_day
+- name: repeated_day
   type: list
   config:
     use_select: true
@@ -81,7 +73,7 @@ fields:
     - Vendredi
     - Samedi
     - Dimanche
-  label: Repeat day
+  label: 'Répéter le :'
   showOnly:
     field: recurrent
     value: true
