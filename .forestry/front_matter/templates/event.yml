@@ -17,6 +17,9 @@ fields:
     schema:
       format: markdown
   label: Description
+- name: all_day
+  type: boolean
+  label: Toute la journée ?
 - name: organizer
   type: select
   default: Vélo Longchamp
@@ -79,8 +82,5 @@ fields:
   showOnly:
     field: recurrent
     value: true
-- name: all_day
-  type: boolean
-  label: Toute la journée ?
 pages:
 - calendar/test-event.json
