@@ -2,8 +2,8 @@
   "organizer": "Vélo Longchamp",
   "title": "Test event",
   "description": "te",
-  "startDate": "2021-09-15T13:00:00+02:00",
-  "endDate": "2021-09-17T14:05:00+02:00",
+  "startDate": "2022-02-10T13:00:00+01:00",
+  "endDate": "2022-02-10T14:05:00+01:00",
   "recurrent": true,
   "repeat": [
 
@@ -13,5 +13,8 @@
     "Mercredi",
     "Mardi",
     "Lundi"
+  ],
+  "repeated_day": [
+
   ]
 }
