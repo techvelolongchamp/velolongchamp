@@ -94,5 +94,3 @@ fields:
   showOnly:
     field: recurrent
     value: true
-pages:
-- calendar/test-event.json
