@@ -85,7 +85,7 @@ fields:
 - name: end_date_repeat
   type: datetime
   label: Date de fin de récurrence
-  description: ''
+  description: non obligatoire
   config:
     required: false
     date_format: DD/MM/YYYY
