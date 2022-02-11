@@ -17,5 +17,7 @@
   "repeated_day": [
     "Mercredi",
     "Mardi"
-  ]
+  ],
+  "all_day": false,
+  "end_date_repeat": "2022-03-23T00:00:00+01:00"
 }
