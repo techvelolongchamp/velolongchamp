@@ -94,3 +94,5 @@ fields:
   showOnly:
     field: recurrent
     value: true
+pages:
+- calendar/criterium-handisport.json
