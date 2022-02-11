@@ -43,7 +43,7 @@ fields:
   config:
     required: true
     date_format: DD/MM/YYYY
-    time_format: h:mm A ZZ
+    time_format: HH:MM
     display_utc: false
   default: now
 - name: endDate
@@ -53,7 +53,7 @@ fields:
   config:
     required: true
     date_format: DD/MM/YYYY
-    time_format: h:mm A
+    time_format: HH:MM
     display_utc: false
   default: now
   showOnly:
@@ -79,6 +79,18 @@ fields:
     - Samedi
     - Dimanche
   label: 'Répéter le :'
+  showOnly:
+    field: recurrent
+    value: true
+- name: end_date_repeat
+  type: datetime
+  label: Date de fin de récurrence
+  description: ''
+  config:
+    required: false
+    date_format: DD/MM/YYYY
+    time_format: HH:MM
+    display_utc: false
   showOnly:
     field: recurrent
     value: true
