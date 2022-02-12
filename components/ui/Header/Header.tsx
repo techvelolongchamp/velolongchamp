@@ -2,6 +2,7 @@ import React from 'react'
 import { animateScroll as scroll } from 'react-scroll'
 import { useIntl } from 'react-intl'
 import Link from 'next/link'
+import { FaCalendarAlt } from 'react-icons/fa'
 
 import { useMatches } from '../../../hooks/useMatches'
 import LanguageSelect from '../../LanguageSelect'
@@ -15,6 +16,7 @@ import {
   TitleLink,
   Logo,
   NavList,
+  NavItemList,
   NavItem,
   ScrollItem,
   RightContainer,
@@ -115,7 +117,14 @@ const Header: React.FC<{ noScroll?: boolean; handleLink?: string[] }> = ({
         </LeftContainer>
         <RightContainer>
           <nav>
-            <NavList>
+            <NavItemList>
+              <li>
+                <Link href="/calendar" passHref>
+                  <NavItem id="calendar-link">
+                    <FaCalendarAlt />
+                  </NavItem>
+                </Link>
+              </li>
               <li>
                 <Link href="/blog" passHref>
                   <NavItem id="blog-link">
@@ -123,7 +132,7 @@ const Header: React.FC<{ noScroll?: boolean; handleLink?: string[] }> = ({
                   </NavItem>
                 </Link>
               </li>
-            </NavList>
+            </NavItemList>
           </nav>
           <Link href="/join" passHref>
             <ButtonLink id="join-link">
