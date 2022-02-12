@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Home unit tests should render correctly 1`] = `
-.c36 {
+.c37 {
   background: #f7f7F7;
   border-top: 1px solid #f7f7F7;
   color: #999999;
@@ -9,16 +9,16 @@ exports[`Home unit tests should render correctly 1`] = `
   text-align: center;
 }
 
-.c36 a {
+.c37 a {
   color: #999999;
 }
 
-.c36 a:hover {
+.c37 a:hover {
   -webkit-text-decoration: underline;
   text-decoration: underline;
 }
 
-.c37 {
+.c38 {
   background: #0d171b;
   bottom: 0;
   -webkit-transition: all 1s ease;
@@ -32,11 +32,11 @@ exports[`Home unit tests should render correctly 1`] = `
   z-index: 1000;
 }
 
-.c37 div {
+.c38 div {
   margin-top: 10px;
 }
 
-.c37 a {
+.c38 a {
   background: #6d6e71;
   border-radius: 5px;
   color: #fff;
@@ -44,7 +44,7 @@ exports[`Home unit tests should render correctly 1`] = `
   padding: 5px;
 }
 
-.c37 button {
+.c38 button {
   background: #419a1c;
   border-radius: 5px;
   color: #fff;
@@ -158,7 +158,7 @@ exports[`Home unit tests should render correctly 1`] = `
   color: #f7f7F7;
 }
 
-.c15 {
+.c16 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -172,7 +172,7 @@ exports[`Home unit tests should render correctly 1`] = `
   margin-left: 5px;
 }
 
-.c16 {
+.c17 {
   background: none;
   border: none;
   outline: none;
@@ -180,7 +180,7 @@ exports[`Home unit tests should render correctly 1`] = `
   width: 24px;
 }
 
-.c16:hover {
+.c17:hover {
   -webkit-text-decoration: underline;
   text-decoration: underline;
 }
@@ -256,9 +256,8 @@ exports[`Home unit tests should render correctly 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  list-style-type: none;
   border-left: 1px solid #6d6e71;
-  color: #999999;
-  cursor: pointer;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -271,7 +270,19 @@ exports[`Home unit tests should render correctly 1`] = `
   text-decoration: none;
 }
 
-.c13:hover {
+.c14 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #999999;
+  cursor: pointer;
+  padding: 0 20px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c14:hover {
   color: #666666;
 }
 
@@ -300,7 +311,7 @@ exports[`Home unit tests should render correctly 1`] = `
   color: #666666;
 }
 
-.c14 {
+.c15 {
   background: #6d6e71;
   border-radius: 5px;
   color: #fff;
@@ -314,60 +325,60 @@ exports[`Home unit tests should render correctly 1`] = `
   padding: 5px 0;
 }
 
-.c17 {
+.c18 {
   min-height: 600px;
   height: calc(100vh - 80px);
 }
 
-.c19 {
+.c20 {
   margin: 0 auto;
   max-width: 750px;
   padding: 10px;
   height: inherit;
 }
 
-.c18 {
+.c19 {
   min-height: 600px;
   background: #f7f7F7;
 }
 
-.c31 {
+.c32 {
   min-height: 350px;
   background: #f7f7F7;
-}
-
-.c20 {
-  color: #419a1c;
-  font-size: 30px;
-  margin: 20px 0;
-}
-
-.c23 {
-  min-height: 600px;
-}
-
-.c33 {
-  min-height: 350px;
-}
-
-.c24 {
-  color: #419a1c;
-  font-size: 30px;
-  margin: 20px 0;
 }
 
 .c21 {
+  color: #419a1c;
+  font-size: 30px;
+  margin: 20px 0;
+}
+
+.c24 {
+  min-height: 600px;
+}
+
+.c34 {
+  min-height: 350px;
+}
+
+.c25 {
+  color: #419a1c;
+  font-size: 30px;
+  margin: 20px 0;
+}
+
+.c22 {
   padding-bottom: 30px;
 }
 
-.c21 h3 {
+.c22 h3 {
   font-size: 16px;
   margin: 20px 0;
   color: #9e9577;
   font-weight: 600;
 }
 
-.c21 p {
+.c22 p {
   font-size: 14px;
   line-height: 20px;
   color: #0d171b;
@@ -375,7 +386,7 @@ exports[`Home unit tests should render correctly 1`] = `
   text-align: justify;
 }
 
-.c21 ol {
+.c22 ol {
   list-style: none;
   counter-reset: styled-counter;
   display: -webkit-box;
@@ -389,7 +400,7 @@ exports[`Home unit tests should render correctly 1`] = `
   padding: 0;
 }
 
-.c21 ol li {
+.c22 ol li {
   counter-increment: styled-counter;
   display: -webkit-box;
   display: -webkit-flex;
@@ -403,14 +414,14 @@ exports[`Home unit tests should render correctly 1`] = `
   width: 50%;
 }
 
-.c21 ol li h4 {
+.c22 ol li h4 {
   color: #6d6e71;
   font-size: 16px;
   font-weight: 500;
   padding-right: 10px;
 }
 
-.c21 ol li::before {
+.c22 ol li::before {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -428,12 +439,12 @@ exports[`Home unit tests should render correctly 1`] = `
   margin-right: 5px;
 }
 
-.c21 a {
+.c22 a {
   color: #6d6e71;
   font-weight: 800;
 }
 
-.c21 ul {
+.c22 ul {
   list-style: none;
   display: -webkit-box;
   display: -webkit-flex;
@@ -446,7 +457,7 @@ exports[`Home unit tests should render correctly 1`] = `
   padding: 0;
 }
 
-.c21 ul li {
+.c22 ul li {
   counter-increment: styled-counter;
   display: -webkit-box;
   display: -webkit-flex;
@@ -456,28 +467,28 @@ exports[`Home unit tests should render correctly 1`] = `
   width: 50%;
 }
 
-.c21 ul li h4 {
+.c22 ul li h4 {
   color: #6d6e71;
   font-size: 16px;
   font-weight: 500;
   padding-right: 10px;
 }
 
-.c22 {
+.c23 {
   text-align: center;
 }
 
-.c22 iframe {
+.c23 iframe {
   width: 560px;
   height: 315px;
 }
 
-.c26 {
+.c27 {
   text-align: center;
   margin: 20px;
 }
 
-.c27 {
+.c28 {
   background: #6d6e71;
   border-radius: 5px;
   color: #fff;
@@ -487,11 +498,11 @@ exports[`Home unit tests should render correctly 1`] = `
   padding: 10px;
 }
 
-.c25 {
+.c26 {
   padding-bottom: 20px;
 }
 
-.c25 p {
+.c26 p {
   color: #0d171b;
   font-size: 14px;
   line-height: 20px;
@@ -499,7 +510,7 @@ exports[`Home unit tests should render correctly 1`] = `
   text-align: justify;
 }
 
-.c25 ol {
+.c26 ol {
   counter-reset: styled-counter;
   display: -webkit-box;
   display: -webkit-flex;
@@ -513,7 +524,7 @@ exports[`Home unit tests should render correctly 1`] = `
   padding: 0;
 }
 
-.c25 ol li {
+.c26 ol li {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -527,7 +538,7 @@ exports[`Home unit tests should render correctly 1`] = `
   width: 100%;
 }
 
-.c25 ol li p {
+.c26 ol li p {
   color: #6d6e71;
   font-size: 16px;
   font-weight: 500;
@@ -535,7 +546,7 @@ exports[`Home unit tests should render correctly 1`] = `
   padding-right: 10px;
 }
 
-.c25 ol li::before {
+.c26 ol li::before {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -553,18 +564,18 @@ exports[`Home unit tests should render correctly 1`] = `
   margin-right: 10px;
 }
 
-.c28 {
+.c29 {
   padding-bottom: 30px;
 }
 
-.c28 h3 {
+.c29 h3 {
   color: #9e9577;
   font-size: 16px;
   font-weight: 600;
   margin: 20px 0;
 }
 
-.c29 {
+.c30 {
   color: #0d171b;
   font-size: 14px;
   font-style: italic;
@@ -574,7 +585,7 @@ exports[`Home unit tests should render correctly 1`] = `
   padding: 10px 0;
 }
 
-.c30 {
+.c31 {
   color: #0d171b;
   font-size: 14px;
   font-weight: 200;
@@ -582,11 +593,11 @@ exports[`Home unit tests should render correctly 1`] = `
   padding: 10px 0;
 }
 
-.c32 {
+.c33 {
   padding-bottom: 30px;
 }
 
-.c32 p {
+.c33 p {
   font-size: 14px;
   line-height: 20px;
   color: #0d171b;
@@ -594,24 +605,24 @@ exports[`Home unit tests should render correctly 1`] = `
   text-align: justify;
 }
 
-.c32 a {
+.c33 a {
   margin-left: 5px;
   color: #419a1c;
 }
 
-.c32 ul {
+.c33 ul {
   list-style: none;
   margin: 0 20px;
 }
 
-.c32 ul li {
+.c33 ul li {
   color: #6d6e71;
   font-size: 16px;
   font-weight: 500;
   padding: 10px 0;
 }
 
-.c34 {
+.c35 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -626,37 +637,37 @@ exports[`Home unit tests should render correctly 1`] = `
   padding-bottom: 30px;
 }
 
-.c34 p {
+.c35 p {
   font-size: 14px;
 }
 
-.c34 a {
+.c35 a {
   color: inherit;
 }
 
-.c35 {
+.c36 {
   padding-top: 10px;
 }
 
-.c35 svg {
+.c36 svg {
   width: 30px;
   height: 30px;
   margin: 0 5px;
 }
 
-.c35 .facebook {
+.c36 .facebook {
   color: #3b5998;
 }
 
-.c35 .twitter {
+.c36 .twitter {
   color: #00acee;
 }
 
-.c35 .youtube {
+.c36 .youtube {
   color: #ff0000;
 }
 
-.c35 .instagram {
+.c36 .instagram {
   color: #c13584;
 }
 
@@ -677,30 +688,36 @@ exports[`Home unit tests should render correctly 1`] = `
 
 @media screen and (max-width:640px) {
   .c14 {
+    padding: 0 10px;
+  }
+}
+
+@media screen and (max-width:640px) {
+  .c15 {
     font-size: 14px;
   }
 }
 
 @media (max-width:640px) {
-  .c17 {
+  .c18 {
     height: calc(100vh - 110px);
   }
 }
 
 @media (max-width:640px) {
-  .c21 ol li {
+  .c22 ol li {
     width: 100%;
   }
 }
 
 @media (max-width:640px) {
-  .c21 ul li {
+  .c22 ul li {
     width: 100%;
   }
 }
 
 @media (max-width:640px) {
-  .c22 iframe {
+  .c23 iframe {
     width: 100%;
     max-width: 560px;
     max-height: 315px;
@@ -847,11 +864,32 @@ exports[`Home unit tests should render correctly 1`] = `
           >
             <nav>
               <ul
-                class="c10"
+                class="c13"
               >
                 <li>
                   <a
-                    class="c13"
+                    class="c14"
+                    href="/calendar"
+                    id="calendar-link"
+                  >
+                    <svg
+                      fill="currentColor"
+                      height="1em"
+                      stroke="currentColor"
+                      stroke-width="0"
+                      viewBox="0 0 448 512"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M0 464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V192H0v272zm320-196c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12h-40c-6.6 0-12-5.4-12-12v-40zm0 128c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12h-40c-6.6 0-12-5.4-12-12v-40zM192 268c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12h-40c-6.6 0-12-5.4-12-12v-40zm0 128c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12h-40c-6.6 0-12-5.4-12-12v-40zM64 268c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12H76c-6.6 0-12-5.4-12-12v-40zm0 128c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12H76c-6.6 0-12-5.4-12-12v-40zM400 64h-48V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v48H160V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v48H48C21.5 64 0 85.5 0 112v48h448v-48c0-26.5-21.5-48-48-48z"
+                      />
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="c14"
                     href="/blog"
                     id="blog-link"
                   >
@@ -861,17 +899,17 @@ exports[`Home unit tests should render correctly 1`] = `
               </ul>
             </nav>
             <a
-              class="c14"
+              class="c15"
               href="/join"
               id="join-link"
             >
               Adhérer gratuitement
             </a>
             <div
-              class="c15"
+              class="c16"
             >
               <button
-                class="c16"
+                class="c17"
                 data-testid="select-en"
                 href="/"
                 id="select-en"
@@ -883,7 +921,7 @@ exports[`Home unit tests should render correctly 1`] = `
         </div>
       </header>
       <section
-        class="c17"
+        class="c18"
       >
         <img
           alt="Banniere.JPG"
@@ -895,19 +933,19 @@ exports[`Home unit tests should render correctly 1`] = `
         />
       </section>
       <section
-        class="c18"
+        class="c19"
         id="presentation"
       >
         <div
-          class="c19"
+          class="c20"
         >
           <h2
-            class="c20"
+            class="c21"
           >
             Présentation
           </h2>
           <article
-            class="c21"
+            class="c22"
           >
             <h3>
               Qui sommes-nous ?
@@ -1134,7 +1172,7 @@ exports[`Home unit tests should render correctly 1`] = `
               Decouvrez l'anneau de Longchamp avec la vidéo de Jeune Cycliste Dynamique :
             </h3>
             <div
-              class="c22"
+              class="c23"
             >
               <iframe
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
@@ -1148,29 +1186,29 @@ exports[`Home unit tests should render correctly 1`] = `
         </div>
       </section>
       <section
-        class="c23"
+        class="c24"
         id="join"
       >
         <div
-          class="c19"
+          class="c20"
         >
           <h2
-            class="c24"
+            class="c25"
             data-testid="h2-title"
           >
             Nous rejoindre (C'EST GRATUIT !)
           </h2>
           <article
-            class="c25"
+            class="c26"
           >
             <p>
               Devenir membre de VELO LONGCHAMP est gratuit et ne prend que quelques instants :
             </p>
             <div
-              class="c26"
+              class="c27"
             >
               <a
-                class="c27"
+                class="c28"
                 href="/join"
               >
                 Adhérer gratuitement
@@ -1239,7 +1277,7 @@ exports[`Home unit tests should render correctly 1`] = `
             </ol>
           </article>
           <article
-            class="c28"
+            class="c29"
           >
             <h3>
               FAQ :
@@ -1247,84 +1285,84 @@ exports[`Home unit tests should render correctly 1`] = `
             
     
             <p
-              class="c29"
+              class="c30"
             >
               Qui êtes-vous et pourquoi avoir créer une association ?
             </p>
             
     
             <p
-              class="c30"
+              class="c31"
             >
               Nous sommes des cyclistes qui roulons régulièrement sur l’anneau de Longchamp. Nous avons voulu créer une association pour améliorer les conditions de sécurité et de confort de l’anneau
             </p>
             
     
             <p
-              class="c29"
+              class="c30"
             >
               Je n’ai pas le temps de m’engager dans l’association mais je veux la soutenir, dois-je adhérer ?
             </p>
             
     
             <p
-              class="c30"
+              class="c31"
             >
               Oui ! Une fois adhérent, chacun décide du temps qu’il peut et veut consacrer à l’association
             </p>
             
     
             <p
-              class="c29"
+              class="c30"
             >
               Est-ce qu’il y a des conditions pour devenir adhérent ?
             </p>
             
     
             <p
-              class="c30"
+              class="c31"
             >
               La seule condition est de partager notre vision qu’il faut défendre et promouvoir l’anneau de Longchamp pour que les cyclistes puissent pratiquer le sport qu’ils aiment dans les meilleures conditions
             </p>
             
     
             <p
-              class="c29"
+              class="c30"
             >
               Je fais du vélotaf par l’anneau de Longchamp, puis-je adhérer ?
             </p>
             
     
             <p
-              class="c30"
+              class="c31"
             >
               Bien sûr ! Nous sommes davantage orientés cyclisme sportif mais nous avons besoin que nos membres représentent toutes les formes de cyclisme, y compris les vélotafeurs qui sont une part non négligeable des usagers de l’anneau
             </p>
             
     
             <p
-              class="c29"
+              class="c30"
             >
               Je viens très rarement à Longchamp, dois-je adhérer ?
             </p>
             
     
             <p
-              class="c30"
+              class="c31"
             >
               Oui ! Votre adhésion aidera à améliorer les conditions de l’anneau pour les cyclistes réguliers ou plus occasionnels. Un occasionnel a souvent de meilleures idées qu’un cycliste qui connait chaque piège de Longchamp (revêtement abimé, journées plus compliquées)
             </p>
             
     
             <p
-              class="c29"
+              class="c30"
             >
               Je suis déjà membre d’un autre club, puis-je adhérer ?
             </p>
             
     
             <p
-              class="c30"
+              class="c31"
             >
               Oui et surtout pensez à faire adhérer votre Club (pour que nous puissions représenter encore plus de pratiquants)
             </p>
@@ -1334,20 +1372,20 @@ exports[`Home unit tests should render correctly 1`] = `
         </div>
       </section>
       <section
-        class="c31"
+        class="c32"
         height="350px"
         id="meeting"
       >
         <div
-          class="c19"
+          class="c20"
         >
           <h2
-            class="c20"
+            class="c21"
           >
             Nous rencontrer
           </h2>
           <article
-            class="c32"
+            class="c33"
           >
             <p>
               Venez nous rencontrer à l'occasion d'événements informels que nous organiserons.
@@ -1388,21 +1426,21 @@ exports[`Home unit tests should render correctly 1`] = `
         </div>
       </section>
       <section
-        class="c33"
+        class="c34"
         height="350px"
         id="contact"
       >
         <div
-          class="c19"
+          class="c20"
         >
           <h2
-            class="c24"
+            class="c25"
             data-testid="h2-title"
           >
             Nous contacter
           </h2>
           <div
-            class="c34"
+            class="c35"
           >
             <img
               alt="logo"
@@ -1411,7 +1449,7 @@ exports[`Home unit tests should render correctly 1`] = `
               width="200"
             />
             <div
-              class="c35"
+              class="c36"
             >
               <a
                 class="facebook"
@@ -1514,7 +1552,7 @@ exports[`Home unit tests should render correctly 1`] = `
       </section>
     </main>
     <footer
-      class="c36"
+      class="c37"
     >
       <p>
         ©Copyright 2019
@@ -1537,7 +1575,7 @@ exports[`Home unit tests should render correctly 1`] = `
       </p>
     </footer>
     <div
-      class="c37"
+      class="c38"
     >
       <p>
         En poursuivant votre navigation sur notre site, vous acceptez l'utilisation de cookies afin de nous permettre d'améliorer votre expérience utilisateur.

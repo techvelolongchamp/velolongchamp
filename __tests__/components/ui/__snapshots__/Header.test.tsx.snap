@@ -86,22 +86,12 @@ exports[`Header unit tests should render correctly - no scroll 1`] = `
 }
 
 .c6 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  list-style-type: none;
-  margin: 0;
-}
-
-.c7 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  list-style-type: none;
   border-left: 1px solid #6d6e71;
-  color: #999999;
-  cursor: pointer;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -110,6 +100,18 @@ exports[`Header unit tests should render correctly - no scroll 1`] = `
   height: 30px;
   margin: 0 20px;
   padding-left: 20px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c7 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #999999;
+  cursor: pointer;
+  padding: 0 20px;
   -webkit-text-decoration: none;
   text-decoration: none;
 }
@@ -133,11 +135,17 @@ exports[`Header unit tests should render correctly - no scroll 1`] = `
 }
 
 @media screen and (max-width:640px) {
-  .c7 {
+  .c6 {
     font-size: 14px;
     border: none;
     padding: 0;
     margin: 0 10px;
+  }
+}
+
+@media screen and (max-width:640px) {
+  .c7 {
+    padding: 0 10px;
   }
 }
 
@@ -181,6 +189,27 @@ exports[`Header unit tests should render correctly - no scroll 1`] = `
             <li>
               <a
                 class="c7"
+                href="/calendar"
+                id="calendar-link"
+              >
+                <svg
+                  fill="currentColor"
+                  height="1em"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 448 512"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M0 464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V192H0v272zm320-196c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12h-40c-6.6 0-12-5.4-12-12v-40zm0 128c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12h-40c-6.6 0-12-5.4-12-12v-40zM192 268c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12h-40c-6.6 0-12-5.4-12-12v-40zm0 128c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12h-40c-6.6 0-12-5.4-12-12v-40zM64 268c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12H76c-6.6 0-12-5.4-12-12v-40zm0 128c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12H76c-6.6 0-12-5.4-12-12v-40zM400 64h-48V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v48H160V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v48H48C21.5 64 0 85.5 0 112v48h448v-48c0-26.5-21.5-48-48-48z"
+                  />
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a
+                class="c7"
                 href="/blog"
                 id="blog-link"
               >
@@ -215,7 +244,7 @@ exports[`Header unit tests should render correctly - no scroll 1`] = `
 `;
 
 exports[`Header unit tests should render correctly - with links 1`] = `
-.c10 {
+.c11 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -229,7 +258,7 @@ exports[`Header unit tests should render correctly - with links 1`] = `
   margin-left: 5px;
 }
 
-.c11 {
+.c12 {
   background: none;
   border: none;
   outline: none;
@@ -237,7 +266,7 @@ exports[`Header unit tests should render correctly - with links 1`] = `
   width: 24px;
 }
 
-.c11:hover {
+.c12:hover {
   -webkit-text-decoration: underline;
   text-decoration: underline;
 }
@@ -313,9 +342,8 @@ exports[`Header unit tests should render correctly - with links 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  list-style-type: none;
   border-left: 1px solid #6d6e71;
-  color: #999999;
-  cursor: pointer;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -328,7 +356,19 @@ exports[`Header unit tests should render correctly - with links 1`] = `
   text-decoration: none;
 }
 
-.c8:hover {
+.c9 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #999999;
+  cursor: pointer;
+  padding: 0 20px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c9:hover {
   color: #666666;
 }
 
@@ -357,7 +397,7 @@ exports[`Header unit tests should render correctly - with links 1`] = `
   color: #666666;
 }
 
-.c9 {
+.c10 {
   background: #6d6e71;
   border-radius: 5px;
   color: #fff;
@@ -382,6 +422,12 @@ exports[`Header unit tests should render correctly - with links 1`] = `
 
 @media screen and (max-width:640px) {
   .c9 {
+    padding: 0 10px;
+  }
+}
+
+@media screen and (max-width:640px) {
+  .c10 {
     font-size: 14px;
   }
 }
@@ -463,11 +509,32 @@ exports[`Header unit tests should render correctly - with links 1`] = `
       >
         <nav>
           <ul
-            class="c5"
+            class="c8"
           >
             <li>
               <a
-                class="c8"
+                class="c9"
+                href="/calendar"
+                id="calendar-link"
+              >
+                <svg
+                  fill="currentColor"
+                  height="1em"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 448 512"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M0 464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V192H0v272zm320-196c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12h-40c-6.6 0-12-5.4-12-12v-40zm0 128c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12h-40c-6.6 0-12-5.4-12-12v-40zM192 268c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12h-40c-6.6 0-12-5.4-12-12v-40zm0 128c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12h-40c-6.6 0-12-5.4-12-12v-40zM64 268c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12H76c-6.6 0-12-5.4-12-12v-40zm0 128c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12H76c-6.6 0-12-5.4-12-12v-40zM400 64h-48V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v48H160V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v48H48C21.5 64 0 85.5 0 112v48h448v-48c0-26.5-21.5-48-48-48z"
+                  />
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a
+                class="c9"
                 href="/blog"
                 id="blog-link"
               >
@@ -477,17 +544,17 @@ exports[`Header unit tests should render correctly - with links 1`] = `
           </ul>
         </nav>
         <a
-          class="c9"
+          class="c10"
           href="/join"
           id="join-link"
         >
           Adhérer gratuitement
         </a>
         <div
-          class="c10"
+          class="c11"
         >
           <button
-            class="c11"
+            class="c12"
             data-testid="select-en"
             href="/"
             id="select-en"
@@ -586,7 +653,7 @@ exports[`Header unit tests should render correctly - with links and mobile 1`] =
   cursor: pointer;
 }
 
-.c6 {
+.c11 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -595,7 +662,7 @@ exports[`Header unit tests should render correctly - with links and mobile 1`] =
   margin: 0;
 }
 
-.c11 {
+.c12 {
   width: 100%;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
@@ -603,14 +670,13 @@ exports[`Header unit tests should render correctly - with links and mobile 1`] =
   justify-content: space-between;
 }
 
-.c7 {
+.c6 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  list-style-type: none;
   border-left: 1px solid #6d6e71;
-  color: #999999;
-  cursor: pointer;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -623,11 +689,23 @@ exports[`Header unit tests should render correctly - with links and mobile 1`] =
   text-decoration: none;
 }
 
+.c7 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #999999;
+  cursor: pointer;
+  padding: 0 20px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
 .c7:hover {
   color: #666666;
 }
 
-.c12 {
+.c13 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -648,11 +726,11 @@ exports[`Header unit tests should render correctly - with links and mobile 1`] =
   text-decoration: none;
 }
 
-.c12:hover {
+.c13:hover {
   color: #666666;
 }
 
-.c13 {
+.c14 {
   font-size: 14px;
   margin: 0;
   padding: 0 5px;
@@ -673,11 +751,17 @@ exports[`Header unit tests should render correctly - with links and mobile 1`] =
 }
 
 @media screen and (max-width:640px) {
-  .c7 {
+  .c6 {
     font-size: 14px;
     border: none;
     padding: 0;
     margin: 0 10px;
+  }
+}
+
+@media screen and (max-width:640px) {
+  .c7 {
+    padding: 0 10px;
   }
 }
 
@@ -721,6 +805,27 @@ exports[`Header unit tests should render correctly - with links and mobile 1`] =
             <li>
               <a
                 class="c7"
+                href="/calendar"
+                id="calendar-link"
+              >
+                <svg
+                  fill="currentColor"
+                  height="1em"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 448 512"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M0 464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V192H0v272zm320-196c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12h-40c-6.6 0-12-5.4-12-12v-40zm0 128c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12h-40c-6.6 0-12-5.4-12-12v-40zM192 268c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12h-40c-6.6 0-12-5.4-12-12v-40zm0 128c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12h-40c-6.6 0-12-5.4-12-12v-40zM64 268c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12H76c-6.6 0-12-5.4-12-12v-40zm0 128c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12H76c-6.6 0-12-5.4-12-12v-40zM400 64h-48V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v48H160V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v48H48C21.5 64 0 85.5 0 112v48h448v-48c0-26.5-21.5-48-48-48z"
+                  />
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a
+                class="c7"
                 href="/blog"
                 id="blog-link"
               >
@@ -751,13 +856,13 @@ exports[`Header unit tests should render correctly - with links and mobile 1`] =
       </div>
     </div>
     <ul
-      class="c6 c11"
+      class="c11 c12"
     >
       <li
         data-testid="mobile-item"
       >
         <a
-          class="c12 c13"
+          class="c13 c14"
           id="presentationscrolllink"
           title="Présentation"
         >
@@ -768,7 +873,7 @@ exports[`Header unit tests should render correctly - with links and mobile 1`] =
         data-testid="mobile-item"
       >
         <a
-          class="c12 c13"
+          class="c13 c14"
           id="joinscrolllink"
           title="Nous rejoindre"
         >
@@ -779,7 +884,7 @@ exports[`Header unit tests should render correctly - with links and mobile 1`] =
         data-testid="mobile-item"
       >
         <a
-          class="c12 c13"
+          class="c13 c14"
           id="meetingscrolllink"
           title="Nous rencontrer"
         >
@@ -790,7 +895,7 @@ exports[`Header unit tests should render correctly - with links and mobile 1`] =
         data-testid="mobile-item"
       >
         <a
-          class="c12 c13"
+          class="c13 c14"
           id="contactscrolllink"
           title="Nous contacter"
         >
@@ -888,22 +993,12 @@ exports[`Header unit tests should render correctly 1`] = `
 }
 
 .c6 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  list-style-type: none;
-  margin: 0;
-}
-
-.c7 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  list-style-type: none;
   border-left: 1px solid #6d6e71;
-  color: #999999;
-  cursor: pointer;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -912,6 +1007,18 @@ exports[`Header unit tests should render correctly 1`] = `
   height: 30px;
   margin: 0 20px;
   padding-left: 20px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c7 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #999999;
+  cursor: pointer;
+  padding: 0 20px;
   -webkit-text-decoration: none;
   text-decoration: none;
 }
@@ -935,11 +1042,17 @@ exports[`Header unit tests should render correctly 1`] = `
 }
 
 @media screen and (max-width:640px) {
-  .c7 {
+  .c6 {
     font-size: 14px;
     border: none;
     padding: 0;
     margin: 0 10px;
+  }
+}
+
+@media screen and (max-width:640px) {
+  .c7 {
+    padding: 0 10px;
   }
 }
 
@@ -980,6 +1093,27 @@ exports[`Header unit tests should render correctly 1`] = `
           <ul
             class="c6"
           >
+            <li>
+              <a
+                class="c7"
+                href="/calendar"
+                id="calendar-link"
+              >
+                <svg
+                  fill="currentColor"
+                  height="1em"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 448 512"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M0 464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V192H0v272zm320-196c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12h-40c-6.6 0-12-5.4-12-12v-40zm0 128c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12h-40c-6.6 0-12-5.4-12-12v-40zM192 268c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12h-40c-6.6 0-12-5.4-12-12v-40zm0 128c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12h-40c-6.6 0-12-5.4-12-12v-40zM64 268c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12H76c-6.6 0-12-5.4-12-12v-40zm0 128c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12H76c-6.6 0-12-5.4-12-12v-40zM400 64h-48V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v48H160V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v48H48C21.5 64 0 85.5 0 112v48h448v-48c0-26.5-21.5-48-48-48z"
+                  />
+                </svg>
+              </a>
+            </li>
             <li>
               <a
                 class="c7"
