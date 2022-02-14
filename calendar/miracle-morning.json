@@ -1,0 +1,13 @@
+{
+  "organizer": "Club",
+  "startDate": "2022-02-16T06:00:00+01:00",
+  "endDate": "2022-02-16T08:00:00+01:00",
+  "title": "Miracle Morning",
+  "description": "https://www.strava.com/clubs/MiracleMorningLongchamp",
+  "all_day": false,
+  "recurrent": true,
+  "repeated_day": [
+    "Mercredi"
+  ],
+  "end_date_repeat": ""
+}
