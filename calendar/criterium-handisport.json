@@ -6,8 +6,6 @@
   "description": "",
   "all_day": false,
   "recurrent": false,
-  "repeated_day": [
-
-  ],
+  "repeated_day": [],
   "end_date_repeat": ""
 }

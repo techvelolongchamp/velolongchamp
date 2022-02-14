@@ -117,6 +117,8 @@ const en = {
   'join.problem':
     'If you come across a problem with the form, you can directly access it on HelloAsso website by clicking <a>here</a>',
   'calendar.title': 'Agenda',
+  'calendar.event.start': 'Start:',
+  'calendar.event.end': 'End:',
 }
 
 export default en

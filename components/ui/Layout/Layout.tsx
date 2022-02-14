@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from 'react'
+import React, { useState, useEffect } from 'react'
 import { FiAlertTriangle } from 'react-icons/fi'
 import { useIntl } from 'react-intl'
 
@@ -13,26 +13,21 @@ import {
   Button,
 } from './Layout.styled'
 
+import useClickOutside from '../../../hooks/useClickOutside'
+
 const Layout: React.FC<{ alert?: boolean }> = ({ children, alert }) => {
   const { formatMessage } = useIntl()
   const [showAlert, setShowAlert] = useState(!!alert)
-  const alertRef = useRef<HTMLDivElement>(null)
-
-  const handleClickOutside = (event: MouseEvent) => {
-    if (alertRef.current && !alertRef.current.contains(event.target as Node)) {
-      setShowAlert(false)
-    }
-  }
+  const { wrapperRef } = useClickOutside(() => setShowAlert(false))
 
   const hideAlert = () => {
     if (showAlert) setShowAlert(false)
   }
 
   useEffect(() => {
-    document.addEventListener('mousedown', handleClickOutside)
-    setTimeout(hideAlert, 6000)
+    const timeout = setTimeout(hideAlert, 6000)
     return () => {
-      document.removeEventListener('mousedown', handleClickOutside)
+      clearTimeout(timeout)
     }
   })
 
@@ -43,7 +38,7 @@ const Layout: React.FC<{ alert?: boolean }> = ({ children, alert }) => {
 
   return (
     <Container>
-      <div ref={alertRef}>
+      <div ref={wrapperRef}>
         <AlertContainer
           showAlert={showAlert}
           onClick={handleClick}
