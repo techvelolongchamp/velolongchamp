@@ -13,16 +13,33 @@ import {
   ModalContainer,
   Header,
   Title,
+  Organizer,
   Date,
   Content,
 } from './Modal.styled'
 
-const Modal = ({ onClose, description, title, start, end }: any) => {
+type ModalProps = {
+  onClose: () => void
+  title?: string
+  description?: string
+  organizer?: string
+  start?: Date
+  end?: Date
+}
+
+const Modal: React.FC<ModalProps> = ({
+  onClose,
+  description,
+  title,
+  organizer,
+  start,
+  end,
+}) => {
   const { formatMessage } = useIntl()
   const { locale } = useRouter()
   useLockBodyScroll()
+
   const { wrapperRef } = useClickOutside(() => {
-    console.log('hello')
     onClose()
   })
 
@@ -39,6 +56,9 @@ const Modal = ({ onClose, description, title, start, end }: any) => {
             <Title>{title}</Title>
             <IoCloseOutline onClick={handleCloseClick} />
           </Header>
+          {organizer && (
+            <Organizer organizer={organizer}>{organizer}</Organizer>
+          )}
           {start && (
             <Date>{`${formatMessage({
               id: 'calendar.event.start',

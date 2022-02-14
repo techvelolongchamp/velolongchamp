@@ -27,7 +27,7 @@ export type ForestryEvent = {
   end_date_repeat?: string
 }
 
-export type CalendarEvents = {
+export type CalendarEvents = ForestryEvent & {
   title: string
   start: Date
   end: Date

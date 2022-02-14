@@ -1,7 +1,7 @@
 import React, { useMemo, useState } from 'react'
 import { useIntl } from 'react-intl'
 import { useRouter } from 'next/router'
-import { Calendar, dateFnsLocalizer } from 'react-big-calendar'
+import { Calendar, dateFnsLocalizer, EventPropGetter } from 'react-big-calendar'
 import { GetStaticProps } from 'next'
 
 import { format, parse, startOfWeek, getDay } from 'date-fns'
@@ -14,6 +14,7 @@ import Modal from '../components/Modal'
 import ThirdarySection from '../components/sections/ThirdarySection'
 import { getAllEvents, ForestryEvent, CalendarEvents } from '../utils/calendar'
 import { locales } from '../utils/locale'
+import theme from '../styles/theme'
 
 import 'react-big-calendar/lib/css/react-big-calendar.css'
 
@@ -37,6 +38,19 @@ const localizer = dateFnsLocalizer({
 const styles = { height: 'calc(100vh - 230px)' }
 const minTime = new Date('2022-01-01T06:00:00+01:00')
 const maxTime = new Date('2022-01-01T22:00:00+01:00')
+
+const eventPropGetter: EventPropGetter<CalendarEvents> = (event) => {
+  switch (event.organizer) {
+    case 'Vélo Longchamp':
+      return { style: { backgroundColor: theme.colors.brandPrimary } }
+    case 'Club':
+      return { style: { backgroundColor: theme.colors.brandSecondary } }
+    case 'France Galop':
+      return { style: { backgroundColor: theme.colors.brandTertiary } }
+    default:
+      return {}
+  }
+}
 
 const CalendarPage: React.FC<{ rawEvents: ForestryEvent[] }> = ({
   rawEvents,
@@ -109,6 +123,7 @@ const CalendarPage: React.FC<{ rawEvents: ForestryEvent[] }> = ({
             min={minTime}
             max={maxTime}
             onSelectEvent={onSelectEvent}
+            eventPropGetter={eventPropGetter}
           />
         </ThirdarySection>
       </Layout>

@@ -21,6 +21,7 @@ export const Overlay = styled.div`
 export const ModalContainer = styled.div`
   background-color: white;
   border-radius: 5px;
+  color: ${({ theme }) => theme.colors.grey};
   font-size: ${({ theme }) => theme.fonts.medium};
   font-weight: 100;
   max-height: 100%;
@@ -44,7 +45,7 @@ export const Header = styled.div`
   position: relative;
 
   & svg {
-    color: ${({ theme }) => theme.grey};
+    color: ${({ theme }) => theme.colors.grey};
     cursor: pointer;
     font-size: 25px;
     position: absolute;
@@ -59,15 +60,28 @@ export const Header = styled.div`
 `
 
 export const Title = styled.span`
-  color: ${({ theme }) => theme.grey};
   display: inline;
   font-family: 'Open Sans', sans-serif;
   font-size: ${({ theme }) => theme.fonts.xlarge};
   font-weight: 300;
+`
 
-  @media screen and (max-width: 640px) {
-    font-size: ${({ theme }) => theme.fonts.xlarge};
-  }
+export const Organizer = styled.div<{ organizer: string }>`
+  color: ${({ theme, organizer }) => {
+    switch (organizer) {
+      case 'Vélo Longchamp':
+        return theme.colors.brandPrimary
+      case 'Club':
+        return theme.colors.brandSecondary
+      case 'France Galop':
+        return theme.colors.brandTertiary
+      default:
+        return theme.colors.grey
+    }
+  }};
+  font-size: ${({ theme }) => theme.fonts.large};
+  font-weight: 400;
+  margin: ${({ theme }) => theme.spacing.s} 0;
 `
 
 export const Date = styled.div`
