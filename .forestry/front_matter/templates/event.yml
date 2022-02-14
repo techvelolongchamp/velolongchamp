@@ -96,5 +96,6 @@ fields:
     value: true
 pages:
 - calendar/criterium-handisport.json
+- calendar/fast-pack-week-end.json
 - calendar/fast-pack.json
 - calendar/miracle-morning.json
