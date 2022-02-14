@@ -1,19 +1,19 @@
-import React, { useMemo } from 'react'
+import React, { useMemo, useState } from 'react'
 import { useIntl } from 'react-intl'
 import { useRouter } from 'next/router'
 import { Calendar, dateFnsLocalizer } from 'react-big-calendar'
 import { GetStaticProps } from 'next'
 
 import { format, parse, startOfWeek, getDay } from 'date-fns'
-import enGB from 'date-fns/locale/en-GB'
-import frFR from 'date-fns/locale/fr'
 
 import Head from '../components/Head'
 import Layout from '../components/ui/Layout'
 import Header from '../components/ui/Header'
+import Modal from '../components/Modal'
 
 import ThirdarySection from '../components/sections/ThirdarySection'
 import { getAllEvents, ForestryEvent, CalendarEvents } from '../utils/calendar'
+import { locales } from '../utils/locale'
 
 import 'react-big-calendar/lib/css/react-big-calendar.css'
 
@@ -26,11 +26,6 @@ export const formatEvents = (forestryEvent: ForestryEvent): CalendarEvents => {
   }
 }
 
-const locales = {
-  'en-GB': enGB,
-  'fr-FR': frFR,
-}
-
 const localizer = dateFnsLocalizer({
   format,
   parse,
@@ -40,11 +35,17 @@ const localizer = dateFnsLocalizer({
 })
 
 const styles = { height: 'calc(100vh - 230px)' }
+const minTime = new Date('2022-01-01T06:00:00+01:00')
+const maxTime = new Date('2022-01-01T22:00:00+01:00')
 
 const CalendarPage: React.FC<{ rawEvents: ForestryEvent[] }> = ({
   rawEvents,
 }) => {
   const events = rawEvents.map((e) => formatEvents(e))
+  const [selectedEvent, setSelectedEvent] = useState<CalendarEvents | null>(
+    null
+  )
+  const [showModal, setShowModal] = useState(false)
   const { locale } = useRouter()
   const { formatMessage } = useIntl()
 
@@ -71,28 +72,48 @@ const CalendarPage: React.FC<{ rawEvents: ForestryEvent[] }> = ({
     [locale]
   )
 
+  const onSelectEvent = (
+    event: CalendarEvents,
+    e: React.SyntheticEvent<HTMLElement>
+  ) => {
+    e.preventDefault()
+    setSelectedEvent(event)
+    setShowModal(true)
+  }
+
+  const onCloseEvent = () => {
+    setShowModal(false)
+    setSelectedEvent(null)
+  }
+
   return (
-    <Layout>
-      <Head title={formatMessage({ id: 'calendar.title' })} />
-      <Header noScroll />
-      <ThirdarySection
-        title={formatMessage({ id: 'calendar.title' })}
-        useH1
-        maxWidth="1000px"
-      >
-        <Calendar
-          localizer={localizer}
-          defaultView="month"
-          startAccessor="start"
-          endAccessor="end"
-          culture={culture}
-          events={events}
-          style={styles}
-          messages={messages}
-          popup
-        />
-      </ThirdarySection>
-    </Layout>
+    <>
+      <Layout>
+        <Head title={formatMessage({ id: 'calendar.title' })} />
+        <Header noScroll />
+        <ThirdarySection
+          title={formatMessage({ id: 'calendar.title' })}
+          useH1
+          maxWidth="1000px"
+        >
+          <Calendar
+            localizer={localizer}
+            defaultView="month"
+            startAccessor="start"
+            endAccessor="end"
+            culture={culture}
+            events={events}
+            style={styles}
+            messages={messages}
+            popup
+            min={minTime}
+            max={maxTime}
+            onSelectEvent={onSelectEvent}
+          />
+        </ThirdarySection>
+      </Layout>
+      {showModal && <Modal onClose={onCloseEvent} {...selectedEvent} />}
+    </>
   )
 }
 
