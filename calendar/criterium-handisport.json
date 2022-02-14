@@ -3,9 +3,11 @@
   "startDate": "2022-03-26T13:00:00+01:00",
   "endDate": "2022-03-26T17:00:04+01:00",
   "title": "Critérium Handisport",
-  "description": "",
+  "description": "ASLAA PARIS TANDEM CLUB\n13h : course d’une heure pour les handbikes\n15h : course des solos et tandems plus cycliste FFC D1 D2 D3 D4",
   "all_day": false,
   "recurrent": false,
-  "repeated_day": [],
+  "repeated_day": [
+
+  ],
   "end_date_repeat": ""
 }
