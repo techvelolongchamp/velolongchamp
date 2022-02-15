@@ -4,7 +4,7 @@ import { useRouter } from 'next/router'
 import { Calendar, dateFnsLocalizer, EventPropGetter } from 'react-big-calendar'
 import { GetStaticProps } from 'next'
 
-import { format, parse, startOfWeek, getDay } from 'date-fns'
+import { format, parse, startOfWeek, getDay, parseISO } from 'date-fns'
 
 import Head from '../components/Head'
 import Layout from '../components/ui/Layout'
@@ -21,8 +21,8 @@ import 'react-big-calendar/lib/css/react-big-calendar.css'
 export const formatEvents = (forestryEvent: ForestryEvent): CalendarEvents => {
   return {
     ...forestryEvent,
-    start: new Date(forestryEvent.startDate),
-    end: new Date(forestryEvent.endDate),
+    start: parseISO(forestryEvent.startDate),
+    end: parseISO(forestryEvent.endDate),
     allDay: !!forestryEvent.all_day,
   }
 }
@@ -36,8 +36,8 @@ const localizer = dateFnsLocalizer({
 })
 
 const styles = { height: 'calc(100vh - 230px)' }
-const minTime = new Date('2022-01-01T06:00:00+01:00')
-const maxTime = new Date('2022-01-01T22:00:00+01:00')
+const minTime = parseISO('2022-01-01T06:00:00+01:00')
+const maxTime = parseISO('2022-01-01T22:00:00+01:00')
 
 const eventPropGetter: EventPropGetter<CalendarEvents> = (event) => {
   switch (event.organizer) {
@@ -112,7 +112,7 @@ const CalendarPage: React.FC<{ rawEvents: ForestryEvent[] }> = ({
         >
           <Calendar
             localizer={localizer}
-            defaultView="month"
+            defaultView="week"
             startAccessor="start"
             endAccessor="end"
             culture={culture}
