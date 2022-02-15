@@ -1,6 +1,6 @@
 import fs from 'fs'
 import path from 'path'
-import { sub, add, startOfDay, endOfDay, nextDay } from 'date-fns'
+import { sub, add, startOfDay, endOfDay, nextDay, parseISO } from 'date-fns'
 
 const calendarDirectory = path.join(process.cwd(), 'calendar')
 
@@ -52,12 +52,13 @@ const repeatEvents = (rawEvents: ForestryEvent[]) => {
   rawEvents.forEach((e) => {
     if (e.recurrent && e.repeated_day && e.repeated_day.length > 0) {
       const maxEventDate = e.end_date_repeat
-        ? endOfDay(new Date(e.end_date_repeat))
+        ? endOfDay(parseISO(e.end_date_repeat))
         : maxDate
       e.repeated_day.forEach((day) => {
         const dayNumber = Days[day]
-        let nextStartDate = nextDay(new Date(e.startDate), dayNumber)
-        let nextEndDate = nextDay(new Date(e.endDate), dayNumber)
+        let nextStartDate = nextDay(parseISO(e.startDate), dayNumber)
+        let nextEndDate = nextDay(parseISO(e.endDate), dayNumber)
+
         while (nextStartDate < maxEventDate) {
           const nextEvent = {
             ...e,
@@ -88,6 +89,6 @@ export function getAllEvents() {
   const events = repeatEvents(rawEvents)
 
   return events.filter(
-    (e) => new Date(e.endDate) > minDate || new Date(e.startDate) < maxDate
+    (e) => parseISO(e.endDate) > minDate || parseISO(e.startDate) < maxDate
   )
 }
