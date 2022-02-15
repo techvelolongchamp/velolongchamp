@@ -17,6 +17,11 @@ fields:
     schema:
       format: markdown
   label: Description
+- name: url
+  type: text
+  config:
+    required: false
+  label: Lien externe
 - name: all_day
   type: boolean
   label: Toute la journée ?
