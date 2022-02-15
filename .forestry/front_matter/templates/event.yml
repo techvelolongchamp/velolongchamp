@@ -50,6 +50,7 @@ fields:
     date_format: DD/MM/YYYY
     time_format: HH:mm
     display_utc: false
+    export_format: YYYY-MM-DD HH:mm ZZ
   default: now
 - name: endDate
   type: datetime
