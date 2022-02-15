@@ -3,12 +3,13 @@
   "startDate": "2022-02-16T06:00:00+01:00",
   "endDate": "2022-02-16T08:00:00+01:00",
   "title": "Miracle Morning",
-  "description": "https://www.strava.com/clubs/MiracleMorningLongchamp",
+  "description": "En fonction de la météo, Miracle Morning vous propose des entrainements fractionnés avec la pyramide classique 1-2-3-3-2-1",
   "all_day": false,
   "recurrent": true,
   "repeated_day": [
     "Dimanche",
     "Mercredi"
   ],
-  "end_date_repeat": ""
+  "end_date_repeat": "",
+  "url": "https://www.strava.com/clubs/MiracleMorningLongchamp"
 }
