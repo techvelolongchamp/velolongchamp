@@ -119,6 +119,7 @@ const en = {
   'calendar.title': 'Agenda',
   'calendar.event.start': 'Start:',
   'calendar.event.end': 'End:',
+  'calendar.event.more': 'More info',
 }
 
 export default en

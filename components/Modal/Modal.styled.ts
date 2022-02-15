@@ -60,10 +60,9 @@ export const Header = styled.div`
 `
 
 export const Title = styled.span`
-  display: inline;
-  font-family: 'Open Sans', sans-serif;
   font-size: ${({ theme }) => theme.fonts.xlarge};
   font-weight: 300;
+  color: ${({ theme }) => theme.colors.brandPrimary};
 `
 
 export const Organizer = styled.div<{ organizer: string }>`
@@ -92,4 +91,15 @@ export const Date = styled.div`
 export const Content = styled.div`
   height: calc(100% - 65px);
   padding-top: 20px;
+`
+
+export const More = styled.div`
+  text-align: center;
+  margin: ${({ theme }) => theme.spacing.s} 0;
+  font-size: ${({ theme }) => theme.fonts.large};
+  font-weight: 400;
+
+  a {
+    color: black;
+  }
 `

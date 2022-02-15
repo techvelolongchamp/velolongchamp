@@ -16,6 +16,7 @@ import {
   Organizer,
   Date,
   Content,
+  More,
 } from './Modal.styled'
 
 type ModalProps = {
@@ -25,6 +26,7 @@ type ModalProps = {
   organizer?: string
   start?: Date
   end?: Date
+  url?: string
 }
 
 const Modal: React.FC<ModalProps> = ({
@@ -34,6 +36,7 @@ const Modal: React.FC<ModalProps> = ({
   organizer,
   start,
   end,
+  url,
 }) => {
   const { formatMessage } = useIntl()
   const { locale } = useRouter()
@@ -69,7 +72,22 @@ const Modal: React.FC<ModalProps> = ({
               id: 'calendar.event.end',
             })} ${formatDate(end, locale, 'short')}`}</Date>
           )}
-          <Content>{description}</Content>
+          {description && (
+            <Content
+              dangerouslySetInnerHTML={{
+                __html: description.replace(/\n/g, '</br>'),
+              }}
+            />
+          )}
+          {url && (
+            <More>
+              <a href={url} target="_blank" rel="noreferrer">
+                {formatMessage({
+                  id: 'calendar.event.more',
+                })}
+              </a>
+            </More>
+          )}
         </ModalContainer>
       </Overlay>
     </Portal>

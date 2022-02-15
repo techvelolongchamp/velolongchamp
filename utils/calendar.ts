@@ -25,6 +25,7 @@ export type ForestryEvent = {
   repeated_day?: (keyof typeof Days)[]
   all_day?: boolean
   end_date_repeat?: string
+  url?: string
 }
 
 export type CalendarEvents = ForestryEvent & {

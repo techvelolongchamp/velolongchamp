@@ -120,6 +120,7 @@ const fr = {
   'calendar.title': 'Calendrier',
   'calendar.event.start': 'Début :',
   'calendar.event.end': 'Fin :',
+  'calendar.event.more': "Plus d'infos",
 }
 
 export default fr
