@@ -1,6 +1,15 @@
 import fs from 'fs'
 import path from 'path'
-import { sub, add, startOfDay, endOfDay, nextDay, parseISO } from 'date-fns'
+import {
+  sub,
+  add,
+  startOfDay,
+  endOfDay,
+  nextDay,
+  parseISO,
+  getHours,
+  setHours,
+} from 'date-fns'
 
 const calendarDirectory = path.join(process.cwd(), 'calendar')
 
@@ -54,10 +63,21 @@ const repeatEvents = (rawEvents: ForestryEvent[]) => {
       const maxEventDate = e.end_date_repeat
         ? endOfDay(parseISO(e.end_date_repeat))
         : maxDate
+      const eventStartDate = parseISO(e.startDate)
+      const eventEndDate = parseISO(e.endDate)
+      const eventStartHour = getHours(eventStartDate)
+      const eventEndHour = getHours(eventEndDate)
+
       e.repeated_day.forEach((day) => {
         const dayNumber = Days[day]
-        let nextStartDate = nextDay(parseISO(e.startDate), dayNumber)
-        let nextEndDate = nextDay(parseISO(e.endDate), dayNumber)
+        let nextStartDate = setHours(
+          nextDay(eventStartDate, dayNumber),
+          eventStartHour
+        )
+        let nextEndDate = setHours(
+          nextDay(eventEndDate, dayNumber),
+          eventEndHour
+        )
 
         while (nextStartDate < maxEventDate) {
           const nextEvent = {
