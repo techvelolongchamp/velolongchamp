@@ -55,7 +55,10 @@ const eventPropGetter: EventPropGetter<CalendarEvents> = (event) => {
 const CalendarPage: React.FC<{ rawEvents: ForestryEvent[] }> = ({
   rawEvents,
 }) => {
-  const events = rawEvents.map((e) => formatEvents(e))
+  const events = useMemo(
+    () => rawEvents.map((e) => formatEvents(e)),
+    [rawEvents]
+  )
   const [selectedEvent, setSelectedEvent] = useState<CalendarEvents | null>(
     null
   )
