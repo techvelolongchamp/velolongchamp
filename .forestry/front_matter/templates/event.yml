@@ -103,6 +103,7 @@ fields:
 pages:
 - calendar/course-hippodrome-1.json
 - calendar/course-hippodrome-2.json
+- calendar/course-hippodrome-3.json
 - calendar/course-hippodrome.json
 - calendar/criterium-handisport.json
 - calendar/fast-pack-week-end.json
