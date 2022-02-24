@@ -101,6 +101,7 @@ fields:
     field: recurrent
     value: true
 pages:
+- calendar/course-hippodrome-1.json
 - calendar/course-hippodrome.json
 - calendar/criterium-handisport.json
 - calendar/fast-pack-week-end.json
