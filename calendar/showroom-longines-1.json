@@ -5,7 +5,7 @@
   "title": "Showroom Longines",
   "description": "",
   "url": "",
-  "all_day": false,
+  "all_day": true,
   "recurrent": false,
   "repeated_day": [
 
