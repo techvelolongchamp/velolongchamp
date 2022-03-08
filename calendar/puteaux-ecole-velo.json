@@ -2,9 +2,9 @@
   "organizer": "Club",
   "startDate": "2022-03-09T14:30:08+01:00",
   "endDate": "2022-03-09T16:00:08+01:00",
-  "title": "Puteaux - Ecole vélo",
-  "description": "Entrainement du club, pour les 6 à 15ans",
-  "url": "",
+  "title": "Entrainement - Ecole Vélo Puteaux",
+  "description": "Entrainement du club, pour les 6 à 15ans.\n\nLien : http://csmputeauxcyclisme.info/",
+  "url": "http://csmputeauxcyclisme.info/",
   "all_day": false,
   "recurrent": true,
   "repeated_day": [
