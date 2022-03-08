@@ -1,0 +1,14 @@
+{
+  "organizer": "Club",
+  "startDate": "2022-03-09T14:30:08+01:00",
+  "endDate": "2022-03-09T16:00:08+01:00",
+  "title": "Puteaux - Ecole vélo",
+  "description": "Entrainement du club, pour les 6 à 15ans",
+  "url": "",
+  "all_day": false,
+  "recurrent": true,
+  "repeated_day": [
+    "Mercredi"
+  ],
+  "end_date_repeat": ""
+}
