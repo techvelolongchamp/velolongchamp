@@ -13,13 +13,13 @@ import Join from '../components/Join'
 import Meet from '../components/Meet'
 import Contact from '../components/Contact'
 
-const handleLink = ['presentation', 'join', 'meeting', 'contact']
+const handleLink = ['presentation']
 
 export default function Home() {
   const presentation = useRef<HTMLDivElement>(null)
-  const join = useRef<HTMLDivElement>(null)
-  const meeting = useRef<HTMLDivElement>(null)
-  const contact = useRef<HTMLDivElement>(null)
+  // const join = useRef<HTMLDivElement>(null)
+  // const meeting = useRef<HTMLDivElement>(null)
+  // const contact = useRef<HTMLDivElement>(null)
   const { formatMessage } = useIntl()
   return (
     <Layout alert>
@@ -33,14 +33,14 @@ export default function Home() {
       >
         <Presentation />
       </SecondarySection>
-      <ThirdarySection
+      {/* <ThirdarySection
         id={handleLink[1]}
         title={formatMessage({ id: 'joinUs.sectionTitle' })}
         ref={join}
       >
         <Join />
-      </ThirdarySection>
-      <SecondarySection
+      </ThirdarySection> */}
+      {/* <SecondarySection
         id={handleLink[2]}
         ref={meeting}
         title={formatMessage({ id: 'meetUs.sectionTitle' })}
@@ -55,7 +55,7 @@ export default function Home() {
         height="350px"
       >
         <Contact />
-      </ThirdarySection>
+      </ThirdarySection> */}
     </Layout>
   )
 }

@@ -32,7 +32,7 @@ const Presentation = () => {
         }
       )}
 
-      <h3>{formatMessage({ id: 'presentation.commitments.title' })}</h3>
+      {/* <h3>{formatMessage({ id: 'presentation.commitments.title' })}</h3>
       <ol>
         {formatMessage(
           { id: 'presentation.commitments.list' },
@@ -45,8 +45,8 @@ const Presentation = () => {
             strong: (chunk) => <strong>{chunk}</strong>,
           }
         )}
-      </ol>
-      <h3>{formatMessage({ id: 'presentation.missions.title' })}</h3>
+      </ol> */}
+      {/* <h3>{formatMessage({ id: 'presentation.missions.title' })}</h3>
       <ul>
         {formatMessage(
           { id: 'presentation.missions.list' },
@@ -59,12 +59,12 @@ const Presentation = () => {
             strong: (chunk) => <strong>{chunk}</strong>,
           }
         )}
-      </ul>
+        </ul> */}
 
       <h3>{formatMessage({ id: 'presentation.video.title' })}</h3>
       <VideoWrapper>
         <iframe
-          src="https://www.youtube.com/embed/a6AOYfE7AeM"
+          src="https://www.youtube.com/embed/ZTRj9R6s-JI"
           frameBorder="0"
           title={formatMessage({ id: 'presentation.video.iframeTitle' })}
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"

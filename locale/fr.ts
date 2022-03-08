@@ -51,8 +51,8 @@ const fr = {
     <li><strong>Veiller à la pérennité du site</strong> en suivant les opérations qui pourraient impacter son devenir (renégociation des conventions des occupants de l’hippodrome, etc.)</li>
     `,
   'presentation.video.title':
-    "Decouvrez l'anneau de Longchamp avec la vidéo de Jeune Cycliste Dynamique :",
-  'presentation.video.iframeTitle': 'Découvrez Longchamp',
+    'Decouvrez les règles essentielles pour rouler à Longchamp :',
+  'presentation.video.iframeTitle': 'Les règles essentielles de Longchamp',
   'joinUs.sectionTitle': "Nous rejoindre (C'EST GRATUIT !)",
   'joinUs.joinMessage':
     'Devenir membre de VELO LONGCHAMP est gratuit et ne prend que quelques instants :',

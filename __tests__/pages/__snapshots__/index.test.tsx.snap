@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Home unit tests should render correctly 1`] = `
-.c37 {
+.c22 {
   background: #f7f7F7;
   border-top: 1px solid #f7f7F7;
   color: #999999;
@@ -9,16 +9,16 @@ exports[`Home unit tests should render correctly 1`] = `
   text-align: center;
 }
 
-.c37 a {
+.c22 a {
   color: #999999;
 }
 
-.c37 a:hover {
+.c22 a:hover {
   -webkit-text-decoration: underline;
   text-decoration: underline;
 }
 
-.c38 {
+.c23 {
   background: #0d171b;
   bottom: 0;
   -webkit-transition: all 1s ease;
@@ -32,11 +32,11 @@ exports[`Home unit tests should render correctly 1`] = `
   z-index: 1000;
 }
 
-.c38 div {
+.c23 div {
   margin-top: 10px;
 }
 
-.c38 a {
+.c23 a {
   background: #6d6e71;
   border-radius: 5px;
   color: #fff;
@@ -44,7 +44,7 @@ exports[`Home unit tests should render correctly 1`] = `
   padding: 5px;
 }
 
-.c38 button {
+.c23 button {
   background: #419a1c;
   border-radius: 5px;
   color: #fff;
@@ -158,7 +158,7 @@ exports[`Home unit tests should render correctly 1`] = `
   color: #f7f7F7;
 }
 
-.c16 {
+.c14 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -172,7 +172,7 @@ exports[`Home unit tests should render correctly 1`] = `
   margin-left: 5px;
 }
 
-.c17 {
+.c15 {
   background: none;
   border: none;
   outline: none;
@@ -180,7 +180,7 @@ exports[`Home unit tests should render correctly 1`] = `
   width: 24px;
 }
 
-.c17:hover {
+.c15:hover {
   -webkit-text-decoration: underline;
   text-decoration: underline;
 }
@@ -219,7 +219,7 @@ exports[`Home unit tests should render correctly 1`] = `
   flex-grow: 1;
 }
 
-.c12 {
+.c10 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -242,16 +242,7 @@ exports[`Home unit tests should render correctly 1`] = `
   cursor: pointer;
 }
 
-.c10 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  list-style-type: none;
-  margin: 0;
-}
-
-.c13 {
+.c11 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -270,7 +261,7 @@ exports[`Home unit tests should render correctly 1`] = `
   text-decoration: none;
 }
 
-.c14 {
+.c12 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -282,36 +273,11 @@ exports[`Home unit tests should render correctly 1`] = `
   text-decoration: none;
 }
 
-.c14:hover {
+.c12:hover {
   color: #666666;
 }
 
-.c11 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  border-left: 1px solid #6d6e71;
-  border: none;
-  color: #999999;
-  cursor: pointer;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  font-size: 14px;
-  height: 30px;
-  margin: 0 15px;
-  padding: 0;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-}
-
-.c11:hover {
-  color: #666666;
-}
-
-.c15 {
+.c13 {
   background: #6d6e71;
   border-radius: 5px;
   color: #fff;
@@ -325,60 +291,41 @@ exports[`Home unit tests should render correctly 1`] = `
   padding: 5px 0;
 }
 
-.c18 {
+.c16 {
   min-height: 600px;
   height: calc(100vh - 80px);
 }
 
-.c20 {
+.c18 {
   margin: 0 auto;
   max-width: 750px;
   padding: 10px;
   height: inherit;
 }
 
+.c17 {
+  min-height: 600px;
+  background: #f7f7F7;
+}
+
 .c19 {
-  min-height: 600px;
-  background: #f7f7F7;
-}
-
-.c32 {
-  min-height: 350px;
-  background: #f7f7F7;
-}
-
-.c21 {
   color: #419a1c;
   font-size: 30px;
   margin: 20px 0;
 }
 
-.c24 {
-  min-height: 600px;
-}
-
-.c34 {
-  min-height: 350px;
-}
-
-.c25 {
-  color: #419a1c;
-  font-size: 30px;
-  margin: 20px 0;
-}
-
-.c22 {
+.c20 {
   padding-bottom: 30px;
 }
 
-.c22 h3 {
+.c20 h3 {
   font-size: 16px;
   margin: 20px 0;
   color: #9e9577;
   font-weight: 600;
 }
 
-.c22 p {
+.c20 p {
   font-size: 14px;
   line-height: 20px;
   color: #0d171b;
@@ -386,7 +333,7 @@ exports[`Home unit tests should render correctly 1`] = `
   text-align: justify;
 }
 
-.c22 ol {
+.c20 ol {
   list-style: none;
   counter-reset: styled-counter;
   display: -webkit-box;
@@ -400,7 +347,7 @@ exports[`Home unit tests should render correctly 1`] = `
   padding: 0;
 }
 
-.c22 ol li {
+.c20 ol li {
   counter-increment: styled-counter;
   display: -webkit-box;
   display: -webkit-flex;
@@ -414,14 +361,14 @@ exports[`Home unit tests should render correctly 1`] = `
   width: 50%;
 }
 
-.c22 ol li h4 {
+.c20 ol li h4 {
   color: #6d6e71;
   font-size: 16px;
   font-weight: 500;
   padding-right: 10px;
 }
 
-.c22 ol li::before {
+.c20 ol li::before {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -439,12 +386,12 @@ exports[`Home unit tests should render correctly 1`] = `
   margin-right: 5px;
 }
 
-.c22 a {
+.c20 a {
   color: #6d6e71;
   font-weight: 800;
 }
 
-.c22 ul {
+.c20 ul {
   list-style: none;
   display: -webkit-box;
   display: -webkit-flex;
@@ -457,7 +404,7 @@ exports[`Home unit tests should render correctly 1`] = `
   padding: 0;
 }
 
-.c22 ul li {
+.c20 ul li {
   counter-increment: styled-counter;
   display: -webkit-box;
   display: -webkit-flex;
@@ -467,208 +414,20 @@ exports[`Home unit tests should render correctly 1`] = `
   width: 50%;
 }
 
-.c22 ul li h4 {
+.c20 ul li h4 {
   color: #6d6e71;
   font-size: 16px;
   font-weight: 500;
   padding-right: 10px;
 }
 
-.c23 {
+.c21 {
   text-align: center;
 }
 
-.c23 iframe {
+.c21 iframe {
   width: 560px;
   height: 315px;
-}
-
-.c27 {
-  text-align: center;
-  margin: 20px;
-}
-
-.c28 {
-  background: #6d6e71;
-  border-radius: 5px;
-  color: #fff;
-  cursor: pointer;
-  font-size: 16px;
-  margin: 20px 10px;
-  padding: 10px;
-}
-
-.c26 {
-  padding-bottom: 20px;
-}
-
-.c26 p {
-  color: #0d171b;
-  font-size: 14px;
-  line-height: 20px;
-  padding: 10px 0;
-  text-align: justify;
-}
-
-.c26 ol {
-  counter-reset: styled-counter;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.c26 ol li {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  counter-increment: styled-counter;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  margin: 10px 0;
-  width: 100%;
-}
-
-.c26 ol li p {
-  color: #6d6e71;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 20px;
-  padding-right: 10px;
-}
-
-.c26 ol li::before {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  color: #6d6e71;
-  content: '0' counter(styled-counter);
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  font-family: 'Abril Fatface',serif;
-  font-size: 30px;
-  font-weight: bold;
-  line-height: 1;
-  margin-right: 10px;
-}
-
-.c29 {
-  padding-bottom: 30px;
-}
-
-.c29 h3 {
-  color: #9e9577;
-  font-size: 16px;
-  font-weight: 600;
-  margin: 20px 0;
-}
-
-.c30 {
-  color: #0d171b;
-  font-size: 14px;
-  font-style: italic;
-  font-weight: 500;
-  line-height: 20px;
-  margin-top: 10px;
-  padding: 10px 0;
-}
-
-.c31 {
-  color: #0d171b;
-  font-size: 14px;
-  font-weight: 200;
-  line-height: 20px;
-  padding: 10px 0;
-}
-
-.c33 {
-  padding-bottom: 30px;
-}
-
-.c33 p {
-  font-size: 14px;
-  line-height: 20px;
-  color: #0d171b;
-  padding: 10px 0;
-  text-align: justify;
-}
-
-.c33 a {
-  margin-left: 5px;
-  color: #419a1c;
-}
-
-.c33 ul {
-  list-style: none;
-  margin: 0 20px;
-}
-
-.c33 ul li {
-  color: #6d6e71;
-  font-size: 16px;
-  font-weight: 500;
-  padding: 10px 0;
-}
-
-.c35 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  padding-bottom: 30px;
-}
-
-.c35 p {
-  font-size: 14px;
-}
-
-.c35 a {
-  color: inherit;
-}
-
-.c36 {
-  padding-top: 10px;
-}
-
-.c36 svg {
-  width: 30px;
-  height: 30px;
-  margin: 0 5px;
-}
-
-.c36 .facebook {
-  color: #3b5998;
-}
-
-.c36 .twitter {
-  color: #00acee;
-}
-
-.c36 .youtube {
-  color: #ff0000;
-}
-
-.c36 .instagram {
-  color: #c13584;
 }
 
 @media (max-width:640px) {
@@ -678,7 +437,7 @@ exports[`Home unit tests should render correctly 1`] = `
 }
 
 @media screen and (max-width:640px) {
-  .c13 {
+  .c11 {
     font-size: 14px;
     border: none;
     padding: 0;
@@ -687,37 +446,37 @@ exports[`Home unit tests should render correctly 1`] = `
 }
 
 @media screen and (max-width:640px) {
-  .c14 {
+  .c12 {
     padding: 0 10px;
   }
 }
 
 @media screen and (max-width:640px) {
-  .c15 {
+  .c13 {
     font-size: 14px;
   }
 }
 
 @media (max-width:640px) {
-  .c18 {
+  .c16 {
     height: calc(100vh - 110px);
   }
 }
 
 @media (max-width:640px) {
-  .c22 ol li {
+  .c20 ol li {
     width: 100%;
   }
 }
 
 @media (max-width:640px) {
-  .c22 ul li {
+  .c20 ul li {
     width: 100%;
   }
 }
 
 @media (max-width:640px) {
-  .c23 iframe {
+  .c21 iframe {
     width: 100%;
     max-width: 560px;
     max-height: 315px;
@@ -810,65 +569,17 @@ exports[`Home unit tests should render correctly 1`] = `
                 src="/logo.png"
               />
             </a>
-            <ul
-              class="c10"
-            >
-              <li
-                data-testid="scroll-item"
-              >
-                <a
-                  class="c11"
-                  id="presentationscrolllink"
-                  title="Présentation"
-                >
-                  Présentation
-                </a>
-              </li>
-              <li
-                data-testid="scroll-item"
-              >
-                <a
-                  class="c11"
-                  id="joinscrolllink"
-                  title="Nous rejoindre"
-                >
-                  Nous rejoindre
-                </a>
-              </li>
-              <li
-                data-testid="scroll-item"
-              >
-                <a
-                  class="c11"
-                  id="meetingscrolllink"
-                  title="Nous rencontrer"
-                >
-                  Nous rencontrer
-                </a>
-              </li>
-              <li
-                data-testid="scroll-item"
-              >
-                <a
-                  class="c11"
-                  id="contactscrolllink"
-                  title="Nous contacter"
-                >
-                  Nous contacter
-                </a>
-              </li>
-            </ul>
           </div>
           <div
-            class="c12"
+            class="c10"
           >
             <nav>
               <ul
-                class="c13"
+                class="c11"
               >
                 <li>
                   <a
-                    class="c14"
+                    class="c12"
                     href="/calendar"
                     id="calendar-link"
                   >
@@ -889,7 +600,7 @@ exports[`Home unit tests should render correctly 1`] = `
                 </li>
                 <li>
                   <a
-                    class="c14"
+                    class="c12"
                     href="/blog"
                     id="blog-link"
                   >
@@ -899,17 +610,17 @@ exports[`Home unit tests should render correctly 1`] = `
               </ul>
             </nav>
             <a
-              class="c15"
+              class="c13"
               href="/join"
               id="join-link"
             >
               Adhérer gratuitement
             </a>
             <div
-              class="c16"
+              class="c14"
             >
               <button
-                class="c17"
+                class="c15"
                 data-testid="select-en"
                 href="/"
                 id="select-en"
@@ -921,11 +632,11 @@ exports[`Home unit tests should render correctly 1`] = `
         </div>
       </header>
       <section
-        class="c18"
+        class="c16"
       >
         <img
           alt="Banniere.JPG"
-          blurdataurl="LIE{hDW;9FMvcut7RPMxx^%MkBRP"
+          blurdataurl="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/4gIoSUNDX1BST0ZJTEUAAQEAAAIYAAAAAAQwAABtbnRyUkdCIFhZWiAAAAAAAAAAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAAHRyWFlaAAABZAAAABRnWFlaAAABeAAAABRiWFlaAAABjAAAABRyVFJDAAABoAAAAChnVFJDAAABoAAAAChiVFJDAAABoAAAACh3dHB0AAAByAAAABRjcHJ0AAAB3AAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAFgAAAAcAHMAUgBHAEIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFhZWiAAAAAAAABvogAAOPUAAAOQWFlaIAAAAAAAAGKZAAC3hQAAGNpYWVogAAAAAAAAJKAAAA+EAAC2z3BhcmEAAAAAAAQAAAACZmYAAPKnAAANWQAAE9AAAApbAAAAAAAAAABYWVogAAAAAAAA9tYAAQAAAADTLW1sdWMAAAAAAAAAAQAAAAxlblVTAAAAIAAAABwARwBvAG8AZwBsAGUAIABJAG4AYwAuACAAMgAwADEANv/bAEMAFA4PEg8NFBIQEhcVFBgeMiEeHBwePSwuJDJJQExLR0BGRVBac2JQVW1WRUZkiGVtd3uBgoFOYI2XjH2Wc36BfP/bAEMBFRcXHhoeOyEhO3xTRlN8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fP/AABEIAZkCZgMBIgACEQEDEQH/xAAYAAEBAQEBAAAAAAAAAAAAAAAAAQQDBf/EABQQAQAAAAAAAAAAAAAAAAAAAAD/xAAXAQEBAQEAAAAAAAAAAAAAAAAAAQID/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8A8cBzUAAQAABABFAAQAQAARUQAAQABFQAAEAUQAEABEVFQRUARUUQBRAAQEFEVAEVAEVBQABAAAFAAAAAAUAQVAFAUABAABUUAAAAHoAMKAAAAAAACCKiKACAACKiAACAAIqAAgAIoAAiKgCKioIqAIqKIAoiKgCKgoioAioAioKAAgAoAAAAAAACgAACKIoACoAAKgCgAAA9ABhQAAAQEAVAAARQAQEAAAEVEAEAAAQAEVFBFQBFQBAVBABAFERUUEVAEVBUAAQAEAUQAAAABQRQAAAAFRRAABUAUBQAEAAAAAAegAwAAAAAAAAAIgAAAACAACAgAAgAIAAogAIAogIIAigioAgKCACACoCAAgAAqAAAgKgCgAAAKIoAAKICKAAqCigCAAAAAAPQEGBUAAAAAAAABAEAAAAAEAAEAAAQAEABAAQFBAEEBRAQAEUEVBRFQBAAQAEAUEAAAABQQBQAAAURRAABUAUBQAEAAUQBRAHoCDAogCiAKIAAAAAAiCoAAAAgACAAAIAAIACAAigCAIqKCAIgCiAgoCAIqAIqAAgoAAgCgAAAAAKIAoAiiAKIoCoKKICKIAoAAAN4gyAAACAAAAACAogCoCAAAIAAAIAAIAACAigACAgAIoIqCCAoIIKAgAIACAAgoAAICqIAogCiAKAAqAiiKAACiAKAqAAAAAANwDIAAAAAIAAAgCiAAAAIgogACAqAACAAiioICoIACAAigCCCAqiACAgAIACAAgoAAIAogKogCiKAAAqAKAIKgCiAKAIAKAAAANwgyKIAogCiAKIIKIAqAACAogCoAAgCoAAgACAAgAIACKAIACCCAKIIoAgAIACAAgoAoCAKICqIAoigAAKgiKIoCoAogCgCACgqAKIA2gMgAAAAAAAAAgCAKIAqAACAogACAqAAIAAgAIoAgAIAioAgKCCAAgCAAgKCAKAgKIAogCiAKIooAIKgCiKAACiAKIIigKAAAANogyiiAKIAogKogCiAKIIAAAICiAKgACAAACAACKAIAIACACAAgigCAIACCKKgAIAACqAAAAAAAAAIKIAoigAAKgIogCiAKIAoANgDKAAAAAICiAKICqIAogCiAKIAAgKIAAgKggKgAIACAAggKgigIAIAggiqAgAIoqAAAAqAKIAogCiAKAAAKAAACACCiAKIAogCiANogyiiAKIAogCiAKIAogAAKAACAKIAAgKIACAAIACAAgAIoIAgggAIqgIACKAAAAAAAAAAAAAAAAAAAAAAAACoAogCiAKIA2CDDKiAqiAKIAogCiAKIAogCiAKICgICiAAICoACAoIACAAggioIAIKCAKCCgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADWIMsqIAogCiAKICqIAogCoAAAAICiAqoAAgACAAgAIIAgAgoIACAAgKoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADSAyyAAAAAAAAACgAAAAgCiAKgACAKgAIAAgAgKCAAggACggCgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANADLIAAAAAAAAAAAAAKCAKgAAgKIAAgAIoqCAqCAqCAAKCAKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA7gIwAAACgCAAAAAAAIAogAAACCgCggAAgAIACKAACAKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA7gIwAAAAAAIqCgAACAAAIKAAAIAAAgAAgoAogACKgoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADuAjAAAAKAAgAgAKAgAAAACAAAAgAAgAAogKAAqAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA7gIyAAAAAAgAAACKgAAAIAAAioAACACgIAAoIqCgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAO4CMgAAAAAIAAAAioAAAgCAAqAAAgAAoioAAqoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADuAjIAAAAAAioAAAioAAIgACKgoAAioAAKIqAAKqAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0IojKCgIAAAAigIAAioAAIgACKgoAAioAAKIAACqgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANACMgACKgAAAAIAAACACIAAioKAAIqAACoAAAqoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADQAMgCAACAAAAgAAAIAIgACKiKAAIqKAAqAAAKqAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/9k="
           layout="fill"
           objectfit="cover"
           placeholder="blur"
@@ -933,19 +644,19 @@ exports[`Home unit tests should render correctly 1`] = `
         />
       </section>
       <section
-        class="c19"
+        class="c17"
         id="presentation"
       >
         <div
-          class="c20"
+          class="c18"
         >
           <h2
-            class="c21"
+            class="c19"
           >
             Présentation
           </h2>
           <article
-            class="c22"
+            class="c20"
           >
             <h3>
               Qui sommes-nous ?
@@ -1010,549 +721,25 @@ exports[`Home unit tests should render correctly 1`] = `
             
     
             <h3>
-              Nos engagements :
-            </h3>
-            <ol>
-              
-    
-              <li>
-                <h4>
-                  <strong>
-                    Sécuriser
-                  </strong>
-                   l’anneau
-                </h4>
-              </li>
-              
-    
-              <li>
-                <h4>
-                  Améliorer le 
-                  <strong>
-                    confort
-                  </strong>
-                   de l’anneau
-                </h4>
-              </li>
-              
-    
-              <li>
-                <h4>
-                  <strong>
-                    Représenter
-                  </strong>
-                   toutes les pratiques sportives autour de l’anneau
-                </h4>
-              </li>
-              
-    
-              <li>
-                <h4>
-                  <strong>
-                    Se concerter
-                  </strong>
-                   avec les autres usagers
-                </h4>
-              </li>
-              
-    
-              <li>
-                <h4>
-                  Définir et rappeler les 
-                  <strong>
-                    bonnes pratiques
-                  </strong>
-                   de sécurité pour les cyclistes
-                </h4>
-              </li>
-              
-    
-              <li>
-                <h4>
-                  <strong>
-                    Faire venir le plus grand nombre
-                  </strong>
-                   sur l’anneau
-                </h4>
-              </li>
-              
-    
-              <li>
-                <h4>
-                  <strong>
-                    Pérenniser
-                  </strong>
-                   l'anneau
-                </h4>
-              </li>
-              
-  
-            </ol>
-            <h3>
-              Nos missions :
-            </h3>
-            <ul>
-              
-    
-              <li>
-                <h4>
-                  Suivre activement 
-                  <strong>
-                    le projet de rénovation de l’anneau
-                  </strong>
-                   initié par le budget participatif 2020 de la mairie de Paris pour le prioritiser et s’assurer que les demandes des cyclistes sont prises en compte
-                </h4>
-              </li>
-              
-    
-              <li>
-                <h4>
-                  <strong>
-                    Recueillir les demandes et priorités
-                  </strong>
-                   des différentes pratiques sportives autour de l’anneau (débutants, handisport, clubs, peloton, triathlètes, coureurs, autre, etc.)
-                </h4>
-              </li>
-              
-    
-              <li>
-                <h4>
-                  <strong>
-                    Représenter les cyclistes
-                  </strong>
-                   de Longchamp auprès des autorités publiques et des opérateurs privés qui gèrent et exploitent le site (mairie Paris et ses services DVD, DEVE, mairie XVIe, Préfecture de Paris, France Galop, Golf ParisLongchamp, festival Solidays, festival Lollapalooza, Cirque de Paname, etc.)
-                </h4>
-              </li>
-              
-    
-              <li>
-                <h4>
-                  Définir des 
-                  <strong>
-                    règles de bonnes conduites
-                  </strong>
-                   pour tous les usagers du site (cyclistes, conducteurs, piétons, coureurs, salariés, aire d’accueil, etc.)
-                </h4>
-              </li>
-              
-    
-              <li>
-                <h4>
-                  Créer des évènements pour 
-                  <strong>
-                    promouvoir l’anneau
-                  </strong>
-                   de Longchamp (entraînements, initiation, courses, etc.)
-                </h4>
-              </li>
-              
-    
-              <li>
-                <h4>
-                  <strong>
-                    Initier
-                  </strong>
-                   à la pratique du cyclisme en accompagnant les débutants (enfants et adultes) et en pensant une zone dédiée à l’initiation. Soutenir les écoles de vélos des clubs pour les jeunes de 5-18 ans
-                </h4>
-              </li>
-              
-    
-              <li>
-                <h4>
-                  <strong>
-                    Veiller à la pérennité du site
-                  </strong>
-                   en suivant les opérations qui pourraient impacter son devenir (renégociation des conventions des occupants de l’hippodrome, etc.)
-                </h4>
-              </li>
-              
-    
-            </ul>
-            <h3>
-              Decouvrez l'anneau de Longchamp avec la vidéo de Jeune Cycliste Dynamique :
+              Decouvrez les règles essentielles pour rouler à Longchamp :
             </h3>
             <div
-              class="c23"
+              class="c21"
             >
               <iframe
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen=""
                 frameborder="0"
-                src="https://www.youtube.com/embed/a6AOYfE7AeM"
-                title="Découvrez Longchamp"
+                src="https://www.youtube.com/embed/ZTRj9R6s-JI"
+                title="Les règles essentielles de Longchamp"
               />
             </div>
           </article>
         </div>
       </section>
-      <section
-        class="c24"
-        id="join"
-      >
-        <div
-          class="c20"
-        >
-          <h2
-            class="c25"
-            data-testid="h2-title"
-          >
-            Nous rejoindre (C'EST GRATUIT !)
-          </h2>
-          <article
-            class="c26"
-          >
-            <p>
-              Devenir membre de VELO LONGCHAMP est gratuit et ne prend que quelques instants :
-            </p>
-            <div
-              class="c27"
-            >
-              <a
-                class="c28"
-                href="/join"
-              >
-                Adhérer gratuitement
-              </a>
-            </div>
-            <p>
-              Voici 5 arguments imparables pour vous convaincre d’adhérer :
-            </p>
-            <ol>
-              
-    
-              <li>
-                <p>
-                  Vous roulerez plus tôt sur un 
-                  <strong>
-                    anneau sécurisé et confortable
-                  </strong>
-                   ! Car plus on est nombreux, plus on a de poids et plus vite seront faits les travaux d’aménagement nécessaires
-                </p>
-              </li>
-              
-    
-              <li>
-                <p>
-                  Votre 
-                  <strong>
-                    avis est tout aussi important
-                  </strong>
-                   que celui d’un autre ! En devenant membre, vous pouvez exprimer directement vos besoins et vos priorités ; vous pouvez lancer une initiative qui vous tient à cœur ; vous pouvez voter en Assemblée Générale ; vous êtes tenu au courant des avancées du projet
-                </p>
-              </li>
-              
-    
-              <li>
-                <p>
-                  Vous pouvez 
-                  <strong>
-                    cumuler avec d’autres clubs
-                  </strong>
-                   ! On n’est pas exclusif ! Vous pouvez rester membre de votre club de vélo, de triathlon ou autre.
-                </p>
-              </li>
-              
-    
-              <li>
-                <p>
-                  Vous ne roulerez 
-                  <strong>
-                    plus jamais seul
-                  </strong>
-                   ! En nous rejoignant, vous allez rencontrer d’autres cyclistes qui pourront, si vous le voulez, vous accompagner à Longchamp. Nous allons créer des ateliers (initiation tandem, "premiers secours" ou "comment bichonner son vélo"). Nous voulons aussi mettre en place une rencontre informelle tous les mois à l’anneau
-                </p>
-              </li>
-              
-    
-              <li>
-                <p>
-                  Vous savez que sans Longchamp, la vie serait moins belle ! On a tendance à l’oublier car on l’a toujours connu mais avoir Longchamp est une chance extraordinaire. Il faut pouvoir 
-                  <strong>
-                    protéger et pérenniser l’anneau
-                  </strong>
-                </p>
-              </li>
-              
-    
-            </ol>
-          </article>
-          <article
-            class="c29"
-          >
-            <h3>
-              FAQ :
-            </h3>
-            
-    
-            <p
-              class="c30"
-            >
-              Qui êtes-vous et pourquoi avoir créer une association ?
-            </p>
-            
-    
-            <p
-              class="c31"
-            >
-              Nous sommes des cyclistes qui roulons régulièrement sur l’anneau de Longchamp. Nous avons voulu créer une association pour améliorer les conditions de sécurité et de confort de l’anneau
-            </p>
-            
-    
-            <p
-              class="c30"
-            >
-              Je n’ai pas le temps de m’engager dans l’association mais je veux la soutenir, dois-je adhérer ?
-            </p>
-            
-    
-            <p
-              class="c31"
-            >
-              Oui ! Une fois adhérent, chacun décide du temps qu’il peut et veut consacrer à l’association
-            </p>
-            
-    
-            <p
-              class="c30"
-            >
-              Est-ce qu’il y a des conditions pour devenir adhérent ?
-            </p>
-            
-    
-            <p
-              class="c31"
-            >
-              La seule condition est de partager notre vision qu’il faut défendre et promouvoir l’anneau de Longchamp pour que les cyclistes puissent pratiquer le sport qu’ils aiment dans les meilleures conditions
-            </p>
-            
-    
-            <p
-              class="c30"
-            >
-              Je fais du vélotaf par l’anneau de Longchamp, puis-je adhérer ?
-            </p>
-            
-    
-            <p
-              class="c31"
-            >
-              Bien sûr ! Nous sommes davantage orientés cyclisme sportif mais nous avons besoin que nos membres représentent toutes les formes de cyclisme, y compris les vélotafeurs qui sont une part non négligeable des usagers de l’anneau
-            </p>
-            
-    
-            <p
-              class="c30"
-            >
-              Je viens très rarement à Longchamp, dois-je adhérer ?
-            </p>
-            
-    
-            <p
-              class="c31"
-            >
-              Oui ! Votre adhésion aidera à améliorer les conditions de l’anneau pour les cyclistes réguliers ou plus occasionnels. Un occasionnel a souvent de meilleures idées qu’un cycliste qui connait chaque piège de Longchamp (revêtement abimé, journées plus compliquées)
-            </p>
-            
-    
-            <p
-              class="c30"
-            >
-              Je suis déjà membre d’un autre club, puis-je adhérer ?
-            </p>
-            
-    
-            <p
-              class="c31"
-            >
-              Oui et surtout pensez à faire adhérer votre Club (pour que nous puissions représenter encore plus de pratiquants)
-            </p>
-            
-    
-          </article>
-        </div>
-      </section>
-      <section
-        class="c32"
-        height="350px"
-        id="meeting"
-      >
-        <div
-          class="c20"
-        >
-          <h2
-            class="c21"
-          >
-            Nous rencontrer
-          </h2>
-          <article
-            class="c33"
-          >
-            <p>
-              Venez nous rencontrer à l'occasion d'événements informels que nous organiserons.
-            </p>
-            <p>
-              Lieu : à la fontaine de la ligne de départ, en haut du faux plat montant à gauche. Ouvrir la carte : 
-              <a
-                href="https://goo.gl/maps/2sdy3M1yRUho9k8G9"
-                rel="noopener noreferrer"
-                target="_blank"
-                title="RDV"
-              >
-                <svg
-                  fill="currentColor"
-                  height="1em"
-                  stroke="currentColor"
-                  stroke-width="0"
-                  viewBox="0 0 576 512"
-                  width="1em"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M288 0c-69.59 0-126 56.41-126 126 0 56.26 82.35 158.8 113.9 196.02 6.39 7.54 17.82 7.54 24.2 0C331.65 284.8 414 182.26 414 126 414 56.41 357.59 0 288 0zm0 168c-23.2 0-42-18.8-42-42s18.8-42 42-42 42 18.8 42 42-18.8 42-42 42zM20.12 215.95A32.006 32.006 0 0 0 0 245.66v250.32c0 11.32 11.43 19.06 21.94 14.86L160 448V214.92c-8.84-15.98-16.07-31.54-21.25-46.42L20.12 215.95zM288 359.67c-14.07 0-27.38-6.18-36.51-16.96-19.66-23.2-40.57-49.62-59.49-76.72v182l192 64V266c-18.92 27.09-39.82 53.52-59.49 76.72-9.13 10.77-22.44 16.95-36.51 16.95zm266.06-198.51L416 224v288l139.88-55.95A31.996 31.996 0 0 0 576 426.34V176.02c0-11.32-11.43-19.06-21.94-14.86z"
-                  />
-                </svg>
-              </a>
-            </p>
-            <p>
-              Organistation : On partagera boissons et biscuit apéritif ! On essayera de limiter les déchets et peut être que l'on versera la boisson dans vos bidons ! C'est l'occasion de nous présenter.
-            </p>
-            <p>
-              Prochaines dates :
-            </p>
-            <ul>
-              Aucune date prévue pour le moment
-            </ul>
-          </article>
-        </div>
-      </section>
-      <section
-        class="c34"
-        height="350px"
-        id="contact"
-      >
-        <div
-          class="c20"
-        >
-          <h2
-            class="c25"
-            data-testid="h2-title"
-          >
-            Nous contacter
-          </h2>
-          <div
-            class="c35"
-          >
-            <img
-              alt="logo"
-              height="150"
-              src="/logo.png"
-              width="200"
-            />
-            <div
-              class="c36"
-            >
-              <a
-                class="facebook"
-                href="https://www.facebook.com/AssoVeloLongchamp"
-                rel="noreferrer"
-                target="_blank"
-                title="Facebook"
-              >
-                <svg
-                  fill="currentColor"
-                  height="1em"
-                  stroke="currentColor"
-                  stroke-width="0"
-                  viewBox="0 0 512 512"
-                  width="1em"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M426.8 64H85.2C73.5 64 64 73.5 64 85.2v341.6c0 11.7 9.5 21.2 21.2 21.2H256V296h-45.9v-56H256v-41.4c0-49.6 34.4-76.6 78.7-76.6 21.2 0 44 1.6 49.3 2.3v51.8h-35.3c-24.1 0-28.7 11.4-28.7 28.2V240h57.4l-7.5 56H320v152h106.8c11.7 0 21.2-9.5 21.2-21.2V85.2c0-11.7-9.5-21.2-21.2-21.2z"
-                  />
-                </svg>
-              </a>
-              <a
-                class="twitter"
-                href="https://twitter.com/velolongchamp"
-                rel="noreferrer"
-                target="_blank"
-                title="Twitter"
-              >
-                <svg
-                  fill="currentColor"
-                  height="1em"
-                  stroke="currentColor"
-                  stroke-width="0"
-                  viewBox="0 0 512 512"
-                  width="1em"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M492 109.5c-17.4 7.7-36 12.9-55.6 15.3 20-12 35.4-31 42.6-53.6-18.7 11.1-39.4 19.2-61.5 23.5C399.8 75.8 374.6 64 346.8 64c-53.5 0-96.8 43.4-96.8 96.9 0 7.6.8 15 2.5 22.1-80.5-4-151.9-42.6-199.6-101.3-8.3 14.3-13.1 31-13.1 48.7 0 33.6 17.2 63.3 43.2 80.7-16-.4-31-4.8-44-12.1v1.2c0 47 33.4 86.1 77.7 95-8.1 2.2-16.7 3.4-25.5 3.4-6.2 0-12.3-.6-18.2-1.8 12.3 38.5 48.1 66.5 90.5 67.3-33.1 26-74.9 41.5-120.3 41.5-7.8 0-15.5-.5-23.1-1.4C62.8 432 113.7 448 168.3 448 346.6 448 444 300.3 444 172.2c0-4.2-.1-8.4-.3-12.5C462.6 146 479 129 492 109.5z"
-                  />
-                </svg>
-              </a>
-              <a
-                class="instagram"
-                href="https://www.instagram.com/velolongchamp/"
-                rel="noreferrer"
-                target="_blank"
-                title="Instagram"
-              >
-                <svg
-                  fill="currentColor"
-                  height="1em"
-                  stroke="currentColor"
-                  stroke-width="0"
-                  viewBox="0 0 512 512"
-                  width="1em"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M336 96c21.2 0 41.3 8.4 56.5 23.5S416 154.8 416 176v160c0 21.2-8.4 41.3-23.5 56.5S357.2 416 336 416H176c-21.2 0-41.3-8.4-56.5-23.5S96 357.2 96 336V176c0-21.2 8.4-41.3 23.5-56.5S154.8 96 176 96h160m0-32H176c-61.6 0-112 50.4-112 112v160c0 61.6 50.4 112 112 112h160c61.6 0 112-50.4 112-112V176c0-61.6-50.4-112-112-112z"
-                  />
-                  <path
-                    d="M360 176c-13.3 0-24-10.7-24-24s10.7-24 24-24c13.2 0 24 10.7 24 24s-10.8 24-24 24zM256 192c35.3 0 64 28.7 64 64s-28.7 64-64 64-64-28.7-64-64 28.7-64 64-64m0-32c-53 0-96 43-96 96s43 96 96 96 96-43 96-96-43-96-96-96z"
-                  />
-                </svg>
-              </a>
-              <a
-                class="youtube"
-                href="https://www.youtube.com/channel/UCILGPS4lvBE5GXbTnFze5rA"
-                rel="noreferrer"
-                target="_blank"
-                title="Youtube"
-              >
-                <svg
-                  fill="currentColor"
-                  height="1em"
-                  stroke="currentColor"
-                  stroke-width="0"
-                  viewBox="0 0 512 512"
-                  width="1em"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M508.6 148.8c0-45-33.1-81.2-74-81.2C379.2 65 322.7 64 265 64h-18c-57.6 0-114.2 1-169.6 3.6C36.6 67.6 3.5 104 3.5 149 1 184.6-.1 220.2 0 255.8c-.1 35.6 1 71.2 3.4 106.9 0 45 33.1 81.5 73.9 81.5 58.2 2.7 117.9 3.9 178.6 3.8 60.8.2 120.3-1 178.6-3.8 40.9 0 74-36.5 74-81.5 2.4-35.7 3.5-71.3 3.4-107 .2-35.6-.9-71.2-3.3-106.9zM207 353.9V157.4l145 98.2-145 98.3z"
-                  />
-                </svg>
-              </a>
-            </div>
-            <p>
-              <a
-                href="mailto:contact@velo-longchamp.fr?subject=Contact"
-                title="Contact"
-              >
-                contact@velo-longchamp.fr
-              </a>
-            </p>
-          </div>
-        </div>
-      </section>
     </main>
     <footer
-      class="c37"
+      class="c22"
     >
       <p>
         ©Copyright 2019
@@ -1575,7 +762,7 @@ exports[`Home unit tests should render correctly 1`] = `
       </p>
     </footer>
     <div
-      class="c38"
+      class="c23"
     >
       <p>
         En poursuivant votre navigation sur notre site, vous acceptez l'utilisation de cookies afin de nous permettre d'améliorer votre expérience utilisateur.
