@@ -1,5 +1,5 @@
 {
-  "organizer": "Club",
+  "organizer": "Autre",
   "startDate": "2022-03-26T13:00:00+01:00",
   "endDate": "2022-03-26T17:00:04+01:00",
   "title": "Critérium Handisport",
@@ -9,5 +9,6 @@
   "repeated_day": [
 
   ],
-  "end_date_repeat": ""
+  "end_date_repeat": "",
+  "url": ""
 }
