@@ -5,7 +5,7 @@
   "title": "Forum Emploi AF ASEC",
   "description": "",
   "url": "",
-  "all_day": true,
+  "all_day": false,
   "recurrent": false,
   "repeated_day": [
 
