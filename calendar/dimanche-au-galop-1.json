@@ -1,0 +1,14 @@
+{
+  "organizer": "Vélo Longchamp",
+  "startDate": "2022-05-01T15:16:00+02:00",
+  "endDate": "2022-05-01T15:16:00+02:00",
+  "title": "DImanche au Galop",
+  "description": "https://www.parislongchamp.com/fr/les-dimanches-au-galop",
+  "url": "",
+  "all_day": true,
+  "recurrent": false,
+  "repeated_day": [
+
+  ],
+  "end_date_repeat": ""
+}
