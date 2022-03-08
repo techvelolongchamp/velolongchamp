@@ -1,0 +1,14 @@
+{
+  "organizer": "Vélo Longchamp",
+  "startDate": "2022-03-26T14:48:47+01:00",
+  "endDate": "2022-03-26T14:48:47+01:00",
+  "title": "Critérium handisport",
+  "description": "Course directement sur l'Anneau de Longchamp",
+  "url": "",
+  "all_day": true,
+  "recurrent": false,
+  "repeated_day": [
+
+  ],
+  "end_date_repeat": ""
+}
