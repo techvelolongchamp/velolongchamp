@@ -1,11 +1,11 @@
 {
   "organizer": "Autre",
-  "startDate": "2022-06-06T15:28:54+02:00",
-  "endDate": "2022-06-08T15:28:54+02:00",
+  "startDate": "2022-06-06T02:28:54+02:00",
+  "endDate": "2022-06-06T23:28:54+02:00",
   "title": "Congrès FIABCI",
   "description": "",
   "url": "",
-  "all_day": true,
+  "all_day": false,
   "recurrent": false,
   "repeated_day": [
 
