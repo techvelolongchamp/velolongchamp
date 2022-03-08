@@ -51,8 +51,8 @@ const en = {
     <li><strong>Monitor the durability of the site</strong> by following all operations that could impact its future (renegociation of agreements for user of the hippodrome)</li>
     `,
   'presentation.video.title':
-    'Discover the Longchamp cycling with the "Jeune Cycliste Dynamique" video (in french):',
-  'presentation.video.iframeTitle': 'Discover Longchamp',
+    'Discover the essentials rules to ride at Longchamp:',
+  'presentation.video.iframeTitle': 'The essent rules at Longchamp',
   'joinUs.sectionTitle': "Join Us (IT'S FREE!)",
   'joinUs.joinMessage':
     'Becoming a member of VELO LONGCHAMP is free and only takes a few minutes:',
