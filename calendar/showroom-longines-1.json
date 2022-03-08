@@ -1,11 +1,11 @@
 {
   "organizer": "Autre",
   "startDate": "2022-03-14T01:00:40+01:00",
-  "endDate": "2022-03-15T23:00:40+01:00",
+  "endDate": "2022-03-14T23:00:40+01:00",
   "title": "Showroom Longines",
   "description": "",
   "url": "",
-  "all_day": true,
+  "all_day": false,
   "recurrent": false,
   "repeated_day": [
 
