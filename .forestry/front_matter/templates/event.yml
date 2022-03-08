@@ -101,6 +101,7 @@ fields:
     field: recurrent
     value: true
 pages:
+- calendar/congres-fiabci-1.json
 - calendar/congres-fiabci.json
 - calendar/course-hippodrome-1.json
 - calendar/course-hippodrome-2.json
