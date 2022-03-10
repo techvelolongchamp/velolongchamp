@@ -1,0 +1,14 @@
+{
+  "organizer": "Club",
+  "startDate": "2022-03-08T12:00:00+01:00",
+  "endDate": "2022-03-08T14:00:00+01:00",
+  "title": "Peloton rapide - \"Fast Pack\"",
+  "description": "",
+  "url": " https://www.strava.com/clubs/SuicidalUrbanRiders",
+  "all_day": false,
+  "recurrent": true,
+  "repeated_day": [
+    "Mardi"
+  ],
+  "end_date_repeat": "2022-04-29T00:00:00+02:00"
+}
