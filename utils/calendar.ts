@@ -62,7 +62,7 @@ const repeatEvents = (rawEvents: ForestryEvent[]) => {
   rawEvents.forEach((e) => {
     if (e.recurrent && e.repeated_day && e.repeated_day.length > 0) {
       const maxEventDate = e.end_date_repeat
-        ? endOfDay(parseISO(e.end_date_repeat))
+        ? endOfDay(new Date(e.end_date_repeat))
         : maxDate
       const eventStartDate = parseISO(e.startDate)
       const eventEndDate = parseISO(e.endDate)
@@ -71,8 +71,14 @@ const repeatEvents = (rawEvents: ForestryEvent[]) => {
 
       e.repeated_day.forEach((day) => {
         const dayNumber = Days[day]
-        let nextStartDate = nextDay(eventStartDate, dayNumber)
-        let nextEndDate = nextDay(eventEndDate, dayNumber)
+        let nextStartDate = setHours(
+          nextDay(eventStartDate, dayNumber),
+          eventStartHour
+        )
+        let nextEndDate = setHours(
+          nextDay(eventEndDate, dayNumber),
+          eventEndHour
+        )
 
         while (nextStartDate < maxEventDate) {
           const nextEvent = {

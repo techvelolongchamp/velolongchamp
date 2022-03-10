@@ -142,6 +142,7 @@ const CalendarPage: React.FC<{ rawEvents: ForestryEvent[] }> = ({
             max={maxTime}
             onSelectEvent={onSelectEvent}
             eventPropGetter={eventPropGetter}
+            showMultiDayTimes
           />
         </ThirdarySection>
       </Layout>
