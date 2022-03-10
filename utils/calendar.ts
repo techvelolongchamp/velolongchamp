@@ -10,6 +10,7 @@ import {
   getHours,
   setHours,
 } from 'date-fns'
+import { utcToZonedTime } from 'date-fns-tz'
 
 const calendarDirectory = path.join(process.cwd(), 'calendar')
 
@@ -70,20 +71,17 @@ const repeatEvents = (rawEvents: ForestryEvent[]) => {
 
       e.repeated_day.forEach((day) => {
         const dayNumber = Days[day]
-        let nextStartDate = setHours(
-          nextDay(eventStartDate, dayNumber),
-          eventStartHour
-        )
-        let nextEndDate = setHours(
-          nextDay(eventEndDate, dayNumber),
-          eventEndHour
-        )
+        let nextStartDate = nextDay(eventStartDate, dayNumber)
+        let nextEndDate = nextDay(eventEndDate, dayNumber)
 
         while (nextStartDate < maxEventDate) {
           const nextEvent = {
             ...e,
-            startDate: nextStartDate.toISOString(),
-            endDate: nextEndDate.toISOString(),
+            startDate: utcToZonedTime(
+              nextStartDate,
+              'Europe/Paris'
+            ).toISOString(),
+            endDate: utcToZonedTime(nextEndDate, 'Europe/Paris').toISOString(),
           }
           events.push(nextEvent)
           nextStartDate = nextDay(nextStartDate, dayNumber)

@@ -42,11 +42,26 @@ const maxTime = parseISO('2022-01-01T22:00:00+01:00')
 const eventPropGetter: EventPropGetter<CalendarEvents> = (event) => {
   switch (event.organizer) {
     case 'Vélo Longchamp':
-      return { style: { backgroundColor: theme.colors.brandPrimary } }
+      return {
+        style: {
+          backgroundColor: theme.colors.brandPrimary,
+          borderColor: theme.colors.brandPrimary,
+        },
+      }
     case 'Club':
-      return { style: { backgroundColor: theme.colors.brandSecondary } }
+      return {
+        style: {
+          backgroundColor: theme.colors.brandSecondary,
+          borderColor: theme.colors.brandSecondary,
+        },
+      }
     case 'France Galop':
-      return { style: { backgroundColor: theme.colors.brandTertiary } }
+      return {
+        style: {
+          backgroundColor: theme.colors.brandTertiary,
+          borderColor: theme.colors.brandTertiary,
+        },
+      }
     default:
       return {}
   }
