@@ -464,6 +464,7 @@ exports[`RulePage unit tests should render correctly 1`] = `
                   <a
                     class="c11"
                     href="/"
+                    id="nav-link-home"
                   >
                     A propos
                   </a>
@@ -472,6 +473,7 @@ exports[`RulePage unit tests should render correctly 1`] = `
                   <a
                     class="c11"
                     href="/blog"
+                    id="nav-link-blog"
                   >
                     Actualités
                   </a>
@@ -480,6 +482,7 @@ exports[`RulePage unit tests should render correctly 1`] = `
                   <a
                     class="c11"
                     href="/calendar"
+                    id="nav-link-calendar"
                   >
                     <svg
                       fill="currentColor"

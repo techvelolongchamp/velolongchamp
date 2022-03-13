@@ -2,10 +2,28 @@ describe('Navigation - Desktop', () => {
   it('should navigate to the blog page', () => {
     cy.visit('/')
 
-    cy.get('a[id*="blog-link"]').click()
+    cy.get('a[id*="nav-link-blog"]').click()
     cy.url().should('include', '/blog')
 
     cy.get('h1').contains('Actualités')
+  })
+
+  it('should navigate to the calendar page', () => {
+    cy.visit('/')
+
+    cy.get('a[id*="nav-link-calendar"]').click()
+    cy.url().should('include', '/calendar')
+
+    cy.get('h1').contains('Calendrier')
+  })
+
+  it('should navigate back to the home page', () => {
+    cy.visit('/calendar')
+
+    cy.get('a[id*="nav-link-home"]').click()
+    cy.url().should('not.include', 'calendar')
+
+    cy.get('h2').first().contains('Présentation')
   })
 
   it('should navigate to the join page', () => {
@@ -60,10 +78,21 @@ describe('Navigation - mobile', () => {
   it('should navigate to the blog page', () => {
     cy.visit('/')
 
-    cy.get('a[id*="blog-link"]').click()
+    cy.get('div[id*="burger-bars"]').click()
+    cy.get('a[id*="burger-link-blog"]').click()
     cy.url().should('include', '/blog')
 
     cy.get('h1').contains('Actualités')
+  })
+
+  it('should navigate to the calendar page', () => {
+    cy.visit('/')
+
+    cy.get('div[id*="burger-bars"]').click()
+    cy.get('a[id*="burger-link-calendar"]').click()
+    cy.url().should('include', '/calendar')
+
+    cy.get('h1').contains('Calendrier')
   })
 
   it('should navigate to the join page', () => {
@@ -73,6 +102,16 @@ describe('Navigation - mobile', () => {
     cy.url().should('include', '/join')
 
     cy.get('h1').contains('Nous rejoindre')
+  })
+
+  it('should navigate back to the home page', () => {
+    cy.visit('/calendar')
+
+    cy.get('div[id*="burger-bars"]').click()
+    cy.get('a[id*="burger-link-home"]').click()
+    cy.url().should('not.include', 'calendar')
+
+    cy.get('h2').first().contains('Présentation')
   })
 
   it('should navigate to the main page', () => {

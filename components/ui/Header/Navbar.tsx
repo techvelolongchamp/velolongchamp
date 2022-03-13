@@ -12,17 +12,21 @@ const Navbar = () => {
       <NavItemList data-testid="navbar">
         <li>
           <Link href="/" passHref>
-            <NavItem>{formatMessage({ id: 'navbar.home' })}</NavItem>
+            <NavItem id="nav-link-home">
+              {formatMessage({ id: 'navbar.home' })}
+            </NavItem>
           </Link>
         </li>
         <li>
           <Link href="/blog" passHref>
-            <NavItem>{formatMessage({ id: 'navbar.blog' })}</NavItem>
+            <NavItem id="nav-link-blog">
+              {formatMessage({ id: 'navbar.blog' })}
+            </NavItem>
           </Link>
         </li>
         <li>
           <Link href="/calendar" passHref>
-            <NavItem>
+            <NavItem id="nav-link-calendar">
               <FaCalendarAlt />
             </NavItem>
           </Link>

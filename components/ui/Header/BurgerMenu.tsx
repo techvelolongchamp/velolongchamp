@@ -48,17 +48,21 @@ const BurgerMenu = () => {
         <LinkContainer>
           <LinkWrapper>
             <Link href="/" passHref>
-              <LinkItem>{formatMessage({ id: 'navbar.home' })}</LinkItem>
+              <LinkItem id="burger-link-home">
+                {formatMessage({ id: 'navbar.home' })}
+              </LinkItem>
             </Link>
           </LinkWrapper>
           <LinkWrapper>
             <Link href="/blog" passHref>
-              <LinkItem>{formatMessage({ id: 'navbar.blog' })}</LinkItem>
+              <LinkItem id="burger-link-blog">
+                {formatMessage({ id: 'navbar.blog' })}
+              </LinkItem>
             </Link>
           </LinkWrapper>
           <LinkWrapper>
             <Link href="/calendar" passHref>
-              <LinkItem>
+              <LinkItem id="burger-link-calendar">
                 <FaCalendarAlt />
               </LinkItem>
             </Link>

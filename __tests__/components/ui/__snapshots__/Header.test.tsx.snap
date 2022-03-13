@@ -269,6 +269,7 @@ exports[`Header unit tests should render correctly - mobile 1`] = `
                 <a
                   class="c8"
                   href="/"
+                  id="burger-link-home"
                 >
                   A propos
                 </a>
@@ -279,6 +280,7 @@ exports[`Header unit tests should render correctly - mobile 1`] = `
                 <a
                   class="c8"
                   href="/blog"
+                  id="burger-link-blog"
                 >
                   Actualités
                 </a>
@@ -289,6 +291,7 @@ exports[`Header unit tests should render correctly - mobile 1`] = `
                 <a
                   class="c8"
                   href="/calendar"
+                  id="burger-link-calendar"
                 >
                   <svg
                     fill="currentColor"
@@ -536,6 +539,7 @@ exports[`Header unit tests should render correctly 1`] = `
               <a
                 class="c6"
                 href="/"
+                id="nav-link-home"
               >
                 A propos
               </a>
@@ -544,6 +548,7 @@ exports[`Header unit tests should render correctly 1`] = `
               <a
                 class="c6"
                 href="/blog"
+                id="nav-link-blog"
               >
                 Actualités
               </a>
@@ -552,6 +557,7 @@ exports[`Header unit tests should render correctly 1`] = `
               <a
                 class="c6"
                 href="/calendar"
+                id="nav-link-calendar"
               >
                 <svg
                   fill="currentColor"
