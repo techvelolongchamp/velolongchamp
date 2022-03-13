@@ -40,8 +40,12 @@ const BurgerMenu = () => {
         <span />
         <span />
       </BurgerBars>
-      <BurgerContent isBurgerMenuOpen={isBurgerMenuOpen} ref={wrapperRef}>
-        <LinkContainer onClick={toggleBurgerMenu}>
+      <BurgerContent
+        isBurgerMenuOpen={isBurgerMenuOpen}
+        ref={wrapperRef}
+        onClick={toggleBurgerMenu}
+      >
+        <LinkContainer>
           <LinkWrapper>
             <Link href="/" passHref>
               <LinkItem>{formatMessage({ id: 'navbar.home' })}</LinkItem>
