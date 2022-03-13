@@ -6,7 +6,7 @@ export const HeaderWrapper = styled.header`
   top: 0;
   left: 0;
   right: 0;
-  z-index: 5;
+  z-index: 15;
   background: ${({ theme }) => theme.colors.offWhite};
   padding: ${({ theme }) => theme.spacing.xs} ${({ theme }) => theme.spacing.s};
   border-bottom: 1px solid ${({ theme }) => theme.colors.white};
@@ -24,8 +24,9 @@ export const LeftContainer = styled.div`
 `
 
 export const RightContainer = styled.div`
-  display: flex;
   align-items: center;
+  display: flex;
+  padding: 0 ${({ theme }) => theme.spacing.m};
 `
 
 export const TitleLink = styled.a`
@@ -128,7 +129,7 @@ export const ButtonLink = styled.a`
   }
 `
 
-export const Logo = styled.img`
-  height: 70px;
+export const Logo = styled.img<{ isMobile: boolean }>`
+  height: ${({ isMobile }) => (isMobile ? '50px' : '70px')};
   padding: 5px 0;
 `

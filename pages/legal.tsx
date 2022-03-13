@@ -13,7 +13,7 @@ const LegalPage = () => {
   return (
     <Layout>
       <Head title={formatMessage({ id: 'legal.title' })} />
-      <Header noScroll />
+      <Header />
       <ThirdarySection title={formatMessage({ id: 'legal.title' })} useH1>
         <Legal />
       </ThirdarySection>

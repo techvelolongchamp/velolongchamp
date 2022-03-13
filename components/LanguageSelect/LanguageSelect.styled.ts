@@ -5,15 +5,16 @@ export const LngContainer = styled.div`
   display: flex;
   height: 100%;
   font-size: ${({ theme }) => theme.fonts.small};
-  margin-left: ${({ theme }) => theme.spacing.xs};
+  margin: 0 ${({ theme }) => theme.spacing.xs};
 `
 
 export const SelectLng = styled.button`
   background: none;
   border: none;
   outline: none;
+  color: black;
   padding: ${({ theme }) => theme.spacing.xs};
-  width: 24px;
+  text-decoration: none;
 
   &:hover {
     text-decoration: underline;

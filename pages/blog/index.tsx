@@ -16,7 +16,7 @@ const BlogPage: React.FC<{ posts: Post[] }> = ({ posts }) => {
   return (
     <Layout>
       <Head title={formatMessage({ id: 'blog.title' })} />
-      <Header noScroll />
+      <Header />
       <ThirdarySection title={formatMessage({ id: 'blog.title' })} useH1>
         <Blog posts={posts} />
       </ThirdarySection>

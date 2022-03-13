@@ -169,15 +169,17 @@ exports[`JoinPage unit tests should render correctly 1`] = `
   display: flex;
   height: 100%;
   font-size: 12px;
-  margin-left: 5px;
+  margin: 0 5px;
 }
 
 .c15 {
   background: none;
   border: none;
   outline: none;
+  color: black;
   padding: 5px;
-  width: 24px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
 }
 
 .c15:hover {
@@ -185,12 +187,45 @@ exports[`JoinPage unit tests should render correctly 1`] = `
   text-decoration: underline;
 }
 
+.c10 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  list-style-type: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 16px;
+  height: 30px;
+  margin: 0 20px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c11 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #999999;
+  cursor: pointer;
+  padding: 0 20px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c11:hover {
+  color: #666666;
+}
+
 .c5 {
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  z-index: 5;
+  z-index: 15;
   background: #f7f7F7;
   padding: 5px 10px;
   border-bottom: 1px solid #fff;
@@ -219,15 +254,16 @@ exports[`JoinPage unit tests should render correctly 1`] = `
   flex-grow: 1;
 }
 
-.c10 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+.c12 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 15px;
 }
 
 .c8 {
@@ -240,41 +276,6 @@ exports[`JoinPage unit tests should render correctly 1`] = `
   -ms-flex-align: center;
   align-items: center;
   cursor: pointer;
-}
-
-.c11 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  list-style-type: none;
-  border-left: 1px solid #6d6e71;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  font-size: 16px;
-  height: 30px;
-  margin: 0 20px;
-  padding-left: 20px;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-}
-
-.c12 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  color: #999999;
-  cursor: pointer;
-  padding: 0 20px;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-}
-
-.c12:hover {
-  color: #666666;
 }
 
 .c13 {
@@ -340,16 +341,15 @@ exports[`JoinPage unit tests should render correctly 1`] = `
 }
 
 @media screen and (max-width:640px) {
-  .c11 {
+  .c10 {
     font-size: 14px;
-    border: none;
     padding: 0;
     margin: 0 10px;
   }
 }
 
 @media screen and (max-width:640px) {
-  .c12 {
+  .c11 {
     padding: 0 10px;
   }
 }
@@ -440,19 +440,31 @@ exports[`JoinPage unit tests should render correctly 1`] = `
                 src="/logo.png"
               />
             </a>
-          </div>
-          <div
-            class="c10"
-          >
             <nav>
               <ul
-                class="c11"
+                class="c10"
+                data-testid="navbar"
               >
                 <li>
                   <a
-                    class="c12"
+                    class="c11"
+                    href="/"
+                  >
+                    A propos
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="c11"
+                    href="/blog"
+                  >
+                    Actualités
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="c11"
                     href="/calendar"
-                    id="calendar-link"
                   >
                     <svg
                       fill="currentColor"
@@ -469,17 +481,12 @@ exports[`JoinPage unit tests should render correctly 1`] = `
                     </svg>
                   </a>
                 </li>
-                <li>
-                  <a
-                    class="c12"
-                    href="/blog"
-                    id="blog-link"
-                  >
-                    Actualités
-                  </a>
-                </li>
               </ul>
             </nav>
+          </div>
+          <div
+            class="c12"
+          >
             <a
               class="c13"
               href="/join"

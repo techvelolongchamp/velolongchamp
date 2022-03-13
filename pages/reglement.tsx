@@ -45,7 +45,7 @@ const RulePage = () => {
   return (
     <Layout>
       <Head title="Règlement de l'événement Vivre vélo au féminin" />
-      <Header noScroll />
+      <Header />
       <ThirdarySection
         title="Règlement de l'événement Vivre vélo au féminin organisé le 19 septembre 2020 sur l'anneau cyclable de Longchamp"
         useH1
