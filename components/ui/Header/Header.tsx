@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 import { useMatches } from '../../../hooks/useMatches'
 import LanguageSelect from '../../LanguageSelect'
-import Navbar from './NavBar'
+import Navbar from './Navbar'
 import BurgerMenu from './BurgerMenu'
 
 import {
