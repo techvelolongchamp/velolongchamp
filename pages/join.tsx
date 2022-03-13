@@ -13,7 +13,7 @@ const JoinPage = () => {
   return (
     <Layout>
       <Head title={formatMessage({ id: 'join.title' })} />
-      <Header noScroll />
+      <Header />
       <ThirdarySection title={formatMessage({ id: 'join.title' })} useH1>
         <Join />
       </ThirdarySection>

@@ -107,7 +107,7 @@ const CalendarPage: React.FC<{ rawEvents: ForestryEvent[] }> = ({
     <>
       <Layout>
         <Head title={formatMessage({ id: 'calendar.title' })} />
-        <Header noScroll />
+        <Header />
         <ThirdarySection
           title={formatMessage({ id: 'calendar.title' })}
           useH1

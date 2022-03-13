@@ -16,7 +16,7 @@ const Post: React.FC<{
   return (
     <Layout>
       <Head />
-      <Header noScroll />
+      <Header />
       <ThirdarySection title={post.title} useH1 hideH1>
         <BlogContent content={post.content} date={post.date} />
       </ThirdarySection>

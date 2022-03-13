@@ -1,6 +1,6 @@
 import { useRef, useEffect } from 'react'
 
-const useClickOutside = (callback: () => void) => {
+const useClickOutside = (callback: () => void, safeZoneSelector?: any) => {
   const wrapperRef = useRef<HTMLDivElement>(null)
 
   const handleClickOutside = (event: MouseEvent) => {
@@ -8,7 +8,10 @@ const useClickOutside = (callback: () => void) => {
       wrapperRef.current &&
       !wrapperRef.current.contains(event.target as Node)
     ) {
-      callback()
+      const domElement = document.querySelector(safeZoneSelector)
+      if (!domElement || !domElement.contains(event.target)) {
+        callback()
+      }
     }
   }
 

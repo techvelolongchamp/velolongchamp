@@ -12,15 +12,17 @@ exports[`LanguageSelect unit tests should render correctly - en 1`] = `
   display: flex;
   height: 100%;
   font-size: 12px;
-  margin-left: 5px;
+  margin: 0 5px;
 }
 
 .c1 {
   background: none;
   border: none;
   outline: none;
+  color: black;
   padding: 5px;
-  width: 24px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
 }
 
 .c1:hover {
@@ -56,15 +58,17 @@ exports[`LanguageSelect unit tests should render correctly 1`] = `
   display: flex;
   height: 100%;
   font-size: 12px;
-  margin-left: 5px;
+  margin: 0 5px;
 }
 
 .c1 {
   background: none;
   border: none;
   outline: none;
+  color: black;
   padding: 5px;
-  width: 24px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
 }
 
 .c1:hover {
