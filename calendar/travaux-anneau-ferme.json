@@ -1,11 +1,11 @@
 {
   "organizer": "Autre",
-  "startDate": "2022-03-28T05:00:23+02:00",
-  "endDate": "2022-03-28T14:00:23+02:00",
-  "title": "Travaux - anneau fermé",
+  "startDate": "2022-03-24T05:00:23+01:00",
+  "endDate": "2022-03-25T14:00:23+01:00",
+  "title": "Travaux - entrée du golf",
   "description": "",
   "url": "",
-  "all_day": false,
+  "all_day": true,
   "recurrent": false,
   "repeated_day": [
 
