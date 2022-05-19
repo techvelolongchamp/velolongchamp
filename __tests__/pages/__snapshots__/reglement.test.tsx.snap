@@ -420,7 +420,7 @@ exports[`RulePage unit tests should render correctly 1`] = `
         <a
           class="c3"
           data-testid="notice-alert"
-          href="https://docs.google.com/forms/d/e/1FAIpQLSdmrvUuZ953-3P8NVmNjiG8N78hY1lcdg_hVbr8lnYEqSjM9A/viewform?vc=0&c=0&w=1"
+          href="https://docs.google.com/forms/d/e/1FAIpQLScSoqJxlSnDBXA1Qk_d81RNj8V5sRJ3CI0OOhO84R2b1L3sQQ/viewform"
           id="notice-alert"
           rel="noopener noreferrer"
           target="_blank"

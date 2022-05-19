@@ -50,7 +50,7 @@ const Layout: React.FC<{ alert?: boolean }> = ({ children, alert }) => {
         <AlertMessage showAlert={showAlert}>
           {formatMessage({ id: 'layout.message' })}
           <Button
-            href="https://docs.google.com/forms/d/e/1FAIpQLSdmrvUuZ953-3P8NVmNjiG8N78hY1lcdg_hVbr8lnYEqSjM9A/viewform?vc=0&c=0&w=1"
+            href="https://docs.google.com/forms/d/e/1FAIpQLScSoqJxlSnDBXA1Qk_d81RNj8V5sRJ3CI0OOhO84R2b1L3sQQ/viewform"
             target="_blank"
             title="Formulaire"
             rel="noopener noreferrer"
