@@ -9,7 +9,7 @@ shouldBePublished: false
 
 Comme vous avez pu le voir, Solidays est de retour !
 
-En dehors de l'événement en tant que tel, il y a les phases de montage et démontage donc **soyez vigilants !** 
+En dehors de l'événement en tant que tel, il y a les phases de montage et démontage donc **soyez vigilants !**
 
 Vous retrouverez toutes les infos ci-dessous plus un message de l'organisation.
 
@@ -22,7 +22,7 @@ Les dates clés :
 * Concerts : du 24 juin 12h au 26 juin 23h
 * Démontage : du 26 juin au 4 juillet 8h
 
-A noter également le passage de camions dans le virage sud les 14, 15 et 29 juin.
+A noter également le passage de camions dans le virage sud les 14, 15 et 29 juin. Faites attention !
 
 Message de l'organisation :
 
