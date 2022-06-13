@@ -20,7 +20,8 @@ fields:
   config:
     required: true
   label: Url
-  description: 'En minuscule, sans espace, pas d''accent. ex: mon-blog-post'
+  description: 'En minuscule, sans espace, pas d''accent, le plus court possible.
+    Ne peut pas être modifié après la 1ère sauvegarde. ex: mon-blog-post'
 - name: shouldBePublished
   type: boolean
   label: Publier
@@ -31,5 +32,4 @@ pages:
 - posts/communique-de-presse-pour-rendre-la-route-de-sevres-a-neuilly-100-pieton-et-cyclable.md
 - posts/fermeture-de-l-anneau-newsletter-juin.md
 - posts/s-assurer-a-longchamp.md
-- posts/solidays.md
 - posts/temoignage-de-la-famille-de-philippe.md
