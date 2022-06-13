@@ -22,7 +22,7 @@ Les dates clés :
 * Concerts : du 24 juin 12h au 26 juin 23h
 * Démontage : du 26 juin au 4 juillet 8h
 
-A noter également le passage de camions dans le virage sud les 14, 15 et 29 juin. Faites attention !
+A noter également le passage de camions dans le virage sud les **14, 15 et 29 juin**. Faites attention !
 
 Message de l'organisation :
 
