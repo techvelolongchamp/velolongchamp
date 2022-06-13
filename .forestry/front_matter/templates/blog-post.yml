@@ -15,12 +15,6 @@ fields:
     display_utc: true
     date_format: DD/MM/YYYY
   default: now
-- name: slug
-  type: text
-  config:
-    required: true
-  label: Url
-  description: 'En minuscule, sans espace, pas d''accent. ex: mon-blog-post'
 - name: shouldBePublished
   type: boolean
   label: Publier
