@@ -7,7 +7,6 @@
   "all_day": false,
   "recurrent": true,
   "repeated_day": [
-    "Jeudi",
     "Mardi"
   ],
   "end_date_repeat": "",
