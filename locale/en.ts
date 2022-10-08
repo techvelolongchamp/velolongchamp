@@ -117,6 +117,11 @@ const en = {
   'calendar.event.start': 'Start:',
   'calendar.event.end': 'End:',
   'calendar.event.more': 'More info',
+  'bidon.title': 'Order your bidon',
+  'bidon.subtitle':
+    'Once ordered, contact us to organise the delivery: contact@velo-longchamp.fr',
+  'bidon.mainPage': 'The Vélo Longchamp bidons are available!',
+  'bidon.order': 'Order',
 }
 
 export default en

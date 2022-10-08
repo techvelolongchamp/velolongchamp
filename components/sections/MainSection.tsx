@@ -1,11 +1,14 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
+import { useIntl } from 'react-intl'
 
 import Background from '../../public/media/Banniere.JPG'
 
-import { SectionContainer } from './MainSection.styled'
+import { SectionContainer, Overlay, Button } from './MainSection.styled'
 
 const MainSection: React.FC<{ id?: string }> = ({ id }) => {
+  const { formatMessage } = useIntl()
   return (
     <SectionContainer id={id}>
       <Image
@@ -16,6 +19,16 @@ const MainSection: React.FC<{ id?: string }> = ({ id }) => {
         layout="fill"
         objectFit="cover"
       />
+      <div style={{ position: 'relative' }}>
+        <Overlay>
+          <p>{formatMessage({ id: 'bidon.mainPage' })}</p>
+          <Link href="/bidon" passHref>
+            <Button id="nav-link-bidon">
+              {formatMessage({ id: 'bidon.order' })}
+            </Button>
+          </Link>
+        </Overlay>
+      </div>
     </SectionContainer>
   )
 }

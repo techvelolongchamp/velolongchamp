@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Home unit tests should render correctly 1`] = `
-.c22 {
+.c24 {
   background: #f7f7F7;
   border-top: 1px solid #f7f7F7;
   color: #999999;
@@ -9,16 +9,16 @@ exports[`Home unit tests should render correctly 1`] = `
   text-align: center;
 }
 
-.c22 a {
+.c24 a {
   color: #999999;
 }
 
-.c22 a:hover {
+.c24 a:hover {
   -webkit-text-decoration: underline;
   text-decoration: underline;
 }
 
-.c23 {
+.c25 {
   background: #0d171b;
   bottom: 0;
   -webkit-transition: all 1s ease;
@@ -32,11 +32,11 @@ exports[`Home unit tests should render correctly 1`] = `
   z-index: 1000;
 }
 
-.c23 div {
+.c25 div {
   margin-top: 10px;
 }
 
-.c23 a {
+.c25 a {
   background: #6d6e71;
   border-radius: 5px;
   color: #fff;
@@ -44,7 +44,7 @@ exports[`Home unit tests should render correctly 1`] = `
   padding: 5px;
 }
 
-.c23 button {
+.c25 button {
   background: #419a1c;
   border-radius: 5px;
   color: #fff;
@@ -293,40 +293,92 @@ exports[`Home unit tests should render correctly 1`] = `
 }
 
 .c16 {
-  min-height: 600px;
+  min-height: 400px;
   height: calc(100vh - 80px);
 }
 
+.c17 {
+  color: #fff;
+  font-size: 16px;
+  left: calc(50% - 110px);
+  position: absolute;
+  text-align: center;
+  top: 100px;
+  width: 220px;
+  z-index: 10;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
 .c18 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #419a1c;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 16px;
+  height: 30px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin: 10px 20px 0;
+  padding: 5px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  width: 120px;
+}
+
+.c18:hover {
+  color: #f7f7F7;
+}
+
+.c20 {
   margin: 0 auto;
   max-width: 750px;
   padding: 10px;
   height: inherit;
 }
 
-.c17 {
+.c19 {
   min-height: 600px;
   background: #f7f7F7;
 }
 
-.c19 {
+.c21 {
   color: #419a1c;
   font-size: 30px;
   margin: 20px 0;
 }
 
-.c20 {
+.c22 {
   padding-bottom: 30px;
 }
 
-.c20 h3 {
+.c22 h3 {
   font-size: 16px;
   margin: 20px 0;
   color: #9e9577;
   font-weight: 600;
 }
 
-.c20 p {
+.c22 p {
   font-size: 14px;
   line-height: 20px;
   color: #0d171b;
@@ -334,7 +386,7 @@ exports[`Home unit tests should render correctly 1`] = `
   text-align: justify;
 }
 
-.c20 ol {
+.c22 ol {
   list-style: none;
   counter-reset: styled-counter;
   display: -webkit-box;
@@ -348,7 +400,7 @@ exports[`Home unit tests should render correctly 1`] = `
   padding: 0;
 }
 
-.c20 ol li {
+.c22 ol li {
   counter-increment: styled-counter;
   display: -webkit-box;
   display: -webkit-flex;
@@ -362,14 +414,14 @@ exports[`Home unit tests should render correctly 1`] = `
   width: 50%;
 }
 
-.c20 ol li h4 {
+.c22 ol li h4 {
   color: #6d6e71;
   font-size: 16px;
   font-weight: 500;
   padding-right: 10px;
 }
 
-.c20 ol li::before {
+.c22 ol li::before {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -387,12 +439,12 @@ exports[`Home unit tests should render correctly 1`] = `
   margin-right: 5px;
 }
 
-.c20 a {
+.c22 a {
   color: #6d6e71;
   font-weight: 800;
 }
 
-.c20 ul {
+.c22 ul {
   list-style: none;
   display: -webkit-box;
   display: -webkit-flex;
@@ -405,7 +457,7 @@ exports[`Home unit tests should render correctly 1`] = `
   padding: 0;
 }
 
-.c20 ul li {
+.c22 ul li {
   counter-increment: styled-counter;
   display: -webkit-box;
   display: -webkit-flex;
@@ -415,18 +467,18 @@ exports[`Home unit tests should render correctly 1`] = `
   width: 50%;
 }
 
-.c20 ul li h4 {
+.c22 ul li h4 {
   color: #6d6e71;
   font-size: 16px;
   font-weight: 500;
   padding-right: 10px;
 }
 
-.c21 {
+.c23 {
   text-align: center;
 }
 
-.c21 iframe {
+.c23 iframe {
   width: 560px;
   height: 315px;
 }
@@ -464,19 +516,19 @@ exports[`Home unit tests should render correctly 1`] = `
 }
 
 @media (max-width:640px) {
-  .c20 ol li {
+  .c22 ol li {
     width: 100%;
   }
 }
 
 @media (max-width:640px) {
-  .c20 ul li {
+  .c22 ul li {
     width: 100%;
   }
 }
 
 @media (max-width:640px) {
-  .c21 iframe {
+  .c23 iframe {
     width: 100%;
     max-width: 560px;
     max-height: 315px;
@@ -652,20 +704,38 @@ exports[`Home unit tests should render correctly 1`] = `
           placeholder="blur"
           src="test-file-stub"
         />
+        <div
+          style="position: relative;"
+        >
+          <div
+            class="c17"
+          >
+            <p>
+              Les bidons Vélo Longchamp sont disponibles !
+            </p>
+            <a
+              class="c18"
+              href="/bidon"
+              id="nav-link-bidon"
+            >
+              Commander
+            </a>
+          </div>
+        </div>
       </section>
       <section
-        class="c17"
+        class="c19"
       >
         <div
-          class="c18"
+          class="c20"
         >
           <h2
-            class="c19"
+            class="c21"
           >
             Présentation
           </h2>
           <article
-            class="c20"
+            class="c22"
           >
             <h3>
               Qui sommes-nous ?
@@ -733,7 +803,7 @@ exports[`Home unit tests should render correctly 1`] = `
               Decouvrez les règles essentielles pour rouler à Longchamp :
             </h3>
             <div
-              class="c21"
+              class="c23"
             >
               <iframe
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
@@ -748,7 +818,7 @@ exports[`Home unit tests should render correctly 1`] = `
       </section>
     </main>
     <footer
-      class="c22"
+      class="c24"
     >
       <p>
         ©Copyright 2019
@@ -771,7 +841,7 @@ exports[`Home unit tests should render correctly 1`] = `
       </p>
     </footer>
     <div
-      class="c23"
+      class="c25"
     >
       <p>
         En poursuivant votre navigation sur notre site, vous acceptez l'utilisation de cookies afin de nous permettre d'améliorer votre expérience utilisateur.

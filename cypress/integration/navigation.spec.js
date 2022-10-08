@@ -16,6 +16,14 @@ describe('Navigation - Desktop', () => {
 
     cy.get('h1').contains('Calendrier')
   })
+  it('should navigate to the bidon page', () => {
+    cy.visit('/')
+
+    cy.get('a[id*="nav-link-bidon"]').click()
+    cy.url().should('include', '/bidon')
+
+    cy.get('h1').contains('bidon')
+  })
 
   it('should navigate back to the home page', () => {
     cy.visit('/calendar')
