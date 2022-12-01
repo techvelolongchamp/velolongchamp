@@ -2,7 +2,7 @@
 date: 2022-11-30T16:42:54+01:00
 title: Travaux sud Longchamp
 slug: travaux-sud-longchamp
-shouldBePublished: false
+shouldBePublished: true
 
 ---
 ## **Travaux sud Longchamp - S2 2023**
@@ -22,21 +22,21 @@ En résumé, ce que cela change pour nous :
 
 ![](/media/screenshot-2022-11-30-at-17-05-13.png)
 
-[Agrandir l'image](/media/screenshot-2022-11-30-at-17-05-13.png)
+<a href="/media/screenshot-2022-11-30-at-17-05-13.png" target="_blank">Agrandir l'image</a>
 
-Le schéma en bas de l'image illustre la partie sud de l'anneau (route de la Seine À la Butte Mortemart) après la réalisation des travaux. Vous reconnaitrez le goulet côté Boulogne tout à droite. L'anneau est uniformisé avec 5m de large en élargissant le goulet (image ci-dessous pour l'élargissement). Une voie de promenade partagée est également créée à gauche de l'anneau avec 5m de largeur. La partie végétalisée est prise sur la zone peu utilisée tout à gauche de l'anneau.
+Le schéma en bas de l'image illustre la partie sud de l'anneau (route de la Seine à la Butte Mortemart) après la réalisation des travaux. Vous reconnaitrez le goulet côté Boulogne tout à droite. L'anneau est uniformisé avec 5m de large en élargissant le goulet (image ci-dessous pour l'élargissement). Une voie de promenade partagée est également créée à gauche de l'anneau avec 5m de largeur. La partie végétalisée est prise sur la zone peu utilisée tout à gauche de l'anneau.
 
 En bref, la partie bitumée passe de 11,88m de large à 10m
 
 ![](/media/screenshot-2022-11-30-at-17-05-45.png)
 
-Agrandir l'image
+<a href="/media/screenshot-2022-11-30-at-17-05-45.png" target="_blank">Agrandir l'image</a>
 
 ### Route des tribunes (partie fermée à la circulation)
 
 ![](/media/screenshot-2022-11-30-at-17-04-51.png)
 
-Agrandir l'image
+<a href="/media/screenshot-2022-11-30-at-17-04-51.png" target="_blank">Agrandir l'image</a>
 
 Très similaire à la partie sud. L'anneau est uniformisé à 5m. Une voie de promenade partagée est créée. La partie bitumée passe de 14,5m à 10m de large.
 
@@ -44,7 +44,7 @@ Très similaire à la partie sud. L'anneau est uniformisé à 5m. Une voie de pr
 
 ![](/media/screenshot-2022-11-30-at-17-04-16.png)
 
-Agrandir l'image
+<a href="/media/screenshot-2022-11-30-at-17-04-16.png" target="_blank">Agrandir l'image</a>
 
 Cette partie commence au niveau de l'aire d'accueil des gens du voyage et se termine juste avant la grille d'honneur.
 
@@ -54,6 +54,6 @@ La largeur de l'anneau est également uniformisée à 5m. Les parkings à gauche
 
 ![](/media/screenshot-2022-12-01-at-10-34-49.png)
 
-Agrandir l'image
+<a href="/media/screenshot-2022-12-01-at-10-34-49.png" target="_blank">Agrandir l'image</a>
 
-Cette partie n'impacte pas directement l'anneau mais ses accès. La portion de la route de la Seine À la Butte Mortemart rejoignant la passerelle de l'Avre sera également végétalisée. Les parkings seront supprimées à l'exception de quelques places pour l'accès au stade. La route passera à 6m de large sur la partie ouverte aux véhicules et à 5m sur le reste. A noter que la barrière sera déplacée pour être positionnée juste après l'entrée du stade.
+Cette partie n'impacte pas directement l'anneau mais ses accès. La portion de la route de la Seine à la Butte Mortemart rejoignant la passerelle de l'Avre sera également végétalisée. Les parkings seront supprimées à l'exception de quelques places pour l'accès au stade. La route passera à 6m de large sur la partie ouverte aux véhicules et à 5m sur le reste. A noter que la barrière sera déplacée pour être positionnée juste après l'entrée du stade.
