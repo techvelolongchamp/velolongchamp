@@ -1,5 +1,5 @@
 ---
-date: 2022-12-07T16:42:54+01:00
+date: 2022-12-07T16:42:54.000+01:00
 title: Travaux sud Longchamp
 slug: travaux-sud-longchamp
 shouldBePublished: true
@@ -11,11 +11,11 @@ Les parties sud (côté Boulogne) et ouest (côté Seine) de Longchamp seront r�
 
 ### **1/ Elargissement du goulet côté Boulogne**
 
-Le virage en descente après la bosse de Longchamp est élargi, passant de 4m à 5m. Voilà qui « pardonnera » les écarts de trajectoire, et donnera une meilleure visibilité en sortie de virage. C’était notre demande prioritaire.
+Le virage en descente après la bosse de Longchamp est élargi, passant de 4m à 5m. Voilà qui améliorera notre sécurité en nous offrant plus d'espace et une meilleure visibilité en sortie de virage.
 
 ### **2/ Uniformisation de la largeur de l’Anneau**
 
-Entre le goulet de Boulogne et l'aire des gens du voyage, la chaussée se divise entre l’Anneau cyclable à l'intérieur, et une voie verte à l'extérieur. Aujourd’hui, l’Anneau fait 5m de large, sauf dans le coin sud-ouest où il fait 6m. La voie verte oscille entre 7 et 8m. La chaussée va être réduite à 10m de large :  5m pour l’Anneau et 5m pour la voie verte. Les 2 seront séparés par une bande blanche, pour bien délimiter chaque espace et là encore « pardonner » une éventuelle sortie de route.
+Entre le goulet de Boulogne et l'aire des gens du voyage, la chaussée se divise entre l’Anneau cyclable à l'intérieur, et une voie verte à l'extérieur. Aujourd’hui, l’Anneau fait 5m de large, sauf dans le coin sud-ouest où il fait 6m. La voie verte oscille entre 7 et 8m. La chaussée va être réduite à 10m de large :  5m pour l’Anneau et 5m pour la voie verte. Les 2 seront séparés par une simple bande blanche, donc sans souci en cas d'écart (à la différence d'une barrière par exemple qui ne « pardonnerait » pas). Avoir un Anneau homogéisé à 5m est essentiel pour nous. Cela évitera les risques induits par la succession de rétrécissements et d élargissements .
 
 L’espace gagné sur la voirie va être végétalisé avec une pelouse et des arbres.
 
@@ -29,9 +29,9 @@ La réduction du nombre de places permettra de végétaliser l'espace gagné, et
 
 Pour ceux qui n’ont d’autres choix que de venir en voiture, cela va bien sûr réduire les options pour se garer le long de l'Anneau et on s'en excuse. A noter que, si vous ne le saviez pas, le stationnement est devenu payant dans le bois de Boulogne depuis 2021.
 
-### **4/ L'éclairage**
+## **4/ L'éclairage**
 
-Le point bloquant est l’éclairage. La Mairie nous a très clairement indiqué que nous n’aurons pas de lampadaires (comme dans la bosse de Longchamp). Nous avons fait plusieurs propositions sur un éclairage alternatif (bandes fluorescentes, LED au sol, petit éclairage rouge aux heures de pointe). Voilà ce sur quoi nous allons continuer à mettre la pression. Si vous avez des exemples de solutions d'éclairage efficaces et pas trop lumineux, écrivez-nous !
+Le point bloquant est l’éclairage. La Mairie nous a très clairement indiqué que nous n’aurons pas de lampadaires (comme dans la bosse de Longchamp). Nous avons fait plusieurs propositions sur un éclairage alternatif (bandes fluorescentes, LED au sol, petit éclairage rouge aux heures de pointe). Voilà ce sur quoi nous allons continuer à mettre la pression. Si vous avez des exemples de solutions d'éclairage efficaces et pas trop lumineux, écrivez nous !
 
 ### **Virage sud**
 
