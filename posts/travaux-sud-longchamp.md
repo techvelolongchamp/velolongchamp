@@ -29,7 +29,7 @@ La réduction du nombre de places permettra de végétaliser l'espace gagné, et
 
 Pour ceux qui n’ont d’autres choix que de venir en voiture, cela va bien sûr réduire les options pour se garer le long de l'Anneau et on s'en excuse. A noter que, si vous ne le saviez pas, le stationnement est devenu payant dans le bois de Boulogne depuis 2021.
 
-## **4/ L'éclairage**
+### **4/ L'éclairage**
 
 Le point bloquant est l’éclairage. La Mairie nous a très clairement indiqué que nous n’aurons pas de lampadaires (comme dans la bosse de Longchamp). Nous avons fait plusieurs propositions sur un éclairage alternatif (bandes fluorescentes, LED au sol, petit éclairage rouge aux heures de pointe). Voilà ce sur quoi nous allons continuer à mettre la pression. Si vous avez des exemples de solutions d'éclairage efficaces et pas trop lumineux, écrivez nous !
 
