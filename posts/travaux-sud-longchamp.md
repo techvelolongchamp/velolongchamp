@@ -33,7 +33,7 @@ Pour ceux qui n’ont d’autres choix que de venir en voiture, cela va bien sû
 
 Le point bloquant est l’éclairage. La Mairie nous a très clairement indiqué que nous n’aurons pas de lampadaires (comme dans la bosse de Longchamp). Nous avons fait plusieurs propositions sur un éclairage alternatif (bandes fluorescentes, LED au sol, petit éclairage rouge aux heures de pointe). Voilà ce sur quoi nous allons continuer à mettre la pression. Si vous avez des exemples de solutions d'éclairage efficaces et pas trop lumineux, écrivez nous !
 
-### **Virage sud**
+#### **_Plan du virage sud_**
 
 ![](/media/screenshot-2022-11-30-at-17-05-13.png)
 
