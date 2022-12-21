@@ -15,7 +15,7 @@ Le virage en descente après la bosse de Longchamp est élargi, passant de 4m à
 
 ### **2/ Uniformisation de la largeur de l’Anneau**
 
-Entre le goulet de Boulogne et l'aire des gens du voyage, la chaussée se divise entre l’Anneau cyclable à l'intérieur, et une voie verte à l'extérieur. Aujourd’hui, l’Anneau fait 5m de large, sauf dans le coin sud-ouest où il fait 6m. La voie verte oscille entre 7 et 8m. La chaussée va être réduite à 10m de large :  5m pour l’Anneau et 5m pour la voie verte. Les 2 seront séparés par une simple bande blanche, donc sans souci en cas d'écart (à la différence d'une barrière par exemple qui ne « pardonnerait » pas). Avoir un Anneau homogéisé à 5m est essentiel pour nous. Cela évitera les risques induits par la succession de rétrécissements et d élargissements .
+Entre le goulet de Boulogne et l'aire des gens du voyage, la chaussée se divise entre l’Anneau cyclable à l'intérieur, et une voie verte à l'extérieur. Aujourd’hui, l’Anneau fait 5m de large, sauf dans le coin sud-ouest où il fait 6m. La voie verte oscille entre 7 et 8m. La chaussée va être réduite à 10m de large :  5m pour l’Anneau et 5m pour la voie verte. Les 2 seront séparés à priori par une simple bande blanche (il n'y aura pas de séparation physique qui ne « pardonnerait » pas en cas d'écart). Avoir un Anneau d'une largeur homogène évitera les risques induits par la succession de rétrécissements et d élargissements. Certes, on va perde un peu à certains endroits mais on gagnera à d'autres (tout l'objectif est d'obtenir l'élargissement des 2 goulets). 
 
 L’espace gagné sur la voirie va être végétalisé avec une pelouse et des arbres.
 
