@@ -7,27 +7,29 @@ shouldBePublished: true
 ---
 ## **Travaux Longchamp - S2 2023**
 
-Les parties sud (côté Boulogne) et ouest (côté Seine) de Longchamp seront réaménagées au 2e semestre 2023. Le projet résulte d'un consensus permettant de porter un triple objectif : (i) sécuriser les cyclistes, (ii) valoriser la promenade, et (iii) créer des espaces verts supplémentaires. En voici les grandes lignes.
+On avance ! Cette année on transforme la partie sud de Longchamp. Avant de s'attaquer au gros sujet, le nord, en 2024.
+
+Les parties sud (côté Boulogne) et ouest (côté Seine) de Longchamp seront réaménagées au 2e semestre 2023. Le projet résulte d'un consensus pas toujours facile vu que l'endroit en intéresse plus d'un ! Il permettra de répondre à un triple objectif : (i) sécuriser les cyclistes et des autres usagers, (ii) valoriser la promenade, et (iii) créer des espaces verts supplémentaires. 
 
 ### **1/ Elargissement du goulet côté Boulogne**
 
-Le virage en descente après la bosse de Longchamp est élargi, passant de 4m à 5m. Voilà qui améliorera notre sécurité en nous offrant plus d'espace et une meilleure visibilité en sortie de virage.
+Le virage en descente après la bosse de Longchamp est élargi, passant de 4m à 5m. Voilà qui améliorera notre sécurité en nous offrant plus d'espace et une meilleure visibilité en sortie de virage. C'était notre principale demande.
 
 ### **2/ Uniformisation de la largeur de l’Anneau**
 
-Entre le goulet de Boulogne et l'aire des gens du voyage, la chaussée se divise entre l’Anneau cyclable à l'intérieur, et une voie verte à l'extérieur. Aujourd’hui, l’Anneau fait 5m de large, sauf dans le coin sud-ouest où il fait 6m. La voie verte oscille entre 7 et 8m. La chaussée va être réduite à 10m de large :  5m pour l’Anneau et 5m pour la voie verte. Les 2 seront séparés à priori par une simple bande blanche (il n'y aura pas de séparation physique qui ne « pardonnerait » pas en cas d'écart). Avoir un Anneau d'une largeur homogène évitera les risques induits par la succession de rétrécissements et d élargissements. Certes, on va perde un peu à certains endroits mais on gagnera à d'autres (tout l'objectif est d'obtenir l'élargissement des 2 goulets). 
+Entre le virage en descente et l'aire des gens du voyage, la chaussée se divise entre l’Anneau cyclable à l'intérieur, et une voie verte à l'extérieur. Aujourd’hui, l’Anneau fait 5m de large, sauf dans le coin sud-ouest où il fait 6m. La voie verte oscille entre 7 et 8m. La chaussée sera réduite à 10m de large :  5m pour l’Anneau et 5m pour la voie verte. Il n'y aura pas de séparation physique (qui ne « pardonnerait » pas en cas d'écart)
+
+Avoir un Anneau d'une largeur homogène évitera les risques induits par la succession de rétrécissements et d élargissements. Alors, certes, on va perde un peu de largeur ici mais la contrepartie attendue est l'élargissement côté nord en 2024.
 
 L’espace gagné sur la voirie va être végétalisé avec une pelouse et des arbres.
 
 ### **3/ Réduction du stationnement voiture**
 
-Il y a 2 parkings dans cette zone. Le premier de \~75 places le long de la route des tribunes entre les gens du voyage et l’entrée piétonne de l’hippodrome. Le second de \~45 places dans l’impasse menant au stade du saut du loup. Le nombre de places va être fortement réduit. La Mairie ne garde que 1/4 des places route des tribunes et 1/3 au saut du loup. Les places gardées route des tribunes seront situées vers les gens du voyage.
+Il y a 2 parkings dans cette zone. Le premier de \~75 places route des tribunes entre les gens du voyage et l’entrée piétonne de l’hippodrome. Le second de \~45 places dans l’impasse menant au stade du saut du loup. Le nombre de places va être fortement réduit, la Mairie gardant 1/4 des places route des tribunes et 1/3 au saut du loup. 
 
-Le problème de ces parkings est le mésusage qui en est fait. Ils sont surtout utilisés comme concession voiture informelle par les gens du voyage, par des caravaniers à demeure et des prostituées en camionnette. C'est aussi les jours d'évènements à l'hippodrome (280 jours en 2021!) un parking semi-officiel pour les visiteurs alors même qu'ils disposent d’un parking de 5000 places par l’entrée du golf.
+Ces parkings sont bien utiles pour les cyclistes qui viennent en voiture, mais ils sont utilisés comme concession voiture par les gens du voyage, somme aire de camping par des caravaniers et comme lupanar par les prostituées en camionnette. Et surtout comme  parking semi-officiel pour les évènements de l'hippodrome (280 jours par an). C'est de là d'où viennent les accidents : quand les livreurs et les spectateurs se perdent sur l'Anneau. L'objectif ici est de les réorienter exclusivement vers l'entrée du golf.
 
-La réduction du nombre de places permettra de végétaliser l'espace gagné, et de créer un chemin de promenade digne de ce nom. Il devrait aussi réduire le trafic route des tribunes vu que les places seront situées loin de l'entrée de l'hippodrome et donc peu attractives pour les visiteurs.
-
-Pour ceux qui n’ont d’autres choix que de venir en voiture, cela va bien sûr réduire les options pour se garer le long de l'Anneau et on s'en excuse. A noter que, si vous ne le saviez pas, le stationnement est devenu payant dans le bois de Boulogne depuis 2021.
+La réduction du nombre de places permettra de végétaliser l'espace gagné, et de créer un chemin de promenade. Pour ceux qui n’ont d’autres choix que de venir en voiture, cela va bien sûr réduire les options pour se garer le long de l'Anneau et on s'en excuse. 
 
 ### **4/ L'éclairage**
 
