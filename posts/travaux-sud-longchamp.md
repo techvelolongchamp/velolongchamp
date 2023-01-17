@@ -7,31 +7,31 @@ shouldBePublished: true
 ---
 ## **Travaux Longchamp - S2 2023**
 
-On avance ! Cette année on transforme la partie sud de Longchamp. Avant de s'attaquer au gros sujet, le nord, en 2024.
+On avance ! Cette année on transforme la partie sud (côté Boulogne) et ouest (côté seine) de Longchamp. Avant de s'attaquer au gros et vrai sujet, le nord, en 2024.
 
-Les parties sud (côté Boulogne) et ouest (côté Seine) de Longchamp seront réaménagées au 2e semestre 2023. Le projet résulte d'un consensus pas toujours facile vu que l'endroit en intéresse plus d'un ! Il permettra de répondre à un triple objectif : (i) sécuriser les cyclistes et autres usagers, (ii) valoriser la promenade, et (iii) augmenter la superficie des espaces verts.
+Le projet vient d'un triple objectif. Sécuriser les cyclistes, bien sûr. Améliorer la promenade, pourquoi pas. Et planter des arbres, c'est important les arbres, ca capture le carbone et baisse la température pendant les canicules et non on n'a pas assez d'arbres, encore l'année dernière 2 sont tombés route des tribunes c'est bien la preuve que la forêt est pourrie et qu'il faut la revitaliser. 
 
-Voici les grandes lignes.
+Le projet résulte d'un consensus, pas toujours évident. Voici les grandes lignes.
 
 ### **1/ Elargissement du goulet côté Boulogne**
 
-Le virage en descente après la bosse de Longchamp est élargi, passant de 4m à 5m. Voilà qui améliorera notre sécurité en nous offrant plus d'espace et une meilleure visibilité en sortie de virage. 
+Le virage en descente après la bosse de Longchamp est élargi, passant de 4m à 5m. Voilà qui améliorera notre sécurité en nous offrant plus d'espace et une meilleure visibilité en sortie de virage.
 
 ### **2/ Uniformisation de la largeur de l’Anneau**
 
 Entre le virage en descente et l'aire des gens du voyage, la chaussée se divise entre l’Anneau cyclable à l'intérieur, et une voie verte à l'extérieur. Aujourd’hui, l’Anneau fait 5m de large, sauf dans le coin sud-ouest où il fait 6m. La voie verte oscille entre 7 et 8m. La chaussée sera réduite à 10m de large :  5m pour l’Anneau et 5m pour la voie verte. Il n'y aura pas de séparation physique entre les deux (qui ne « pardonnerait » pas en cas d'écart)
 
-Avoir un Anneau d'une largeur homogène évitera les risques induits par la succession de rétrécissements et d élargissements. On perd à certains endroits mais on gagne à d'autres (adieu goulets !) 
+Avoir un Anneau d'une largeur homogène évitera les risques induits par la succession de rétrécissements et d élargissements. On perd à certains endroits mais on gagne à d'autres (adieu goulets !)
 
 L’espace gagné sur la voirie sera végétalisé avec une large pelouse et des arbres.
 
 ### **3/ Réduction du stationnement voiture**
 
-Il y a 2 parkings dans cette zone. Le premier de \~75 places route des tribunes entre les gens du voyage et l’entrée piétonne de l’hippodrome. Le second de \~45 places dans l’impasse menant au stade du saut du loup. Le nombre de places va être fortement réduit, la Mairie gardant 1/4 des places route des tribunes et 1/3 au saut du loup. 
+Il y a 2 parkings dans cette zone. Le premier de \~75 places route des tribunes entre les gens du voyage et l’entrée piétonne de l’hippodrome. Le second de \~45 places dans l’impasse menant au stade du saut du loup. Le nombre de places va être fortement réduit, la Mairie gardant 1/4 des places route des tribunes et 1/3 au saut du loup.
 
 Ces parkings sont bien utiles pour les cyclistes qui viennent en voiture, mais ils sont utilisés comme concession voiture par les gens du voyage, somme aire de camping par des caravaniers et comme lupanar par les prostituées en camionnette. Et surtout comme  parking semi-officiel pour les évènements de l'hippodrome (280 jours par an). C'est de là d'où viennent les accidents : quand les livreurs et les spectateurs se perdent sur l'Anneau. L'objectif est de les réorienter exclusivement vers l'entrée voiture de l'hippdrome (par le golf).
 
-Pour ceux qui n’ont d’autres choix que de venir en voiture, cela va bien sûr réduire les options pour se garer le long de l'Anneau et on s'en excuse. 
+Pour ceux qui n’ont d’autres choix que de venir en voiture, cela va bien sûr réduire les options pour se garer le long de l'Anneau et on s'en excuse.
 
 ### **4/ L'éclairage**
 
