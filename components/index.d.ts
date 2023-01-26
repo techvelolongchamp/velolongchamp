@@ -1,8 +1,9 @@
 declare module '*.JPG'
 
 declare interface Post {
-  slug: string
+  id: string
   title: string
   date: string
   excerpt: string
+  _sys: { filename: string }
 }

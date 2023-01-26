@@ -7,16 +7,18 @@ const useRouter = jest.spyOn(require('next/router'), 'useRouter')
 
 const posts = [
   {
-    slug: 'slug1',
+    id: '1',
     title: 'title1',
     date: '2021-03-24T15:48:12.516Z',
     excerpt: 'excerpt1',
+    _sys: { filename: 'slug1' },
   },
   {
-    slug: 'slug2',
+    id: '2',
     title: 'title2',
     date: '2021-03-10T15:48:12.516Z',
     excerpt: 'excerpt2',
+    _sys: { filename: 'slug2' },
   },
 ]
 

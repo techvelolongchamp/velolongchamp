@@ -77,12 +77,12 @@ exports[`BlogContent unit tests should render correctly 1`] = `
 
 .c1 img {
   text-align: center;
-  max-width: 500px;
+  max-width: 100%;
 }
 
 .c1 ul,
 .c1 ol {
-  list-style: inside;
+  margin-left: 20px;
 }
 
 .c1 ul,
@@ -96,7 +96,6 @@ exports[`BlogContent unit tests should render correctly 1`] = `
   font-weight: 200;
   margin: 10px 0;
   padding-left: 20px;
-  max-width: 75%;
 }
 
 .c1 .downloadButton {
@@ -107,34 +106,9 @@ exports[`BlogContent unit tests should render correctly 1`] = `
   font-size: 16px;
   outline: none;
   padding: 10px;
+  margin: 10px 0;
   -webkit-text-decoration: none;
   text-decoration: none;
-}
-
-.c1 .article8 {
-  padding-left: 30px;
-  margin-bottom: 20px;
-}
-
-.c1 .article8 p {
-  font-style: italic;
-  font-size: 12px;
-  line-height: initial;
-  margin-bottom: 5px;
-}
-
-.c1 .article8 ul {
-  margin: 5px 0;
-  font-style: italic;
-  font-size: 12px;
-  list-style-type: circle;
-}
-
-@media (max-width:640px) {
-  .c1 ul,
-  .c1 ol li {
-    width: 100%;
-  }
 }
 
 @media screen and (max-width:640px) {
@@ -151,10 +125,6 @@ exports[`BlogContent unit tests should render correctly 1`] = `
   </p>
   <div
     class="c1"
-  >
-    <div>
-      Hello world
-    </div>
-  </div>
+  />
 </div>
 `;

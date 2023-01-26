@@ -1,5 +1,7 @@
 import React from 'react'
 import { GetStaticProps, GetStaticPaths } from 'next'
+import { useTina } from 'tinacms/dist/react'
+import client from '../../.tina/__generated__/client'
 
 import Head from '../../components/Head'
 import Layout from '../../components/ui/Layout'
@@ -8,17 +10,19 @@ import Header from '../../components/ui/Header'
 import ThirdarySection from '../../components/sections/ThirdarySection'
 import BlogContent from '../../components/Blog/BlogContent'
 
-import { getAllPosts, getPostBySlug, markdownToHtml } from '../../utils/blog'
+const Post = (props: any) => {
+  const { data } = useTina({
+    query: props.query,
+    variables: props.variables,
+    data: props.data,
+  })
 
-const Post: React.FC<{
-  post: { title: string; date: string; content: string }
-}> = ({ post }) => {
   return (
     <Layout>
       <Head />
       <Header />
-      <ThirdarySection title={post.title} useH1 hideH1>
-        <BlogContent content={post.content} date={post.date} />
+      <ThirdarySection title={data.posts.title} useH1 hideH1>
+        <BlogContent content={data.posts.body} date={data.posts.date} />
       </ThirdarySection>
     </Layout>
   )
@@ -27,36 +31,38 @@ const Post: React.FC<{
 export default Post
 
 export const getStaticProps: GetStaticProps = async ({ params }) => {
-  const post = getPostBySlug((params?.slug as string) || '', [
-    'title',
-    'date',
-    'content',
-  ])
-  const content = await markdownToHtml(post.content || '')
+  let data = {}
+  let query = {}
+  let variables = { relativePath: `${params!.slug}.mdx` }
+
+  try {
+    const res = await client.queries.posts(variables)
+    query = res.query
+    data = res.data
+    variables = res.variables
+  } catch {}
 
   return {
     props: {
-      post: {
-        ...post,
-        content,
-      },
+      variables: variables,
+      data: data,
+      query: query,
     },
   }
 }
 
 export const getStaticPaths: GetStaticPaths = async ({ locales }) => {
-  const posts = getAllPosts(['slug'])
+  const postsListData = await client.queries.postsConnection()
+
   return {
     paths: locales!
       .map((locale) =>
-        posts.map((post) => {
-          return {
-            params: {
-              slug: post.slug,
-            },
-            locale,
-          }
-        })
+        postsListData.data.postsConnection.edges!.map((post) => ({
+          params: {
+            slug: post!.node!._sys.filename,
+          },
+          locale,
+        }))
       )
       .flat(),
     fallback: false,

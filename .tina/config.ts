@@ -3,7 +3,6 @@ import { defineConfig } from 'tinacms'
 const branch =
   process.env.NEXT_PUBLIC_TINA_BRANCH ||
   process.env.NEXT_PUBLIC_VERCEL_GIT_COMMIT_REF ||
-  process.env.HEAD ||
   'master'
 
 export default defineConfig({
@@ -71,11 +70,13 @@ export default defineConfig({
                     name: 'buttonText',
                     label: 'Message button',
                     type: 'string',
+                    required: true,
                   },
                   {
                     name: 'href',
                     label: 'Nom du fichier avec extension ou url complète',
                     type: 'string',
+                    required: true,
                   },
                 ],
               },
@@ -87,6 +88,24 @@ export default defineConfig({
                     name: 'src',
                     label: 'Nom du fichier avec extension',
                     type: 'string',
+                    required: true,
+                  },
+                ],
+              },
+              {
+                name: 'Img',
+                label: 'Image',
+                fields: [
+                  {
+                    name: 'src',
+                    label: 'Nom du fichier avec extension',
+                    type: 'string',
+                    required: true,
+                  },
+                  {
+                    name: 'width',
+                    label: 'Largeur image en pixel',
+                    type: 'number',
                   },
                 ],
               },
@@ -98,6 +117,7 @@ export default defineConfig({
                     name: 'src',
                     label: 'Url vidéo',
                     type: 'string',
+                    required: true,
                   },
                 ],
               },

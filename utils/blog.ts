@@ -1,97 +1,26 @@
-import fs from 'fs'
-import path from 'path'
-import matter from 'gray-matter'
-import { remark } from 'remark'
-import excerptAst from 'mdast-excerpt'
-import { unified } from 'unified'
-import remarkParse from 'remark-parse'
-import remarkRehype from 'remark-rehype'
-import rehypeRaw from 'rehype-raw'
-import rehypeDocument from 'rehype-document'
-import rehypeFormat from 'rehype-format'
-import rehypeStringify from 'rehype-stringify'
+type RichTextBody = {
+  text?: string
+  children?: RichTextBody[]
+}
 
-const postsDirectory = path.join(process.cwd(), 'posts')
+const excerptLength = 140
 
-const asExcerpt =
-  (options: {
-    pruneLength?: number
-    truncate?: boolean
-    excerptSeparator?: string
-    omission?: string
-  }) =>
-  (node: any) => {
-    return excerptAst(node, options || {})
+function getExcerpt(body: RichTextBody, excerpt = ''): string {
+  if (body.text && body.text.trim().length > 0) {
+    return excerpt ? `${excerpt} ${body.text.trim()}` : body.text.trim()
   }
-
-export async function markdownToHtml(markdown: string): Promise<string> {
-  const result = await unified()
-    .use(remarkParse)
-    .use(remarkRehype, { allowDangerousHtml: true })
-    .use(rehypeRaw)
-    .use(rehypeDocument)
-    .use(rehypeFormat)
-    .use(rehypeStringify)
-    .process(markdown)
-  return result.toString()
+  if (body.children && excerpt.length <= excerptLength) {
+    return body.children.reduce(
+      (acc, richText) => getExcerpt(richText, acc),
+      excerpt
+    )
+  }
+  return excerpt
 }
 
-export async function markdownExcerpt(markdown: string): Promise<string> {
-  const result = await remark()
-    .use(asExcerpt, { omission: '' })
-    .process(markdown)
-
-  return (
-    result
-      .toString()
-      .replace(/#/g, ' ')
-      .replace(/\*/g, ' ')
-      .replace(/\n/g, ' ')
-      .replace(/!?\[(?:.*)\]/g, ' ')
-      .replace(/\((?:.*)\)/g, ' ')
-      .trim() + '...'
-  )
-}
-
-export function getPostFiles() {
-  return fs.readdirSync(postsDirectory).filter((el) => {
-    const extName = path.extname(el)
-    return extName === '.md'
-  })
-}
-
-export function getPostBySlug(slug: string, fields: string[] = []) {
-  const realSlug = slug.replace('.md', '')
-  const fullPath = path.join(postsDirectory, `${realSlug}.md`)
-  const fileContents = fs.readFileSync(fullPath, 'utf8')
-  const { data, content } = matter(fileContents)
-
-  const items: { [key: string]: string } = {}
-
-  fields.forEach((field) => {
-    if (field === 'content') {
-      items[field] = content
-    }
-    if (field === 'date') {
-      items[field] = new Date(data[field]).toISOString()
-    } else if (field === 'slug') {
-      items[field] = realSlug
-    } else if (data[field]) {
-      items[field] = data[field]
-    }
-  })
-
-  items.shouldBePublished = data.shouldBePublished
-
-  return items
-}
-
-export function getAllPosts(fields: string[] = []) {
-  const files = getPostFiles()
-
-  const posts = files
-    .map((fileName) => getPostBySlug(fileName, fields))
-    .sort((post1, post2) => (post1.date > post2.date ? -1 : 1))
-    .filter((post) => post.shouldBePublished)
-  return posts
+export function generateExcerpt(body: RichTextBody) {
+  const text = getExcerpt(body)
+  const subText = text.slice(excerptLength, text.length)
+  const indexSpace = subText.indexOf(' ')
+  return text.slice(0, indexSpace + excerptLength).trim() + '...'
 }

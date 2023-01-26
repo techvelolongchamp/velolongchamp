@@ -67,12 +67,12 @@ export const Container = styled.div`
 
   img {
     text-align: center;
-    max-width: 500px;
+    max-width: 100%;
   }
 
   ul,
   ol {
-    list-style: inside;
+    margin-left: ${({ theme }) => theme.spacing.l};
   }
 
   ul,
@@ -83,11 +83,6 @@ export const Container = styled.div`
     font-weight: 200;
     margin: ${({ theme }) => theme.spacing.s} 0;
     padding-left: ${({ theme }) => theme.spacing.l};
-    max-width: 75%;
-
-    @media (max-width: 640px) {
-      width: 100%;
-    }
   }
 
   .downloadButton {
@@ -98,27 +93,15 @@ export const Container = styled.div`
     font-size: ${({ theme }) => theme.fonts.large};
     outline: none;
     padding: ${({ theme }) => theme.spacing.s};
+    margin: ${({ theme }) => theme.spacing.s} 0;
     text-decoration: none;
 
     @media screen and (max-width: 640px) {
       font-size: ${({ theme }) => theme.fonts.medium};
     }
   }
+`
 
-  .article8 {
-    padding-left: 30px;
-    margin-bottom: 20px;
-    p {
-      font-style: italic;
-      font-size: 12px;
-      line-height: initial;
-      margin-bottom: 5px;
-    }
-    ul {
-      margin: 5px 0;
-      font-style: italic;
-      font-size: 12px;
-      list-style-type: circle;
-    }
-  }
+export const ImgContainer = styled.div`
+  text-align: center;
 `
