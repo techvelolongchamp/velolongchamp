@@ -22,7 +22,7 @@ const Join = () => {
         {formatMessage(
           { id: 'join.problem' },
           {
-            a: (chunk) => (
+            a: (chunk: React.ReactNode) => (
               <a
                 href="https://www.helloasso.com/associations/velo-longchamp/adhesions/adhesion-association-velo-longchamp"
                 target="_blank"

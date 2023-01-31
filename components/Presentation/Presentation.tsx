@@ -13,7 +13,7 @@ const Presentation = () => {
       {formatMessage(
         { id: 'presentation.whoAreWe.message' },
         {
-          strong: (chunk) => <strong>{chunk}</strong>,
+          strong: (chunk: React.ReactNode) => <strong>{chunk}</strong>,
           p: (chunk) => <p>{chunk}</p>,
         }
       )}
@@ -28,7 +28,7 @@ const Presentation = () => {
       {formatMessage(
         { id: 'presentation.why.message' },
         {
-          p: (chunk) => <p>{chunk}</p>,
+          p: (chunk: React.ReactNode) => <p>{chunk}</p>,
         }
       )}
 

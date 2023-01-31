@@ -35,3 +35,4 @@ yarn-error.log*
 
 # dotenv environment variables file
 .env
+node_modules

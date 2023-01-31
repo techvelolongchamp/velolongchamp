@@ -15,7 +15,12 @@ import {
 
 import useClickOutside from '../../../hooks/useClickOutside'
 
-const Layout: React.FC<{ alert?: boolean }> = ({ children, alert }) => {
+type Props = {
+  alert?: boolean
+  children: React.ReactNode
+}
+
+const Layout: React.FC<Props> = ({ children, alert }) => {
   const { formatMessage } = useIntl()
   const [showAlert, setShowAlert] = useState(!!alert)
   const { wrapperRef } = useClickOutside(() => setShowAlert(false))

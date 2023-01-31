@@ -28,7 +28,7 @@ const Join = () => {
           {formatMessage(
             { id: 'joinUs.reasonToJoin.list' },
             {
-              li: (chunk) => (
+              li: (chunk: React.ReactNode) => (
                 <li>
                   <p>{chunk}</p>
                 </li>
@@ -43,8 +43,8 @@ const Join = () => {
         {formatMessage(
           { id: 'joinUs.faq.questions' },
           {
-            q: (chunk) => <Question>{chunk}</Question>,
-            a: (chunk) => <Answer>{chunk}</Answer>,
+            q: (chunk: React.ReactNode) => <Question>{chunk}</Question>,
+            a: (chunk: React.ReactNode) => <Answer>{chunk}</Answer>,
           }
         )}
       </Faq>

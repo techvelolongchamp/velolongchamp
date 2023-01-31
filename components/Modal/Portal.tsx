@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import ReactDOM from 'react-dom'
 
-const Portal: React.FC<{}> = ({ children }) => {
+const Portal: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [isBrowser, setIsBrowser] = useState(false)
 
   useEffect(() => {

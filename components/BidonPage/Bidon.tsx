@@ -22,7 +22,7 @@ const Bidon = () => {
         {formatMessage(
           { id: 'join.problem' },
           {
-            a: (chunk) => (
+            a: (chunk: React.ReactNode) => (
               <a
                 href="https://www.helloasso.com/associations/velo-longchamp/paiements/bidons-velo-longchamp"
                 target="_blank"
