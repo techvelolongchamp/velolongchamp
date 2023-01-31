@@ -1,5 +1,6 @@
 import React from 'react'
 import type { AppProps, NextWebVitalsMetric } from 'next/app'
+import { Analytics } from '@vercel/analytics/react'
 import { IntlProvider } from 'react-intl'
 import { ThemeProvider } from 'styled-components'
 import { useRouter } from 'next/router'
@@ -53,6 +54,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       <GlobalStyle />
       <IntlProvider locale="fr" messages={messages}>
         <Component {...pageProps} />
+        <Analytics />
       </IntlProvider>
     </ThemeProvider>
   )
