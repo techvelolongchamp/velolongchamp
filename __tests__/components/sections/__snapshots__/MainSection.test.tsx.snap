@@ -74,7 +74,7 @@ exports[`MainSection unit tests should render correctly 1`] = `
       layout="fill"
       objectfit="cover"
       placeholder="blur"
-      src="test-file-stub"
+      src="[object Object]"
     />
     <div
       style="position: relative;"

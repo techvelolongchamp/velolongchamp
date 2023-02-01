@@ -34,14 +34,14 @@ exports[`LanguageSelect unit tests should render correctly - en 1`] = `
   <div
     class="c0"
   >
-    <button
+    <a
       class="c1"
       data-testid="select-fr"
       href="/"
       id="select-fr"
     >
       FR
-    </button>
+    </a>
   </div>
 </div>
 `;
@@ -80,14 +80,14 @@ exports[`LanguageSelect unit tests should render correctly 1`] = `
   <div
     class="c0"
   >
-    <button
+    <a
       class="c1"
       data-testid="select-en"
       href="/"
       id="select-en"
     >
       EN
-    </button>
+    </a>
   </div>
 </div>
 `;

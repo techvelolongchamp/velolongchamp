@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import Link from 'next/link'
 
 export const LngContainer = styled.div`
   align-items: center;
@@ -8,7 +9,7 @@ export const LngContainer = styled.div`
   margin: 0 ${({ theme }) => theme.spacing.xs};
 `
 
-export const SelectLng = styled.button`
+export const SelectLng = styled(Link)`
   background: none;
   border: none;
   outline: none;

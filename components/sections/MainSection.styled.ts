@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import Link from 'next/link'
 
 export const SectionContainer = styled.section`
   min-height: 400px;
@@ -30,7 +31,7 @@ export const Overlay = styled.div`
   flex-direction: column;
 `
 
-export const Button = styled.a`
+export const Button = styled(Link)`
   align-items: center;
 
   background: ${({ theme }) => theme.colors.brandPrimary};

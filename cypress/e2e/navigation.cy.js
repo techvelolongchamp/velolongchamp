@@ -73,7 +73,7 @@ describe('Navigation - Desktop', () => {
   it('should navigate to an article', () => {
     cy.visit('/blog')
 
-    cy.get('ol > li').first().scrollIntoView().click()
+    cy.get('ol > a').first().scrollIntoView().click()
     cy.url().should('include', 'blog/')
   })
 })
@@ -153,7 +153,7 @@ describe('Navigation - mobile', () => {
   it('should navigate to an article', () => {
     cy.visit('/blog')
 
-    cy.get('ol > li').first().scrollIntoView().click()
+    cy.get('ol > a').first().scrollIntoView().click()
     cy.url().should('include', 'blog/')
   })
 })

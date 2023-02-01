@@ -1,11 +1,12 @@
 import styled from 'styled-components'
+import Link from 'next/link'
 
 export const ButtonContainer = styled.div`
   text-align: center;
   margin: ${({ theme }) => theme.spacing.l};
 `
 
-export const ButtonLink = styled.a`
+export const ButtonLink = styled(Link)`
   background: ${({ theme }) => theme.colors.brandSecondary};
   border-radius: 5px;
   color: ${({ theme }) => theme.colors.white};

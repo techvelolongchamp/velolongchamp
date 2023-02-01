@@ -11,25 +11,19 @@ const Navbar = () => {
     <nav>
       <NavItemList data-testid="navbar">
         <li>
-          <Link href="/" passHref>
-            <NavItem id="nav-link-home">
-              {formatMessage({ id: 'navbar.home' })}
-            </NavItem>
-          </Link>
+          <NavItem href="/" id="nav-link-home">
+            {formatMessage({ id: 'navbar.home' })}
+          </NavItem>
         </li>
         <li>
-          <Link href="/blog" passHref>
-            <NavItem id="nav-link-blog">
-              {formatMessage({ id: 'navbar.blog' })}
-            </NavItem>
-          </Link>
+          <NavItem href="/blog" id="nav-link-blog">
+            {formatMessage({ id: 'navbar.blog' })}
+          </NavItem>
         </li>
         <li>
-          <Link href="/calendar" passHref>
-            <NavItem id="nav-link-calendar">
-              <FaCalendarAlt />
-            </NavItem>
-          </Link>
+          <NavItem href="/calendar" id="nav-link-calendar">
+            <FaCalendarAlt />
+          </NavItem>
         </li>
       </NavItemList>
     </nav>

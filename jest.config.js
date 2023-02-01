@@ -1,26 +1,17 @@
-module.exports = {
-  roots: ['<rootDir>'],
-  testMatch: ['**/?(*.)+(spec|test).+(ts|tsx|js)'],
-  testPathIgnorePatterns: [
-    '<rootDir>/node_modules/',
-    '<rootDir>/.next/',
-    '<rootDir>/utils/',
-    '<rootDir>/cypress/',
-  ],
-  testEnvironment: 'jsdom',
-  transform: {
-    '^.+\\.(js|jsx|ts|tsx)$': ['babel-jest', { presets: ['next/babel'] }],
-  },
-  transformIgnorePatterns: ['!/node_modules/'],
+const nextJest = require('next/jest')
+
+const createJestConfig = nextJest({
+  dir: './',
+})
+
+const customJestConfig = {
   setupFilesAfterEnv: ['<rootDir>/jest.setup.ts'],
-  collectCoverageFrom: [
-    'components/**/*.{ts,tsx}',
-    'hooks/**/*.{ts,tsx}',
-    'pages/**/*.{ts,tsx}',
-    'styles/**/*.{ts,tsx}',
-  ],
+  testMatch: ['**/?(*.)+(spec|test).+(ts|tsx|js)'],
   moduleNameMapper: {
-    '\\.(jpg|JPG|ico|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$':
+    '\\.(jpg|ico|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$':
       '<rootDir>/__tests__/fileMock.ts',
   },
+  testEnvironment: 'jest-environment-jsdom',
 }
+
+module.exports = createJestConfig(customJestConfig)

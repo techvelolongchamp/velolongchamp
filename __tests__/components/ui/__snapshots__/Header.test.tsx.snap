@@ -319,7 +319,7 @@ exports[`Header unit tests should render correctly - mobile 1`] = `
         >
           <img
             alt="logo"
-            class="c10"
+            class="3 c10"
             src="/logo.png"
           />
         </a>
@@ -328,7 +328,7 @@ exports[`Header unit tests should render correctly - mobile 1`] = `
         class="c11"
       >
         <a
-          class="c12"
+          class="2 c12"
           href="/join"
           id="join-link"
         >
@@ -337,14 +337,14 @@ exports[`Header unit tests should render correctly - mobile 1`] = `
         <div
           class="c13"
         >
-          <button
+          <a
             class="c14"
             data-testid="select-en"
             href="/"
             id="select-en"
           >
             EN
-          </button>
+          </a>
         </div>
       </div>
     </div>
@@ -526,7 +526,7 @@ exports[`Header unit tests should render correctly 1`] = `
         >
           <img
             alt="logo"
-            class="c4"
+            class="3 c4"
             src="/logo.png"
           />
         </a>
@@ -581,7 +581,7 @@ exports[`Header unit tests should render correctly 1`] = `
         class="c7"
       >
         <a
-          class="c8"
+          class="2 c8"
           href="/join"
           id="join-link"
         >
@@ -590,14 +590,14 @@ exports[`Header unit tests should render correctly 1`] = `
         <div
           class="c9"
         >
-          <button
+          <a
             class="c10"
             data-testid="select-en"
             href="/"
             id="select-en"
           >
             EN
-          </button>
+          </a>
         </div>
       </div>
     </div>

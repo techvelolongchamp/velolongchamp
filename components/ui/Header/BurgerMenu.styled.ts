@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import Link from 'next/link'
 
 export const Container = styled.div`
   // for iOS Safari
@@ -100,7 +101,7 @@ export const LinkWrapper = styled.li`
   }
 `
 
-export const LinkItem = styled.a`
+export const LinkItem = styled(Link)`
   color: ${({ theme }) => theme.colors.white};
   display: flex;
   align-items: center;

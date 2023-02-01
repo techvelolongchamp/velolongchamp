@@ -9,7 +9,7 @@ import { formatDate } from '../../utils/date'
 const PostItem: React.FC<Post> = ({ slug, title, date, excerpt }) => {
   const { locale } = useRouter()
   return (
-    <Link href={`/blog/${slug}`} passHref>
+    <Link href={`/blog/${slug}`}>
       <Post>
         <h2>{title}</h2>
         <PublishDate>{formatDate(date, locale)}</PublishDate>

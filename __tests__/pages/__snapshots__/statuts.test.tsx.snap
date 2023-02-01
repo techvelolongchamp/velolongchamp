@@ -477,7 +477,7 @@ exports[`StatutPage unit tests should render correctly 1`] = `
             >
               <img
                 alt="logo"
-                class="c9"
+                class="3 c9"
                 src="/logo.png"
               />
             </a>
@@ -532,7 +532,7 @@ exports[`StatutPage unit tests should render correctly 1`] = `
             class="c12"
           >
             <a
-              class="c13"
+              class="2 c13"
               href="/join"
               id="join-link"
             >
@@ -541,14 +541,14 @@ exports[`StatutPage unit tests should render correctly 1`] = `
             <div
               class="c14"
             >
-              <button
+              <a
                 class="c15"
                 data-testid="select-en"
                 href="/"
                 id="select-en"
               >
                 EN
-              </button>
+              </a>
             </div>
           </div>
         </div>
@@ -816,7 +816,7 @@ exports[`StatutPage unit tests should render correctly 1`] = `
     >
       <p>
         ©Copyright 2019
-         - 2022
+         - 2023
          - Vélo Longchamp -
          
         Tous droits réservés

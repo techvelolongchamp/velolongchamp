@@ -1,5 +1,4 @@
 import React from 'react'
-import { fireEvent } from '@testing-library/react'
 
 import { RenderWithProvider as render } from '../../provider'
 
@@ -9,18 +8,15 @@ const useRouter = jest.spyOn(require('next/router'), 'useRouter')
 
 describe('LanguageSelect unit tests', () => {
   it('should render correctly', () => {
-    const push = jest.fn()
-    useRouter.mockImplementation(() => ({ locale: 'fr', pathname: '/', push }))
+    useRouter.mockImplementation(() => ({
+      locale: 'fr',
+      pathname: '/',
+    }))
     const { container, getByTestId } = render(<LanguageSelect />)
     const select = getByTestId('select-en')
     expect(container).toMatchSnapshot()
 
-    fireEvent.click(select)
-    expect(push).toHaveBeenCalledWith('/', '/', {
-      locale: 'en',
-      scroll: undefined,
-      shallow: undefined,
-    })
+    expect(select).toHaveAttribute('href', '/')
   })
 
   it('should render correctly - en', () => {
@@ -31,11 +27,6 @@ describe('LanguageSelect unit tests', () => {
     const select = getByTestId('select-fr')
     expect(container).toMatchSnapshot()
 
-    fireEvent.click(select)
-    expect(push).toHaveBeenCalledWith('/', '/', {
-      locale: 'fr',
-      scroll: undefined,
-      shallow: undefined,
-    })
+    expect(select).toHaveAttribute('href', '/')
   })
 })

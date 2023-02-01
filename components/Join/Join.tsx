@@ -1,5 +1,4 @@
 import React from 'react'
-import Link from 'next/link'
 import { useIntl } from 'react-intl'
 
 import {
@@ -18,9 +17,9 @@ const Join = () => {
       <JoinContainer>
         <p>{formatMessage({ id: 'joinUs.joinMessage' })}</p>
         <ButtonContainer>
-          <Link href="/join" passHref>
-            <ButtonLink>{formatMessage({ id: 'joinUs.clickJoin' })}</ButtonLink>
-          </Link>
+          <ButtonLink href="/join">
+            {formatMessage({ id: 'joinUs.clickJoin' })}
+          </ButtonLink>
         </ButtonContainer>
 
         <p>{formatMessage({ id: 'joinUs.reasonToJoin.title' })}</p>

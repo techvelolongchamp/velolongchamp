@@ -1,6 +1,5 @@
 import React from 'react'
 import Image from 'next/image'
-import Link from 'next/link'
 import { useIntl } from 'react-intl'
 
 import Background from '../../public/media/Banniere.jpg'
@@ -22,11 +21,10 @@ const MainSection: React.FC<{ id?: string }> = ({ id }) => {
       <div style={{ position: 'relative' }}>
         <Overlay>
           <p>{formatMessage({ id: 'bidon.mainPage' })}</p>
-          <Link href="/bidon" passHref>
-            <Button id="nav-link-bidon">
-              {formatMessage({ id: 'bidon.order' })}
-            </Button>
-          </Link>
+
+          <Button href="/bidon" id="nav-link-bidon">
+            {formatMessage({ id: 'bidon.order' })}
+          </Button>
         </Overlay>
       </div>
     </SectionContainer>

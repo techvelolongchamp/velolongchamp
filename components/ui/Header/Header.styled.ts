@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import { Link as ScrollLink } from 'react-scroll'
+import Link from 'next/link'
 
 export const HeaderWrapper = styled.header`
   position: fixed;
@@ -29,7 +30,7 @@ export const RightContainer = styled.div`
   padding: 0 ${({ theme }) => theme.spacing.m};
 `
 
-export const TitleLink = styled.a`
+export const TitleLink = styled(Link)`
   display: flex;
   align-items: center;
   cursor: pointer;
@@ -116,7 +117,7 @@ export const MobileScrollItem = styled(ScrollItem)`
   padding: 0 ${({ theme }) => theme.spacing.xs};
 `
 
-export const ButtonLink = styled.a`
+export const ButtonLink = styled(Link)`
   background: ${({ theme }) => theme.colors.brandSecondary};
   border-radius: 5px;
   color: ${({ theme }) => theme.colors.white};

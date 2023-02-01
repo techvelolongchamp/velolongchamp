@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import Link from 'next/link'
 
 export const NavItemList = styled.ul`
   align-items: center;
@@ -17,7 +18,7 @@ export const NavItemList = styled.ul`
   }
 `
 
-export const NavItem = styled.a`
+export const NavItem = styled(Link)`
   align-items: center;
   color: ${({ theme }) => theme.colors.lightGrey};
   cursor: pointer;

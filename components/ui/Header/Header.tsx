@@ -1,6 +1,5 @@
 import React from 'react'
 import { useIntl } from 'react-intl'
-import Link from 'next/link'
 
 import { useMatches } from '../../../hooks/useMatches'
 import LanguageSelect from '../../LanguageSelect'
@@ -26,19 +25,16 @@ const Header: React.FC<{}> = () => {
       <Wrapper>
         <LeftContainer>
           {isMobile && <BurgerMenu />}
-          <Link href="/" passHref>
-            <TitleLink data-testid="title-link" id="logo-link">
-              <Logo src="/logo.png" alt="logo" isMobile={isMobile} />
-            </TitleLink>
-          </Link>
+          <TitleLink href="/" data-testid="title-link" id="logo-link">
+            <Logo src="/logo.png" alt="logo" isMobile={isMobile} />
+          </TitleLink>
           {!isMobile && <Navbar />}
         </LeftContainer>
         <RightContainer>
-          <Link href="/join" passHref>
-            <ButtonLink id="join-link">
-              {formatMessage({ id: 'header.clickJoin' })}
-            </ButtonLink>
-          </Link>
+          <ButtonLink href="/join" id="join-link">
+            {formatMessage({ id: 'header.clickJoin' })}
+          </ButtonLink>
+
           <LanguageSelect />
         </RightContainer>
       </Wrapper>

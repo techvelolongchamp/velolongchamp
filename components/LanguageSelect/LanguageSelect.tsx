@@ -1,5 +1,4 @@
 import React from 'react'
-import Link from 'next/link'
 import { useRouter } from 'next/router'
 
 import { LngContainer, SelectLng } from './LanguageSelect.styled'
@@ -10,17 +9,23 @@ const LanguageSelect = () => {
   return (
     <LngContainer>
       {locale === 'fr' ? (
-        <Link href={{ pathname, query }} locale="en" passHref>
-          <SelectLng id="select-en" data-testid="select-en">
-            EN
-          </SelectLng>
-        </Link>
+        <SelectLng
+          href={{ pathname, query }}
+          locale="en"
+          id="select-en"
+          data-testid="select-en"
+        >
+          EN
+        </SelectLng>
       ) : (
-        <Link href={{ pathname, query }} locale="fr" passHref>
-          <SelectLng id="select-fr" data-testid="select-fr">
-            FR
-          </SelectLng>
-        </Link>
+        <SelectLng
+          href={{ pathname, query }}
+          locale="fr"
+          id="select-fr"
+          data-testid="select-fr"
+        >
+          FR
+        </SelectLng>
       )}
     </LngContainer>
   )

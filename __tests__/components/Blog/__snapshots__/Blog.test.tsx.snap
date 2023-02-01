@@ -52,42 +52,48 @@ exports[`Blog unit tests should render correctly 1`] = `
   <ol
     class="c1"
   >
-    <li
-      class="c2"
+    <a
       href="/blog/slug1"
     >
-      <h2>
-        title1
-      </h2>
-      <p
-        class="c3"
+      <li
+        class="c2"
       >
-        24 mars 2021
-      </p>
-      <p
-        class="c4"
-      >
-        excerpt1
-      </p>
-    </li>
-    <li
-      class="c2"
+        <h2>
+          title1
+        </h2>
+        <p
+          class="c3"
+        >
+          24 mars 2021
+        </p>
+        <p
+          class="c4"
+        >
+          excerpt1
+        </p>
+      </li>
+    </a>
+    <a
       href="/blog/slug2"
     >
-      <h2>
-        title2
-      </h2>
-      <p
-        class="c3"
+      <li
+        class="c2"
       >
-        10 mars 2021
-      </p>
-      <p
-        class="c4"
-      >
-        excerpt2
-      </p>
-    </li>
+        <h2>
+          title2
+        </h2>
+        <p
+          class="c3"
+        >
+          10 mars 2021
+        </p>
+        <p
+          class="c4"
+        >
+          excerpt2
+        </p>
+      </li>
+    </a>
   </ol>
 </div>
 `;
