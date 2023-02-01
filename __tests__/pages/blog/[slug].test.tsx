@@ -4,11 +4,14 @@ import { RenderWithProvider as render } from '../../provider'
 import Post from '../../../pages/blog/[slug]'
 
 const useRouter = jest.spyOn(require('next/router'), 'useRouter')
+const useTina = jest.spyOn(require('tinacms/dist/react'), 'useTina')
 
-const post = {
-  title: 'title1',
-  date: '2021-03-24T15:48:12.516Z',
-  content: 'content',
+const data = {
+  posts: {
+    title: 'title1',
+    date: '2021-03-24T15:48:12.516Z',
+    body: 'content',
+  },
 }
 
 describe('Post unit tests', () => {
@@ -19,7 +22,8 @@ describe('Post unit tests', () => {
       matches: false,
     }))
     useRouter.mockImplementation(() => ({ locale: 'fr', pathname: '/' }))
-    const { container } = render(<Post post={post} />)
+    useTina.mockImplementation(() => ({ data }))
+    const { container } = render(<Post />)
 
     expect(container).toMatchSnapshot()
   })

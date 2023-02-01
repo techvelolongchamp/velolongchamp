@@ -2,27 +2,32 @@ name: CI
 
 on: [push]
 
+env:
+  NEXT_PUBLIC_TINA_CLIENT_ID: ${{secrets.NEXT_PUBLIC_TINA_CLIENT_ID}}
+  NEXT_PUBLIC_TINA_TOKEN: ${{secrets.NEXT_PUBLIC_TINA_TOKEN}}
+  NEXT_PUBLIC_TINA_BRANCH: ${{github.ref_name}}
+
 jobs:
   # Unit tests
   unit-tests:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - name: Install modules
-      run: yarn
-    - name: Run tests
-      run: yarn test
+      - uses: actions/checkout@v3
+      - name: Install modules
+        run: yarn
+      - name: Run tests
+        run: yarn test
   # E2E tests
   cypress-run:
     needs: unit-tests
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       # Install NPM dependencies, cache them correctly
       # and run all Cypress tests
       - name: Cypress run
-        uses: cypress-io/github-action@v2
+        uses: cypress-io/github-action@v5
         with:
           build: npm run build
           start: npm start

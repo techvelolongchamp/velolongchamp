@@ -386,12 +386,12 @@ exports[`Post unit tests should render correctly 1`] = `
 
 .c20 img {
   text-align: center;
-  max-width: 500px;
+  max-width: 100%;
 }
 
 .c20 ul,
 .c20 ol {
-  list-style: inside;
+  margin-left: 20px;
 }
 
 .c20 ul,
@@ -405,7 +405,6 @@ exports[`Post unit tests should render correctly 1`] = `
   font-weight: 200;
   margin: 10px 0;
   padding-left: 20px;
-  max-width: 75%;
 }
 
 .c20 .downloadButton {
@@ -416,27 +415,9 @@ exports[`Post unit tests should render correctly 1`] = `
   font-size: 16px;
   outline: none;
   padding: 10px;
+  margin: 10px 0;
   -webkit-text-decoration: none;
   text-decoration: none;
-}
-
-.c20 .article8 {
-  padding-left: 30px;
-  margin-bottom: 20px;
-}
-
-.c20 .article8 p {
-  font-style: italic;
-  font-size: 12px;
-  line-height: initial;
-  margin-bottom: 5px;
-}
-
-.c20 .article8 ul {
-  margin: 5px 0;
-  font-style: italic;
-  font-size: 12px;
-  list-style-type: circle;
 }
 
 @media (max-width:640px) {
@@ -462,13 +443,6 @@ exports[`Post unit tests should render correctly 1`] = `
 @media screen and (max-width:640px) {
   .c13 {
     font-size: 14px;
-  }
-}
-
-@media (max-width:640px) {
-  .c20 ul,
-  .c20 ol li {
-    width: 100%;
   }
 }
 
@@ -554,7 +528,7 @@ exports[`Post unit tests should render correctly 1`] = `
             >
               <img
                 alt="logo"
-                class="c9"
+                class="3 c9"
                 src="/logo.png"
               />
             </a>
@@ -609,7 +583,7 @@ exports[`Post unit tests should render correctly 1`] = `
             class="c12"
           >
             <a
-              class="c13"
+              class="2 c13"
               href="/join"
               id="join-link"
             >
@@ -618,14 +592,14 @@ exports[`Post unit tests should render correctly 1`] = `
             <div
               class="c14"
             >
-              <button
+              <a
                 class="c15"
                 data-testid="select-en"
                 href="/"
                 id="select-en"
               >
                 EN
-              </button>
+              </a>
             </div>
           </div>
         </div>
@@ -649,9 +623,7 @@ exports[`Post unit tests should render correctly 1`] = `
           </p>
           <div
             class="c20"
-          >
-            content
-          </div>
+          />
         </div>
       </section>
     </main>
@@ -660,7 +632,7 @@ exports[`Post unit tests should render correctly 1`] = `
     >
       <p>
         ©Copyright 2019
-         - 2022
+         - 2023
          - Vélo Longchamp -
          
         Tous droits réservés

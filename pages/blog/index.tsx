@@ -1,6 +1,7 @@
 import React from 'react'
 import { useIntl } from 'react-intl'
 import { GetStaticProps } from 'next'
+import client from '../../.tina/__generated__/client'
 
 import Head from '../../components/Head'
 import Layout from '../../components/ui/Layout'
@@ -9,7 +10,7 @@ import Header from '../../components/ui/Header'
 import ThirdarySection from '../../components/sections/ThirdarySection'
 import Blog from '../../components/Blog'
 
-import { getAllPosts, markdownExcerpt } from '../../utils/blog'
+import { generateExcerpt } from '../../utils/blog'
 
 const BlogPage: React.FC<{ posts: Post[] }> = ({ posts }) => {
   const { formatMessage } = useIntl()
@@ -27,16 +28,17 @@ const BlogPage: React.FC<{ posts: Post[] }> = ({ posts }) => {
 export default BlogPage
 
 export const getStaticProps: GetStaticProps = async () => {
-  const posts = getAllPosts(['title', 'date', 'slug', 'content'])
+  const postsListData = await client.queries.postsConnection({
+    sort: 'date',
+    filter: { shouldBePublished: { eq: true } },
+  })
 
-  const postWithExcerpt = await Promise.all(
-    posts.map(async (post: Record<string, string>) => {
-      const excerpt = await markdownExcerpt(post.content)
-      return { ...post, excerpt }
-    })
-  )
+  const posts =
+    postsListData.data.postsConnection.edges
+      ?.map((p) => ({ ...p!.node, excerpt: generateExcerpt(p!.node!.body) }))
+      .sort((a, b) => (a?.date && b?.date && a?.date > b?.date ? -1 : 1)) || []
 
   return {
-    props: { posts: postWithExcerpt },
+    props: { posts },
   }
 }

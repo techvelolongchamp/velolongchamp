@@ -6,14 +6,14 @@ import { Post, PublishDate, Extract } from './PostItem.styled'
 
 import { formatDate } from '../../utils/date'
 
-const PostItem: React.FC<Post> = ({ slug, title, date, excerpt }) => {
+const PostItem: React.FC<Post> = ({ _sys, title, date, excerpt }) => {
   const { locale } = useRouter()
   return (
-    <Link href={`/blog/${slug}`}>
+    <Link href={`/blog/${_sys.filename}`}>
       <Post>
         <h2>{title}</h2>
         <PublishDate>{formatDate(date, locale)}</PublishDate>
-        <Extract dangerouslySetInnerHTML={{ __html: excerpt }} />
+        {excerpt && <Extract>{excerpt}</Extract>}
       </Post>
     </Link>
   )

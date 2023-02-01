@@ -7,12 +7,13 @@ import PostItem from './PostItem'
 
 const Blog: React.FC<{ posts: Post[] }> = ({ posts }) => {
   const { formatMessage } = useIntl()
+
   return (
     <>
       <SubTitle>{formatMessage({ id: 'blog.message' })}</SubTitle>
       <Posts>
         {posts.map((post) => (
-          <PostItem key={post.slug} {...post} />
+          <PostItem key={post.id} {...post} />
         ))}
       </Posts>
     </>
