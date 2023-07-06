@@ -19,6 +19,14 @@ export default defineConfig({
       publicFolder: 'public',
     },
   },
+  search: {
+    tina: {
+      indexerToken: process.env.NEXT_PUBLIC_TINA_SEARCH_TOKEN || '',
+      stopwordLanguages: ['fra'],
+    },
+    indexBatchSize: 100,
+    maxSearchIndexFieldLength: 100,
+  },
   schema: {
     collections: [
       {
@@ -122,6 +130,116 @@ export default defineConfig({
                 ],
               },
             ],
+          },
+        ],
+      },
+      {
+        label: 'Events',
+        name: 'events',
+        path: 'calendar',
+        format: 'json',
+        fields: [
+          {
+            type: 'string',
+            label: 'Organisateur',
+            name: 'organizer',
+            required: true,
+            list: true,
+            options: [
+              {
+                value: 'vl',
+                label: 'Vélo Longchamp',
+              },
+              {
+                value: 'fg',
+                label: 'France Galop',
+              },
+              {
+                value: 'club',
+                label: 'Club',
+              },
+              {
+                value: 'autre',
+                label: 'Autre',
+              },
+            ],
+          },
+          {
+            type: 'string',
+            label: 'Date début',
+            name: 'startDate',
+            required: true,
+            ui: {
+              component: 'date',
+              // @ts-ignore
+              dateFormat: 'DD/MM/YYYY',
+              timeFormat: 'HH:mm',
+            },
+          },
+          {
+            type: 'string',
+            label: 'Date fin',
+            name: 'endDate',
+            required: true,
+            ui: {
+              component: 'date',
+              // @ts-ignore
+              dateFormat: 'DD/MM/YYYY',
+              timeFormat: 'HH:mm',
+            },
+          },
+          {
+            type: 'string',
+            label: 'Titre',
+            name: 'title',
+            required: true,
+          },
+          {
+            type: 'string',
+            label: 'Déscription',
+            name: 'description',
+          },
+          {
+            type: 'string',
+            label: 'Lien',
+            name: 'url',
+          },
+          {
+            type: 'boolean',
+            label: 'Toute la journée ?',
+            name: 'all_day',
+          },
+          {
+            type: 'boolean',
+            label: 'Récurrent ?',
+            name: 'recurrent',
+          },
+          {
+            type: 'datetime',
+            label: 'Date de fin de récurrence',
+            name: 'end_date_repeat',
+          },
+          {
+            type: 'string',
+            list: true,
+            label: 'Jour de récurrence',
+            name: 'repeated_day',
+            ui: {
+              component: 'list',
+              // @ts-ignore
+              field: {
+                options: [
+                  'Lundi',
+                  'Mardi',
+                  'Mercredi',
+                  'Jeudi',
+                  'Vendredi',
+                  'Samedi',
+                  'Dimanche',
+                ],
+                component: 'select',
+              },
+            },
           },
         ],
       },
