@@ -1,15 +1,9 @@
 import fs from 'fs'
 import path from 'path'
-import {
-  sub,
-  add,
-  startOfDay,
-  endOfDay,
-  nextDay,
-  parseISO,
-  getHours,
-  setHours,
-} from 'date-fns'
+import { sub, add, startOfDay, endOfDay, nextDay, parseISO } from 'date-fns'
+import { TinaMarkdownContent } from 'tinacms/dist/rich-text'
+
+import { Events } from '../.tina/__generated__/types'
 
 const calendarDirectory = path.join(process.cwd(), 'calendar')
 
@@ -24,10 +18,10 @@ export function getEventsFiles() {
   })
 }
 
-export type ForestryEvent = {
-  organizer: string
+export type TinaEvent = {
+  organizer: string[]
   title: string
-  description: string
+  description: TinaMarkdownContent
   startDate: string
   endDate: string
   recurrent: boolean
@@ -37,13 +31,14 @@ export type ForestryEvent = {
   url?: string
 }
 
-export type CalendarEvents = ForestryEvent & {
+export type CalendarEvents = Omit<TinaEvent, 'organizer'> & {
+  organizer: string
   title: string
   start: Date
   end: Date
   allDay?: boolean
   resource?: string
-  description: string
+  description: TinaMarkdownContent
 }
 
 enum Days {
@@ -56,38 +51,30 @@ enum Days {
   Dimanche = 0,
 }
 
-const repeatEvents = (rawEvents: ForestryEvent[]) => {
+export const repeatEvents = (rawEvents: Events[]) => {
   const events = [...rawEvents]
   rawEvents.forEach((e) => {
     if (e.recurrent && e.repeated_day && e.repeated_day.length > 0) {
       const maxEventDate = e.end_date_repeat
         ? endOfDay(parseISO(e.end_date_repeat))
         : maxDate
-      const eventStartDate = parseISO(e.startDate)
-      const eventEndDate = parseISO(e.endDate)
-      const eventStartHour = getHours(eventStartDate)
-      const eventEndHour = getHours(eventEndDate)
 
-      e.repeated_day.forEach((day) => {
-        const dayNumber = Days[day]
-        let nextStartDate = setHours(
-          nextDay(eventStartDate, dayNumber),
-          eventStartHour
-        )
-        let nextEndDate = setHours(
-          nextDay(eventEndDate, dayNumber),
-          eventEndHour
-        )
+      e.repeated_day?.forEach((day) => {
+        if (!!day) {
+          const dayNumber = Days[day as keyof typeof Days]
+          let nextStartDate = nextDay(parseISO(e.startDate), dayNumber)
+          let nextEndDate = nextDay(parseISO(e.endDate), dayNumber)
 
-        while (nextStartDate < maxEventDate) {
-          const nextEvent = {
-            ...e,
-            startDate: nextStartDate.toISOString(),
-            endDate: nextEndDate.toISOString(),
+          while (nextStartDate < maxEventDate) {
+            const nextEvent = {
+              ...e,
+              startDate: nextStartDate.toISOString(),
+              endDate: nextEndDate.toISOString(),
+            }
+            events.push(nextEvent)
+            nextStartDate = nextDay(nextStartDate, dayNumber)
+            nextEndDate = nextDay(nextEndDate, dayNumber)
           }
-          events.push(nextEvent)
-          nextStartDate = nextDay(nextStartDate, dayNumber)
-          nextEndDate = nextDay(nextEndDate, dayNumber)
         }
       })
     }

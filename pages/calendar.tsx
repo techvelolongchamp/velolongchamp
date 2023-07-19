@@ -3,6 +3,8 @@ import { useIntl } from 'react-intl'
 import { useRouter } from 'next/router'
 import { Calendar, dateFnsLocalizer, EventPropGetter } from 'react-big-calendar'
 import { GetStaticProps } from 'next'
+import client from '../.tina/__generated__/client'
+import { Events } from '../.tina/__generated__/types'
 
 import { format, parse, startOfWeek, getDay, parseISO } from 'date-fns'
 
@@ -12,18 +14,19 @@ import Header from '../components/ui/Header'
 import Modal from '../components/Modal'
 
 import ThirdarySection from '../components/sections/ThirdarySection'
-import { getAllEvents, ForestryEvent, CalendarEvents } from '../utils/calendar'
+import { repeatEvents, TinaEvent, CalendarEvents } from '../utils/calendar'
 import { locales } from '../utils/locale'
 import theme from '../styles/theme'
 
 import 'react-big-calendar/lib/css/react-big-calendar.css'
 
-export const formatEvents = (forestryEvent: ForestryEvent): CalendarEvents => {
+export const formatEvents = (event: TinaEvent): CalendarEvents => {
   return {
-    ...forestryEvent,
-    start: parseISO(forestryEvent.startDate),
-    end: parseISO(forestryEvent.endDate),
-    allDay: !!forestryEvent.all_day,
+    ...event,
+    organizer: event.organizer[0],
+    start: parseISO(event.startDate),
+    end: parseISO(event.endDate),
+    allDay: !!event.all_day,
   }
 }
 
@@ -41,24 +44,23 @@ const maxTime = parseISO('2022-01-01T22:00:00+01:00')
 
 const eventPropGetter: EventPropGetter<CalendarEvents> = (event) => {
   switch (event.organizer) {
-    case 'Vélo Longchamp':
+    case 'vl':
       return { style: { backgroundColor: theme.colors.brandPrimary } }
-    case 'Club':
+    case 'club':
       return { style: { backgroundColor: theme.colors.brandSecondary } }
-    case 'France Galop':
+    case 'fg':
       return { style: { backgroundColor: theme.colors.brandTertiary } }
     default:
       return {}
   }
 }
 
-const CalendarPage: React.FC<{ rawEvents: ForestryEvent[] }> = ({
-  rawEvents,
-}) => {
+const CalendarPage: React.FC<{ rawEvents: TinaEvent[] }> = ({ rawEvents }) => {
   const events = useMemo(
     () => rawEvents.map((e) => formatEvents(e)),
     [rawEvents]
   )
+
   const [selectedEvent, setSelectedEvent] = useState<CalendarEvents | null>(
     null
   )
@@ -138,9 +140,15 @@ const CalendarPage: React.FC<{ rawEvents: ForestryEvent[] }> = ({
 export default CalendarPage
 
 export const getStaticProps: GetStaticProps = async () => {
-  const rawEvents = getAllEvents()
+  const eventListData = await client.queries.eventsConnection()
+  // const rawEvents = getAllEvents()
 
+  const rawEvents = eventListData.data.eventsConnection.edges?.map((p) => ({
+    ...(p!.node as Events),
+  }))
   return {
-    props: { rawEvents },
+    props: {
+      rawEvents: rawEvents ? repeatEvents(rawEvents) : [],
+    },
   }
 }

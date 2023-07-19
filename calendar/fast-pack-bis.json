@@ -2,8 +2,8 @@
   "organizer": [
     "club"
   ],
-  "startDate": "2023-03-29T18:00:00+02:00",
-  "endDate": "2023-03-29T20:00:00+02:00",
+  "startDate": "2023-08-01T18:00:00+02:00",
+  "endDate": "2023-08-01T20:00:00+02:00",
   "title": "Peloton rapide - \"Fast Pack\"",
   "description": "Ca roule en peloton à un rythme très soutenu.\n\nPas d'inscription, suffit de prendre les roues.\n",
   "all_day": false,
@@ -12,6 +12,5 @@
     "Jeudi",
     "Mardi"
   ],
-  "end_date_repeat": "2023-07-09T22:00:00.000Z",
   "url": "https://www.strava.com/clubs/SuicidalUrbanRiders"
 }

@@ -138,13 +138,25 @@ export default defineConfig({
         name: 'events',
         path: 'calendar',
         format: 'json',
+        defaultItem: () => {
+          return {
+            organizer: '',
+            all_day: false,
+            recurrent: false,
+            end_date_repeat: '',
+            url: '',
+            repeated_day: [],
+            title: '',
+            description: '',
+          }
+        },
         fields: [
           {
             type: 'string',
             label: 'Organisateur',
             name: 'organizer',
-            required: true,
             list: true,
+            required: true,
             options: [
               {
                 value: 'vl',
@@ -195,8 +207,8 @@ export default defineConfig({
             required: true,
           },
           {
-            type: 'string',
-            label: 'Déscription',
+            type: 'rich-text',
+            label: 'Description',
             name: 'description',
           },
           {
@@ -215,9 +227,14 @@ export default defineConfig({
             name: 'recurrent',
           },
           {
-            type: 'datetime',
+            type: 'string',
             label: 'Date de fin de récurrence',
             name: 'end_date_repeat',
+            ui: {
+              component: 'date',
+              // @ts-ignore
+              dateFormat: 'DD/MM/YYYY',
+            },
           },
           {
             type: 'string',
