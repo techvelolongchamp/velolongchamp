@@ -2,6 +2,7 @@ import React from 'react'
 import { IoCloseOutline } from 'react-icons/io5'
 import { useIntl } from 'react-intl'
 import { useRouter } from 'next/router'
+import { TinaMarkdown, TinaMarkdownContent } from 'tinacms/dist/rich-text'
 
 import Portal from './Portal'
 import useLockBodyScroll from '../../hooks/useLockBodyScroll'
@@ -22,7 +23,7 @@ import {
 type ModalProps = {
   onClose: () => void
   title?: string
-  description?: string
+  description?: TinaMarkdownContent
   organizer?: string
   start?: Date
   end?: Date
@@ -73,11 +74,9 @@ const Modal: React.FC<ModalProps> = ({
             })} ${formatDate(end, locale, 'short')}`}</Date>
           )}
           {description && (
-            <Content
-              dangerouslySetInnerHTML={{
-                __html: description.replace(/\n/g, '</br>'),
-              }}
-            />
+            <Content>
+              <TinaMarkdown content={description} />
+            </Content>
           )}
           {url && (
             <More>
