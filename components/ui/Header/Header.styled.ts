@@ -103,7 +103,7 @@ export const ScrollItem = styled(ScrollLink)`
   text-decoration: none;
 
   .active {
-    color: ${({ theme }) => theme.defaultColor};
+    color: ${({ theme }) => theme.colors.defaultColor};
   }
 
   &:hover {
