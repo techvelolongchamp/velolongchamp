@@ -1,6 +1,7 @@
 import React from 'react'
 import type { AppProps, NextWebVitalsMetric } from 'next/app'
 import { Analytics } from '@vercel/analytics/react'
+import { SpeedInsights } from '@vercel/speed-insights/next'
 import { IntlProvider } from 'react-intl'
 import { ThemeProvider } from 'styled-components'
 import { useRouter } from 'next/router'
@@ -55,6 +56,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       <IntlProvider locale="fr" messages={messages}>
         <Component {...pageProps} />
         <Analytics />
+        <SpeedInsights />
       </IntlProvider>
     </ThemeProvider>
   )
